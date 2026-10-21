@@ -1,0 +1,3108 @@
+{
+  "project": {
+    "client_side": "required",
+    "server_side": "unsupported",
+    "game_versions": [
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "environment": [
+      "client_only"
+    ],
+    "id": "dxa0Bm8m",
+    "slug": "veinminer-client",
+    "project_type": "mod",
+    "team": "DiuUhB72",
+    "organization": null,
+    "title": "VeinMiner Hotkey",
+    "description": "Veinminer Addon - Use a hotkey to veinmine with a dynamic crosshair & block highlighting",
+    "body": "[![dono-badge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_vector.svg)](https://ko-fi.com/miraculixx/donate)\n[![veinminer-badge](https://cdn.modrinth.com/data/cached_images/625146681182f85ef448f5c910e4cd28ec6cf604.png)](https://modrinth.com/mod/veinminer)\n[![enchant-badge](https://cdn.modrinth.com/data/cached_images/ea836ed1714c4f065aca5466c99c9e7d8f5baeff.png)](https://modrinth.com/project/veinminer-enchantment)\n\n\n## ⛏️ Veinminer Hotkey\n\nAddon for the popular [Veinminer](https://modrinth.com/project/veinminer) mod/plugin that adds a custom hotkey, veinmine preview & pattern control. As long as this addon is installed, veinmining is only possible with the hotkey pressed (still respecting block rules and settings).\n\n**Hold Hotkey**: `Y` or `Z` (can be changed in client controls, default is depending on your key layout)<br>\n**Toggle Hotkey**: `unbound` (bind in client controls)\n\n## ⚠ Important\n[**Veinminer**](https://modrinth.com/project/veinminer) needs to be installed on the server too for this addon to work! If playing in single-player, install it on your client too.<br>\nWorks together with the [enchantment addon](https://modrinth.com/project/veinminer-enchantment) if installed.\n\n![showcase](https://i.imgur.com/aJRZTBw.gif)\n\n## ⚙ Settings\nPattern selection can be changed by holding the hotkey and **scrolling** up/down.<br>\nAdditionally holding **shift** allows changing the mining depth/width.\n\n**Pattern Config Hotkey**: `O` (configure, add, remove patterns to your liking. Accessible via mod menu as well)\n![settings ui preview](https://cdn.modrinth.com/data/dxa0Bm8m/images/c5f3c7ff3562caf2ec7e50fd6bef11a4f1f9d838.png)\n\n---\n\n> **Affordable** Servers? In this time?! Clicking below **supports me** and saves you **10%** + 2 Days **free** ♥️\n> [<img src=\"https://cdn.modrinth.com/data/cached_images/d594c32a9208540624e534d88ff2e428fed4c6d2.png\" width=95%>](https://voltra.gg/r/miraculixx) <br>\n> #AD - Your support helps to keep this project alive :)\n\n---\n\nThe server can configure client behavior with the following options. The client mod will automatically disable itself if the server does not have Veinminer installed.\n\n**Command**: `/veinminer settings client ...`\n\n|           Setting           |                             Description                             | Default |\n|:---------------------------:|:-------------------------------------------------------------------:|:-------:|\n|           `allow`           |               If the use of the client mod is allowed               |  true   |\n| `translucentBlockHighlight` |       If block highlighting should be visible through blocks        |  true   |\n|      `allowAllBlocks`       | If hotkey user can veinmine every block (respecting other settings) |  false  |\n",
+    "body_url": null,
+    "published": "2025-03-25T12:09:46.773478Z",
+    "updated": "2026-10-20T13:13:46.332604Z",
+    "approved": "2025-03-27T22:25:52.213186Z",
+    "queued": "2025-03-25T13:36:06.714630Z",
+    "status": "approved",
+    "requested_status": "approved",
+    "moderator_message": null,
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "downloads": 72266389,
+    "followers": 563,
+    "categories": [
+      "equipment",
+      "game-mechanics",
+      "utility"
+    ],
+    "additional_categories": [],
+    "loaders": [
+      "fabric",
+      "neoforge",
+      "quilt"
+    ],
+    "versions": [
+      "fObrTfSZ",
+      "UYZNaDKc",
+      "bVfGsbfb",
+      "ycz8UR6d",
+      "ugWbusl4",
+      "Zfk0H9y4",
+      "cWNP1COp",
+      "RiJ5m0pN",
+      "SX6VKiPD",
+      "d1mip4D7",
+      "nXzW7iHP",
+      "ic3F0ys1",
+      "6V17CG1p",
+      "8nuBTAGK",
+      "3zS6Ob3V",
+      "jRKAVfXh",
+      "pdj4sZxQ",
+      "CYNpVfFm",
+      "SbcytFMb",
+      "eZqOSyiE",
+      "REAjOtWN",
+      "pVcbwMLS",
+      "qYM5mMg9",
+      "ld9KW91B",
+      "CmhdNfN1",
+      "kmWZlFwe",
+      "VRiXPNr9",
+      "W6fcQL5F",
+      "sfgXyNVG",
+      "J9nO0PFx",
+      "SLgQFoJR",
+      "YUFMvpiI",
+      "cNW2gSIv",
+      "WTyZ6nrU",
+      "rnxqVCrP",
+      "LRJI3MpY",
+      "k7r7anSN",
+      "USzyPFTe",
+      "Aqks6yRv",
+      "dIwSWhIM",
+      "PPnkQNVh",
+      "mrnMEB4u",
+      "XNxcQzRC",
+      "bZ7WIGCC",
+      "A8MIAvsa",
+      "E4lYaHe0",
+      "u5UfawTu",
+      "x7F6wG6D",
+      "8AzgxHka",
+      "1Duwydra",
+      "rxa0vmOU",
+      "H6CkqQwX",
+      "Qhmfbmjx"
+    ],
+    "icon_url": "https://cdn.modrinth.com/data/dxa0Bm8m/3cfaaf9dcd74090bf78a03650ee43bf864d21ea5_96.webp",
+    "raw_icon_url": "https://cdn.modrinth.com/data/dxa0Bm8m/3cfaaf9dcd74090bf78a03650ee43bf864d21ea5.png",
+    "issues_url": null,
+    "source_url": "https://github.com/MiraculixxT/Veinminer",
+    "wiki_url": null,
+    "discord_url": "https://dc.mutils.net/",
+    "donation_urls": [
+      {
+        "id": "ko-fi",
+        "platform": "Ko-fi",
+        "url": "https://ko-fi.com/miraculixx"
+      }
+    ],
+    "gallery": [
+      {
+        "url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/51815a5329111963717ca8c3493719214db65258_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/51815a5329111963717ca8c3493719214db65258.webp",
+        "featured": false,
+        "title": "Settings Preview",
+        "description": "Switch patterns by holding veinmining hotkey and scrolling up/down. Additionally, hold shift to change depth",
+        "created": "2026-05-22T18:44:00.330781Z",
+        "ordering": 0
+      },
+      {
+        "url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/c5f3c7ff3562caf2ec7e50fd6bef11a4f1f9d838_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/c5f3c7ff3562caf2ec7e50fd6bef11a4f1f9d838.png",
+        "featured": false,
+        "title": "Pattern Config",
+        "description": "Access via hotkey P or mod menu",
+        "created": "2026-05-25T13:28:43.176763Z",
+        "ordering": 0
+      },
+      {
+        "url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/36649c1b1a56f4171e3731a08b2d5882830b114c_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/36649c1b1a56f4171e3731a08b2d5882830b114c.png",
+        "featured": false,
+        "title": "Translucent Highlighting",
+        "description": "The mining preview can outline all connected blocks, even if behind other blocks with a soft border",
+        "created": "2025-03-25T13:07:10.680127Z",
+        "ordering": 2
+      },
+      {
+        "url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/361cd723d6b1d8cc548b1e199093fa94b0c8ef9e.gif",
+        "raw_url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/361cd723d6b1d8cc548b1e199093fa94b0c8ef9e.gif",
+        "featured": false,
+        "title": "Dynamic Crosshair",
+        "description": "Mining indicator on pressing veinmine hotkey",
+        "created": "2025-03-25T12:59:14.320702Z",
+        "ordering": 3
+      },
+      {
+        "url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/911269ebdb51b9c306d63374d86355db23df5e01.webp",
+        "raw_url": "https://cdn.modrinth.com/data/dxa0Bm8m/images/911269ebdb51b9c306d63374d86355db23df5e01.webp",
+        "featured": true,
+        "title": "Banner",
+        "description": null,
+        "created": "2025-03-25T13:36:43.196845Z",
+        "ordering": 5
+      }
+    ],
+    "color": 4211517,
+    "thread_id": "scRwBVy7",
+    "monetization_status": "monetized"
+  },
+  "members": [
+    {
+      "role": "Owner",
+      "team_id": "DiuUhB72",
+      "user": {
+        "id": "BTUi4ZVT",
+        "username": "Miraculixx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/82050017?v=4",
+        "raw_avatar_url": "https://avatars.githubusercontent.com/u/82050017?v=4",
+        "bio": "Hobby Developer - Mostly focus on creating unique and challenging content",
+        "created": "2021-12-21T12:10:31.938378Z",
+        "role": "developer",
+        "badges": 0,
+        "campaigns": {
+          "pride_26": null
+        },
+        "auth_providers": null,
+        "email": null,
+        "email_verified": null,
+        "has_password": null,
+        "has_totp": null,
+        "payout_data": null,
+        "stripe_customer_id": null,
+        "allow_friend_requests": null,
+        "eligibility_verified_at": null,
+        "github_id": null
+      },
+      "permissions": null,
+      "accepted": true,
+      "payouts_split": null,
+      "ordering": 0
+    }
+  ],
+  "versions": [
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "Qhmfbmjx",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.13.0",
+      "version_number": "2.13.0",
+      "changelog": "- Add `/veinminer enchant ...` subcommand to edit the enchantment\n- Allow groups to be limited to a min required enchant level (see overrides)",
+      "changelog_url": null,
+      "date_published": "2026-10-20T13:13:46.332604Z",
+      "downloads": 6501,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "GEJ0Yjr4",
+          "hashes": {
+            "sha1": "43563d85bdf800085c04e668ea55e3c979110467",
+            "sha512": "a7197476f391136ffb876e4202fbe3c1f34d0172aadd6b369def2561dd448a74709cd3e00f289e26a75eba47eac0ffe87e8821a3c515af1e860b05bb07299e2a"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/Qhmfbmjx/veinminer-client-neoforge-2.13.0.jar",
+          "filename": "veinminer-client-neoforge-2.13.0.jar",
+          "primary": true,
+          "size": 185107,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "H6CkqQwX",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.13.0",
+      "version_number": "2.13.0",
+      "changelog": "- Add `/veinminer enchant ...` subcommand to edit the enchantment\n- Allow groups to be limited to a min required enchant level (see overrides)",
+      "changelog_url": null,
+      "date_published": "2026-10-20T13:13:40.173525Z",
+      "downloads": 157980,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "yveh6Zrj",
+          "hashes": {
+            "sha1": "ccae2a6cf2a341d137ced24156ff07f93a0fdaaf",
+            "sha512": "3717d55179bfef9bdc689f50826f29ea13b09e9b676746469044c3cf576850da647c1ff085f1787bd73276b090b9b33c1b1664c16b3aeaf279cc988d2bd5ce99"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/H6CkqQwX/veinminer-client-fabric-2.13.0.jar",
+          "filename": "veinminer-client-fabric-2.13.0.jar",
+          "primary": true,
+          "size": 198517,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "rxa0vmOU",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.12.3",
+      "version_number": "2.12.3",
+      "changelog": "- Fix empty hand support\n- Fix break sounds not playing on fabric & neo",
+      "changelog_url": null,
+      "date_published": "2026-09-30T11:14:39.455072Z",
+      "downloads": 122649,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "GFG1uMaf",
+          "hashes": {
+            "sha1": "e2837854d3f0cec11a3a2fbaadcaaf60c3c010e1",
+            "sha512": "341f942b5a854ffd707112b49db2e077b84bc7b2072b42bf314a3ef17300074a6bec6487cd110bf9a41a250517db881fb7fc48c725274142bef29219ea3e451f"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/rxa0vmOU/veinminer-client-neoforge-2.12.3.jar",
+          "filename": "veinminer-client-neoforge-2.12.3.jar",
+          "primary": true,
+          "size": 184972,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "1Duwydra",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.12.3",
+      "version_number": "2.12.3",
+      "changelog": "- Fix empty hand support\n- Fix break sounds not playing on fabric & neo",
+      "changelog_url": null,
+      "date_published": "2026-09-30T11:14:32.932619Z",
+      "downloads": 3009900,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "wSi14iJS",
+          "hashes": {
+            "sha1": "e4c12c51c0f0343928e23750610b7a44f13239fe",
+            "sha512": "87eb2735b7f4252a31ea846ba22b8de187a570dd816842d8c19aea39df8d42d36fff35d1217a9d37596a0fb35b3d066c01ee7c929cb3b02f3c4d62a4e20ea7a6"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/1Duwydra/veinminer-client-fabric-2.12.3.jar",
+          "filename": "veinminer-client-fabric-2.12.3.jar",
+          "primary": true,
+          "size": 198381,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "8AzgxHka",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.12.2",
+      "version_number": "2.12.2",
+      "changelog": "- New setting: Prevent scrolling eaten by pattern roulett\n- Patterns now selectable in pattern menu\n- Fix 'Fabulous' render crash",
+      "changelog_url": null,
+      "date_published": "2026-09-23T21:28:32.537537Z",
+      "downloads": 13950,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Pb7ygedD",
+          "hashes": {
+            "sha512": "44c2d0dcd704d36c0611ddc067c320f57bb77deb818efe3a32d8686dc544611ad2bbe60dd43baae008b7a79970ab4f2b0b1b2d406ded024398d0ec35417b9f37",
+            "sha1": "c98e6a017f0f63d6cc8b82f4d13830f52e546c85"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/8AzgxHka/veinminer-client-neoforge-2.12.2.jar",
+          "filename": "veinminer-client-neoforge-2.12.2.jar",
+          "primary": true,
+          "size": 185066,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "x7F6wG6D",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.12.2",
+      "version_number": "2.12.2",
+      "changelog": "- New setting: Prevent scrolling eaten by pattern roulett\n- Patterns now selectable in pattern menu\n- Fix 'Fabulous' render crash",
+      "changelog_url": null,
+      "date_published": "2026-09-23T21:28:27.270451Z",
+      "downloads": 356065,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "pzYDCJxO",
+          "hashes": {
+            "sha512": "040a6a610d449b402e945e3ae0d9ecec8fd5f453e038394185f50dd19f512dd720ed82f1ca1232e4cdb946d6a9c202f2a2ad52e2962d5fbfe46c35b543595b69",
+            "sha1": "7baa8a0facda316402fe89cc82dff3ceff239297"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/x7F6wG6D/veinminer-client-fabric-2.12.2.jar",
+          "filename": "veinminer-client-fabric-2.12.2.jar",
+          "primary": true,
+          "size": 198479,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "u5UfawTu",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.12.1",
+      "version_number": "2.12.1",
+      "changelog": "- Raise paper event priority to MONITOR\n- Let neo/fabric block breaking trigger normal breaking events\n- Fix toggle hotkey eating scroll",
+      "changelog_url": null,
+      "date_published": "2026-09-16T11:28:58.777534Z",
+      "downloads": 11885,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "TfKaujNC",
+          "hashes": {
+            "sha1": "ba501de0c28589db3afb619b06cb5fcd85ce2266",
+            "sha512": "1a5be450e275d561634f0bf7096d3548800f040d52a3e6151c291439804fe01fdc3b1556267b0b0521861513276ba047aca3e85335e85ba80d72f4fc6f770eac"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/u5UfawTu/veinminer-client-neoforge-2.12.1.jar",
+          "filename": "veinminer-client-neoforge-2.12.1.jar",
+          "primary": true,
+          "size": 183677,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "E4lYaHe0",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.12.1",
+      "version_number": "2.12.1",
+      "changelog": "- Raise paper event priority to MONITOR\n- Let neo/fabric block breaking trigger normal breaking events\n- Fix toggle hotkey eating scroll",
+      "changelog_url": null,
+      "date_published": "2026-09-16T11:28:53.604847Z",
+      "downloads": 367878,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "5jYGrlW3",
+          "hashes": {
+            "sha1": "81058e8f6ae6364ae9027a9ac44c74e66d13b8b3",
+            "sha512": "def76a5b46ee6e6457cc8968b1089f1bd0319dbc3914fc41f01538e120ec1b9058558f18181de8fdcd02b7d28fd3c46358fee7205fcfbabeea46e360fe7ba538"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/E4lYaHe0/veinminer-client-fabric-2.12.1.jar",
+          "filename": "veinminer-client-fabric-2.12.1.jar",
+          "primary": true,
+          "size": 197076,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "A8MIAvsa",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.12.1",
+      "version_number": "2.12.1",
+      "changelog": "- Raise paper event priority to MONITOR\n- Let neo/fabric block breaking trigger normal breaking events\n- Fix toggle hotkey eating scroll",
+      "changelog_url": null,
+      "date_published": "2026-08-23T19:06:20.717320Z",
+      "downloads": 271432,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "njk5zUsQ",
+          "hashes": {
+            "sha1": "169d1967ca4413f0ecbed63e180dea4081190808",
+            "sha512": "7f8b11db42b25b3ee5cab9c4d13ac4789f1cf2e4ba556a66a36cb38f41c5592808f93ea7f4160c8eba0d3a12413a26fa7e097c5dfd22b5014ad1e2a6e6a4b14b"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/A8MIAvsa/veinminer-client-neoforge-2.12.1.jar",
+          "filename": "veinminer-client-neoforge-2.12.1.jar",
+          "primary": true,
+          "size": 183324,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "bZ7WIGCC",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.12.1",
+      "version_number": "2.12.1",
+      "changelog": "- Raise paper event priority to MONITOR\n- Let neo/fabric block breaking trigger normal breaking events\n- Fix toggle hotkey eating scroll",
+      "changelog_url": null,
+      "date_published": "2026-08-23T19:06:14.682947Z",
+      "downloads": 6049720,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "wQUx4fwE",
+          "hashes": {
+            "sha512": "3eef111a782ef76cf1e38a29aeea2e2b2f2c7c2e76b8893e4673a417cab9e5763c576027de5d19770d4e2a5bea2c45ef7d49660da600c2ef1ea4832fc2cbf903",
+            "sha1": "307c3db640e55c303015cf2973822a0b0859d749"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/bZ7WIGCC/veinminer-client-fabric-2.12.1.jar",
+          "filename": "veinminer-client-fabric-2.12.1.jar",
+          "primary": true,
+          "size": 196694,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "XNxcQzRC",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.12.0",
+      "version_number": "2.12.0",
+      "changelog": "- Save choosen pattern & depth",
+      "changelog_url": null,
+      "date_published": "2026-08-13T14:12:29.153332Z",
+      "downloads": 53170,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "kDWFy40J",
+          "hashes": {
+            "sha1": "373d177b11e6fa0f6de1873f6067e08a74fb5a3f",
+            "sha512": "6bbd37510baf49ba6b27a5cf1057fd606960b56910bc12aaed0a52cfe3cfb39f9535ed7f38a6e2dc52c1a3362a875eb08b0e462704d2958b1d51c8ae20297d5d"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/XNxcQzRC/veinminer-client-neoforge-2.12.0.jar",
+          "filename": "veinminer-client-neoforge-2.12.0.jar",
+          "primary": true,
+          "size": 183236,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "mrnMEB4u",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.12.0",
+      "version_number": "2.12.0",
+      "changelog": "- Save choosen pattern & depth",
+      "changelog_url": null,
+      "date_published": "2026-08-13T14:12:23.907702Z",
+      "downloads": 1206546,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "erVDseOZ",
+          "hashes": {
+            "sha1": "d7458ef928c5509a11fc7dc7fc974d93b6e0161a",
+            "sha512": "46314a6e7dbcbbb13fb33d1e655ec88ff6b0fcd757ae973b6da470bfb61ce309a6a0991275bbfd3da626e1d037475dd2778d483352c846a11aab37729cd7ea38"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/mrnMEB4u/veinminer-client-fabric-2.12.0.jar",
+          "filename": "veinminer-client-fabric-2.12.0.jar",
+          "primary": true,
+          "size": 196604,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "PPnkQNVh",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.11.2",
+      "version_number": "2.11.2",
+      "changelog": "- Optimize wireframe rendering",
+      "changelog_url": null,
+      "date_published": "2026-07-26T12:19:55.043825Z",
+      "downloads": 1946383,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Myitq3B2",
+          "hashes": {
+            "sha512": "6bbc5bed9bf8b252a1ba0a1afac309be36de8faf4945ccac5c8336a8545f918204064822649d474079a2ffe32e85d8d252e846a83f58a18cc0c64df655ab0e31",
+            "sha1": "8557803d79642e20d2bcaecb8de22de641e6dd4a"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/PPnkQNVh/veinminer-client-fabric-2.11.2%2B1.21.1.jar",
+          "filename": "veinminer-client-fabric-2.11.2+1.21.1.jar",
+          "primary": true,
+          "size": 192165,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "dIwSWhIM",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.11.2",
+      "version_number": "2.11.2",
+      "changelog": "- Optimize wireframe rendering",
+      "changelog_url": null,
+      "date_published": "2026-07-26T12:19:49.175233Z",
+      "downloads": 4296173,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "rGbgBtjc",
+          "hashes": {
+            "sha512": "7ad476f80a5aee3b030d161f3be643cf01622cce254b9779b8d37137693cd6a9d4740c00ee94e265873b14ab19aa18cc9fb9324e5e9669bb9dc94d34c1c2679e",
+            "sha1": "d2abcd4e525bece98f6202b258a1960d9a8cac8a"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/dIwSWhIM/veinminer-client-neoforge-2.11.2%2B1.21.1.jar",
+          "filename": "veinminer-client-neoforge-2.11.2+1.21.1.jar",
+          "primary": true,
+          "size": 179047,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "Aqks6yRv",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.11.2",
+      "version_number": "2.11.2",
+      "changelog": "- Optimize wireframe rendering",
+      "changelog_url": null,
+      "date_published": "2026-07-26T11:58:51.742004Z",
+      "downloads": 119873,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "AeBtpNgB",
+          "hashes": {
+            "sha1": "6695c90fed211f8ea0b6ddbeec8bc59398c1286e",
+            "sha512": "91a9eb217d5a7b7cf1d277dd3faa803e220aa0ebf4a29d1252e558aa5119af8b9e517f7331712d5665ce8911f4e4cd5a4c4ddedfa60b81a00aab83d21f8d784a"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/Aqks6yRv/veinminer-client-neoforge-2.11.2%2B1.21.11.jar",
+          "filename": "veinminer-client-neoforge-2.11.2+1.21.11.jar",
+          "primary": true,
+          "size": 182072,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "USzyPFTe",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.11.2",
+      "version_number": "2.11.2",
+      "changelog": "- Optimize wireframe rendering",
+      "changelog_url": null,
+      "date_published": "2026-07-26T11:58:46.408458Z",
+      "downloads": 5960040,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "iMIWAwOJ",
+          "hashes": {
+            "sha1": "a1b37f14ccc061277d7275496f2aa577929bfe51",
+            "sha512": "39298d29b64f8055a72bde05ea7bca7e375e79023270d0bb5d7cedeaf2f507e106367c7ebcc2ba99ba2d7dc9af86c5f964eaa371bffba89fde0c50b4871eb979"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/USzyPFTe/veinminer-client-fabric-2.11.2%2B1.21.11.jar",
+          "filename": "veinminer-client-fabric-2.11.2+1.21.11.jar",
+          "primary": true,
+          "size": 197724,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "k7r7anSN",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.11.2",
+      "version_number": "2.11.2",
+      "changelog": "- Optimize wireframe rendering",
+      "changelog_url": null,
+      "date_published": "2026-07-26T11:39:39.963872Z",
+      "downloads": 81573,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "4MqemNMF",
+          "hashes": {
+            "sha1": "551f08c5b491c47b81c32ffd713c4323e1cbe5cc",
+            "sha512": "b8b90e22500ecb16066c4e040b3a8d904fbcc5c30e09931a965b2032f7dd228080779e7066339d52ffb1674979d669e19c83a849cc056a37ed1d9c538f8dacda"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/k7r7anSN/veinminer-client-neoforge-2.11.2.jar",
+          "filename": "veinminer-client-neoforge-2.11.2.jar",
+          "primary": true,
+          "size": 181278,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "LRJI3MpY",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.11.2",
+      "version_number": "2.11.2",
+      "changelog": "- Optimize wireframe rendering",
+      "changelog_url": null,
+      "date_published": "2026-07-26T11:39:34.668167Z",
+      "downloads": 1814426,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "I5vj0DQf",
+          "hashes": {
+            "sha512": "566a67792dc55ff6982cf208032a0c3ee4ab5206fce5bc59733712e7c12a045c9208d3ce8d81537ed774b50436fb6ec40a3a82ade20c82522006a1c89a920865",
+            "sha1": "a325cc235beff2e579b5d6419aa60503141a94d7"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/LRJI3MpY/veinminer-client-fabric-2.11.2.jar",
+          "filename": "veinminer-client-fabric-2.11.2.jar",
+          "primary": true,
+          "size": 194623,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "rnxqVCrP",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.11.1",
+      "version_number": "2.11.1",
+      "changelog": "- Add hungerPerBlock setting (default 0.0)",
+      "changelog_url": null,
+      "date_published": "2026-07-11T14:08:26.714412Z",
+      "downloads": 58704,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "5ZO6A9fc",
+          "hashes": {
+            "sha512": "2ddb386672c45bec7b8c5a8923d2a7225d02b08f8808440fb8b74d30fbcee00dbfeaaafa629e71555caaf7f6735d7bee750a3352162ec0ce2503574f492dc206",
+            "sha1": "0ec241d11664a56e7747d7becfbc4f5cb86020d5"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/rnxqVCrP/veinminer-client-neoforge-2.11.1.jar",
+          "filename": "veinminer-client-neoforge-2.11.1.jar",
+          "primary": true,
+          "size": 181531,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "WTyZ6nrU",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.11.1",
+      "version_number": "2.11.1",
+      "changelog": "- Add hungerPerBlock setting (default 0.0)",
+      "changelog_url": null,
+      "date_published": "2026-07-11T14:08:20.463145Z",
+      "downloads": 1119563,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "uSWnBko6",
+          "hashes": {
+            "sha512": "3fe667208860f832b0b03f0397978cef9eb37e0aee6e45a560dd34dc1c5baee0e734ecd1dddfe6c1241c0b52b6b75ecb7cbb0e7384ed1bfd748fe2720b2832b3",
+            "sha1": "3cc15fbe78217c8b245786adaf2c3f5d7dbe75c9"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/WTyZ6nrU/veinminer-client-fabric-2.11.1.jar",
+          "filename": "veinminer-client-fabric-2.11.1.jar",
+          "primary": true,
+          "size": 194891,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "cNW2gSIv",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.4",
+      "version_number": "2.10.4",
+      "changelog": "- Fix fabric loader version requirement",
+      "changelog_url": null,
+      "date_published": "2026-06-17T12:38:21.679560Z",
+      "downloads": 969929,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "S5TS5Hjs",
+          "hashes": {
+            "sha512": "c8e5ea5fcca096049f06b7c11ecbe94e9c9c1fb256324f23a9bf8311367c0429f5bad0a54b20c78c06d14d92075ca79428845a2e530da3bf73caef25633d7d5d",
+            "sha1": "60166a3ea3c8e6ebab9a89421f3056af5df81260"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/cNW2gSIv/veinminer-client-fabric-2.10.4.jar",
+          "filename": "veinminer-client-fabric-2.10.4.jar",
+          "primary": true,
+          "size": 194893,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "YUFMvpiI",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.10.4",
+      "version_number": "2.10.4",
+      "changelog": "- Fix fabric loader version requirement",
+      "changelog_url": null,
+      "date_published": "2026-06-17T12:38:16.147582Z",
+      "downloads": 39912,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "CQMsYTV5",
+          "hashes": {
+            "sha1": "5e22bc9d288f7913c8a624e23fccd56b37436276",
+            "sha512": "1881c9e5c06ad386dc73b065c56425e212773dd7126ac4653e3a126a40d2069004f0f23ff0858a9a5c4d47d8de8cd2438e795114bc57c34a9b00027edcbd8585"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/YUFMvpiI/veinminer-client-neoforge-2.10.4.jar",
+          "filename": "veinminer-client-neoforge-2.10.4.jar",
+          "primary": true,
+          "size": 181529,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "SLgQFoJR",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.3",
+      "version_number": "2.10.3",
+      "changelog": "- Fix fabric loader version requirement",
+      "changelog_url": null,
+      "date_published": "2026-06-04T19:14:54.971834Z",
+      "downloads": 668304,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "AZJR6qzn",
+          "hashes": {
+            "sha1": "6e90e01d6c785d87c101d8380f550a456144453e",
+            "sha512": "bf80f98f89df26c47c82e6f9866dea04a822b3e2dd97b2568d995f43dd2cb9052b741be536387b0858028c636ab1870faf79bf17fc0a3f1d2cb79cea11450092"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/SLgQFoJR/veinminer-client-fabric-2.10.3%2B1.21.1.jar",
+          "filename": "veinminer-client-fabric-2.10.3+1.21.1.jar",
+          "primary": true,
+          "size": 192244,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "J9nO0PFx",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.3",
+      "version_number": "2.10.3",
+      "changelog": "- Fix fabric loader version requirement",
+      "changelog_url": null,
+      "date_published": "2026-06-04T19:10:14.639378Z",
+      "downloads": 3231051,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "jwFvEm9B",
+          "hashes": {
+            "sha512": "53d6a28a926318d016843b9c7ad4a907aaad557c37488d9ef34dd6e89f1223747a0efae857bad4e79ef704df6c3374b99137bd7aee8b155e469cad3c7cc3f777",
+            "sha1": "53806d798336b2ec9a622df308aba9de453669d9"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/J9nO0PFx/veinminer-client-fabric-2.10.3%2B1.21.11.jar",
+          "filename": "veinminer-client-fabric-2.10.3+1.21.11.jar",
+          "primary": true,
+          "size": 197959,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "sfgXyNVG",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.3",
+      "version_number": "2.10.3",
+      "changelog": "- Fix fabric loader version requirement",
+      "changelog_url": null,
+      "date_published": "2026-06-04T18:58:12.252360Z",
+      "downloads": 5636627,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "gJVtbqmo",
+          "hashes": {
+            "sha1": "c017be4bbaa7ba281cd5fd1c26ec3b6bb62f3749",
+            "sha512": "ceb36a23e2476aaf00503f4a6170af902709851d65a076aa8351635af44080d51327e2fccc04623c12cd782977c455d8491514ad406ae3dcbd14154247d022df"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/sfgXyNVG/veinminer-client-fabric-2.10.3.jar",
+          "filename": "veinminer-client-fabric-2.10.3.jar",
+          "primary": true,
+          "size": 195863,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "W6fcQL5F",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.10.1",
+      "version_number": "2.10.1",
+      "changelog": "- Recalculate preview on sneaking for mustSneak setting\n- Improved command responses\n- Change default config hotkey to `O` (P used by player list)",
+      "changelog_url": null,
+      "date_published": "2026-05-29T13:09:39.319148Z",
+      "downloads": 1280619,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "uiG5p8Uy",
+          "hashes": {
+            "sha1": "427276ec87aff8121f3f0366c06356edc9b0e120",
+            "sha512": "946493767a429f5c11ec6c21c064d87376296d0f51094e9e48572b7b0e802599ad80ff2be910fa2972e8a9c77ecb82e40e0000adb2232b6e8471bb79ce04e163"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/W6fcQL5F/veinminer-client-neoforge-2.10.1%2B1.21.1.jar",
+          "filename": "veinminer-client-neoforge-2.10.1+1.21.1.jar",
+          "primary": true,
+          "size": 179080,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "VRiXPNr9",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.1",
+      "version_number": "2.10.1",
+      "changelog": "- Recalculate preview on sneaking for mustSneak setting\n- Improved command responses\n- Change default config hotkey to `O` (P used by player list)",
+      "changelog_url": null,
+      "date_published": "2026-05-29T13:09:33.335435Z",
+      "downloads": 36395,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "CuQhCt2h",
+          "hashes": {
+            "sha1": "d7dfca03bd0d8d7937ce49605b8fd2c4e0720f77",
+            "sha512": "c2a3b4d970357bffd88848b757c776ab2bb0f8d01349bdff2cffeefe5327e5e06f8ea8782e2df11c802ea70849a425aedbb7e6f5874a43d9be5fcd89686d4503"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/VRiXPNr9/veinminer-client-fabric-2.10.1%2B1.21.1.jar",
+          "filename": "veinminer-client-fabric-2.10.1+1.21.1.jar",
+          "primary": true,
+          "size": 192251,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "kmWZlFwe",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.10.1",
+      "version_number": "2.10.1",
+      "changelog": "- Recalculate preview on sneaking for mustSneak setting\n- Improved command responses\n- Change default config hotkey to `O` (P used by player list)",
+      "changelog_url": null,
+      "date_published": "2026-05-29T12:57:57.116912Z",
+      "downloads": 54382,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "HPB0wSCA",
+          "hashes": {
+            "sha512": "b5d4eff1612c79c22b618e0970ab0f5c8c93e3443f5511642ccf2b0b28769ecc4d0e0b94e7fe4e16f6b9c5871659b0d954baaf4d9b9e856b82fb3fd8b7e3c7ea",
+            "sha1": "1d3849fb58e6ba20f5fed93f210f1e2d16259da6"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/kmWZlFwe/veinminer-client-neoforge-2.10.1%2B1.21.11.jar",
+          "filename": "veinminer-client-neoforge-2.10.1+1.21.11.jar",
+          "primary": true,
+          "size": 182254,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "CmhdNfN1",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.1",
+      "version_number": "2.10.1",
+      "changelog": "- Recalculate preview on sneaking for mustSneak setting\n- Improved command responses\n- Change default config hotkey to `O` (P used by player list)",
+      "changelog_url": null,
+      "date_published": "2026-05-29T12:57:50.829090Z",
+      "downloads": 382859,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "kBHeXDwi",
+          "hashes": {
+            "sha512": "c2d7af3a11d117eff3c01c492f3dbbc6ee91024259ea8902abffe2c4ef059e80a2e2584e35c8ad42fe50fc90b03873ce436f62388f39a61e405eb6d7c127bfec",
+            "sha1": "359e3a2ce6cf51f086fb3a546dbc8762c18b9b24"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/CmhdNfN1/veinminer-client-fabric-2.10.1%2B1.21.11.jar",
+          "filename": "veinminer-client-fabric-2.10.1+1.21.11.jar",
+          "primary": true,
+          "size": 197957,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "ld9KW91B",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.10.1",
+      "version_number": "2.10.1",
+      "changelog": "- Recalculate preview on sneaking for mustSneak setting\n- Improved command responses\n- Change default config hotkey to `O` (P used by player list)",
+      "changelog_url": null,
+      "date_published": "2026-05-29T12:37:35.360992Z",
+      "downloads": 287055,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "oXmu8XiR",
+          "hashes": {
+            "sha512": "7edaf88a9e97f185cdd8954b7d41b3d7c24d699fcd1f3411daa7dce73d731b1fde5e9e99eb8a1d6e1c3a0b0c7e295b61806a706c30976a92c56f00f2bebafc38",
+            "sha1": "3a05b5409f7cbe5eba7373eadb54c6b733622a52"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/ld9KW91B/veinminer-client-neoforge-2.10.1.jar",
+          "filename": "veinminer-client-neoforge-2.10.1.jar",
+          "primary": true,
+          "size": 182634,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "qYM5mMg9",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.1",
+      "version_number": "2.10.1",
+      "changelog": "- Recalculate preview on sneaking for mustSneak setting\n- Improved command responses\n- Change default config hotkey to `O` (P used by player list)",
+      "changelog_url": null,
+      "date_published": "2026-05-29T12:37:29.882228Z",
+      "downloads": 448286,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "suP1vMQd",
+          "hashes": {
+            "sha512": "e86fe94b6a0a892531e46f5b811c8df40816256f78121023ebea14ae56cc0d181c90157818df7553f071326a0907795b21a71a40b7aa9c778a3ad6d5bc87c402",
+            "sha1": "2cb7454e25da606d8b057e17e5a420da1ec5f105"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/qYM5mMg9/veinminer-client-fabric-2.10.1.jar",
+          "filename": "veinminer-client-fabric-2.10.1.jar",
+          "primary": true,
+          "size": 195861,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "pVcbwMLS",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.10.0",
+      "version_number": "2.10.0",
+      "changelog": "- Adding custom patterns & server sync\n  - Press P to access (new hotkey)\n  - Access via Mod Menu (requires ModMenu mod on fabric)\n- Rename `sprite` folder to `sprites`",
+      "changelog_url": null,
+      "date_published": "2026-05-25T13:39:26.956461Z",
+      "downloads": 6389,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "FAjpdD69",
+          "hashes": {
+            "sha512": "28d78e13b751a702e0f0253c7de97e80d8e9715ce136893d6745f40f6f4d29c90f100bef9aaa4931b9d5b6fdf8cdae9b62e1d2262072f8b6d0e7c18de17fdbc5",
+            "sha1": "2501b1d886a4a54e59ce9283dd33d551965999e0"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/pVcbwMLS/veinminer-client-neoforge-2.10.0.jar",
+          "filename": "veinminer-client-neoforge-2.10.0.jar",
+          "primary": true,
+          "size": 182475,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "REAjOtWN",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.10.0",
+      "version_number": "2.10.0",
+      "changelog": "- Adding custom patterns & server sync\n  - Press P to access (new hotkey)\n  - Access via Mod Menu (requires ModMenu mod on fabric)\n- Rename `sprite` folder to `sprites`",
+      "changelog_url": null,
+      "date_published": "2026-05-25T13:39:21.183530Z",
+      "downloads": 235336,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ZoVyXp9W",
+          "hashes": {
+            "sha1": "8a9a3c28e9f2a4f3527e9f76e381d7e987b2bf38",
+            "sha512": "c31b5c24fc8fc24120a0e455e2a56f97521d2e9feea4138d32b64dd6739a5b2a1bcf0e6a340372173d22c9446a212fe5f183c9d33c9a7e3a3c2c0ff09e3e9e33"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/REAjOtWN/veinminer-client-fabric-2.10.0.jar",
+          "filename": "veinminer-client-fabric-2.10.0.jar",
+          "primary": true,
+          "size": 195706,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "eZqOSyiE",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.9.0",
+      "version_number": "2.9.0",
+      "changelog": "- Allow choosing patterns & depth\n- Drops highlight packet. Client computes locally",
+      "changelog_url": null,
+      "date_published": "2026-05-20T17:13:05.707912Z",
+      "downloads": 5791,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "LpjRKuwL",
+          "hashes": {
+            "sha1": "8c8e836e0c05852313d807d7c54708d2c729b64a",
+            "sha512": "0cb52bd94d0f097f7b3ea8941ea0ab4669db764006b93116316babf752b058217fd3e8a73a94aface2f7cb52002a2e49cff5c9938b93a49e0833661eefe6a500"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/eZqOSyiE/veinminer-client-neoforge-2.9.0.jar",
+          "filename": "veinminer-client-neoforge-2.9.0.jar",
+          "primary": true,
+          "size": 117476,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "SbcytFMb",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.9.0",
+      "version_number": "2.9.0",
+      "changelog": "- Allow choosing patterns & depth\n- Drops highlight packet. Client computes locally",
+      "changelog_url": null,
+      "date_published": "2026-05-20T17:12:59.828915Z",
+      "downloads": 269821,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "pqlA88SN",
+          "hashes": {
+            "sha512": "3a443a55893fb0facf948fb916e8e28bb5088e82c16e900bbf19bc67d483e019cb75985aecd6915b2151e91ae5a81a253defad86c7863d7a521fed84f1b3b7fc",
+            "sha1": "21fd0b208bb9a613bb085bc3d72dc888a4e19f2d"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/SbcytFMb/veinminer-client-fabric-2.9.0.jar",
+          "filename": "veinminer-client-fabric-2.9.0.jar",
+          "primary": true,
+          "size": 132488,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "CYNpVfFm",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.8.2",
+      "version_number": "2.8.2",
+      "changelog": "- Better compatibility with Iris Shaders\n  - Translucent highlights will still disable on shader use (with a warning)\n  - Opaque highlights do work now",
+      "changelog_url": null,
+      "date_published": "2026-05-15T14:41:25.797590Z",
+      "downloads": 5892,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "QR752E9t",
+          "hashes": {
+            "sha1": "1d063410d7e0fa3bcdbc4327cbb7114e34b7705a",
+            "sha512": "fa20b986f080b261e579e4b8e376ad28b044242dd38710b6a2161e9c0ae83986e4b3b0cda42bf5f13e41f7679cc0e7ceb297fcb5095f1e7d005932b71fb93811"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/CYNpVfFm/veinminer-client-neoforge-2.8.2.jar",
+          "filename": "veinminer-client-neoforge-2.8.2.jar",
+          "primary": true,
+          "size": 96330,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "pdj4sZxQ",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.8.2",
+      "version_number": "2.8.2",
+      "changelog": "- Better compatibility with Iris Shaders\n  - Translucent highlights will still disable on shader use (with a warning)\n  - Opaque highlights do work now",
+      "changelog_url": null,
+      "date_published": "2026-05-15T14:41:20.489435Z",
+      "downloads": 266265,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "4DQRQvZb",
+          "hashes": {
+            "sha1": "2b4dd90197f71c189871b529de23843e7b5b64d4",
+            "sha512": "9d78c686705e4be8b9ef2ec35cf55685a748b5d3f971132fca8c2672ae4ef76d8d41fafd4751425b32497a430323c4643c4bd56effb61c02744b0f66e2525b5e"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/pdj4sZxQ/veinminer-client-fabric-2.8.2.jar",
+          "filename": "veinminer-client-fabric-2.8.2.jar",
+          "primary": true,
+          "size": 111192,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "jRKAVfXh",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.8.1",
+      "version_number": "2.8.1",
+      "changelog": "- Fix KLF dependency reference",
+      "changelog_url": null,
+      "date_published": "2026-05-13T22:48:30.854608Z",
+      "downloads": 1011,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "iTJf912s",
+          "hashes": {
+            "sha1": "9ee0102a2b05cfcbc8ce11ad0dbde13d2473938e",
+            "sha512": "0f85ecf4843a161b1394c40d9a88f337bd2ee80029270368798180c1e676fbc302f0ca8398b21a16c1eb65227dd6af467c0b1d7f8c9ee47ea8775c63e79f2220"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/jRKAVfXh/veinminer-client-neoforge-2.8.1.jar",
+          "filename": "veinminer-client-neoforge-2.8.1.jar",
+          "primary": true,
+          "size": 96033,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "3zS6Ob3V",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey NeoForge - 2.8.0",
+      "version_number": "2.8.0",
+      "changelog": "- Project rewrite to support NeoForge",
+      "changelog_url": null,
+      "date_published": "2026-05-13T15:16:29.281272Z",
+      "downloads": 131,
+      "version_type": "alpha",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "dQYHj6ya",
+          "hashes": {
+            "sha1": "246d44a268de5eb83dc62317ae927429738e5d4f",
+            "sha512": "6e45d17b44fc562fea3560e14792e4d61d8e2a208441fd93a3baa3c58d49735c7c9dd44083e791b1645c1cc6777dae3935aa37ff3d97538bd2995166323f3fbd"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/3zS6Ob3V/veinminer-client-neoforge-2.8.0.jar",
+          "filename": "veinminer-client-neoforge-2.8.0.jar",
+          "primary": true,
+          "size": 96044,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "1vrSzlao",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "8nuBTAGK",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey Fabric - 2.8.0",
+      "version_number": "2.8.0",
+      "changelog": "- Project rewrite to support NeoForge",
+      "changelog_url": null,
+      "date_published": "2026-05-13T15:16:20.969058Z",
+      "downloads": 90482,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "5I5wU9em",
+          "hashes": {
+            "sha1": "8040434c924e38aec999a508b5d70f503ddd5603",
+            "sha512": "6e3d8a13ece00f4b99d6b4e6810df67a21dc786960a18b95c5e610f2759f3b929893b84a3568bf79a1faa9ed9fd6226f3f28c1c66e6f4a852cd7ec3ab2a60478"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/8nuBTAGK/veinminer-client-fabric-2.8.0.jar",
+          "filename": "veinminer-client-fabric-2.8.0.jar",
+          "primary": true,
+          "size": 110884,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Ha28R6CL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "6V17CG1p",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.7.1",
+      "version_number": "2.7.1",
+      "changelog": "- Fixing local networking\n  - Client to integrated server -> direct communication\n  - Client over LAN -> proper packet communication",
+      "changelog_url": null,
+      "date_published": "2026-04-20T12:01:06.541982Z",
+      "downloads": 699242,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "t6pbJXpK",
+          "hashes": {
+            "sha1": "02861845a0a04fe1169d83414248041a4cb05643",
+            "sha512": "15c21068bd58dd8e738787255c762ee700049cc3c6371af6b847107fa8262e4d44d7e9a6a5bb9d11c741158c40b23a2ccf07485bedabec3b575b494b8b96af7e"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/6V17CG1p/veinminer-client-2.7.1.jar",
+          "filename": "veinminer-client-2.7.1.jar",
+          "primary": true,
+          "size": 211102,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "ic3F0ys1",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.6.0",
+      "version_number": "2.6.0",
+      "changelog": "- Add toggle hotkey",
+      "changelog_url": null,
+      "date_published": "2026-03-31T18:10:40.525362Z",
+      "downloads": 348232,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "xGEVpEMm",
+          "hashes": {
+            "sha512": "1c8bd11105aea4de5623e3a746aafca7fc5de944922fec474ebfc89227e9015b13cccde1792a7cca112768c5b333847c5354c321c97fa3726462a6fc4d7f7df0",
+            "sha1": "8f07ff71be2aecc5d9027a5fa07ca369a81b53a0"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/ic3F0ys1/veinminer-client-2.6.0.jar",
+          "filename": "veinminer-client-2.6.0.jar",
+          "primary": true,
+          "size": 210747,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "nXzW7iHP",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.6.0",
+      "version_number": "2.6.0",
+      "changelog": "- Add toggle hotkey",
+      "changelog_url": null,
+      "date_published": "2026-03-31T16:49:35.691624Z",
+      "downloads": 3359161,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "IbGR0joA",
+          "hashes": {
+            "sha1": "b0cf7a0c146e24166f7c7906e947ffa295666a57",
+            "sha512": "4c0c75231d0e430a9d5286d627ab80bcfc9f50d0063cdb76403712f3fafbc5a299ca3ec4eac5218c956f3b7a5975fff794525353b59ecdb9b25f2b0dd8c3b348"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/nXzW7iHP/veinminer-client-2.6.0.jar",
+          "filename": "veinminer-client-2.6.0.jar",
+          "primary": true,
+          "size": 213940,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "d1mip4D7",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.5.4",
+      "version_number": "2.5.4",
+      "changelog": "- Add Minecraft 26.1 support",
+      "changelog_url": null,
+      "date_published": "2026-03-28T15:42:28.055827Z",
+      "downloads": 32147,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Z2gPpsE8",
+          "hashes": {
+            "sha1": "a62c819a59152eb5113d011c085960dc02db6667",
+            "sha512": "d90e5d9796a95461f86aded1f4f27f95c948e05c6ef7538f036d54b0bbfce5976c39e70fbcf1a200336eb1af8fc00909e53b7494eda8513fc705a123d430c8c0"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/d1mip4D7/veinminer-client-2.5.4.jar",
+          "filename": "veinminer-client-2.5.4.jar",
+          "primary": true,
+          "size": 196571,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "SX6VKiPD",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.5.2",
+      "version_number": "2.5.2",
+      "changelog": "- Add support for 1.21.11",
+      "changelog_url": null,
+      "date_published": "2025-12-15T23:47:19.061370Z",
+      "downloads": 5958175,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "8il9XDTi",
+          "hashes": {
+            "sha512": "1083f6d84906ff3efdaca7c9b8edaa2ec37bd9a8a14bebfbf3464b771a368e1d40706815188284ce93e982cdac13e59d720f81e1b78fc151c8bd9c05fc2d13f8",
+            "sha1": "8327ab3e50590652cfe23ce516f74b9b32783526"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/SX6VKiPD/veinminer-client-2.5.2.jar",
+          "filename": "veinminer-client-2.5.2.jar",
+          "primary": true,
+          "size": 197560,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "RiJ5m0pN",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.5.1",
+      "version_number": "2.5.1",
+      "changelog": "- Update to latest version",
+      "changelog_url": null,
+      "date_published": "2025-11-22T13:02:10.054730Z",
+      "downloads": 3417740,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "X5LkkSRX",
+          "hashes": {
+            "sha1": "a797f54970c95a0c44d107f28b847e47eecb5cf7",
+            "sha512": "46bb7e67c1474b166bb5a6517dc62b7f4ab439424ba3946eb9439c829e68072a8111fb0aaeef86c25593d6215f21983e6130c67a2a19cb3bdf08f1cd0660343f"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/RiJ5m0pN/veinminer-client-2.5.1.jar",
+          "filename": "veinminer-client-2.5.1.jar",
+          "primary": true,
+          "size": 195898,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "cWNP1COp",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.6",
+      "version_number": "2.4.6",
+      "changelog": "- Support version 1.21.6\n- Fixing translucent rendering",
+      "changelog_url": null,
+      "date_published": "2025-06-18T18:56:16.493952Z",
+      "downloads": 4029453,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "tjoaM99K",
+          "hashes": {
+            "sha512": "f1475b4b343d24073c0d91dac8d7e66236b270f31b117ac0d10d32ba309c885344339bf3ebc70c541c32d14adcc3b0444276a8f6f84bff1bc4df89743dd06bc5",
+            "sha1": "0f404418976eba0c6da740992d81c3d887e3027c"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/cWNP1COp/veinminer-client-2.4.6.jar",
+          "filename": "veinminer-client-2.4.6.jar",
+          "primary": true,
+          "size": 194333,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "OhduvhIc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "Zfk0H9y4",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.2",
+      "version_number": "2.4.2",
+      "changelog": "- Support 1.21.5\n- Translucent block highlighting does not work yet",
+      "changelog_url": null,
+      "date_published": "2025-04-24T17:28:33.594315Z",
+      "downloads": 474326,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "aTa6XODs",
+          "hashes": {
+            "sha1": "9904ede5c3876e47942053894438f40482e10e3d",
+            "sha512": "1d37716a1ffbaa4925ff90a04ef576ec9cb1d3a3e8bee47253d8dfcf4d935b5b863380cda703620080f7973aeea3561d8103b6f221692909947f1551ecdb28a1"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/Zfk0H9y4/veinminer-client-2.4.2.jar",
+          "filename": "veinminer-client-2.4.2.jar",
+          "primary": true,
+          "size": 191909,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "ugWbusl4",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.2",
+      "version_number": "2.4.2",
+      "changelog": "- Support 1.20.6/5",
+      "changelog_url": null,
+      "date_published": "2025-04-06T13:16:43.848387Z",
+      "downloads": 9323,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "SoW0SWDd",
+          "hashes": {
+            "sha1": "d553bf5cfe6caed5b7c9aa0afbca2d57454f45b0",
+            "sha512": "39e2f36ea66240f9e30863c637c95fdf9fbc6bc5bf00614d8b727ce35d33b577ee3f58da7ee933bdbf66cc3a626d68d7b4574136058f6d1cae643f6e5aa8d1f3"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/ugWbusl4/veinminer-client-2.4.2.jar",
+          "filename": "veinminer-client-2.4.2.jar",
+          "primary": true,
+          "size": 192351,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "ycz8UR6d",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.2",
+      "version_number": "2.4.2",
+      "changelog": "- Support 1.21.1/0",
+      "changelog_url": null,
+      "date_published": "2025-04-06T12:51:44.088347Z",
+      "downloads": 547078,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "qiXE1fnI",
+          "hashes": {
+            "sha512": "e15ad0b9cf2d1ec6df4e0af178025cbf366f33d3aded1c2cf78178736ba1521f92c717e5c73132eaae0849074ead0bb2807cd3ca11d0293387b07a158154e6fb",
+            "sha1": "536bee86f3cbdf9cc4adc9b58305250ae6906328"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/ycz8UR6d/veinminer-client-2.4.2.jar",
+          "filename": "veinminer-client-2.4.2.jar",
+          "primary": true,
+          "size": 192410,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "bVfGsbfb",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.2",
+      "version_number": "2.4.2",
+      "changelog": "- Fix remapping issue",
+      "changelog_url": null,
+      "date_published": "2025-03-28T19:50:54.702393Z",
+      "downloads": 12444689,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "lzo2cTKt",
+          "hashes": {
+            "sha1": "2a8d5dca4bda0188330dd829aa3a9f85ec8d889b",
+            "sha512": "826fc9f754157b6d8dbae37e44261698e08a7938c7952fc902b690a1336fe14951b06a610c580435e7b52a7e72d4120bb40e289f330cfabcc9ec11a9f68b8162"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/bVfGsbfb/veinminer-client-2.4.2.jar",
+          "filename": "veinminer-client-2.4.2.jar",
+          "primary": true,
+          "size": 192609,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "UYZNaDKc",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.1",
+      "version_number": "2.4.1",
+      "changelog": "- Fix networking in singleplayer\n- Add extra notification for missing veinminer mod",
+      "changelog_url": null,
+      "date_published": "2025-03-28T17:17:56.748941Z",
+      "downloads": 1164,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "mFfJ0gtw",
+          "hashes": {
+            "sha512": "35c990056d6da152d6ab69bf5e7a96dc094475b2e1ac078186808b93619549a81ab2a9b3096ebae8e95e68534244b482a4b4020d2589f1e2323033acff9ea9f0",
+            "sha1": "adba5393f24fbf74b28fae866c6eb332197be064"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/UYZNaDKc/veinminer-client-2.4.1.jar",
+          "filename": "veinminer-client-2.4.1.jar",
+          "primary": true,
+          "size": 190108,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "fObrTfSZ",
+      "project_id": "dxa0Bm8m",
+      "author_id": "BTUi4ZVT",
+      "featured": false,
+      "name": "Veinminer Hotkey - 2.4.0",
+      "version_number": "2.4.0",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2025-03-27T12:11:29.485322Z",
+      "downloads": 3409,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "E3Xv9GeQ",
+          "hashes": {
+            "sha512": "b17039cddf4b6a2e293f702fd1aca36f47bdb7115400330829a12b140c8b3036bcd21842f18554d5ad1eebdf27f89a6201ffa12d606002d7b7a16c0f76b6594e",
+            "sha1": "9b0ce55f20a503cfefb1d1ce714a2e582264ec14"
+          },
+          "url": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/fObrTfSZ/veinminer-client-2.4.0.jar",
+          "filename": "veinminer-client-2.4.0.jar",
+          "primary": true,
+          "size": 188379,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "aTaCgKLW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    }
+  ]
+}

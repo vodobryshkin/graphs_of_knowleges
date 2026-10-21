@@ -1,0 +1,6523 @@
+{
+  "mod": {
+    "screenshots": [],
+    "id": 429235,
+    "gameId": 432,
+    "name": "FerriteCore ((Neo)Forge)",
+    "slug": "ferritecore",
+    "links": {
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "wikiUrl": "",
+      "issuesUrl": "https://github.com/malte0811/FerriteCore/issues",
+      "sourceUrl": "https://github.com/malte0811/FerriteCore"
+    },
+    "summary": "Memory usage optimizations",
+    "status": 4,
+    "downloadCount": 224887350,
+    "favoriteCount": 4952,
+    "isFeatured": false,
+    "primaryCategoryId": 6814,
+    "categories": [
+      {
+        "id": 6814,
+        "gameId": 432,
+        "name": "Performance",
+        "slug": "performance",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/performance",
+        "iconUrl": "https://media.forgecdn.net/avatars/933/987/638409849610531091.png",
+        "dateModified": "2024-01-16T06:56:01.057Z",
+        "isClass": false,
+        "classId": 6,
+        "parentCategoryId": 6
+      }
+    ],
+    "classId": 6,
+    "authors": [
+      {
+        "id": 23615989,
+        "name": "malte0811",
+        "url": "https://www.curseforge.com/members/malte0811",
+        "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d9390111-072c-455d-bae8-52a172bf91ad-profile_image-150x150.png",
+        "userTierInfo": {
+          "tierLevel": 5,
+          "downloadsThreshold": 250000000
+        }
+      }
+    ],
+    "logo": {
+      "id": 323941,
+      "modId": 429235,
+      "title": "637438748346113688.jpeg",
+      "description": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/323/941/256/256/637438748346113688.jpeg",
+      "url": "https://media.forgecdn.net/avatars/323/941/637438748346113688.jpeg"
+    },
+    "mainFileId": 7806039,
+    "latestFiles": [
+      {
+        "id": 3222546,
+        "gameId": 432,
+        "modId": 429235,
+        "isAvailable": true,
+        "displayName": "ferritecore-2.0.3-fabric.jar",
+        "fileName": "ferritecore-2.0.3-fabric.jar",
+        "releaseType": 2,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "a590d9deeb18b84d98d88c4528314ba65c859278",
+            "algo": 1
+          },
+          {
+            "value": "f159602c47b69c1f193a802b7720e80f",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2021-03-01T08:01:44.043Z",
+        "fileLength": 88070,
+        "downloadCount": 49890,
+        "downloadUrl": "https://edge.forgecdn.net/files/3222/546/ferritecore-2.0.3-fabric.jar",
+        "gameVersions": [
+          "Fabric",
+          "1.16.5"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "Fabric",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionName": "1.16.5",
+            "gameVersionPadded": "0000000001.0000000016.0000000005",
+            "gameVersion": "1.16.5",
+            "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+            "gameVersionTypeId": 70886
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 3832671103,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 1704668766
+          },
+          {
+            "name": "ferritecore.mrl.mixin.json",
+            "fingerprint": 1186793239
+          },
+          {
+            "name": "ferritecore.dedupbakedquad.mixin.json",
+            "fingerprint": 1286500205
+          },
+          {
+            "name": "ferritecore.blockstatecache.mixin.json",
+            "fingerprint": 1727209124
+          },
+          {
+            "name": "ferritecore.fastmap.mixin.json",
+            "fingerprint": 1274405922
+          },
+          {
+            "name": "ferritecore.dedupmultipart.mixin.json",
+            "fingerprint": 179854321
+          },
+          {
+            "name": "ferritecore.predicates.mixin.json",
+            "fingerprint": 1322969185
+          },
+          {
+            "name": "ferritecore-common-refmap.json",
+            "fingerprint": 344437997
+          },
+          {
+            "name": "ferritecore.fabric.mixin.json",
+            "fingerprint": 2787839381
+          },
+          {
+            "name": "fabric.mod.json",
+            "fingerprint": 2961417602
+          },
+          {
+            "name": "ferritecore-fabric-refmap.json",
+            "fingerprint": 2270811082
+          },
+          {
+            "name": "malte0811",
+            "fingerprint": 864298820
+          },
+          {
+            "name": "com",
+            "fingerprint": 2615150273
+          }
+        ]
+      },
+      {
+        "id": 3550045,
+        "gameId": 432,
+        "modId": 429235,
+        "isAvailable": true,
+        "displayName": "ferritecore-4.0.0-forge.jar",
+        "fileName": "ferritecore-4.0.0-forge.jar",
+        "releaseType": 2,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "da7c290f309c2500d29ac8abc283b62aa2c00bad",
+            "algo": 1
+          },
+          {
+            "value": "7285abe0869cfb4862b8ab33985627fa",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2021-12-05T09:21:46.763Z",
+        "fileLength": 107916,
+        "downloadCount": 801354,
+        "downloadUrl": "https://edge.forgecdn.net/files/3550/45/ferritecore-4.0.0-forge.jar",
+        "gameVersions": [
+          "1.18.1",
+          "Forge",
+          "1.18"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "1.18.1",
+            "gameVersionPadded": "0000000001.0000000018.0000000001",
+            "gameVersion": "1.18.1",
+            "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+            "gameVersionTypeId": 73250
+          },
+          {
+            "gameVersionName": "Forge",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionName": "1.18",
+            "gameVersionPadded": "0000000001.0000000018",
+            "gameVersion": "1.18",
+            "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+            "gameVersionTypeId": 73250
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 2273502909,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 2259718006
+          },
+          {
+            "name": "googleaccess",
+            "fingerprint": 2160947373
+          },
+          {
+            "name": "logo.png",
+            "fingerprint": 3369927219
+          },
+          {
+            "name": "ferritecore.predicates.mixin.json",
+            "fingerprint": 1051624304
+          },
+          {
+            "name": "ferritecore.mrl.mixin.json",
+            "fingerprint": 1400714887
+          },
+          {
+            "name": "ferritecore.fastmap.mixin.json",
+            "fingerprint": 2840470744
+          },
+          {
+            "name": "ferritecore.dedupmultipart.mixin.json",
+            "fingerprint": 1879826279
+          },
+          {
+            "name": "ferritecore.dedupbakedquad.mixin.json",
+            "fingerprint": 3150701946
+          },
+          {
+            "name": "ferritecore.blockstatecache.mixin.json",
+            "fingerprint": 3228485139
+          },
+          {
+            "name": "ferritecore-common-refmap.json",
+            "fingerprint": 1824159216
+          },
+          {
+            "name": "pack.mcmeta",
+            "fingerprint": 2809587253
+          },
+          {
+            "name": "malte0811",
+            "fingerprint": 1030087871
+          }
+        ]
+      },
+      {
+        "id": 4810975,
+        "gameId": 432,
+        "modId": 429235,
+        "isAvailable": true,
+        "displayName": "ferritecore-6.0.1-forge.jar",
+        "fileName": "ferritecore-6.0.1-forge.jar",
+        "releaseType": 1,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+            "algo": 1
+          },
+          {
+            "value": "f52f538207a4829d7060550092ce2383",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2023-10-22T13:35:16.597Z",
+        "fileLength": 123034,
+        "downloadCount": 40744913,
+        "downloadUrl": "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+        "gameVersions": [
+          "Client",
+          "NeoForge",
+          "1.20.1",
+          "Forge",
+          "1.20",
+          "Server"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "Client",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+            "gameVersionTypeId": 75208
+          },
+          {
+            "gameVersionName": "NeoForge",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionName": "1.20.1",
+            "gameVersionPadded": "0000000001.0000000020.0000000001",
+            "gameVersion": "1.20.1",
+            "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersionName": "Forge",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionName": "1.20",
+            "gameVersionPadded": "0000000001.0000000020",
+            "gameVersion": "1.20",
+            "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersionName": "Server",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+            "gameVersionTypeId": 75208
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 2683111440,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 1894755165
+          },
+          {
+            "name": "malte0811",
+            "fingerprint": 898425990
+          },
+          {
+            "name": "ferritecore.blockstatecache.mixin.json",
+            "fingerprint": 2656421278
+          },
+          {
+            "name": "ferritecore.dedupbakedquad.mixin.json",
+            "fingerprint": 3081362880
+          },
+          {
+            "name": "ferritecore.dedupmultipart.mixin.json",
+            "fingerprint": 1442370142
+          },
+          {
+            "name": "ferritecore.fastmap.mixin.json",
+            "fingerprint": 3545426013
+          },
+          {
+            "name": "ferritecore.modelsides.mixin.json",
+            "fingerprint": 3718778430
+          },
+          {
+            "name": "ferritecore.mrl.mixin.json",
+            "fingerprint": 3344989000
+          },
+          {
+            "name": "ferritecore.predicates.mixin.json",
+            "fingerprint": 2801144224
+          },
+          {
+            "name": "ferritecore.threaddetec.mixin.json",
+            "fingerprint": 4027117364
+          },
+          {
+            "name": "googleaccess",
+            "fingerprint": 2484448736
+          },
+          {
+            "name": "logo.png",
+            "fingerprint": 3369927219
+          },
+          {
+            "name": "pack.mcmeta",
+            "fingerprint": 2809587253
+          },
+          {
+            "name": "roadrunner.overrides.properties",
+            "fingerprint": 36475463
+          },
+          {
+            "name": "ferritecore.refmap.json",
+            "fingerprint": 2285274734
+          }
+        ]
+      },
+      {
+        "id": 5305993,
+        "gameId": 432,
+        "modId": 429235,
+        "isAvailable": true,
+        "displayName": "ferritecore-6.1.1-neoforge.jar",
+        "fileName": "ferritecore-6.1.1-neoforge.jar",
+        "releaseType": 2,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "a0433f16cf87244045f01a3e07f4fc65abf920c8",
+            "algo": 1
+          },
+          {
+            "value": "93673b03d18281d06bc6f0d383cc83ff",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2024-05-01T06:06:25.917Z",
+        "fileLength": 116131,
+        "downloadCount": 13372,
+        "downloadUrl": "https://edge.forgecdn.net/files/5305/993/ferritecore-6.1.1-neoforge.jar",
+        "gameVersions": [
+          "1.20.5",
+          "Client",
+          "NeoForge",
+          "1.20.6",
+          "Server"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "1.20.5",
+            "gameVersionPadded": "0000000001.0000000020.0000000005",
+            "gameVersion": "1.20.5",
+            "gameVersionReleaseDate": "2024-04-23T15:00:48.803Z",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersionName": "Client",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+            "gameVersionTypeId": 75208
+          },
+          {
+            "gameVersionName": "NeoForge",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionName": "1.20.6",
+            "gameVersionPadded": "0000000001.0000000020.0000000006",
+            "gameVersion": "1.20.6",
+            "gameVersionReleaseDate": "2024-04-29T15:15:44.67Z",
+            "gameVersionTypeId": 75125
+          },
+          {
+            "gameVersionName": "Server",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+            "gameVersionTypeId": 75208
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 381263034,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 731367767
+          },
+          {
+            "name": "malte0811",
+            "fingerprint": 1916102097
+          },
+          {
+            "name": "ferritecore.accessors.mixin.json",
+            "fingerprint": 1228666145
+          },
+          {
+            "name": "ferritecore.blockstatecache.mixin.json",
+            "fingerprint": 2048032273
+          },
+          {
+            "name": "ferritecore.dedupbakedquad.mixin.json",
+            "fingerprint": 3179906577
+          },
+          {
+            "name": "ferritecore.dedupmultipart.mixin.json",
+            "fingerprint": 1442370142
+          },
+          {
+            "name": "ferritecore.fastmap.mixin.json",
+            "fingerprint": 3545426013
+          },
+          {
+            "name": "ferritecore.modelsides.mixin.json",
+            "fingerprint": 3718778430
+          },
+          {
+            "name": "ferritecore.mrl.mixin.json",
+            "fingerprint": 2950592074
+          },
+          {
+            "name": "ferritecore.predicates.mixin.json",
+            "fingerprint": 2801144224
+          },
+          {
+            "name": "ferritecore.threaddetec.mixin.json",
+            "fingerprint": 4027117364
+          },
+          {
+            "name": "logo.png",
+            "fingerprint": 3369927219
+          },
+          {
+            "name": "pack.mcmeta",
+            "fingerprint": 2809587253
+          },
+          {
+            "name": "roadrunner.overrides.properties",
+            "fingerprint": 36475463
+          }
+        ]
+      },
+      {
+        "id": 7806039,
+        "gameId": 432,
+        "modId": 429235,
+        "isAvailable": true,
+        "displayName": "ferritecore-9.0.0-neoforge",
+        "fileName": "ferritecore-9.0.0-neoforge.jar",
+        "releaseType": 1,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "b8bfb14ba6ce7068aae08c3a132ca40bda6bd143",
+            "algo": 1
+          },
+          {
+            "value": "b2fde13466c357340262d60a213f8805",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2026-03-24T18:31:49.263Z",
+        "fileLength": 71947,
+        "downloadCount": 913482,
+        "fileSizeOnDisk": 127955,
+        "downloadUrl": "https://edge.forgecdn.net/files/7806/39/ferritecore-9.0.0-neoforge.jar",
+        "gameVersions": [
+          "Client",
+          "NeoForge",
+          "Server",
+          "26.1",
+          "26.1.1",
+          "26.1.2",
+          "26.2",
+          "26.3"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "Client",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+            "gameVersionTypeId": 75208
+          },
+          {
+            "gameVersionName": "NeoForge",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionName": "Server",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+            "gameVersionTypeId": 75208
+          },
+          {
+            "gameVersionName": "26.1",
+            "gameVersionPadded": "0000000026.0000000001",
+            "gameVersion": "26.1",
+            "gameVersionReleaseDate": "2026-03-24T16:40:19.29Z",
+            "gameVersionTypeId": 83806
+          },
+          {
+            "gameVersionName": "26.1.1",
+            "gameVersionPadded": "0000000026.0000000001.0000000001",
+            "gameVersion": "26.1.1",
+            "gameVersionReleaseDate": "2026-04-01T11:40:06.78Z",
+            "gameVersionTypeId": 83806
+          },
+          {
+            "gameVersionName": "26.1.2",
+            "gameVersionPadded": "0000000026.0000000001.0000000002",
+            "gameVersion": "26.1.2",
+            "gameVersionReleaseDate": "2026-04-09T11:39:54.243Z",
+            "gameVersionTypeId": 83806
+          },
+          {
+            "gameVersionName": "26.2",
+            "gameVersionPadded": "0000000026.0000000002",
+            "gameVersion": "26.2",
+            "gameVersionReleaseDate": "2026-06-16T15:39:22.26Z",
+            "gameVersionTypeId": 86297
+          },
+          {
+            "gameVersionName": "26.3",
+            "gameVersionPadded": "0000000026.0000000003",
+            "gameVersion": "26.3",
+            "gameVersionReleaseDate": "2026-09-15T15:46:48.187Z",
+            "gameVersionTypeId": 88556
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 2517402383,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 2040345791
+          },
+          {
+            "name": "malte0811",
+            "fingerprint": 1911533400
+          },
+          {
+            "name": "ferritecore.accessors.mixin.json",
+            "fingerprint": 1246557584
+          },
+          {
+            "name": "ferritecore.blockstatecache.mixin.json",
+            "fingerprint": 1742867864
+          },
+          {
+            "name": "ferritecore.datacomponents.mixin.json",
+            "fingerprint": 1123186134
+          },
+          {
+            "name": "ferritecore.fastmap.mixin.json",
+            "fingerprint": 548656263
+          },
+          {
+            "name": "ferritecore.threaddetec.mixin.json",
+            "fingerprint": 571027700
+          },
+          {
+            "name": "logo.png",
+            "fingerprint": 3369927219
+          },
+          {
+            "name": "pack.mcmeta",
+            "fingerprint": 2809587253
+          },
+          {
+            "name": "roadrunner.overrides.properties",
+            "fingerprint": 36475463
+          }
+        ]
+      }
+    ],
+    "latestFilesIndexes": [
+      {
+        "gameVersion": "26.1",
+        "fileId": 7806039,
+        "filename": "ferritecore-9.0.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 83806,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "26.1.1",
+        "fileId": 7806039,
+        "filename": "ferritecore-9.0.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 83806,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "26.1.2",
+        "fileId": 7806039,
+        "filename": "ferritecore-9.0.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 83806,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "26.2",
+        "fileId": 7806039,
+        "filename": "ferritecore-9.0.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 86297,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "26.3",
+        "fileId": 7806039,
+        "filename": "ferritecore-9.0.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 88556,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.11",
+        "fileId": 7524515,
+        "filename": "ferritecore-8.2.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.9",
+        "fileId": 7524482,
+        "filename": "ferritecore-8.1.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.10",
+        "fileId": 7524482,
+        "filename": "ferritecore-8.1.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.5",
+        "fileId": 7524422,
+        "filename": "ferritecore-8.0.4-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.8",
+        "fileId": 7524422,
+        "filename": "ferritecore-8.0.4-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.7",
+        "fileId": 7524422,
+        "filename": "ferritecore-8.0.4-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.6",
+        "fileId": 7524422,
+        "filename": "ferritecore-8.0.4-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.4",
+        "fileId": 7524220,
+        "filename": "ferritecore-7.1.3-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.1",
+        "fileId": 7524151,
+        "filename": "ferritecore-7.0.3-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21.3",
+        "fileId": 5850128,
+        "filename": "ferritecore-7.1.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.21",
+        "fileId": 5434178,
+        "filename": "ferritecore-7.0.0-neoforge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 77784,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.20.5",
+        "fileId": 5305993,
+        "filename": "ferritecore-6.1.1-neoforge.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 75125,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.20.6",
+        "fileId": 5305993,
+        "filename": "ferritecore-6.1.1-neoforge.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 75125,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.20.4",
+        "fileId": 4954175,
+        "filename": "ferritecore-6.0.3-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 75125,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.20.2",
+        "fileId": 4828512,
+        "filename": "ferritecore-6.0.2-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 75125,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.20.1",
+        "fileId": 4810975,
+        "filename": "ferritecore-6.0.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 75125,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.20.1",
+        "fileId": 4810975,
+        "filename": "ferritecore-6.0.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 75125,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.20",
+        "fileId": 4810975,
+        "filename": "ferritecore-6.0.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 75125,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.20",
+        "fileId": 4810975,
+        "filename": "ferritecore-6.0.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 75125,
+        "modLoader": 6
+      },
+      {
+        "gameVersion": "1.19.4",
+        "fileId": 4441949,
+        "filename": "ferritecore-5.2.0-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.19.3",
+        "fileId": 4147336,
+        "filename": "ferritecore-5.1.0-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.19.2",
+        "fileId": 4117906,
+        "filename": "ferritecore-5.0.3-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.5",
+        "fileId": 4074330,
+        "filename": "ferritecore-2.1.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18.2",
+        "fileId": 4074294,
+        "filename": "ferritecore-4.2.2-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.19",
+        "fileId": 3875371,
+        "filename": "ferritecore-5.0.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.19.1",
+        "fileId": 3875371,
+        "filename": "ferritecore-5.0.1-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18.1",
+        "fileId": 3652644,
+        "filename": "ferritecore-4.1.2-forge.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18.1",
+        "fileId": 3550045,
+        "filename": "ferritecore-4.0.0-forge.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18",
+        "fileId": 3550045,
+        "filename": "ferritecore-4.0.0-forge.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.17.1",
+        "fileId": 3474755,
+        "filename": "ferritecore-3.1.0-forge.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 73242,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.5",
+        "fileId": 3222546,
+        "filename": "ferritecore-2.0.3-fabric.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 70886,
+        "modLoader": 4
+      },
+      {
+        "gameVersion": "1.16.4",
+        "fileId": 3165037,
+        "filename": "ferritecore-1.1.1.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.4",
+        "fileId": 3160251,
+        "filename": "ferritecore-1.1.jar",
+        "releaseType": 2,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      }
+    ],
+    "latestEarlyAccessFilesIndexes": [],
+    "dateCreated": "2020-12-30T12:29:46.167Z",
+    "dateModified": "2026-06-20T12:54:28.037Z",
+    "dateReleased": "2026-03-24T18:31:49.263Z",
+    "allowModDistribution": true,
+    "gamePopularityRank": 17,
+    "isAvailable": true,
+    "hasCommentsEnabled": true,
+    "licenseType": "MIT License",
+    "thumbsUpCount": 0,
+    "featuredProjectTag": 0
+  },
+  "description": "<p>This page is for the Forge version. If you are looking for the Fabric version you can find it <a href=\"https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric\" rel=\"nofollow\">here</a>.</p>\n<p>This mod reduces the memory usage of Minecraft in a few different ways. A high-level technical description of the changes is available <a href=\"https://github.com/malte0811/FerriteCore/blob/main/summary.md\" rel=\"nofollow\">here</a>.</p>\n<p>The amount of memory saved will depend on the pack, in version 1.2.0 of the 1.16.4 Direwolf20 pack it reduces the memory usage (after GC) on the title screen roughly from 3.1 GB to 1.1-1.2 GB.</p>\n<p>The project picture is a cropped version of <a href=\"/linkout?remoteUrl=https%253a%252f%252fcommons.wikimedia.org%252fwiki%252fFile%253aMagnetic-core_memory%252c_at_angle.jpg\" rel=\"nofollow\">this</a> picture.</p>\n<h3>FAQ</h3>\n<h4>Can you backport this to [MC version before 1.16]?</h4>\n<p>No, I won't backport it. I do not consider it worth the effort, and would like to encourage people to use more recent versions.</p>\n<h4>Should I install this on the server or just on the client?</h4>\n<p>Some optimizations are client-side only, but there are some rather high-impact optimizations that are relevant on the server too. So you should install it on both sides.</p>\n<h4>This is the Forge page, why are there Fabric builds here?</h4>\n<p>I released those builds before I created the Fabric page, you should ignore them (unless you're specifically looking for older builds of FerriteCore on Fabric).</p>\n",
+  "files": [
+    {
+      "id": 7806039,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-9.0.0-neoforge",
+      "fileName": "ferritecore-9.0.0-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "b8bfb14ba6ce7068aae08c3a132ca40bda6bd143",
+          "algo": 1
+        },
+        {
+          "value": "b2fde13466c357340262d60a213f8805",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2026-03-24T18:31:49.263Z",
+      "fileLength": 71947,
+      "downloadCount": 913482,
+      "fileSizeOnDisk": 127955,
+      "downloadUrl": "https://edge.forgecdn.net/files/7806/39/ferritecore-9.0.0-neoforge.jar",
+      "gameVersions": [
+        "Client",
+        "NeoForge",
+        "Server",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2",
+        "26.3"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "26.1",
+          "gameVersionPadded": "0000000026.0000000001",
+          "gameVersion": "26.1",
+          "gameVersionReleaseDate": "2026-03-24T16:40:19.29Z",
+          "gameVersionTypeId": 83806
+        },
+        {
+          "gameVersionName": "26.1.1",
+          "gameVersionPadded": "0000000026.0000000001.0000000001",
+          "gameVersion": "26.1.1",
+          "gameVersionReleaseDate": "2026-04-01T11:40:06.78Z",
+          "gameVersionTypeId": 83806
+        },
+        {
+          "gameVersionName": "26.1.2",
+          "gameVersionPadded": "0000000026.0000000001.0000000002",
+          "gameVersion": "26.1.2",
+          "gameVersionReleaseDate": "2026-04-09T11:39:54.243Z",
+          "gameVersionTypeId": 83806
+        },
+        {
+          "gameVersionName": "26.2",
+          "gameVersionPadded": "0000000026.0000000002",
+          "gameVersion": "26.2",
+          "gameVersionReleaseDate": "2026-06-16T15:39:22.26Z",
+          "gameVersionTypeId": 86297
+        },
+        {
+          "gameVersionName": "26.3",
+          "gameVersionPadded": "0000000026.0000000003",
+          "gameVersion": "26.3",
+          "gameVersionReleaseDate": "2026-09-15T15:46:48.187Z",
+          "gameVersionTypeId": 88556
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2517402383,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2040345791
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1911533400
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 1246557584
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1742867864
+        },
+        {
+          "name": "ferritecore.datacomponents.mixin.json",
+          "fingerprint": 1123186134
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 548656263
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 571027700
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 7524515,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.2.0-neoforge",
+      "fileName": "ferritecore-8.2.0-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "900f0f673fef88784711ee952cbf1fe8be2480bd",
+          "algo": 1
+        },
+        {
+          "value": "2a21b68f63e48b045bd02de9a4bebe08",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2026-01-25T14:07:53.403Z",
+      "fileLength": 79272,
+      "downloadCount": 79050,
+      "fileSizeOnDisk": 148639,
+      "downloadUrl": "https://edge.forgecdn.net/files/7524/515/ferritecore-8.2.0-neoforge.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.11"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.11",
+          "gameVersionPadded": "0000000001.0000000021.0000000011",
+          "gameVersion": "1.21.11",
+          "gameVersionReleaseDate": "2025-12-09T16:42:14.27Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 718278963,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2916827812
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2770826086
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 1959644325
+        },
+        {
+          "name": "ferritecore.datacomponents.mixin.json",
+          "fingerprint": 4281609817
+        }
+      ]
+    },
+    {
+      "id": 7524482,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.1.0-neoforge",
+      "fileName": "ferritecore-8.1.0-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "740333da16923b95d0bd541eb15fe94b5cc70878",
+          "algo": 1
+        },
+        {
+          "value": "8e1ddc3d1769ddf608ecb21735847fd6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2026-01-25T13:58:40.96Z",
+      "fileLength": 81571,
+      "downloadCount": 5,
+      "fileSizeOnDisk": 152808,
+      "downloadUrl": "https://edge.forgecdn.net/files/7524/482/ferritecore-8.1.0-neoforge.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.9",
+          "gameVersionPadded": "0000000001.0000000021.0000000009",
+          "gameVersion": "1.21.9",
+          "gameVersionReleaseDate": "2025-09-30T15:50:17.583Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.10",
+          "gameVersionPadded": "0000000001.0000000021.0000000010",
+          "gameVersion": "1.21.10",
+          "gameVersionReleaseDate": "2025-10-07T14:57:47Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3456966330,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3998341224
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1827976873
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.datacomponents.mixin.json",
+          "fingerprint": 4281609817
+        }
+      ]
+    },
+    {
+      "id": 7524422,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.0.4-neoforge",
+      "fileName": "ferritecore-8.0.4-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "da0988d7a566400dfb7aa9c64ecf47c2fc7de8e9",
+          "algo": 1
+        },
+        {
+          "value": "4eec2a7ed5598eb171f19a1650e7638e",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2026-01-25T13:47:22.867Z",
+      "fileLength": 81572,
+      "downloadCount": 10,
+      "fileSizeOnDisk": 152856,
+      "downloadUrl": "https://edge.forgecdn.net/files/7524/422/ferritecore-8.0.4-neoforge.jar",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "NeoForge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.8",
+          "gameVersionPadded": "0000000001.0000000021.0000000008",
+          "gameVersion": "1.21.8",
+          "gameVersionReleaseDate": "2025-07-17T14:01:29.007Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.5",
+          "gameVersionPadded": "0000000001.0000000021.0000000005",
+          "gameVersion": "1.21.5",
+          "gameVersionReleaseDate": "2025-03-25T16:46:25.94Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.6",
+          "gameVersionPadded": "0000000001.0000000021.0000000006",
+          "gameVersion": "1.21.6",
+          "gameVersionReleaseDate": "2025-06-17T19:44:59.623Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.7",
+          "gameVersionPadded": "0000000001.0000000021.0000000007",
+          "gameVersion": "1.21.7",
+          "gameVersionReleaseDate": "2025-06-30T14:45:05.54Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2205423290,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 281164416
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 4102225939
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.datacomponents.mixin.json",
+          "fingerprint": 4281609817
+        }
+      ]
+    },
+    {
+      "id": 7524220,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.1.3-neoforge",
+      "fileName": "ferritecore-7.1.3-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "2cd2f63b724b4178648d85eb2a3123d51ba1c5cd",
+          "algo": 1
+        },
+        {
+          "value": "71fe847d5c8f0dc84fa4acc8084344a3",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2026-01-25T13:11:13.227Z",
+      "fileLength": 107961,
+      "downloadCount": 3,
+      "fileSizeOnDisk": 203997,
+      "downloadUrl": "https://edge.forgecdn.net/files/7524/220/ferritecore-7.1.3-neoforge.jar",
+      "gameVersions": [
+        "1.21.4",
+        "NeoForge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.4",
+          "gameVersionPadded": "0000000001.0000000021.0000000004",
+          "gameVersion": "1.21.4",
+          "gameVersionReleaseDate": "2024-12-03T16:26:15.35Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3393000294,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2716510299
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 881126702
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3518028653
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4121395093
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 743302889
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3015213942
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2749260350
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.datacomponents.mixin.json",
+          "fingerprint": 4281609817
+        }
+      ]
+    },
+    {
+      "id": 7524151,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.0.3-neoforge",
+      "fileName": "ferritecore-7.0.3-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "9563692efb708b6b568df27a01ec52f6311928ef",
+          "algo": 1
+        },
+        {
+          "value": "e0374dac41d6c641903f9e241911e1d3",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2026-01-25T12:59:44.447Z",
+      "fileLength": 121559,
+      "downloadCount": 0,
+      "fileSizeOnDisk": 236191,
+      "downloadUrl": "https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar",
+      "gameVersions": [
+        "1.21.1",
+        "NeoForge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2808038058,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1204600136
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 4255052164
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3518028653
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4121395093
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 743302889
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3015213942
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2749260350
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.datacomponents.mixin.json",
+          "fingerprint": 4281609817
+        }
+      ]
+    },
+    {
+      "id": 7312355,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.0.3-neoforge",
+      "fileName": "ferritecore-8.0.3-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "2a8527bf99ac469663ba6a31c044ba7dd932a96a",
+          "algo": 1
+        },
+        {
+          "value": "677f2e1683dcc9f6dac6e1cb10a0944c",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-12-09T17:14:49.52Z",
+      "fileLength": 76547,
+      "downloadCount": 622,
+      "fileSizeOnDisk": 144326,
+      "downloadUrl": "https://edge.forgecdn.net/files/7312/355/ferritecore-8.0.3-neoforge.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.11"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.11",
+          "gameVersionPadded": "0000000001.0000000021.0000000011",
+          "gameVersion": "1.21.11",
+          "gameVersionReleaseDate": "2025-12-09T16:42:14.27Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 873749873,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 458849029
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 546008482
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 1959644325
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 7177134,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.0.2-neoforge",
+      "fileName": "ferritecore-8.0.2-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "740868cf245519f4059e21c67dcdfa3b33af8ab2",
+          "algo": 1
+        },
+        {
+          "value": "99657d25711ff819349342d060637e2d",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-11-02T09:10:50.587Z",
+      "fileLength": 78843,
+      "downloadCount": 705,
+      "fileSizeOnDisk": 148488,
+      "downloadUrl": "https://edge.forgecdn.net/files/7177/134/ferritecore-8.0.2-neoforge.jar",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "NeoForge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.9",
+          "gameVersionPadded": "0000000001.0000000021.0000000009",
+          "gameVersion": "1.21.9",
+          "gameVersionReleaseDate": "2025-09-30T15:50:17.583Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.10",
+          "gameVersionPadded": "0000000001.0000000021.0000000010",
+          "gameVersion": "1.21.10",
+          "gameVersionReleaseDate": "2025-10-07T14:57:47Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 514532962,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 609816870
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1249146797
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 7061593,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.0.1-neoforge",
+      "fileName": "ferritecore-8.0.1-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "b1750e74cd2809b5186fb8d8477aedb0c0f5a459",
+          "algo": 1
+        },
+        {
+          "value": "f5964eb18e3ffe624f759b4212ab99a0",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-10-03T13:22:59.87Z",
+      "fileLength": 78892,
+      "downloadCount": 15102,
+      "fileSizeOnDisk": 148666,
+      "downloadUrl": "https://edge.forgecdn.net/files/7061/593/ferritecore-8.0.1-neoforge.jar",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "NeoForge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.9",
+          "gameVersionPadded": "0000000001.0000000021.0000000009",
+          "gameVersion": "1.21.9",
+          "gameVersionReleaseDate": "2025-09-30T15:50:17.583Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.10",
+          "gameVersionPadded": "0000000001.0000000021.0000000010",
+          "gameVersion": "1.21.10",
+          "gameVersionReleaseDate": "2025-10-07T14:57:47Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1283682946,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2554276822
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3327081679
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 6365996,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-8.0.0-neoforge",
+      "fileName": "ferritecore-8.0.0-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c966accc11438c2597c0aa5ca21f19a271caaaa1",
+          "algo": 1
+        },
+        {
+          "value": "f998509fbc9f13b05e2c0fb2b31f926d",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-03-30T07:36:18.337Z",
+      "fileLength": 78885,
+      "downloadCount": 244900,
+      "fileSizeOnDisk": 148613,
+      "downloadUrl": "https://edge.forgecdn.net/files/6365/996/ferritecore-8.0.0-neoforge.jar",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.8",
+        "1.21.9",
+        "NeoForge",
+        "1.21.7",
+        "1.21.6"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.5",
+          "gameVersionPadded": "0000000001.0000000021.0000000005",
+          "gameVersion": "1.21.5",
+          "gameVersionReleaseDate": "2025-03-25T16:46:25.94Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.8",
+          "gameVersionPadded": "0000000001.0000000021.0000000008",
+          "gameVersion": "1.21.8",
+          "gameVersionReleaseDate": "2025-07-17T14:01:29.007Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.9",
+          "gameVersionPadded": "0000000001.0000000021.0000000009",
+          "gameVersion": "1.21.9",
+          "gameVersionReleaseDate": "2025-09-30T15:50:17.583Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.7",
+          "gameVersionPadded": "0000000001.0000000021.0000000007",
+          "gameVersion": "1.21.7",
+          "gameVersionReleaseDate": "2025-06-30T14:45:05.54Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "1.21.6",
+          "gameVersionPadded": "0000000001.0000000021.0000000006",
+          "gameVersion": "1.21.6",
+          "gameVersionReleaseDate": "2025-06-17T19:44:59.623Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1631915051,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4073153516
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3311694123
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 6174601,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.1.2-neoforge",
+      "fileName": "ferritecore-7.1.2-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "f1d63ed7a712c84d2698905524960627f8d9c206",
+          "algo": 1
+        },
+        {
+          "value": "45858ffb3cf1ea22de8f3f21db8ff531",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-02-09T12:19:52.49Z",
+      "fileLength": 105336,
+      "downloadCount": 338893,
+      "fileSizeOnDisk": 199964,
+      "downloadUrl": "https://edge.forgecdn.net/files/6174/601/ferritecore-7.1.2-neoforge.jar",
+      "gameVersions": [
+        "1.21.4",
+        "NeoForge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.4",
+          "gameVersionPadded": "0000000001.0000000021.0000000004",
+          "gameVersion": "1.21.4",
+          "gameVersionReleaseDate": "2024-12-03T16:26:15.35Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3546713693,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1344035748
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 4102770408
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3518028653
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4121395093
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 743302889
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3015213942
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2749260350
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 5850128,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.1.0-neoforge",
+      "fileName": "ferritecore-7.1.0-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "712106e61e02f9d83d0977e487ccfe20d4e2dea9",
+          "algo": 1
+        },
+        {
+          "value": "a32ae5c3d4467187e7e94d8a65239946",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2024-10-27T08:03:59.097Z",
+      "fileLength": 105294,
+      "downloadCount": 80010,
+      "fileSizeOnDisk": 199832,
+      "downloadUrl": "https://edge.forgecdn.net/files/5850/128/ferritecore-7.1.0-neoforge.jar",
+      "gameVersions": [
+        "1.21.4",
+        "NeoForge",
+        "1.21.3"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21.4",
+          "gameVersionPadded": "0000000001.0000000021.0000000004",
+          "gameVersion": "1.21.4",
+          "gameVersionReleaseDate": "2024-12-03T16:26:15.35Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.3",
+          "gameVersionPadded": "0000000001.0000000021.0000000003",
+          "gameVersion": "1.21.3",
+          "gameVersionReleaseDate": "2024-10-23T13:16:45.71Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2196155315,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2600800565
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2659201806
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3518028653
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4121395093
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 743302889
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3015213942
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2749260350
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 5850121,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.0.2-neoforge",
+      "fileName": "ferritecore-7.0.2-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "7279fc52c32a033acc2864a9bcb018b2e04bbd03",
+          "algo": 1
+        },
+        {
+          "value": "e176f7b9672b5b36130dc2f46ea96f48",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2024-10-27T07:58:51.757Z",
+      "fileLength": 118911,
+      "downloadCount": 5363489,
+      "fileSizeOnDisk": 232130,
+      "downloadUrl": "https://edge.forgecdn.net/files/5850/121/ferritecore-7.0.2-neoforge.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.1"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 4148061765,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3061063050
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 964516641
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3518028653
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4121395093
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 743302889
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3015213942
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2749260350
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 5824085,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.0.1-neoforge.jar",
+      "fileName": "ferritecore-7.0.1-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "85806e7bf1ff235ac46a0ba66bc6694dc2fccb94",
+          "algo": 1
+        },
+        {
+          "value": "6625747d295e6de2ddb8fa630189d863",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2024-10-19T09:22:24.813Z",
+      "fileLength": 115225,
+      "downloadCount": 202279,
+      "fileSizeOnDisk": 224786,
+      "downloadUrl": "https://edge.forgecdn.net/files/5824/85/ferritecore-7.0.1-neoforge.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.1"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 4194106163,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3866498651
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3190826350
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 2714315218
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2488671011
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3518028653
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4121395093
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3382642885
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 743302889
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3015213942
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2749260350
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 3143872293
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 5434178,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-7.0.0-neoforge.jar",
+      "fileName": "ferritecore-7.0.0-neoforge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "b82ff769aca2b8c542ce09b633bfa4ffd03c06d8",
+          "algo": 1
+        },
+        {
+          "value": "9652daf3147d4a9e5ffd8eebf49c3d3b",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2024-06-16T09:42:33.74Z",
+      "fileLength": 115359,
+      "downloadCount": 1604681,
+      "downloadUrl": "https://edge.forgecdn.net/files/5434/178/ferritecore-7.0.0-neoforge.jar",
+      "gameVersions": [
+        "1.21",
+        "Client",
+        "NeoForge",
+        "1.21.1",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.21",
+          "gameVersionPadded": "0000000001.0000000021",
+          "gameVersion": "1.21",
+          "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 543583036,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 191100279
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3413135642
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 585752167
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2048032273
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3179906577
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 2950592074
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 5305993,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-6.1.1-neoforge.jar",
+      "fileName": "ferritecore-6.1.1-neoforge.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "a0433f16cf87244045f01a3e07f4fc65abf920c8",
+          "algo": 1
+        },
+        {
+          "value": "93673b03d18281d06bc6f0d383cc83ff",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2024-05-01T06:06:25.917Z",
+      "fileLength": 116131,
+      "downloadCount": 13372,
+      "downloadUrl": "https://edge.forgecdn.net/files/5305/993/ferritecore-6.1.1-neoforge.jar",
+      "gameVersions": [
+        "1.20.5",
+        "Client",
+        "NeoForge",
+        "1.20.6",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.20.5",
+          "gameVersionPadded": "0000000001.0000000020.0000000005",
+          "gameVersion": "1.20.5",
+          "gameVersionReleaseDate": "2024-04-23T15:00:48.803Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.20.6",
+          "gameVersionPadded": "0000000001.0000000020.0000000006",
+          "gameVersion": "1.20.6",
+          "gameVersionReleaseDate": "2024-04-29T15:15:44.67Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 381263034,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 731367767
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1916102097
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 1228666145
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2048032273
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3179906577
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 2950592074
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 5295050,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-6.1.0-neoforge.jar",
+      "fileName": "ferritecore-6.1.0-neoforge.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "d683295a19ad3a6bb21bfa759e1ea44bf77b2411",
+          "algo": 1
+        },
+        {
+          "value": "b859b2bcf3f7b9bd09aa63ad0618b8d6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2024-04-27T08:53:53.32Z",
+      "fileLength": 114691,
+      "downloadCount": 1967,
+      "downloadUrl": "https://edge.forgecdn.net/files/5295/50/ferritecore-6.1.0-neoforge.jar",
+      "gameVersions": [
+        "1.20.5",
+        "Client",
+        "NeoForge",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.20.5",
+          "gameVersionPadded": "0000000001.0000000020.0000000005",
+          "gameVersion": "1.20.5",
+          "gameVersionReleaseDate": "2024-04-23T15:00:48.803Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2548005361,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2723484872
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1974685256
+        },
+        {
+          "name": "ferritecore.accessors.mixin.json",
+          "fingerprint": 1228666145
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2048032273
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3179906577
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 2950592074
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 4954175,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-6.0.3-forge.jar",
+      "fileName": "ferritecore-6.0.3-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "84542fbd77f2c3290faad89b079a2f062db8934c",
+          "algo": 1
+        },
+        {
+          "value": "ab46c40017906fc1674271c454f66be0",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2023-12-13T09:50:12.397Z",
+      "fileLength": 121760,
+      "downloadCount": 221958,
+      "downloadUrl": "https://edge.forgecdn.net/files/4954/175/ferritecore-6.0.3-forge.jar",
+      "gameVersions": [
+        "Client",
+        "NeoForge",
+        "1.20.4",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.20.4",
+          "gameVersionPadded": "0000000001.0000000020.0000000004",
+          "gameVersion": "1.20.4",
+          "gameVersionReleaseDate": "2023-12-07T15:17:47.907Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3395582125,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4038735152
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 490550254
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 4828512,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-6.0.2-forge.jar",
+      "fileName": "ferritecore-6.0.2-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "9e5d55fc93238ebe32eaaf8f6671a21fda56e1ea",
+          "algo": 1
+        },
+        {
+          "value": "ec53788c76b41e2917b6d5e1efe1d5ee",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2023-10-31T07:09:16.357Z",
+      "fileLength": 121822,
+      "downloadCount": 11500,
+      "downloadUrl": "https://edge.forgecdn.net/files/4828/512/ferritecore-6.0.2-forge.jar",
+      "gameVersions": [
+        "1.20.2",
+        "Client",
+        "NeoForge",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.20.2",
+          "gameVersionPadded": "0000000001.0000000020.0000000002",
+          "gameVersion": "1.20.2",
+          "gameVersionReleaseDate": "2023-09-21T15:25:15.053Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3157849549,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1840107766
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1493469303
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        }
+      ]
+    },
+    {
+      "id": 4810975,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-6.0.1-forge.jar",
+      "fileName": "ferritecore-6.0.1-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+          "algo": 1
+        },
+        {
+          "value": "f52f538207a4829d7060550092ce2383",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2023-10-22T13:35:16.597Z",
+      "fileLength": 123034,
+      "downloadCount": 40744913,
+      "downloadUrl": "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+      "gameVersions": [
+        "Client",
+        "NeoForge",
+        "1.20.1",
+        "Forge",
+        "1.20",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.20.1",
+          "gameVersionPadded": "0000000001.0000000020.0000000001",
+          "gameVersion": "1.20.1",
+          "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.20",
+          "gameVersionPadded": "0000000001.0000000020",
+          "gameVersion": "1.20",
+          "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2683111440,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1894755165
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 898425990
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 2285274734
+        }
+      ]
+    },
+    {
+      "id": 4574361,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-6.0.0-forge.jar",
+      "fileName": "ferritecore-6.0.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "5c090bf8e882c0ccb9dcdb4afe712fa430e03a02",
+          "algo": 1
+        },
+        {
+          "value": "206a75b7b85d5e4f93b2e9ba5e12bb3d",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2023-06-08T18:19:06.55Z",
+      "fileLength": 122786,
+      "downloadCount": 3008179,
+      "downloadUrl": "https://edge.forgecdn.net/files/4574/361/ferritecore-6.0.0-forge.jar",
+      "gameVersions": [
+        "Client",
+        "NeoForge",
+        "1.20.1",
+        "Forge",
+        "1.20",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.20.1",
+          "gameVersionPadded": "0000000001.0000000020.0000000001",
+          "gameVersion": "1.20.1",
+          "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.20",
+          "gameVersionPadded": "0000000001.0000000020",
+          "gameVersion": "1.20",
+          "gameVersionReleaseDate": "2023-06-07T00:00:00Z",
+          "gameVersionTypeId": 75125
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 0,
+      "modules": []
+    },
+    {
+      "id": 4441949,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-5.2.0-forge.jar",
+      "fileName": "ferritecore-5.2.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "713989537a8533f758133627ee21e5f46bf3ca43",
+          "algo": 1
+        },
+        {
+          "value": "7405c02fc159ff970660e738fa108bd6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2023-03-17T07:23:51.16Z",
+      "fileLength": 122799,
+      "downloadCount": 262058,
+      "downloadUrl": "https://edge.forgecdn.net/files/4441/949/ferritecore-5.2.0-forge.jar",
+      "gameVersions": [
+        "1.19.4",
+        "Client",
+        "Forge",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.4",
+          "gameVersionPadded": "0000000001.0000000019.0000000004",
+          "gameVersion": "1.19.4",
+          "gameVersionReleaseDate": "2023-03-09T00:00:00Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 301236530,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1427231854
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1827110016
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.modelsides.mixin.json",
+          "fingerprint": 3718778430
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 2285274734
+        }
+      ]
+    },
+    {
+      "id": 4147336,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-5.1.0-forge.jar",
+      "fileName": "ferritecore-5.1.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "a69d589b39e583fdf2b124f2c701a962fb3974e1",
+          "algo": 1
+        },
+        {
+          "value": "308ba82ce680741b84238921de657fc4",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-12-08T17:52:52.69Z",
+      "fileLength": 118413,
+      "downloadCount": 100578,
+      "downloadUrl": "https://edge.forgecdn.net/files/4147/336/ferritecore-5.1.0-forge.jar",
+      "gameVersions": [
+        "1.19.3",
+        "Client",
+        "Forge",
+        "Server"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.3",
+          "gameVersionPadded": "0000000001.0000000019.0000000003",
+          "gameVersion": "1.19.3",
+          "gameVersionReleaseDate": "2022-10-19T00:00:00Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Client",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "Server",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+          "gameVersionTypeId": 75208
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1479188165,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3928310478
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 970885923
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 2285274734
+        }
+      ]
+    },
+    {
+      "id": 4117906,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-5.0.3-forge.jar",
+      "fileName": "ferritecore-5.0.3-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "59245ec84ca1e3639237f5a04fe6f7556a9ec2bb",
+          "algo": 1
+        },
+        {
+          "value": "c556facc604bd4fc0824c4524c73b9b9",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-11-26T16:45:53.297Z",
+      "fileLength": 116824,
+      "downloadCount": 19446211,
+      "downloadUrl": "https://edge.forgecdn.net/files/4117/906/ferritecore-5.0.3-forge.jar",
+      "gameVersions": [
+        "1.19.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.2",
+          "gameVersionPadded": "0000000001.0000000019.0000000002",
+          "gameVersion": "1.19.2",
+          "gameVersionReleaseDate": "2022-08-05T14:12:22.413Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 252252793,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2429550064
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2682990840
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1724321757
+        }
+      ]
+    },
+    {
+      "id": 4074330,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.1.1-forge.jar",
+      "fileName": "ferritecore-2.1.1-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "3ae8dbe663156a8dec621d255856356444586905",
+          "algo": 1
+        },
+        {
+          "value": "6a96a36de00e5d8e9bf2e87634d13125",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-11-08T16:47:39.107Z",
+      "fileLength": 108557,
+      "downloadCount": 12676734,
+      "downloadUrl": "https://edge.forgecdn.net/files/4074/330/ferritecore-2.1.1-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3017171927,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1926521590
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2003153283
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4096495031
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.chunknbt.mixin.json",
+          "fingerprint": 4009643519
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 352172374
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 4148642999
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3448462194
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1590967215
+        }
+      ]
+    },
+    {
+      "id": 4074294,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.2.2-forge.jar",
+      "fileName": "ferritecore-4.2.2-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "e9e0e711de47112dc53e24dc008da1f598834c4f",
+          "algo": 1
+        },
+        {
+          "value": "ea8c0bfc697a73b0d1886e43a1a5a282",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-11-08T16:31:54.7Z",
+      "fileLength": 116626,
+      "downloadCount": 14737775,
+      "downloadUrl": "https://edge.forgecdn.net/files/4074/294/ferritecore-4.2.2-forge.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 874115349,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1181356523
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 391663182
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1724321757
+        }
+      ]
+    },
+    {
+      "id": 4073783,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-5.0.2-forge.jar",
+      "fileName": "ferritecore-5.0.2-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "7aac05d9777725aa9dda804bbcfd2bfe5b804997",
+          "algo": 1
+        },
+        {
+          "value": "f4977f7adafbba91be6da7a8b71620b0",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-11-08T08:19:57.927Z",
+      "fileLength": 116656,
+      "downloadCount": 531275,
+      "downloadUrl": "https://edge.forgecdn.net/files/4073/783/ferritecore-5.0.2-forge.jar",
+      "gameVersions": [
+        "1.19.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.2",
+          "gameVersionPadded": "0000000001.0000000019.0000000002",
+          "gameVersion": "1.19.2",
+          "gameVersionReleaseDate": "2022-08-05T14:12:22.413Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 539815104,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 326761307
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1173043765
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1724321757
+        }
+      ]
+    },
+    {
+      "id": 3875371,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-5.0.1-forge.jar",
+      "fileName": "ferritecore-5.0.1-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "daf0cd007223ac0ebbb70dfb5a2832caadf1f267",
+          "algo": 1
+        },
+        {
+          "value": "f2bffa8ef2a349c78c3ed9536bbd34d4",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-07-14T16:15:39.363Z",
+      "fileLength": 116590,
+      "downloadCount": 695747,
+      "downloadUrl": "https://edge.forgecdn.net/files/3875/371/ferritecore-5.0.1-forge.jar",
+      "gameVersions": [
+        "1.19.2",
+        "Forge",
+        "1.19.1",
+        "1.19"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.2",
+          "gameVersionPadded": "0000000001.0000000019.0000000002",
+          "gameVersion": "1.19.2",
+          "gameVersionReleaseDate": "2022-08-05T14:12:22.413Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.19.1",
+          "gameVersionPadded": "0000000001.0000000019.0000000001",
+          "gameVersion": "1.19.1",
+          "gameVersionReleaseDate": "2022-06-28T00:00:00Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "1.19",
+          "gameVersionPadded": "0000000001.0000000019",
+          "gameVersion": "1.19",
+          "gameVersionReleaseDate": "2022-06-07T15:38:07.377Z",
+          "gameVersionTypeId": 73407
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2497896997,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1647065764
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3346590232
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1724321757
+        }
+      ]
+    },
+    {
+      "id": 3824688,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-5.0.0-forge.jar",
+      "fileName": "ferritecore-5.0.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "49482082a18ab508fb29b4e2c4fbd1e05191229b",
+          "algo": 1
+        },
+        {
+          "value": "29ea2da2b2569a79b459bd9724fe5588",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-06-09T15:42:46.037Z",
+      "fileLength": 116567,
+      "downloadCount": 158927,
+      "downloadUrl": "https://edge.forgecdn.net/files/3824/688/ferritecore-5.0.0-forge.jar",
+      "gameVersions": [
+        "Forge",
+        "1.19"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.19",
+          "gameVersionPadded": "0000000001.0000000019",
+          "gameVersion": "1.19",
+          "gameVersionReleaseDate": "2022-06-07T15:38:07.377Z",
+          "gameVersionTypeId": 73407
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3601839666,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1433628967
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 96030668
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1724321757
+        }
+      ]
+    },
+    {
+      "id": 3767288,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.2.1-forge.jar",
+      "fileName": "ferritecore-4.2.1-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ba3071bf50a8ffae349b7eca514415014e939267",
+          "algo": 1
+        },
+        {
+          "value": "3b470ce3be52837936b0fdd4aa642f72",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-04-24T16:29:08.213Z",
+      "fileLength": 116552,
+      "downloadCount": 4228390,
+      "downloadUrl": "https://edge.forgecdn.net/files/3767/288/ferritecore-4.2.1-forge.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1529932398,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 535622800
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 96030668
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 2656421278
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3081362880
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1442370142
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3545426013
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 3344989000
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 2801144224
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 4027117364
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2484448736
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "roadrunner.overrides.properties",
+          "fingerprint": 36475463
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1724321757
+        }
+      ]
+    },
+    {
+      "id": 3672146,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.2.0-forge.jar",
+      "fileName": "ferritecore-4.2.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "304cc2f2733ae944b04082d77138bf69c465ff08",
+          "algo": 1
+        },
+        {
+          "value": "434a15e402e85f4699451e9e6c95db32",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-03-04T15:16:31.067Z",
+      "fileLength": 106664,
+      "downloadCount": 405897,
+      "downloadUrl": "https://edge.forgecdn.net/files/3672/146/ferritecore-4.2.0-forge.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3241999197,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1668293732
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2160947373
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 1873930925
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1051624304
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1400714887
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 2840470744
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1879826279
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3150701946
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 3228485139
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 370183679
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1458058363
+        }
+      ]
+    },
+    {
+      "id": 3652644,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.1.2-forge.jar",
+      "fileName": "ferritecore-4.1.2-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "051eaf05f06f48f6a8d02620b67d4cf5edd6ba1d",
+          "algo": 1
+        },
+        {
+          "value": "73cc75865519c0a8f3c12d199decc78b",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-02-19T09:45:18.563Z",
+      "fileLength": 115586,
+      "downloadCount": 396275,
+      "downloadUrl": "https://edge.forgecdn.net/files/3652/644/ferritecore-4.1.2-forge.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1665862779,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2773136726
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2160947373
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 1873930925
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1051624304
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1400714887
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 2840470744
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1879826279
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3150701946
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 3228485139
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 370183679
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1695571637
+        }
+      ]
+    },
+    {
+      "id": 3638442,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.1.1-forge.jar",
+      "fileName": "ferritecore-4.1.1-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "48098cdb08da29dfe003043c62ec51bcb13c8ced",
+          "algo": 1
+        },
+        {
+          "value": "6a403420f0c675fcc7cc5919df6a9d9a",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-02-06T08:16:29.33Z",
+      "fileLength": 106603,
+      "downloadCount": 142253,
+      "downloadUrl": "https://edge.forgecdn.net/files/3638/442/ferritecore-4.1.1-forge.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3481193952,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3944918439
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2160947373
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1051624304
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1400714887
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 2840470744
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1879826279
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3150701946
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 3228485139
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1824159216
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2304238394
+        }
+      ]
+    },
+    {
+      "id": 3637904,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.1.0-forge.jar",
+      "fileName": "ferritecore-4.1.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "2149a5e50e06ed0b112c9d45f9df249747f56f20",
+          "algo": 1
+        },
+        {
+          "value": "e982e2083ad0c659390e07e4f9cac949",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-02-05T19:20:13.837Z",
+      "fileLength": 111678,
+      "downloadCount": 1466,
+      "downloadUrl": "https://edge.forgecdn.net/files/3637/904/ferritecore-4.1.0-forge.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1033464525,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3931100046
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2160947373
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.threaddetec.mixin.json",
+          "fingerprint": 1873930925
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1051624304
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1400714887
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 2840470744
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1879826279
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3150701946
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 3228485139
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 370183679
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 274945414
+        }
+      ]
+    },
+    {
+      "id": 3550045,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-4.0.0-forge.jar",
+      "fileName": "ferritecore-4.0.0-forge.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "da7c290f309c2500d29ac8abc283b62aa2c00bad",
+          "algo": 1
+        },
+        {
+          "value": "7285abe0869cfb4862b8ab33985627fa",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-12-05T09:21:46.763Z",
+      "fileLength": 107916,
+      "downloadCount": 801354,
+      "downloadUrl": "https://edge.forgecdn.net/files/3550/45/ferritecore-4.0.0-forge.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge",
+        "1.18"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.18",
+          "gameVersionPadded": "0000000001.0000000018",
+          "gameVersion": "1.18",
+          "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+          "gameVersionTypeId": 73250
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2273502909,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2259718006
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2160947373
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1051624304
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1400714887
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 2840470744
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1879826279
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 3150701946
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 3228485139
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1824159216
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1030087871
+        }
+      ]
+    },
+    {
+      "id": 3485636,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.1.0-forge.jar",
+      "fileName": "ferritecore-2.1.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "50e7db5712b5ab8a2d96624eaff11cacb067824a",
+          "algo": 1
+        },
+        {
+          "value": "6b469b99aa6f89b6ebad7aefa3cb9843",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-10-09T11:07:30.687Z",
+      "fileLength": 108520,
+      "downloadCount": 13909613,
+      "downloadUrl": "https://edge.forgecdn.net/files/3485/636/ferritecore-2.1.0-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3613242926,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2628354756
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 2003153283
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4096495031
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.chunknbt.mixin.json",
+          "fingerprint": 4009643519
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 352172374
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 4148642999
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3448462194
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 601212093
+        }
+      ]
+    },
+    {
+      "id": 3474755,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-3.1.0-forge.jar",
+      "fileName": "ferritecore-3.1.0-forge.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "8f754d35f5a18f5e2ecd5a84caa74efbef49522f",
+          "algo": 1
+        },
+        {
+          "value": "163b04df9aaacc19ef546be964f47037",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-09-27T14:50:33.493Z",
+      "fileLength": 109388,
+      "downloadCount": 354579,
+      "downloadUrl": "https://edge.forgecdn.net/files/3474/755/ferritecore-3.1.0-forge.jar",
+      "gameVersions": [
+        "1.17.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.17.1",
+          "gameVersionPadded": "0000000001.0000000017.0000000001",
+          "gameVersion": "1.17.1",
+          "gameVersionReleaseDate": "2021-07-06T14:16:03.97Z",
+          "gameVersionTypeId": 73242
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1018820594,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2953094286
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 1948817108
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 2116456544
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 683791010
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1230657643
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1202841837
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 3423193239
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1451291568
+        },
+        {
+          "name": "ferritecore.chunknbt.mixin.json",
+          "fingerprint": 851851321
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 3230742139
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3448462194
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 772272917
+        }
+      ]
+    },
+    {
+      "id": 3435176,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.7-forge.jar",
+      "fileName": "ferritecore-2.0.7-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "0cc4c88efb01e9dd3a1f2b219b2152c7ec81fb44",
+          "algo": 1
+        },
+        {
+          "value": "4746108f379e810bda5f6738da38430a",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-08-23T06:16:38.207Z",
+      "fileLength": 101813,
+      "downloadCount": 1579813,
+      "downloadUrl": "https://edge.forgecdn.net/files/3435/176/ferritecore-2.0.7-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2655477553,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 10563238
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 3491285138
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 352172374
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4096495031
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 2901900899
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3448462194
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 4102796611
+        }
+      ]
+    },
+    {
+      "id": 3434136,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.6-forge.jar",
+      "fileName": "ferritecore-2.0.6-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "8c70250c733a3c0cacaba2509ac3470187a1e277",
+          "algo": 1
+        },
+        {
+          "value": "cb493a58a7b4634be2493b20bc65d561",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-08-22T08:15:05.363Z",
+      "fileLength": 101060,
+      "downloadCount": 39198,
+      "downloadUrl": "https://edge.forgecdn.net/files/3434/136/ferritecore-2.0.6-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2825173355,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 717900355
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 3491285138
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 4096495031
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1744839825
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3448462194
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1195027748
+        }
+      ]
+    },
+    {
+      "id": 3358428,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.5-forge.jar",
+      "fileName": "ferritecore-2.0.5-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "4a31984fc68a09d1bee7f9e6f1f5e27591c9b779",
+          "algo": 1
+        },
+        {
+          "value": "d8c36388006008964c615f76c2471b82",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-06-20T12:35:15.947Z",
+      "fileLength": 98900,
+      "downloadCount": 1749944,
+      "downloadUrl": "https://edge.forgecdn.net/files/3358/428/ferritecore-2.0.5-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1345743269,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1818801341
+        },
+        {
+          "name": "googleaccess",
+          "fingerprint": 3491285138
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3369927219
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1744839825
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2499703496
+        }
+      ]
+    },
+    {
+      "id": 3272785,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.4-forge.jar",
+      "fileName": "ferritecore-2.0.4-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "d6eb907725e3057655228361c7fb6c3e63500fb5",
+          "algo": 1
+        },
+        {
+          "value": "40b99b4ef0edd0842eaf691327a34655",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-11T18:44:09.04Z",
+      "fileLength": 88084,
+      "downloadCount": 2882655,
+      "downloadUrl": "https://edge.forgecdn.net/files/3272/785/ferritecore-2.0.4-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2787783962,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2527344560
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1443878361
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1803536837
+        },
+        {
+          "name": "com",
+          "fingerprint": 2615150273
+        }
+      ]
+    },
+    {
+      "id": 3222546,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.3-fabric.jar",
+      "fileName": "ferritecore-2.0.3-fabric.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "a590d9deeb18b84d98d88c4528314ba65c859278",
+          "algo": 1
+        },
+        {
+          "value": "f159602c47b69c1f193a802b7720e80f",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-03-01T08:01:44.043Z",
+      "fileLength": 88070,
+      "downloadCount": 49890,
+      "downloadUrl": "https://edge.forgecdn.net/files/3222/546/ferritecore-2.0.3-fabric.jar",
+      "gameVersions": [
+        "Fabric",
+        "1.16.5"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Fabric",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3832671103,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1704668766
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 344437997
+        },
+        {
+          "name": "ferritecore.fabric.mixin.json",
+          "fingerprint": 2787839381
+        },
+        {
+          "name": "fabric.mod.json",
+          "fingerprint": 2961417602
+        },
+        {
+          "name": "ferritecore-fabric-refmap.json",
+          "fingerprint": 2270811082
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 864298820
+        },
+        {
+          "name": "com",
+          "fingerprint": 2615150273
+        }
+      ]
+    },
+    {
+      "id": 3222545,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.3-forge.jar",
+      "fileName": "ferritecore-2.0.3-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "d5cf4d7a9d4519081ee5d0e64b44d84c827fb0c8",
+          "algo": 1
+        },
+        {
+          "value": "72470c606364f3f116805d8c605416c0",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-03-01T08:00:42.577Z",
+      "fileLength": 88070,
+      "downloadCount": 1069565,
+      "downloadUrl": "https://edge.forgecdn.net/files/3222/545/ferritecore-2.0.3-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2871682038,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 266918611
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1443878361
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3669658766
+        },
+        {
+          "name": "com",
+          "fingerprint": 2615150273
+        }
+      ]
+    },
+    {
+      "id": 3218092,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.2-fabric.jar",
+      "fileName": "ferritecore-2.0.2-fabric.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "20eee842c1e5e6abdc55b8d24fe4734860d265c2",
+          "algo": 1
+        },
+        {
+          "value": "88ad8613dfc93037820f6d2efe4e2f01",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-02-26T16:31:45.953Z",
+      "fileLength": 87973,
+      "downloadCount": 507,
+      "downloadUrl": "https://edge.forgecdn.net/files/3218/92/ferritecore-2.0.2-fabric.jar",
+      "gameVersions": [
+        "Fabric",
+        "1.16.5"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Fabric",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2433222360,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4235576887
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 344437997
+        },
+        {
+          "name": "ferritecore.fabric.mixin.json",
+          "fingerprint": 2787839381
+        },
+        {
+          "name": "fabric.mod.json",
+          "fingerprint": 58894318
+        },
+        {
+          "name": "ferritecore-fabric-refmap.json",
+          "fingerprint": 2270811082
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3052478789
+        },
+        {
+          "name": "com",
+          "fingerprint": 2615150273
+        }
+      ]
+    },
+    {
+      "id": 3218090,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.2-forge.jar",
+      "fileName": "ferritecore-2.0.2-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "99fcb71f59c8306d451b1fea4a3be88db6fa01d1",
+          "algo": 1
+        },
+        {
+          "value": "bc24fb72f0e535877fdac3ef88444ea6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-02-26T16:29:42.467Z",
+      "fileLength": 87958,
+      "downloadCount": 120410,
+      "downloadUrl": "https://edge.forgecdn.net/files/3218/90/ferritecore-2.0.2-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3022394379,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 457294180
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1727209124
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 1443878361
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3564352215
+        },
+        {
+          "name": "com",
+          "fingerprint": 2615150273
+        }
+      ]
+    },
+    {
+      "id": 3215759,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.1-fabric.jar",
+      "fileName": "ferritecore-2.0.1-fabric.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "88fb97b476cbfeaa9b089456588e2ffb24761091",
+          "algo": 1
+        },
+        {
+          "value": "e7bcceeddb7d991cbe1867ef76fc4370",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-02-24T18:47:16.19Z",
+      "fileLength": 88134,
+      "downloadCount": 424,
+      "downloadUrl": "https://edge.forgecdn.net/files/3215/759/ferritecore-2.0.1-fabric.jar",
+      "gameVersions": [
+        "Fabric",
+        "1.16.5"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Fabric",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 645123451,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3729087475
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1020338111
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 965961397
+        },
+        {
+          "name": "ferritecore.fabric.mixin.json",
+          "fingerprint": 2787839381
+        },
+        {
+          "name": "fabric.mod.json",
+          "fingerprint": 907291167
+        },
+        {
+          "name": "ferritecore-fabric-refmap.json",
+          "fingerprint": 2270811082
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2668673095
+        },
+        {
+          "name": "com",
+          "fingerprint": 74612387
+        }
+      ]
+    },
+    {
+      "id": 3215757,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0.1-forge.jar",
+      "fileName": "ferritecore-2.0.1-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "36414b4299e167972259832c6de25f483117dfb8",
+          "algo": 1
+        },
+        {
+          "value": "14d5168bd8ebfe11b05e197fe1c949fa",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-02-24T18:45:48.133Z",
+      "fileLength": 87612,
+      "downloadCount": 57076,
+      "downloadUrl": "https://edge.forgecdn.net/files/3215/757/ferritecore-2.0.1-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 280332066,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2421296927
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1020338111
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 4073161422
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 1607865497
+        },
+        {
+          "name": "com",
+          "fingerprint": 4167066885
+        }
+      ]
+    },
+    {
+      "id": 3215218,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0-fabric.jar",
+      "fileName": "ferritecore-2.0-fabric.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "892997774aa6ff9bf13df696d19da5a79d27aed6",
+          "algo": 1
+        },
+        {
+          "value": "929b847bd886bc6cfa33d8a788741229",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-02-24T08:16:15.177Z",
+      "fileLength": 88127,
+      "downloadCount": 387,
+      "downloadUrl": "https://edge.forgecdn.net/files/3215/218/ferritecore-2.0-fabric.jar",
+      "gameVersions": [
+        "Fabric",
+        "1.16.5"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Fabric",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3145635832,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4222793630
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1020338111
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 965961397
+        },
+        {
+          "name": "ferritecore.fabric.mixin.json",
+          "fingerprint": 2787839381
+        },
+        {
+          "name": "fabric.mod.json",
+          "fingerprint": 2798269935
+        },
+        {
+          "name": "ferritecore-fabric-refmap.json",
+          "fingerprint": 2270811082
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2893330125
+        },
+        {
+          "name": "com",
+          "fingerprint": 74612387
+        }
+      ]
+    },
+    {
+      "id": 3215217,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-2.0-forge.jar",
+      "fileName": "ferritecore-2.0-forge.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "5f3d7981ff66bada0006515abdc1af90a10daa3d",
+          "algo": 1
+        },
+        {
+          "value": "d3b77fe0a06b2350be446c77171c1389",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-02-24T08:15:24.63Z",
+      "fileLength": 87651,
+      "downloadCount": 762,
+      "downloadUrl": "https://edge.forgecdn.net/files/3215/217/ferritecore-2.0-forge.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2682396861,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3565131822
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 1186793239
+        },
+        {
+          "name": "ferritecore.dedupbakedquad.mixin.json",
+          "fingerprint": 1286500205
+        },
+        {
+          "name": "ferritecore.blockstatecache.mixin.json",
+          "fingerprint": 1020338111
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 1274405922
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 179854321
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 1322969185
+        },
+        {
+          "name": "ferritecore-common-refmap.json",
+          "fingerprint": 4073161422
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 117005992
+        },
+        {
+          "name": "com",
+          "fingerprint": 4167066885
+        }
+      ]
+    },
+    {
+      "id": 3165037,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-1.1.1.jar",
+      "fileName": "ferritecore-1.1.1.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ab0241cc084850d548b83685541c98fa3519369b",
+          "algo": 1
+        },
+        {
+          "value": "12376534fd79a1706847ea1bb2817789",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-01-11T10:25:13.327Z",
+      "fileLength": 51740,
+      "downloadCount": 991108,
+      "downloadUrl": "https://edge.forgecdn.net/files/3165/37/ferritecore-1.1.1.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1344427401,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2543352067
+        },
+        {
+          "name": "asm",
+          "fingerprint": 3343533484
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1468925435
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3944882132
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 2988667889
+        },
+        {
+          "name": "ferritecore.nopropertymap.mixin.json",
+          "fingerprint": 929196847
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 3460375502
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 2330557100
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3866203887
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        }
+      ]
+    },
+    {
+      "id": 3160251,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-1.1.jar",
+      "fileName": "ferritecore-1.1.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c87dce7fa1c83371a80d6ee90b64ed8cf3f34f00",
+          "algo": 1
+        },
+        {
+          "value": "e4de65ea48d43fd8c9c78e9b41f72670",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-01-06T13:11:24.623Z",
+      "fileLength": 51733,
+      "downloadCount": 34858,
+      "downloadUrl": "https://edge.forgecdn.net/files/3160/251/ferritecore-1.1.jar",
+      "gameVersions": [
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1769181256,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1468339388
+        },
+        {
+          "name": "asm",
+          "fingerprint": 3343533484
+        },
+        {
+          "name": "ferritecore.dedupmultipart.mixin.json",
+          "fingerprint": 1468925435
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3944882132
+        },
+        {
+          "name": "ferritecore.mrl.mixin.json",
+          "fingerprint": 2988667889
+        },
+        {
+          "name": "ferritecore.nopropertymap.mixin.json",
+          "fingerprint": 929196847
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 3460375502
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 2330557100
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 2869333056
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        }
+      ]
+    },
+    {
+      "id": 3153176,
+      "gameId": 432,
+      "modId": 429235,
+      "isAvailable": true,
+      "displayName": "ferritecore-1.0.jar",
+      "fileName": "ferritecore-1.0.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "f5bbe0a842ae4054340844e72a52f325871ae2da",
+          "algo": 1
+        },
+        {
+          "value": "5b805c5e68881fa55f63bc216cb95181",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-12-30T10:54:28.8Z",
+      "fileLength": 41320,
+      "downloadCount": 21465,
+      "downloadUrl": "https://edge.forgecdn.net/files/3153/176/ferritecore-1.0.jar",
+      "gameVersions": [
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 25916107,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2688343217
+        },
+        {
+          "name": "asm",
+          "fingerprint": 3343533484
+        },
+        {
+          "name": "ferritecore.fastmap.mixin.json",
+          "fingerprint": 3944882132
+        },
+        {
+          "name": "ferritecore.nopropertymap.mixin.json",
+          "fingerprint": 929196847
+        },
+        {
+          "name": "ferritecore.predicates.mixin.json",
+          "fingerprint": 3460375502
+        },
+        {
+          "name": "ferritecore.refmap.json",
+          "fingerprint": 1026513695
+        },
+        {
+          "name": "malte0811",
+          "fingerprint": 3188370895
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2809587253
+        }
+      ]
+    }
+  ]
+}

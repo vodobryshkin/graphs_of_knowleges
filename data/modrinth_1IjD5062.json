@@ -1,0 +1,2486 @@
+{
+  "project": {
+    "client_side": "required",
+    "server_side": "unsupported",
+    "game_versions": [
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "environment": [
+      "client_only"
+    ],
+    "id": "1IjD5062",
+    "slug": "continuity",
+    "project_type": "mod",
+    "team": "uoI5LZgV",
+    "organization": null,
+    "title": "Continuity",
+    "description": "A Minecraft mod that allows for efficient connected textures",
+    "body": "# Continuity\n\nContinuity is a Minecraft mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.\n\nContinuity is client-side only and includes two built-in resource packs. The Default Connected Textures pack provides connected textures for glass, sandstone, and bookshelves, similar to the built-in connected textures provided by OptiFine. The Glass Pane Culling Fix pack culls faces between vertically stacked glass panes to make them look seamless with connected textures.\n\nFormally, Continuity implements the Continuity connected textures specification, Continuity emissive textures specification, and Continuity custom block layers specification. All of these are extensions of the corresponding OptiFine specification and were created to provide more features to resource pack authors. The documentation for the Continuity specifications can be found at the [Continuity wiki](https://github.com/PepperCode1/Continuity/wiki).\n\nContinuity is developed as a Fabric mod and is recommended to be used with Fabric. However, [Connector](https://github.com/Sinytra/Connector) and [Forgified Fabric API](https://github.com/Sinytra/ForgifiedFabricAPI) allow Continuity to work well on other mod loaders such as NeoForge and Forge. Releases are made on CurseForge and Modrinth that are marked as working with these mod loaders; these releases contain the same code as equivalent releases for Fabric, but with additional metadata to declare Connector and Forgified Fabric API as dependencies. An official NeoForge version of Continuity that does not require Forgified Fabric API is not planned at this time due to major technical differences between the Fabric and NeoForge APIs.\n\n### Links\n\n[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/continuity)",
+    "body_url": null,
+    "published": "2021-09-25T20:27:10.714654Z",
+    "updated": "2026-09-16T03:20:55.014943Z",
+    "approved": "2021-09-25T20:27:10.714654Z",
+    "queued": null,
+    "status": "approved",
+    "requested_status": null,
+    "moderator_message": null,
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "downloads": 79352669,
+    "followers": 16809,
+    "categories": [
+      "decoration",
+      "utility"
+    ],
+    "additional_categories": [],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "versions": [
+      "Xn8QzMB9",
+      "6JEV45oM",
+      "i0ccQghD",
+      "27YRAXEt",
+      "SffGs8Ro",
+      "yiOF0F2t",
+      "sD3iTKbB",
+      "gOxkykhO",
+      "Bl7pOAQf",
+      "zcqSiVI3",
+      "jjpzIZoY",
+      "xTtULC68",
+      "YEKdScFW",
+      "Ql3Ho9eR",
+      "4h5IIa7B",
+      "ImUFj5Gl",
+      "G2qoxVmV",
+      "OOpbpU2z",
+      "xy2co4Rh",
+      "JYaO3lPe",
+      "Z9FJWLMt",
+      "JXhQlDZl",
+      "Fc7h8MWD",
+      "MfBeYvQa",
+      "84Zs6tNo",
+      "Ox1racg8",
+      "hI13Vg85",
+      "NksUpFjf",
+      "mvRzsvHc",
+      "kHdjiepB",
+      "qGTDcjHM",
+      "WMwDkIY8",
+      "RXCRb59j",
+      "kSPJ4hQv",
+      "kwuHTVHC",
+      "9KbAcWSO",
+      "eXGUs5sy",
+      "esC1Vejm",
+      "kravz06U",
+      "m0cvWhzT",
+      "7JbPpQnu",
+      "mX1iknM1",
+      "fiZzqnYz",
+      "l1mM6Ov7",
+      "mgUN5Xz2",
+      "Jt2sCWTQ"
+    ],
+    "icon_url": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+    "raw_icon_url": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+    "issues_url": "https://github.com/PepperCode1/Continuity/issues",
+    "source_url": "https://github.com/PepperCode1/Continuity",
+    "wiki_url": "https://github.com/PepperCode1/Continuity/wiki",
+    "discord_url": "https://discord.gg/7rnTYXu",
+    "donation_urls": [
+      {
+        "id": "bmac",
+        "platform": "Bmac",
+        "url": "https://buymeacoffee.com/pepper_bell"
+      }
+    ],
+    "gallery": [],
+    "color": 8419446,
+    "thread_id": "1IjD5062",
+    "monetization_status": "monetized"
+  },
+  "members": [
+    {
+      "role": "Owner",
+      "team_id": "uoI5LZgV",
+      "user": {
+        "id": "CdcF3lqY",
+        "username": "Pepper_Bell",
+        "avatar_url": "https://cdn.modrinth.com/user/CdcF3lqY/24a325b36c3ce10dbc1a86cc68c5eeb212784b63.png",
+        "raw_avatar_url": "https://cdn.modrinth.com/user/CdcF3lqY/24a325b36c3ce10dbc1a86cc68c5eeb212784b63.png",
+        "bio": "Hey! I enjoy developing Minecraft mods and libraries, including Continuity, Flywheel, Fabric API, and Create.",
+        "created": "2021-09-25T20:18:09.628691Z",
+        "role": "developer",
+        "badges": 0,
+        "campaigns": {
+          "pride_26": null
+        },
+        "auth_providers": null,
+        "email": null,
+        "email_verified": null,
+        "has_password": null,
+        "has_totp": null,
+        "payout_data": null,
+        "stripe_customer_id": null,
+        "allow_friend_requests": null,
+        "eligibility_verified_at": null,
+        "github_id": null
+      },
+      "permissions": null,
+      "accepted": true,
+      "payouts_split": null,
+      "ordering": 0
+    }
+  ],
+  "versions": [
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "Jt2sCWTQ",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1+26.3",
+      "version_number": "3.0.1+26.3",
+      "changelog": "- Port to Minecraft 26.3",
+      "changelog_url": null,
+      "date_published": "2026-09-16T03:20:55.014943Z",
+      "downloads": 1908678,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1Q01l8i4",
+          "hashes": {
+            "sha512": "1ec1e3b2f73c26b19445d664822a8936e9076f4d8855a2ed5fac19786daa8da42da8fdc9526c4a53c227a82819a87ad8e73d5b4fc003f6519c50454c33014f04",
+            "sha1": "63d51781b2c87e3b4b4ca98a133db8c98d3f2afb"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Jt2sCWTQ/continuity-3.0.1%2B26.3.jar",
+          "filename": "continuity-3.0.1+26.3.jar",
+          "primary": true,
+          "size": 1002033,
+          "file_type": null
+        },
+        {
+          "id": "ItubBQIQ",
+          "hashes": {
+            "sha1": "f37bea3d3386041bd191919247039788fa0f51a1",
+            "sha512": "7fac5f882c81003f5cd3f3bc2a61624096afb223bceb5472d744d7170382ea8117ab85dfa06d779934b44c5ce59ea10d8fe0bee9e46bb04b20577bf5b72c15cf"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Jt2sCWTQ/continuity-3.0.1%2B26.3-sources.jar",
+          "filename": "continuity-3.0.1+26.3-sources.jar",
+          "primary": false,
+          "size": 819688,
+          "file_type": "sources-jar"
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "mgUN5Xz2",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1+26.2",
+      "version_number": "3.0.1+26.2",
+      "changelog": "Port to Minecraft 26.2",
+      "changelog_url": null,
+      "date_published": "2026-06-16T20:37:54.326739Z",
+      "downloads": 5122969,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "vCbWp8vl",
+          "hashes": {
+            "sha512": "3436b39fcdddce87f8eda0f35095067477636df2667195df3cb8eae2d002d3ff8ac44de97332668ee50e13ad91be5c532cbc6121878f1e6c904c98c1c9c67c0b",
+            "sha1": "8fa8bc108e84158b0828a4aa59bf906d31676eec"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mgUN5Xz2/continuity-3.0.1%2B26.2.jar",
+          "filename": "continuity-3.0.1+26.2.jar",
+          "primary": true,
+          "size": 1040013,
+          "file_type": null
+        },
+        {
+          "id": "6wdUng0x",
+          "hashes": {
+            "sha512": "806b8302747fbf50f647fe6c0032ae0d646b044e302a5652092ecb00613bd65fff5b5ece47e9c8297fa876354b10e1bc7e7a0b72ad15e54a5ea6c4ab73d9df61",
+            "sha1": "3a340461e896aad15da1e48ad9c47570a4957942"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mgUN5Xz2/continuity-3.0.1%2B26.2-sources.jar",
+          "filename": "continuity-3.0.1+26.2-sources.jar",
+          "primary": false,
+          "size": 817864,
+          "file_type": "sources-jar"
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "l1mM6Ov7",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1-beta.2+26.1",
+      "version_number": "3.0.1-beta.2+26.1",
+      "changelog": "Fix `connect=tile` and `connectTiles` not working correctly after changing enabled resource packs",
+      "changelog_url": null,
+      "date_published": "2026-04-09T22:31:30.712274Z",
+      "downloads": 3837164,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "KpjmKLi9",
+          "hashes": {
+            "sha1": "be4bf927bbb84f0f57783aea8c6624890680b4d2",
+            "sha512": "759aa6443b37f7f85e04e3a4477180570ebe28b24adb95484e9236d065b68d35845b7eaeded3a97b9c8aae0bc69edf8ae3356640d62b71fe7a8789c615ade0e2"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/l1mM6Ov7/continuity-3.0.1-beta.2%2B26.1.jar",
+          "filename": "continuity-3.0.1-beta.2+26.1.jar",
+          "primary": true,
+          "size": 1040001,
+          "file_type": null
+        },
+        {
+          "id": "2RuGKz6T",
+          "hashes": {
+            "sha1": "688922b4c76fda9d40770508c7522288efe49e76",
+            "sha512": "8000e41a2c6bbf71a270eaf4e2b7e3c99e89e55ab0a3b7f5a9cb45e22cc455ef7fdfe9e87f1306a7b064e34a4c41a26462d89684f866a2cd3e8e7a07bc0293f0"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/l1mM6Ov7/continuity-3.0.1-beta.2%2B26.1-sources.jar",
+          "filename": "continuity-3.0.1-beta.2+26.1-sources.jar",
+          "primary": false,
+          "size": 817892,
+          "file_type": "sources-jar"
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "fiZzqnYz",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1-beta.1+26.1",
+      "version_number": "3.0.1-beta.1+26.1",
+      "changelog": "Port to Minecraft 26.1",
+      "changelog_url": null,
+      "date_published": "2026-04-06T16:55:03.697220Z",
+      "downloads": 149317,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "iDdyqGDg",
+          "hashes": {
+            "sha512": "3c5cd4d3affc989e5c0ca137039a29b7e1dea1ceb1735f4a03a3970e7a170578ada0c55223c113e590809689077f5c1b4e02dba5bb0b069a1e55b78da509fa65",
+            "sha1": "bc7dfc3c30f219f5d752f2e5ada0dd2d02a18732"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/fiZzqnYz/continuity-3.0.1-beta.1%2B26.1.jar",
+          "filename": "continuity-3.0.1-beta.1+26.1.jar",
+          "primary": true,
+          "size": 1039974,
+          "file_type": null
+        },
+        {
+          "id": "iU1DQIHx",
+          "hashes": {
+            "sha512": "db917466ca3de8516d41d84444cf65fff01e41a950da1423cb3da0a04b998d0a00cae6e0b2a0edf368786786a458169f33f7e30d4a089e5b2cf548ba89dde71f",
+            "sha1": "eadfefddce08385159247953e17a2b16497bb3cb"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/fiZzqnYz/continuity-3.0.1-beta.1%2B26.1-sources.jar",
+          "filename": "continuity-3.0.1-beta.1+26.1-sources.jar",
+          "primary": false,
+          "size": 817874,
+          "file_type": "sources-jar"
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "mX1iknM1",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1-beta.1+1.21.11",
+      "version_number": "3.0.1-beta.1+1.21.11",
+      "changelog": "- Port to Minecraft 1.21.11\n- Add Continuity options to the Sodium video settings screen\n\n### Notes\n\n- The `cutout_mipped` render type was removed by vanilla and Continuity no longer recognizes it. This may partially break some resource packs that use overlays or custom block layers.\n- Emissive textures for item models are still not implemented.",
+      "changelog_url": null,
+      "date_published": "2025-12-23T02:54:26.750065Z",
+      "downloads": 8886373,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "dMNHxxCZ",
+          "hashes": {
+            "sha512": "b092e95668bf5e32d531842d920e99f865213eaf3e7c26759b51e5a95ef2702c2c0485bba6d8adf4543e8d71680d5a05fad68e94159e8e507033b516b736eb60",
+            "sha1": "51d34c3f2035db0c7fca321b2d94f01b5167707c"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mX1iknM1/continuity-3.0.1-beta.1%2B1.21.11.jar",
+          "filename": "continuity-3.0.1-beta.1+1.21.11.jar",
+          "primary": true,
+          "size": 997125,
+          "file_type": null
+        },
+        {
+          "id": "HxBKmvZP",
+          "hashes": {
+            "sha1": "03c25b9ef7d59f82b5c8313afd9fc550d905d472",
+            "sha512": "50c89784ebd972fd838e08e266617d7a8660f08b1f0a3df1cb2a5a3c27e10422f7ede4493a620692d8c6db262502713f52a4692e295f671fa3889be96e9672f5"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mX1iknM1/continuity-3.0.1-beta.1%2B1.21.11-sources.jar",
+          "filename": "continuity-3.0.1-beta.1+1.21.11-sources.jar",
+          "primary": false,
+          "size": 847221,
+          "file_type": "unknown"
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "7JbPpQnu",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1-beta.2+1.21.10",
+      "version_number": "3.0.1-beta.2+1.21.10",
+      "changelog": "- Port to 1.21.10",
+      "changelog_url": null,
+      "date_published": "2025-11-10T01:21:03.856351Z",
+      "downloads": 2386210,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "OxVCXJC0",
+          "hashes": {
+            "sha1": "071e6ceddabeaf0277c8643d611f1aa0ed167be3",
+            "sha512": "1a3bc81518720290a060fe0a4ab1ccbffd82b229e067cc71f827eca91b8b11adcc6c62a3f57f3184d85c52ceb1b173ca4da564bfbfc5902e2f4a038efcdd5739"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/7JbPpQnu/continuity-3.0.1-beta.2%2B1.21.10.jar",
+          "filename": "continuity-3.0.1-beta.2+1.21.10.jar",
+          "primary": true,
+          "size": 994514,
+          "file_type": null
+        },
+        {
+          "id": "81a3eXZn",
+          "hashes": {
+            "sha512": "a481d33d09175925d61faaa7539e8644f522d09152083bd3cf0f5476d25d4182e1739af319202e51f352cff923a5c9b120cb698b38c903acee03f9b09f90780f",
+            "sha1": "91a735a5f876bced5859c5acf6a73ad660382b22"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/7JbPpQnu/continuity-3.0.1-beta.2%2B1.21.10-sources.jar",
+          "filename": "continuity-3.0.1-beta.2+1.21.10-sources.jar",
+          "primary": false,
+          "size": 988022,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "m0cvWhzT",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1-beta.1+1.21.6",
+      "version_number": "3.0.1-beta.1+1.21.6",
+      "changelog": "This beta is missing emissive textures for item models.",
+      "changelog_url": null,
+      "date_published": "2025-07-07T17:04:19.260430Z",
+      "downloads": 3513635,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "o1hJ1O0h",
+          "hashes": {
+            "sha1": "4bc922092c48b211e1981ef3403148f24313590a",
+            "sha512": "95b1a4529d8e4a7154dc82294e4733d629aef1025a2ecaa48f04f4976e02e8e15ac0b2a35b56762e07f51dbebe59dce12e4b40d0291924e70490f91e1a67daed"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/m0cvWhzT/continuity-3.0.1-beta.1%2B1.21.6.jar",
+          "filename": "continuity-3.0.1-beta.1+1.21.6.jar",
+          "primary": true,
+          "size": 994756,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "kravz06U",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.1-test.4+1.21.5",
+      "version_number": "3.0.1-test.4+1.21.5",
+      "changelog": "This beta is missing emissive textures for item models.",
+      "changelog_url": null,
+      "date_published": "2025-05-03T00:25:41.514763Z",
+      "downloads": 2149060,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "8KHWOOts",
+          "hashes": {
+            "sha512": "fdbf9c3d685e6facf8a023fc0883813f0936e530b9d5a9be3d09b769f548f7ddb560f9554677c1f8036996f0503a21af5d5c7794b28afce9215d5edb8c738650",
+            "sha1": "9965153e0acabbe3582aabe2ddb6a503508b6787"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kravz06U/continuity-3.0.1-test.4%2B1.21.5.jar",
+          "filename": "continuity-3.0.1-test.4+1.21.5.jar",
+          "primary": true,
+          "size": 996045,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "esC1Vejm",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.21.4",
+      "version_number": "3.0.0+1.21.4",
+      "changelog": "- Port to Minecraft 1.21.4",
+      "changelog_url": null,
+      "date_published": "2024-12-27T18:52:13.088538Z",
+      "downloads": 3211264,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "EEbVFYXE",
+          "hashes": {
+            "sha1": "7b22feac8ca586a8c371324cb83abe5546b22d45",
+            "sha512": "1f8102be0e545b3a19aba8b63942a2e98ccce7b714d40f33471da77633015491b7cc7e86d2d5adc7a361f7586f1e30e7e5e591deca2d7ebacd9e7e97055c8cca"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/esC1Vejm/continuity-3.0.0%2B1.21.4.jar",
+          "filename": "continuity-3.0.0+1.21.4.jar",
+          "primary": true,
+          "size": 1001061,
+          "file_type": null
+        },
+        {
+          "id": "CDrAg0WN",
+          "hashes": {
+            "sha1": "96ac1638e56b8d2e88f9911884c0945a632f05b0",
+            "sha512": "4ec2c5df353821f36ca7037b2886cf33e949dff34dacc5df0b6f36c1c2d76ab3630ceffa1e2ef478ce78529e21aad2bab7bb5a4a92ab55a0e70d73ceb538d2f4"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/esC1Vejm/continuity-3.0.0%2B1.21.4-sources.jar",
+          "filename": "continuity-3.0.0+1.21.4-sources.jar",
+          "primary": false,
+          "size": 990415,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "eXGUs5sy",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.21.neoforge",
+      "version_number": "3.0.0+1.21.neoforge",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-10T23:51:07.991765Z",
+      "downloads": 3225315,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ddPg7hXR",
+          "hashes": {
+            "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2",
+            "sha512": "320b6def6073ce0ffc0ce2bd7cdb66324467ea3e7cec05508f32d78f65c60ff3e155394b94c60f62e059404ec0ca3fc6112987a5764a8f85241d3026a2ee4935"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/eXGUs5sy/continuity-3.0.0%2B1.21.neoforge.jar",
+          "filename": "continuity-3.0.0+1.21.neoforge.jar",
+          "primary": true,
+          "size": 1014626,
+          "file_type": null
+        },
+        {
+          "id": "fNmoY7cy",
+          "hashes": {
+            "sha512": "9ab3c469b3bd126c0ac3ddabd3698f978dbd52f689fddac0fdfaa1438fd77eda90cb67e1f7e4b42fb1c653b9c17be55fa4b881f83dc8b55891d3a94d8303b063",
+            "sha1": "4f01919047fb5eea8bb79881a24cc41172196b5e"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/eXGUs5sy/continuity-3.0.0%2B1.21.neoforge-sources.jar",
+          "filename": "continuity-3.0.0+1.21.neoforge-sources.jar",
+          "primary": false,
+          "size": 995985,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "u58R1TMW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "Aqlf1Shp",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_only",
+      "id": "9KbAcWSO",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.20.1.forge",
+      "version_number": "3.0.0+1.20.1.forge",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-10T23:50:05.314027Z",
+      "downloads": 5652190,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "hnR4jpvx",
+          "hashes": {
+            "sha512": "eef634cde3307893e6f0c4c1d2e9a6e3eb706ee1b9ee86403d18c65762f7158e774665e503486477788b0ca320f543d03d5667a94f82ae2cd99f15a32e953b3a",
+            "sha1": "816c1bb15c3686f67143dabced87bd4811cc43d2"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/9KbAcWSO/continuity-3.0.0%2B1.20.1.forge.jar",
+          "filename": "continuity-3.0.0+1.20.1.forge.jar",
+          "primary": true,
+          "size": 1016666,
+          "file_type": null
+        },
+        {
+          "id": "NoToQaod",
+          "hashes": {
+            "sha512": "8a21030625a5a65e7c36f89cfea607636caf6477d8282b51ee4cfddc2c676235242c25d33b2460b20f7ec51ee513b11f95f03b53efd0f2f8168984ae0918e05d",
+            "sha1": "84dc54075b39c9102882262602226c7a35c74641"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/9KbAcWSO/continuity-3.0.0%2B1.20.1.forge-sources.jar",
+          "filename": "continuity-3.0.0+1.20.1.forge-sources.jar",
+          "primary": false,
+          "size": 996887,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Aqlf1Shp",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "u58R1TMW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "kwuHTVHC",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.21.3",
+      "version_number": "3.0.0+1.21.3",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value\n\n### 1.21.3+:\n\n- Remove support for invalid paths",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:28:45.969316Z",
+      "downloads": 198634,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "SNERpP4R",
+          "hashes": {
+            "sha1": "e2a280b9abed4a2e2d95b34266695d1107ddd344",
+            "sha512": "34f8817512e5294843f0cc97faf50c6bf5bfbeed614010fa944bf3a97e33b3b7ffc5cb553d9b9f1c435cc23819d35744ff6cb86b293530d58f4711c2145c97dc"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kwuHTVHC/continuity-3.0.0%2B1.21.3.jar",
+          "filename": "continuity-3.0.0+1.21.3.jar",
+          "primary": true,
+          "size": 1003345,
+          "file_type": null
+        },
+        {
+          "id": "6Mj8FlTT",
+          "hashes": {
+            "sha512": "e4059565f22d12751c6a8a544c5c1d3ece9d78da5604ebac8838aa176c3fecc82974bd4df0cf7c5c9c66706d456e1dc3c4abb9f6b59fedcce5efe6913319c412",
+            "sha1": "4232f6a8bbc6799a7f204477d3202b9d02233d72"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kwuHTVHC/continuity-3.0.0%2B1.21.3-sources.jar",
+          "filename": "continuity-3.0.0+1.21.3-sources.jar",
+          "primary": false,
+          "size": 990023,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "kSPJ4hQv",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.21",
+      "version_number": "3.0.0+1.21",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:28:12.999814Z",
+      "downloads": 12823728,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "mJCHiADF",
+          "hashes": {
+            "sha1": "c7f09b53512604c2ba6803b1247bc70e4d0f8f8c",
+            "sha512": "3601ddb50f19142c087d32525bc0afcfb5f49a2e7477b6645a98ec191218739fdf3c6ac95cd298e826eb34fc533af43bb0e78c64e51292866ecabade4d14b13a"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kSPJ4hQv/continuity-3.0.0%2B1.21.jar",
+          "filename": "continuity-3.0.0+1.21.jar",
+          "primary": true,
+          "size": 1014044,
+          "file_type": null
+        },
+        {
+          "id": "BD4CWyJu",
+          "hashes": {
+            "sha1": "e2cab25861d6fe91bace60610943b9061e53a360",
+            "sha512": "fc7ea21bf8d659a396740c401f843f063116aa26a3981a8893d7529235d725039e7c7e9be860b8f6161ea3148a64bfbbdc4c985af3aa1f31453a3656b6499f69"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kSPJ4hQv/continuity-3.0.0%2B1.21-sources.jar",
+          "filename": "continuity-3.0.0+1.21-sources.jar",
+          "primary": false,
+          "size": 995342,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "RXCRb59j",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.20.5",
+      "version_number": "3.0.0+1.20.5",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:27:43.467017Z",
+      "downloads": 110592,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "RGBTHoO9",
+          "hashes": {
+            "sha512": "99083b1289674aa8b5862112f15babfd061457268b2e225626423c732e9565c07423b8da3c3180d8039ac1b3504b320df38136cff1c3f5527752490baba76bfe",
+            "sha1": "3a9d7ad82440d772e40c7f5c27e7992078f6bf91"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/RXCRb59j/continuity-3.0.0%2B1.20.5.jar",
+          "filename": "continuity-3.0.0+1.20.5.jar",
+          "primary": true,
+          "size": 1016116,
+          "file_type": null
+        },
+        {
+          "id": "NT9itAeO",
+          "hashes": {
+            "sha1": "afe2d2de13c2e4adfedc1b07fc2b4816eee12e79",
+            "sha512": "41ce1293982f457a67e57968a164b96c485e0871f1175636d2fa70697787e7176dc4112d14cdc33c60d33ea84d713cace4fc3c84d5d8e6284385f321d7a90a77"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/RXCRb59j/continuity-3.0.0%2B1.20.5-sources.jar",
+          "filename": "continuity-3.0.0+1.20.5-sources.jar",
+          "primary": false,
+          "size": 996225,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "WMwDkIY8",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.20.2",
+      "version_number": "3.0.0+1.20.2",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:27:13.154911Z",
+      "downloads": 274759,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ZXNUAOU0",
+          "hashes": {
+            "sha512": "99e5e88a6bdbed440d6971a2718f2178efb7f7c1b1e2bf7166f2d7a7edf4f659683c7f9105a90b77b16fd4bc67e4b6330bf5a6e3e7befc5235eb9cd937d174c3",
+            "sha1": "d99ae792024c9ef21c2da8481b3e9e474bdfbe0c"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/WMwDkIY8/continuity-3.0.0%2B1.20.2.jar",
+          "filename": "continuity-3.0.0+1.20.2.jar",
+          "primary": true,
+          "size": 1016209,
+          "file_type": null
+        },
+        {
+          "id": "UmG85ZaW",
+          "hashes": {
+            "sha512": "e7cdb88870b68968ee74733f0a28054693c0c221c4f4e14ad1d0b1ff35981448dfe40da5ea320adbe095b869ea921df53f16c44f832da3029b0d1d10d44d28ac",
+            "sha1": "bc17326248cbc5d9b0f035cc20621d2e58d7211e"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/WMwDkIY8/continuity-3.0.0%2B1.20.2-sources.jar",
+          "filename": "continuity-3.0.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 996289,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "qGTDcjHM",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.20.1",
+      "version_number": "3.0.0+1.20.1",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:26:19.547830Z",
+      "downloads": 6652910,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "B2643P81",
+          "hashes": {
+            "sha512": "7205cae3c534fd5d5328a9659146911381c06e54da995aabd11745ad72def5bd5120b7cb792fab2e8dcaa4670c23bdba21079b8f6da94152cfc6ea4b415edcbf",
+            "sha1": "b9b3908c93efed3da5ad7caaf733b9d5b678c85f"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/qGTDcjHM/continuity-3.0.0%2B1.20.1.jar",
+          "filename": "continuity-3.0.0+1.20.1.jar",
+          "primary": true,
+          "size": 1016063,
+          "file_type": null
+        },
+        {
+          "id": "wjEuDqMd",
+          "hashes": {
+            "sha512": "61e4397970ead4716c484d9cce27aab5ab8eeeae96588a8e00c0faa3ee8700c08576a7201fdbce4a948731e42f5dcb0d753e73f209d868fdb78d31d9eeb4735b",
+            "sha1": "9843eabe7f0748f87426c2694c7af5ead503534d"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/qGTDcjHM/continuity-3.0.0%2B1.20.1-sources.jar",
+          "filename": "continuity-3.0.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 996214,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "kHdjiepB",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.19.4",
+      "version_number": "3.0.0+1.19.4",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance\n\n### 1.19.4+:\n\n- Make it so an overlay with an undefined `tintBlock` always has ambient occlusion enabled (unless disabled globally) instead of using the default value",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:25:43.301038Z",
+      "downloads": 73225,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "8uvF6TJY",
+          "hashes": {
+            "sha512": "7d86c790aa0b93a39a2849c8437c38e79489df3c249c40527003b4eaf2d30690084c44d96eb36bc924412a9de874b24899fd49cbb584f79c776e477e20539244",
+            "sha1": "2622a1c251493d7ee3e0d2dea7f6d10e140adab9"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kHdjiepB/continuity-3.0.0%2B1.19.4.jar",
+          "filename": "continuity-3.0.0+1.19.4.jar",
+          "primary": true,
+          "size": 1022767,
+          "file_type": null
+        },
+        {
+          "id": "7mZvDjAz",
+          "hashes": {
+            "sha512": "21d52b33bdba50cd470048d2b849328fb6a433eb81021707d880b6a64ff99d96ce586d5d31e3701002da47c208d48c3ef5a40d6a94538918474fbfec7c8b3f24",
+            "sha1": "aa44388e3364b6c2bd365cb28f7e3f0af4996d7d"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kHdjiepB/continuity-3.0.0%2B1.19.4-sources.jar",
+          "filename": "continuity-3.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 999219,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "mvRzsvHc",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0+1.19.3",
+      "version_number": "3.0.0+1.19.3",
+      "changelog": "The changes listed below are relative to the last full release, Continuity 2.0.2.\n\n### Fixes\n\n- Fix sprite paths starting with `assets/minecraft/` not being parsed correctly\n- Fix custom block layers not being applied to moving blocks\n- Fix `disableSolidCheck` using previously defined value instead of default value when no value was defined after a resource reload\n- Fix `overlay` method edge case where corner overlay would be applied when it shouldn't have been\n- Fix potential performance issues when resource packs add emissive item textures but emissive textures are disabled in the config\n\n### Compatibility Improvements\n\n- Add support for Fabric block appearance API\n- Improve mod compatibility of `overlay` method\n- Improve mod compatibility of default pack\n\n### Resource Pack Format Changes\n\n- Add `orient` property\n- Add `overlay_horizontal`, `overlay_vertical`, `overlay_horizontal+vertical`, and `overlay_vertical+horizontal` methods\n- Disallow relative and non-standard sprite paths when namespace is defined\n\nMore details about these changes can be found at the [wiki](<https://github.com/PepperCode1/Continuity/wiki/Continuity-Connected-Textures-Specification>).\n\n### Other Changes\n\n- Update and improve config screen\n- Add pack icon for glass pane culling fix pack\n- Slightly improve pack icon for default pack\n- Improve built-in pack descriptions\n- Add and update translations\n\t- Add European Spanish (es_es) translation\n\t- Add Mexican Spanish (es_mx) translation\n\t- Add Malay (ms_my) translation\n\t- Add Swedish (sv_se) translation\n\t- Add Turkish (tr_tr) translation\n\t- Add Tatar (tt_ru) translation\n\t- Add Vietnamese (vi_vn) translation\n\t- Add Traditional Chinese (zh_tw) translation\n\t- Add Malay (Jawi) (zlm_arab) translation\n\t- Update Estonian (et_ee) translation\n\t- Update Filipino (fil_ph) translation\n\t- Update Korean (ko_kr) translation\n\t- Update Polish (po_po) translation\n\t- Update Russian (ru_ru) translation\n\t- Update Ukrainian (uk_ua) translation\n- Optimize performance",
+      "changelog_url": null,
+      "date_published": "2024-12-04T18:24:53.394490Z",
+      "downloads": 8809,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "C17X9MYu",
+          "hashes": {
+            "sha1": "2e8666159fd79919cd9859012fe37f9cdb3b727d",
+            "sha512": "8206e3b3d2a38db7676bc41b6e9dfdaf9725d6087589af1623b4decf0f4cbfc9b4aba5b571284e4cf7ef62f979af9e440fa4e6d3e980499db0f689ff03cc7506"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mvRzsvHc/continuity-3.0.0%2B1.19.3.jar",
+          "filename": "continuity-3.0.0+1.19.3.jar",
+          "primary": true,
+          "size": 1022720,
+          "file_type": null
+        },
+        {
+          "id": "yY5QVwyW",
+          "hashes": {
+            "sha1": "a40dcd8da32fbbf826709c92fc4406e4ff5dbb49",
+            "sha512": "b58ce079d4797bc416e8863821b353fd136587fe7fd553af7a411b1f687a2c3ee20c45bca4d70f8e8f61a442b1f4e0066889c2f671c8c33c5eaebd8fb0ecd101"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/mvRzsvHc/continuity-3.0.0%2B1.19.3-sources.jar",
+          "filename": "continuity-3.0.0+1.19.3-sources.jar",
+          "primary": false,
+          "size": 999626,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "NksUpFjf",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.5+1.21",
+      "version_number": "3.0.0-beta.5+1.21",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-06-13T23:53:12.936736Z",
+      "downloads": 4713373,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "KJwmpQz6",
+          "hashes": {
+            "sha512": "48302fffe163fa0264f5feb8e98882cc0ecb820e1fbf417d7e7e9e499f7097c1d4e9f9acb38fd5d9e0200f61fc677b0e864bc705d1b9d1e56fd29efbbce28f6a",
+            "sha1": "16d31a39e85dc10cdff4e06198a1bb26b4b82427"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/NksUpFjf/continuity-3.0.0-beta.5%2B1.21.jar",
+          "filename": "continuity-3.0.0-beta.5+1.21.jar",
+          "primary": true,
+          "size": 1007136,
+          "file_type": null
+        },
+        {
+          "id": "AuJ78l6n",
+          "hashes": {
+            "sha512": "cb8ce965169f7575535eddc8678dbf4e3ccc4a4ee82db77f37003882f7cdb2283972e2bc513fdc2f94d675013701e8b1b6215be85fc9c7cc1ed8b70939ffcc50",
+            "sha1": "1a177f8fd0c0d3b523cfbbb8b39974323ea73d59"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/NksUpFjf/continuity-3.0.0-beta.5%2B1.21-sources.jar",
+          "filename": "continuity-3.0.0-beta.5+1.21-sources.jar",
+          "primary": false,
+          "size": 987429,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "hI13Vg85",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.5+1.20.5",
+      "version_number": "3.0.0-beta.5+1.20.5",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-05-15T05:16:05.911123Z",
+      "downloads": 365124,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "boTnPwnt",
+          "hashes": {
+            "sha512": "b5252aa28b29a1e7d148a84b24c6bc955f4f7be4dc8a1a4fa65dc75bab8e77a6dad5532cc28da6a6e74badf6df78a947a5904cbda28cadf14a54c4c0b73c9394",
+            "sha1": "3ae0661c92d8b83d885496f1f54df50a494e94c2"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/hI13Vg85/continuity-3.0.0-beta.5%2B1.20.5.jar",
+          "filename": "continuity-3.0.0-beta.5+1.20.5.jar",
+          "primary": true,
+          "size": 1009234,
+          "file_type": null
+        },
+        {
+          "id": "QXa3S0C6",
+          "hashes": {
+            "sha1": "e2715d04b7786e421e048ac0c8f1422dba4a97c2",
+            "sha512": "4a6d81abf48a0a2b75bd0705f8818c9be2d64ced4c7a9fba65692019b5c6329e4ef516a40018724eb27c52ce7408b137b34b97f953d3798b045c3957a92845aa"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/hI13Vg85/continuity-3.0.0-beta.5%2B1.20.5-sources.jar",
+          "filename": "continuity-3.0.0-beta.5+1.20.5-sources.jar",
+          "primary": false,
+          "size": 988319,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "Ox1racg8",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.5+1.20.2",
+      "version_number": "3.0.0-beta.5+1.20.2",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-05-15T05:15:39.883269Z",
+      "downloads": 562679,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "lUuFPHAA",
+          "hashes": {
+            "sha512": "e86ca6386b3be5f1d95845b85cada2341258bc7fe71f82ae7fd13bf4b7e889ec048ee7e564f0ab6de8a777e44026d9539866da677fe1c774ce87e2deedbd0292",
+            "sha1": "1604e431b7ece673fff7b5d5c15ea0385ce9b33a"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Ox1racg8/continuity-3.0.0-beta.5%2B1.20.2.jar",
+          "filename": "continuity-3.0.0-beta.5+1.20.2.jar",
+          "primary": true,
+          "size": 1009401,
+          "file_type": null
+        },
+        {
+          "id": "bXqT2kff",
+          "hashes": {
+            "sha1": "af53406722e290db1d681a5c7d46c53134695677",
+            "sha512": "b46cf6b39ae559a9f04cb5943d3c7e620a75546928c91085ff216a4f2563f251d28e240510ac8f772455d0e6f951fa5b02f9745a21754f770c06786ba0974e98"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Ox1racg8/continuity-3.0.0-beta.5%2B1.20.2-sources.jar",
+          "filename": "continuity-3.0.0-beta.5+1.20.2-sources.jar",
+          "primary": false,
+          "size": 988347,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "84Zs6tNo",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.5+1.20.1",
+      "version_number": "3.0.0-beta.5+1.20.1",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-05-15T05:15:11.429367Z",
+      "downloads": 4361230,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "aHNYxLxy",
+          "hashes": {
+            "sha512": "8996e74dfe96ee845bdd25e2fc5ec73a73073b2b7945693a6058182a19fd8486c4d7f03de87a3369fb73a912411b8f9061a93f0fef77c4d729157de2f31e96be",
+            "sha1": "15ad75d51f567c69308b91223454bacfd2eda7a5"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/84Zs6tNo/continuity-3.0.0-beta.5%2B1.20.1.jar",
+          "filename": "continuity-3.0.0-beta.5+1.20.1.jar",
+          "primary": true,
+          "size": 1009252,
+          "file_type": null
+        },
+        {
+          "id": "zVOOV3m6",
+          "hashes": {
+            "sha512": "e9b564d6b6e0f1e9f8454615e4727407cdb913e92287d4e7a06fa2e94c281871a7aa6bee141420d721b3799eef7e3979b8230e3717e4d6dbcfd1c4008ab88df0",
+            "sha1": "76a4e8118097a99fde21ad759c85a63173fe3daf"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/84Zs6tNo/continuity-3.0.0-beta.5%2B1.20.1-sources.jar",
+          "filename": "continuity-3.0.0-beta.5+1.20.1-sources.jar",
+          "primary": false,
+          "size": 988272,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "MfBeYvQa",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.5+1.19.4",
+      "version_number": "3.0.0-beta.5+1.19.4",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-05-15T05:14:51.079701Z",
+      "downloads": 25386,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Rljspk5T",
+          "hashes": {
+            "sha512": "f2dd46aa168e82bd8d2d10a413179e1a26aa049152a553daa326671867a0b8dbd62d3b97dbce45dace5f8c59f2dc4f8c3afb36dee921d1ef6cae281358ab1d54",
+            "sha1": "39d52b52fde96027a7d36c70b4f39317904d567e"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/MfBeYvQa/continuity-3.0.0-beta.5%2B1.19.4.jar",
+          "filename": "continuity-3.0.0-beta.5+1.19.4.jar",
+          "primary": true,
+          "size": 1015907,
+          "file_type": null
+        },
+        {
+          "id": "UaJUKRpZ",
+          "hashes": {
+            "sha1": "11cbe5ad4b2043e59ca8df2a504a838eb8b9ebe6",
+            "sha512": "bb2b6527685b517cdedc3a424537e5b464ca650006e3b758e9b71efbd6887248a91b14574a362cee862b6ce0b60329866f1aa5e151ff1e11c9f5a2458e7ed076"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/MfBeYvQa/continuity-3.0.0-beta.5%2B1.19.4-sources.jar",
+          "filename": "continuity-3.0.0-beta.5+1.19.4-sources.jar",
+          "primary": false,
+          "size": 991283,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "Fc7h8MWD",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.5+1.19.3",
+      "version_number": "3.0.0-beta.5+1.19.3",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-05-15T05:14:18.198063Z",
+      "downloads": 3476,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "u3p8jFHU",
+          "hashes": {
+            "sha512": "86b342f25e4b6795ac2d7cc08dcd9e859468bcec6ce63d22f314798495b2acee80eaca7c4b05a43c9a873169bdf5674c0b8299c4dd2dd65713fc440fa66d64f7",
+            "sha1": "0f7af913e5be28da40398ccee7ae226d6855ef35"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Fc7h8MWD/continuity-3.0.0-beta.5%2B1.19.3.jar",
+          "filename": "continuity-3.0.0-beta.5+1.19.3.jar",
+          "primary": true,
+          "size": 1015859,
+          "file_type": null
+        },
+        {
+          "id": "Dlw9D49U",
+          "hashes": {
+            "sha512": "f45168eccf96f4a2f51d1570fbc67367fed7f420525712516695da83c0d366cc990581a60dfb3757d967bee7064fbb91d5fed780e7460130c170f911145a77d1",
+            "sha1": "40de67d953759205ec3647412faa45d1f87c98e3"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Fc7h8MWD/continuity-3.0.0-beta.5%2B1.19.3-sources.jar",
+          "filename": "continuity-3.0.0-beta.5+1.19.3-sources.jar",
+          "primary": false,
+          "size": 991638,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "JXhQlDZl",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.4+1.20.2",
+      "version_number": "3.0.0-beta.4+1.20.2",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-10-02T18:16:59.168385Z",
+      "downloads": 1445491,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "pdcsjf5T",
+          "hashes": {
+            "sha512": "e8fde231301571ee75695bcd8ceb69db77192551217d8c65d8587d4f114b241112f06b39f82d84c3a13c98c42be6666a9a207890340413441fbe91237f56fbcf",
+            "sha1": "f9eaa5fc75d2747dbe14818dfde04eaf7152ae3c"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/JXhQlDZl/continuity-3.0.0-beta.4%2B1.20.2.jar",
+          "filename": "continuity-3.0.0-beta.4+1.20.2.jar",
+          "primary": true,
+          "size": 1050675,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "Z9FJWLMt",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.4+1.20.1",
+      "version_number": "3.0.0-beta.4+1.20.1",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-10-02T18:16:30.272151Z",
+      "downloads": 4603010,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "EbgRGEWe",
+          "hashes": {
+            "sha1": "b662fd625ba1f06c6e4958eac373856047d0d2a9",
+            "sha512": "2a42ef76cd2a60af01fffed1cd9e08270b537f116f7fa0ede49a5b526fa7b9860845a6f321c4a7600f80e739391eb24a6e6d9850c33894b58bc2d01a8a63f8b4"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Z9FJWLMt/continuity-3.0.0-beta.4%2B1.20.1.jar",
+          "filename": "continuity-3.0.0-beta.4+1.20.1.jar",
+          "primary": true,
+          "size": 1050571,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "JYaO3lPe",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.4+1.19.4",
+      "version_number": "3.0.0-beta.4+1.19.4",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-10-02T18:15:52.595037Z",
+      "downloads": 34489,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "dC9uX0Ey",
+          "hashes": {
+            "sha512": "208d570f0f8f70b7ce4d18ca6827bac94770868af53033086695c469047c43dd8d3c36d1d4e46c09b0a6637aca326bdc7810511011b5579f9a592e2df180ce42",
+            "sha1": "4027da029ad3aa67e1428bc56f8104ff408d9b5e"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/JYaO3lPe/continuity-3.0.0-beta.4%2B1.19.4.jar",
+          "filename": "continuity-3.0.0-beta.4+1.19.4.jar",
+          "primary": true,
+          "size": 1056101,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "xy2co4Rh",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.3+1.20.1",
+      "version_number": "3.0.0-beta.3+1.20.1",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-07-22T14:34:48.402141Z",
+      "downloads": 752422,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "zM6bG9k1",
+          "hashes": {
+            "sha512": "52728e6919e61a9e4f00427a4f0646433d85fa0853d7946fe8651fd82e4f4c1140aa7b7e45e1e2a456a61a68fc74501ecd8317058ef7b00954fa13bd9b316c69",
+            "sha1": "28fa0bc995fe240d17fcb1b2c8de8b0afd98213e"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/xy2co4Rh/continuity-3.0.0-beta.3%2B1.20.1.jar",
+          "filename": "continuity-3.0.0-beta.3+1.20.1.jar",
+          "primary": true,
+          "size": 1048859,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "XheZ9iGK",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "OOpbpU2z",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.3+1.19.4",
+      "version_number": "3.0.0-beta.3+1.19.4",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-07-22T14:34:20.838255Z",
+      "downloads": 15238,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "NqopbwHK",
+          "hashes": {
+            "sha1": "f920bfb994691ffb75834e041dfa98d510609aee",
+            "sha512": "4fdc40d8c29240d206511b0e42b4643edffe6e8cf62ae5bd5e523a480c94fc0ba36adb996e3b6eba80dd71110474347f9690767d154996098354ff82397f90a9"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/OOpbpU2z/continuity-3.0.0-beta.3%2B1.19.4.jar",
+          "filename": "continuity-3.0.0-beta.3+1.19.4.jar",
+          "primary": true,
+          "size": 1052537,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "uIYkhRbX",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "G2qoxVmV",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.3+1.19.3",
+      "version_number": "3.0.0-beta.3+1.19.3",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-07-22T14:33:44.562885Z",
+      "downloads": 18788,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Euy7Mbd2",
+          "hashes": {
+            "sha1": "2e64b27a9f2893eddda3692d0c46616a11f56ae3",
+            "sha512": "8127a51aa8492a7f418fa66d5b3341e8839feb81cf1f48cb5e64cc82c6ec5d0c492affa4783d833b70b1f5e4d3c2698eef05f2a1319336443b037100c6983b03"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/G2qoxVmV/continuity-3.0.0-beta.3%2B1.19.3.jar",
+          "filename": "continuity-3.0.0-beta.3+1.19.3.jar",
+          "primary": true,
+          "size": 1052717,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "ImUFj5Gl",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.2+1.20",
+      "version_number": "3.0.0-beta.2+1.20",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-06-11T19:48:13.390564Z",
+      "downloads": 482685,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "zNNcsxlf",
+          "hashes": {
+            "sha1": "c5157819671612384834730a877eec5c484b5cf9",
+            "sha512": "516ace2e6f11ee8a7559d4519350cf00743d17ad6170c18886f9cd45c89900e86a6cd4e0ba67877657387d0a91704b6e57584a228d5c74889f6e84fd38857f5d"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/ImUFj5Gl/continuity-3.0.0-beta.2%2B1.20.jar",
+          "filename": "continuity-3.0.0-beta.2+1.20.jar",
+          "primary": true,
+          "size": 1143994,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "XheZ9iGK",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "4h5IIa7B",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "3.0.0-beta.2+1.19.3",
+      "version_number": "3.0.0-beta.2+1.19.3",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-03-23T21:20:03.604102Z",
+      "downloads": 345887,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "GpeTeig5",
+          "hashes": {
+            "sha1": "229057727abf35e0469527b94d84d96e1770c156",
+            "sha512": "8905878952c0bd85d9b2bf3b2917232ac825dce4e77eb0aac10e80d28bdae019e3d37529f6c280e4904f918297eca87f174a9a6d8d2e5a20679ac5f01f1baf6a"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/4h5IIa7B/continuity-3.0.0-beta.2%2B1.19.3.jar",
+          "filename": "continuity-3.0.0-beta.2+1.19.3.jar",
+          "primary": true,
+          "size": 1145374,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "5U5Y73uW",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "Ql3Ho9eR",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "2.0.2+1.19",
+      "version_number": "2.0.2+1.19",
+      "changelog": "- Fix `matchBlocks` accepting at most one block state property per block\n- Fix empty `biomes` property value causing an error\n- Fix `weights` ranges accepting values less than 1\n- Fix `matchTiles` parsing resetting the sprite namespace if the path does not contain a slash\n- Only convert unspecified sprite location namespace when path starts with \"optifine/\"\n- Remove `weight` property\n- Add `prioritize` boolean property\n- Add `optifineOnly` boolean property\n- Add `disableSolidCheck` boolean property to `block.properties` for better Optifine parity\n- Fix `ctm_compact` not replacing sprite in no-split case\n- Fix `random` sometimes getting block states more than two positions away from the origin position\n- Add compatibility for CIT Resewn emissive textures\n- Fix block emissives checking the wrong feature state\n- Disable connected and emissive textures for blocks being moved by pistons\n- Add Czech translation\n- Add Korean translation\n- Add Portuguese translation\n- Add Tagalog translation\n- Add Ukrainian translation\n- Update German translation",
+      "changelog_url": null,
+      "date_published": "2023-03-16T18:43:53.203333Z",
+      "downloads": 1137542,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "QH1fnrSn",
+          "hashes": {
+            "sha512": "99693423eed317d82298735b71b2f43d94ccc3dcdfcce39c4b629c3691053eca1322e1fa9bcca0135195dcaefbc946b4cee2d4caec1bbf3745527bad38592c01",
+            "sha1": "b7f4060c66eee13fa1385da89090560de30358e1"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Ql3Ho9eR/continuity-2.0.2%2B1.19.jar",
+          "filename": "continuity-2.0.2+1.19.jar",
+          "primary": true,
+          "size": 1137578,
+          "file_type": null
+        },
+        {
+          "id": "CuDfYnZW",
+          "hashes": {
+            "sha1": "f5aee7ba0e1c00cfc025dd70fbde54e192122e6f",
+            "sha512": "12dd572268d7ae827068c53092362de26c487228c5bfee0d2f37ddc8251503485a591670dad5dcdc0b786d1eb7d1f67945f41151298b6e1374d672bbfe9229d5"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/Ql3Ho9eR/continuity-2.0.2%2B1.19-sources.jar",
+          "filename": "continuity-2.0.2+1.19-sources.jar",
+          "primary": false,
+          "size": 984418,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "hfsU4hXq",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_only",
+      "id": "YEKdScFW",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "2.0.2+1.18.2",
+      "version_number": "2.0.2+1.18.2",
+      "changelog": "- Fix `matchBlocks` accepting at most one block state property per block\n- Fix empty `biomes` property value causing an error\n- Fix `weights` ranges accepting values less than 1\n- Fix `matchTiles` parsing resetting the sprite namespace if the path does not contain a slash\n- Only convert unspecified sprite location namespace when path starts with \"optifine/\"\n- Remove `weight` property\n- Add `prioritize` boolean property\n- Add `optifineOnly` boolean property\n- Add `disableSolidCheck` boolean property to `block.properties` for better Optifine parity\n- Fix `ctm_compact` not replacing sprite in no-split case\n- Fix `random` sometimes getting block states more than two positions away from the origin position\n- Add compatibility for CIT Resewn emissive textures\n- Fix block emissives checking the wrong feature state\n- Disable connected and emissive textures for blocks being moved by pistons\n- Add Czech translation\n- Add Korean translation\n- Add Portuguese translation\n- Add Tagalog translation\n- Add Ukrainian translation\n- Update German translation",
+      "changelog_url": null,
+      "date_published": "2023-03-16T18:42:49.935489Z",
+      "downloads": 178527,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "MuaJ5HSu",
+          "hashes": {
+            "sha1": "deac42ece8115f0f7e8c46dc4450bf2674d57331",
+            "sha512": "6ffa8af218faf2936869beb2cb0ec7baa6661b9d97c1c9dda55adc49a3d919fc6e9e143c1f61ebc94d505b4fffcce9089b1d5c4e55e62d2b2caed0a803fb591a"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/YEKdScFW/continuity-2.0.2%2B1.18.2.jar",
+          "filename": "continuity-2.0.2+1.18.2.jar",
+          "primary": true,
+          "size": 1137319,
+          "file_type": null
+        },
+        {
+          "id": "auw2kkNg",
+          "hashes": {
+            "sha512": "997da5e47b2484e9d1df9f9f229ae5a6d5b6295541ecce61876aca6326f17cbea8e9f02db45a6b0889e562f8edd87685f86841bf8ed404df0c2f5a0d0013d5a3",
+            "sha1": "dc02dae8ffd151fd3f97ef9c9c3ebecf9e340afe"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/YEKdScFW/continuity-2.0.2%2B1.18.2-sources.jar",
+          "filename": "continuity-2.0.2+1.18.2-sources.jar",
+          "primary": false,
+          "size": 984336,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "95QMsRyb",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "xTtULC68",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "2.0.1+1.19",
+      "version_number": "2.0.1+1.19",
+      "changelog": "- Fix emissives on CTM overlays not using the correct layer\n- Add `innerSeams` support to all applicable methods (`horizontal`, `vertical`, `h+v`, `v+h`, `top`)\n- Slightly improve logging\n- Minor performance improvements\n- Add Hellenic translation\n- Update Chinese translation\n- Fix Russian translation\n- Fabric API 0.58.0 or higher is required",
+      "changelog_url": null,
+      "date_published": "2022-08-10T01:09:46.706251Z",
+      "downloads": 220541,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "jWNPgJ0d",
+          "hashes": {
+            "sha1": "d82700772659f65560202f1cbd0e744007b21a75",
+            "sha512": "02d39d75d73f049184848fb4fda6d4f5fed644379f5cad9747f25be815ebf6667a780f8facbec37b59783a9adff236f8375b632d0846f13ada1f803c19c44758"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/2.0.1%2B1.19/continuity-2.0.1%2B1.19.jar",
+          "filename": "continuity-2.0.1+1.19.jar",
+          "primary": true,
+          "size": 1128730,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "EsaWeELS",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "jjpzIZoY",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "2.0.1+1.18.2",
+      "version_number": "2.0.1+1.18.2",
+      "changelog": "- Fix emissives on CTM overlays not using the correct layer\n- Add `innerSeams` support to all applicable methods (`horizontal`, `vertical`, `h+v`, `v+h`, `top`)\n- Slightly improve logging\n- Minor performance improvements\n- Add Hellenic translation\n- Update Chinese translation\n- Fix Russian translation\n- Fabric API 0.58.0 or higher is required",
+      "changelog_url": null,
+      "date_published": "2022-08-10T01:09:05.634039Z",
+      "downloads": 87284,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Qvbldw17",
+          "hashes": {
+            "sha1": "0ccc70d5e03526597558829bffba2ff3bf5db5c4",
+            "sha512": "1a1827fa6c4358726fea893947dc463c7c1ae13aa6ca0b92918a93f21775edb6efbc718e794902ac521f8ed4cd2ea5c041d46fe0ba7f9ca3bd2b4b3cbf088777"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/2.0.1%2B1.18.2/continuity-2.0.1%2B1.18.2.jar",
+          "filename": "continuity-2.0.1+1.18.2.jar",
+          "primary": true,
+          "size": 1128465,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": "95QMsRyb",
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "zcqSiVI3",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "2.0.0+1.19",
+      "version_number": "2.0.0+1.19",
+      "changelog": "- Update to 1.19",
+      "changelog_url": null,
+      "date_published": "2022-06-08T05:59:54.232234Z",
+      "downloads": 54532,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "rF551a8m",
+          "hashes": {
+            "sha1": "ac4deeead3e1c4a3d54759f5d27c514f34f9115f",
+            "sha512": "a5a349c3670c5c63750e37de0f4497a1ea7ce770d5d0b69d3ca014eb749ba4f0fad8c4f52a9882daa05f89568dd4a18217e61c2906db1d464a0e65d8b45505f9"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/2.0.0%2B1.19/continuity-2.0.0%2B1.19.jar",
+          "filename": "continuity-2.0.0+1.19.jar",
+          "primary": true,
+          "size": 1128177,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "Bl7pOAQf",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "2.0.0+1.18.2",
+      "version_number": "2.0.0+1.18.2",
+      "changelog": "- Add support for emissive textures on block and item models\n- Rewrite resource redirect system to support sprite identifier suffixes\n- Partially rewrite model wrapping\n- Update configuration\n- Fix log spam on failed resource reload\n- Fix `connectBlocks`/`connectTiles` and `heights` parity bugs\n- Minor performance improvements",
+      "changelog_url": null,
+      "date_published": "2022-06-08T05:51:50.757161Z",
+      "downloads": 28784,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "UPLToCiH",
+          "hashes": {
+            "sha1": "55c8fb90c3c3af60a3c3d2dc28aa0a6a1b866c5c",
+            "sha512": "8ae85cbd91456e4b5e5d5753d31a04efc9d0bb2775c41718b384dbc4e9895369ed01828060163c473498535661ac48719e7a14c1f9713a71a19af17836c98ae8"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/2.0.0%2B1.18.2/continuity-2.0.0%2B1.18.2.jar",
+          "filename": "continuity-2.0.0+1.18.2.jar",
+          "primary": true,
+          "size": 1127914,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "gOxkykhO",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.1.0+1.18.2",
+      "version_number": "1.1.0+1.18.2",
+      "changelog": "- Update to 1.18.2",
+      "changelog_url": null,
+      "date_published": "2022-03-05T22:37:55.464027Z",
+      "downloads": 96050,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ny5d5xiq",
+          "hashes": {
+            "sha1": "a5ff4cb7d4c0fc3b5809a52b096b92ccf9d8cb55",
+            "sha512": "5128c5298c0045e7c502a331c95b293c5065129f85fc0808744e35cfe1a841314b1fb3e56bdc891af6e516dcba136b04f338ea90a16d56bb8c93aefbd7a04b04"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.1.0%2B1.18.2/continuity-1.1.0%2B1.18.2.jar",
+          "filename": "continuity-1.1.0+1.18.2.jar",
+          "primary": true,
+          "size": 1100435,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "sD3iTKbB",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.1.0+1.18",
+      "version_number": "1.1.0+1.18",
+      "changelog": "- Fix, improve, reorganize, and compress default resource pack\n  - Add programmer art connected textures\n  - Improve sandstone, bookshelf, and standard glass textures\n  - Fix red and blue glass textures to be consistent with 1.18 textures\n  - Fix some textures that contained incorrect pixel color values\n- Rewrite `ctm_compact`\n  - Fix `ctm_compact` not working correctly with UVs that do not include the entire sprite\n  - Fix `ctm_compact` splitting quads more times than necessary\n- Fix standard overlay application checks\n- Fix `ctm_compact` tile replacements\n- Fix `overlay_ctm` method using texture orientation\n- Fix unexpected tile parsing behavior when using custom namespace\n- Update biome compatibility\n  - Now only supports Sodium mc1.18.1-0.4.0-alpha6 or higher and Canvas 1.0.2187 or higher\n  - Fix InputRegion log warning\n- Add Italian translation\n- Add Simplified Chinese translation\n- Improve French translation",
+      "changelog_url": null,
+      "date_published": "2022-02-21T05:45:08.392360Z",
+      "downloads": 10714,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "SnKf7Lpc",
+          "hashes": {
+            "sha512": "2c1b67d7cbc8a9ba96eaa6c3d146426167515924d72b495b8ac07aa0d3ef5708ab3b4a4621ad47ae2735a9ad62de4990909638320a37fb0b96ef5d0cfe81fb4d",
+            "sha1": "2bb59162457f3fbe90794c1a8cf3ca9e199e268e"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.1.0%2B1.18/continuity-1.1.0%2B1.18.jar",
+          "filename": "continuity-1.1.0+1.18.jar",
+          "primary": false,
+          "size": 1100097,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "yiOF0F2t",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.1.0+1.17",
+      "version_number": "1.1.0+1.17",
+      "changelog": "- Fix, improve, reorganize, and compress default resource pack\n  - Add programmer art connected textures\n  - Improve sandstone, bookshelf, and standard glass textures\n  - Fix some textures that contained incorrect pixel color values\n- Rewrite `ctm_compact`\n  - Fix `ctm_compact` not working correctly with UVs that do not include the entire sprite\n  - Fix `ctm_compact` splitting quads more times than necessary\n- Fix standard overlay application checks\n- Fix `ctm_compact` tile replacements\n- Fix `overlay_ctm` method using texture orientation\n- Fix unexpected tile parsing behavior when using custom namespace\n- Update biome compatibility\n  - Now only supports Canvas 1.0.2187 or higher\n  - Fix InputRegion log warning\n- Add Italian translation\n- Add Simplified Chinese translation\n- Improve French translation",
+      "changelog_url": null,
+      "date_published": "2022-02-21T05:44:19.280596Z",
+      "downloads": 55081,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "VRvTqPOM",
+          "hashes": {
+            "sha512": "a90fb69e0f56d489b3b8a6471f16042e5ecf6533fb6340feedc47a690599a5c60817cd15d3a549b94dc63368eced48f77e47d5186c960b46ac1ecfe808021739",
+            "sha1": "b82e709c8cf09e41a0fd7a312137030f7824c112"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.1.0%2B1.17/continuity-1.1.0%2B1.17.jar",
+          "filename": "continuity-1.1.0+1.17.jar",
+          "primary": true,
+          "size": 1101717,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "SffGs8Ro",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.0.3+1.18",
+      "version_number": "1.0.3+1.18",
+      "changelog": "- Add per-block biome and block entity name caching\n- Fix `matchTiles` parsing\n- Add German translation\n- Add French translation",
+      "changelog_url": null,
+      "date_published": "2021-12-04T20:59:50.455841Z",
+      "downloads": 17953,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "wSGEaaN7",
+          "hashes": {
+            "sha1": "1d09ae500d2f24112c4c5bc6f00f05bbcc1a0f72",
+            "sha512": "3c50271b487a05b7c7fb7f8a4c4537183ad8bb144f71037cb771ce76c11189541b4d4d1f61167d5837d6800fea6cb699672add78a5f2ecf804c207a4c4267632"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.0.3%2B1.18/continuity-1.0.3%2B1.18.jar",
+          "filename": "continuity-1.0.3+1.18.jar",
+          "primary": false,
+          "size": 645109,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "27YRAXEt",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.0.3+1.17",
+      "version_number": "1.0.3+1.17",
+      "changelog": "- Add per-block biome and block entity name caching\n- Fix `matchTiles` parsing\n- Add German translation\n- Add French translation",
+      "changelog_url": null,
+      "date_published": "2021-12-04T20:58:17.316543Z",
+      "downloads": 1304,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "sndazSX6",
+          "hashes": {
+            "sha1": "6fe13a8aa458ce7e6f1dcc7277c84543f5c3dd01",
+            "sha512": "d99197e2e86d9f8cb175d90eaa27f0613a817c8a317113a231f8534b6734623168064e74830f26b41b13f21e25e4127f140e692d1bc1c525fa92d0b3fd2198b0"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.0.3%2B1.17/continuity-1.0.3%2B1.17.jar",
+          "filename": "continuity-1.0.3+1.17.jar",
+          "primary": false,
+          "size": 647164,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "i0ccQghD",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.0.2+1.17",
+      "version_number": "1.0.2+1.17",
+      "changelog": "- Fix manual culling",
+      "changelog_url": null,
+      "date_published": "2021-10-22T03:00:32.153267Z",
+      "downloads": 2847,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "E5UNscPg",
+          "hashes": {
+            "sha1": "82babdefdef91e5ff04e42135f738e75597b745c",
+            "sha512": "4e67a2777f3cc9b8899e6b21da30447a39c477b2609b1c95643a1ac1bf21794fa1b5e24ab58ddc021049f4384b856bb5642366901d561709a9872dba439ea3a7"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.0.2%2B1.17/continuity-1.0.2%2B1.17.jar",
+          "filename": "continuity-1.0.2+1.17.jar",
+          "primary": false,
+          "size": 673046,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "6JEV45oM",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.0.1+1.17",
+      "version_number": "1.0.1+1.17",
+      "changelog": "- Fix missing textures with ctm_compact\n- Improve cull caching efficiency\n- Improve config deserialization\n- Add contact information\n- Add Russian translation\n- Add Estonian translation",
+      "changelog_url": null,
+      "date_published": "2021-10-19T02:54:32.741088Z",
+      "downloads": 615,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "2CHTIibn",
+          "hashes": {
+            "sha512": "a639b9c76a8d8aad35b1f918079cfffc748f4c8d1748dc3f5fdd143fccb5064b86fb3216d44fe3fe804635dd4411298ef6203c105d787a9c9c00abb61f93774d",
+            "sha1": "433c883d5f05112687ba3921da63d7ec37314b30"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.0.1%2B1.17/continuity-1.0.1%2B1.17.jar",
+          "filename": "continuity-1.0.1+1.17.jar",
+          "primary": false,
+          "size": 673040,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "Xn8QzMB9",
+      "project_id": "1IjD5062",
+      "author_id": "CdcF3lqY",
+      "featured": false,
+      "name": "1.0.0+1.17",
+      "version_number": "1.0.0+1.17",
+      "changelog": "Initial release",
+      "changelog_url": null,
+      "date_published": "2021-09-25T23:53:40.834233Z",
+      "downloads": 3167,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "hrNKkhvL",
+          "hashes": {
+            "sha512": "24a32d46b8715dc32924b888721f6a8848be140a3966ccff8b357e6dbfa3ef047d02f2c95440222256d56d020fd9860ac8c41abd9ba52ee66ed676aa6faa8276",
+            "sha1": "71ec0801b0d0ac367158186bffd1871ce9ff9a7d"
+          },
+          "url": "https://cdn.modrinth.com/data/1IjD5062/versions/1.0.0%2B1.17/continuity-1.0.0%2B1.17.jar",
+          "filename": "continuity-1.0.0+1.17.jar",
+          "primary": true,
+          "size": 671782,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}

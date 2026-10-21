@@ -1,0 +1,2877 @@
+{
+  "project": {
+    "client_side": "optional",
+    "server_side": "optional",
+    "game_versions": [
+      "1.16.5",
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "environment": [
+      "client_or_server"
+    ],
+    "id": "uXXizFIs",
+    "slug": "ferrite-core",
+    "project_type": "mod",
+    "team": "2JhABx1f",
+    "organization": null,
+    "title": "FerriteCore",
+    "description": "Memory usage optimizations",
+    "body": "This mod reduces the memory usage of Minecraft in a few different ways. A high-level technical description of the changes is available [here](https://github.com/malte0811/FerriteCore/blob/main/summary.md).\n\nThe amount of memory saved will depend on the pack. In version 2.5.9 of [All Of Fabric 3](https://www.curseforge.com/minecraft/modpacks/all-of-fabric-3) it reduces the RAM usage (heap size) from 1,792 MB to 984 MB. For comparison the same setup with Hydrogen instead of FerriteCore uses 1,335 MB.  \nThese values were measured after generating a world with a fixed seed and waiting for two minutes.\nThe project picture is a cropped version of [this](https://commons.wikimedia.org/wiki/File:Magnetic-core_memory,_at_angle.jpg) picture.\n\n### FAQ\n\n#### Should I install this on the server or just on the client?\n\nSome optimizations are client-side only, but there are some rather high-impact optimizations that are relevant on the server too. So you should install it on both sides.\n\n#### Is this compatible with [other mod]?\n\nMost likely yes. The only exception is Hydrogen, which is compatible with all recent FerriteCore versions *on Minecraft versions where Hydrogen is officially released*. This means that 1.18+ builds are not compatible with Hydrogen, since it has been officially archived and won't receive any releases on these versions.",
+    "body_url": null,
+    "published": "2021-04-03T07:04:43.971189Z",
+    "updated": "2026-03-24T18:31:50.491773Z",
+    "approved": "2021-04-03T07:04:43.971189Z",
+    "queued": null,
+    "status": "approved",
+    "requested_status": null,
+    "moderator_message": null,
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "downloads": 165037271,
+    "followers": 16699,
+    "categories": [
+      "optimization",
+      "utility"
+    ],
+    "additional_categories": [],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge",
+      "quilt"
+    ],
+    "versions": [
+      "GeyB7u1y",
+      "Mc6hHgQU",
+      "hjsymojR",
+      "LG5zF5LP",
+      "5rLOvzfo",
+      "2XHUVaPQ",
+      "HjttFjoa",
+      "JQl5JoCm",
+      "oP38VFTJ",
+      "1FrNtQTK",
+      "OhmGV4Hp",
+      "c9p5gemS",
+      "FMdIAsIi",
+      "OhuTVpQH",
+      "776Z5oW9",
+      "AvWRJcqx",
+      "zkszypjI",
+      "7epbwkFg",
+      "xyl3NViI",
+      "fwozdl4o",
+      "fs07zE6w",
+      "6gwDuh90",
+      "3UkWIj4a",
+      "kwjHqfz7",
+      "CtXsUUz6",
+      "GHcKib6J",
+      "YrvjR5sX",
+      "RbR7EG8T",
+      "zI3uKvrU",
+      "FCnCG6PS",
+      "ULSumfl4",
+      "unerR5MN",
+      "DG5Fn9Sz",
+      "tfQSdUpc",
+      "85kC2OMr",
+      "pguEMpy9",
+      "agJm6Vrw",
+      "PPnbi6JY",
+      "HWBrlwWv",
+      "i9RcCdZv",
+      "BkJB5PPB",
+      "wmIZ4wP4",
+      "6BhrwMOV",
+      "zQSo4nxk",
+      "W4lg2p7U",
+      "CnpoQxCx",
+      "zLd6ikLj",
+      "HViHO2Oi",
+      "bwKMSBhn",
+      "a3QXXGz2",
+      "IPM0JlHd",
+      "gTYCIFFQ",
+      "WmGPid1l",
+      "CtMpt7Jr",
+      "aCcv0w0q",
+      "MGoveONm",
+      "dR6exAyF",
+      "kI9raxPl",
+      "eRLwt73x",
+      "x7kQWVju",
+      "sOzRw3CG",
+      "joOID027",
+      "7KqeXPRS",
+      "vqv9Um4Q",
+      "LdlksamY",
+      "G34Jddxu",
+      "bPLllEgi",
+      "mLI5k2Gi",
+      "Ii0gP3D8",
+      "LtVvw4uS",
+      "d5ddUdiB"
+    ],
+    "icon_url": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+    "raw_icon_url": "https://cdn.modrinth.com/data/uXXizFIs/icon.jpg",
+    "issues_url": "https://github.com/malte0811/FerriteCore/issues",
+    "source_url": "https://github.com/malte0811/FerriteCore",
+    "wiki_url": null,
+    "discord_url": null,
+    "donation_urls": [],
+    "gallery": [],
+    "color": 5129796,
+    "thread_id": "uXXizFIs",
+    "monetization_status": "monetized"
+  },
+  "members": [
+    {
+      "role": "Owner",
+      "team_id": "2JhABx1f",
+      "user": {
+        "id": "cXzLZ8YY",
+        "username": "malte0811",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10406104?v=4",
+        "raw_avatar_url": "https://avatars.githubusercontent.com/u/10406104?v=4",
+        "bio": null,
+        "created": "2021-01-29T18:51:24.633575Z",
+        "role": "developer",
+        "badges": 0,
+        "campaigns": {
+          "pride_26": null
+        },
+        "auth_providers": null,
+        "email": null,
+        "email_verified": null,
+        "has_password": null,
+        "has_totp": null,
+        "payout_data": null,
+        "stripe_customer_id": null,
+        "allow_friend_requests": null,
+        "eligibility_verified_at": null,
+        "github_id": null
+      },
+      "permissions": null,
+      "accepted": true,
+      "payouts_split": null,
+      "ordering": 0
+    }
+  ],
+  "versions": [
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2",
+        "26.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "d5ddUdiB",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-9.0.0-fabric",
+      "version_number": "9.0.0-fabric",
+      "changelog": "- Update to Minecraft 26.1\n",
+      "changelog_url": null,
+      "date_published": "2026-03-24T18:31:50.491773Z",
+      "downloads": 15653357,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "pyYOOAkJ",
+          "hashes": {
+            "sha1": "eac76ff0f3753422c61b2c44487d0d195d88d4bc",
+            "sha512": "d81fa97e11784c19d42f89c2f433831d007603dd7193cee45fa177e4a6a9c52b384b198586e04a0f7f63cd996fed713322578bde9a8db57e1188854ae5cbe584"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+          "filename": "ferritecore-9.0.0-fabric.jar",
+          "primary": true,
+          "size": 72677,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2",
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "LtVvw4uS",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-9.0.0-neoforge",
+      "version_number": "9.0.0-neoforge",
+      "changelog": "- Update to Minecraft 26.1\n",
+      "changelog_url": null,
+      "date_published": "2026-03-24T18:31:50.324216Z",
+      "downloads": 356277,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1nDZqrny",
+          "hashes": {
+            "sha1": "b8bfb14ba6ce7068aae08c3a132ca40bda6bd143",
+            "sha512": "e96a99ac5539f56a1f4cd109d62b668ebd5283f0068491ede956f52e67023beba7abe2e40021499352ffc41ead950bebcabce7792352249a1b45c5dccb3cf99c"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/LtVvw4uS/ferritecore-9.0.0-neoforge.jar",
+          "filename": "ferritecore-9.0.0-neoforge.jar",
+          "primary": true,
+          "size": 71947,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "Ii0gP3D8",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.2.0-fabric",
+      "version_number": "8.2.0-fabric",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.11\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T14:07:55.210010Z",
+      "downloads": 13409172,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "yG0TLjRl",
+          "hashes": {
+            "sha512": "3210926a82eb32efd9bcebabe2f6c053daf5c4337eebc6d5bacba96d283510afbde646e7e195751de795ec70a2ea44fef77cb54bf22c8e57bb832d6217418869",
+            "sha1": "c2e2f5e008f5bc9f401dfad8ca94909917006b65"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/Ii0gP3D8/ferritecore-8.2.0-fabric.jar",
+          "filename": "ferritecore-8.2.0-fabric.jar",
+          "primary": true,
+          "size": 80138,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "mLI5k2Gi",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.2.0-neoforge",
+      "version_number": "8.2.0-neoforge",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.11\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T14:07:54.558304Z",
+      "downloads": 176246,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "BSp7vcj1",
+          "hashes": {
+            "sha512": "83f402ab8c5cd4aa28ad922af0c8ecd82daecc9e7faf7475ebfa999f3cf76005aab2170a64cb616ae4e6e36a82b1265cb0167454e0211c8724e02fd3bc23721b",
+            "sha1": "900f0f673fef88784711ee952cbf1fe8be2480bd"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/mLI5k2Gi/ferritecore-8.2.0-neoforge.jar",
+          "filename": "ferritecore-8.2.0-neoforge.jar",
+          "primary": true,
+          "size": 79272,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "bPLllEgi",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.1.0-fabric",
+      "version_number": "8.1.0-fabric",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.9\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T13:58:42.216663Z",
+      "downloads": 1180733,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "3utHGfhV",
+          "hashes": {
+            "sha512": "0596c83d69867380260e20500e5ab184415a1178317464c2b7c8c68a87db435fbe7a80b22b4f50b56558d6506f7dbb35ad7bda16f46eab5b79d38f0d726f08f5",
+            "sha1": "fbc854f0a30657a0f8b4a5c79ce6580f3f8fbea9"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/bPLllEgi/ferritecore-8.1.0-fabric.jar",
+          "filename": "ferritecore-8.1.0-fabric.jar",
+          "primary": true,
+          "size": 82450,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "G34Jddxu",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.1.0-neoforge",
+      "version_number": "8.1.0-neoforge",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.9\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T13:58:41.987937Z",
+      "downloads": 21921,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "dfJCqQlO",
+          "hashes": {
+            "sha512": "10ed489075238d6d0b8410a8305b7d12fe28c1941f6d95a4e9306ddbf495e1f0edd3ff2f8f23c77d5c5ecc858d898b09d5a081a740f7aa2e8fe76eece2b3be0e",
+            "sha1": "740333da16923b95d0bd541eb15fe94b5cc70878"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/G34Jddxu/ferritecore-8.1.0-neoforge.jar",
+          "filename": "ferritecore-8.1.0-neoforge.jar",
+          "primary": true,
+          "size": 81571,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "LdlksamY",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.4-fabric",
+      "version_number": "8.0.4-fabric",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.5\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T13:47:24.412138Z",
+      "downloads": 1041868,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Ff1vQf0W",
+          "hashes": {
+            "sha1": "974662c047d5eaa34d372be09409b8b754c223f4",
+            "sha512": "8be6c49aa5900f434c082f505a48cf6bafc70bb43e9b9d4e0e42524605d2d22f968bc3a0c0048190a5296fd3cc696d8c3a7329dc8a022792f920e83ece47e5b6"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/LdlksamY/ferritecore-8.0.4-fabric.jar",
+          "filename": "ferritecore-8.0.4-fabric.jar",
+          "primary": true,
+          "size": 82475,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "vqv9Um4Q",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.4-neoforge",
+      "version_number": "8.0.4-neoforge",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.5\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T13:47:23.909281Z",
+      "downloads": 36414,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "XtTvQ39b",
+          "hashes": {
+            "sha512": "bde070030f34d8fb2515a18314d64b3ecc5d492712cd80219f741160cbf8eca7d127ff3c11b25943cccb7ed26cea1cf81845dc7ae2ba7bf5dbd336c258ea5e7f",
+            "sha1": "da0988d7a566400dfb7aa9c64ecf47c2fc7de8e9"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/vqv9Um4Q/ferritecore-8.0.4-neoforge.jar",
+          "filename": "ferritecore-8.0.4-neoforge.jar",
+          "primary": true,
+          "size": 81572,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "7KqeXPRS",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.3-fabric",
+      "version_number": "7.1.3-fabric",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.4\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T13:11:14.494758Z",
+      "downloads": 1172890,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Rr0mcpKp",
+          "hashes": {
+            "sha512": "74487d6efa6e973914665d0fdf366156c47e26a0e52a492ec5d5b68d7ea331535fa2cb46eb95a8846e3b2f0318bbcfdff3885df0bfce1bc83696b211d95e9863",
+            "sha1": "7b08d3c7242b18c9e15c11d365d368dde6955a9c"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/7KqeXPRS/ferritecore-7.1.3-fabric.jar",
+          "filename": "ferritecore-7.1.3-fabric.jar",
+          "primary": true,
+          "size": 109879,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "joOID027",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.3-neoforge",
+      "version_number": "7.1.3-neoforge",
+      "changelog": "- Port changes from build 7.0.3 to 1.21.4\n  - Reduce memory usage of data component patches\n  - Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T13:11:14.132705Z",
+      "downloads": 29371,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "v6OajeZj",
+          "hashes": {
+            "sha512": "c66509657387327f0a7652f3f2ba57a0deb96a96a9ea744bae0ca38f84ca550f43d189bcfbf3919c1f5109665b092790026c140f93156cb5ad7f9f1f34476774",
+            "sha1": "2cd2f63b724b4178648d85eb2a3123d51ba1c5cd"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/joOID027/ferritecore-7.1.3-neoforge.jar",
+          "filename": "ferritecore-7.1.3-neoforge.jar",
+          "primary": true,
+          "size": 107961,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "sOzRw3CG",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.0.3-fabric",
+      "version_number": "7.0.3-fabric",
+      "changelog": "- Reduce memory usage of data component patches\n- Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T12:59:45.629584Z",
+      "downloads": 8620261,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "xsHcyYAq",
+          "hashes": {
+            "sha512": "3ad31620fac4ff44327dc7dedbe162b2d978f3f246dc16255a6e400ce9592a0d326fe36a626f3c1bf30a11f813093cbb4dcc107af039cff724d0cdf648541fdf",
+            "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar",
+          "filename": "ferritecore-7.0.3-fabric.jar",
+          "primary": true,
+          "size": 123450,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "x7kQWVju",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.0.3-neoforge",
+      "version_number": "7.0.3-neoforge",
+      "changelog": "- Reduce memory usage of data component patches\n- Fix loading slowdown with ModernFix dynamic resources\n",
+      "changelog_url": null,
+      "date_published": "2026-01-25T12:59:45.271417Z",
+      "downloads": 4485701,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "gC9tI9mZ",
+          "hashes": {
+            "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417",
+            "sha1": "9563692efb708b6b568df27a01ec52f6311928ef"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+          "filename": "ferritecore-7.0.3-neoforge.jar",
+          "primary": true,
+          "size": 121559,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "eRLwt73x",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.3-fabric",
+      "version_number": "8.0.3-fabric",
+      "changelog": "- Update to Minecraft 1.21.11\n",
+      "changelog_url": null,
+      "date_published": "2025-12-09T17:14:49.358219Z",
+      "downloads": 9478145,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "aYHGFRZD",
+          "hashes": {
+            "sha1": "0d2b112df25059211ae84f102254dc552367d72e",
+            "sha512": "be600543e499b59286f9409f46497570adc51939ae63eaa12ac29e6778da27d8c7c6cd0b3340d8bcca1cc99ce61779b1a8f52b990f9e4e9a93aa9c6482905231"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/eRLwt73x/ferritecore-8.0.3-fabric.jar",
+          "filename": "ferritecore-8.0.3-fabric.jar",
+          "primary": true,
+          "size": 77269,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "kI9raxPl",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.3-neoforge",
+      "version_number": "8.0.3-neoforge",
+      "changelog": "- Update to Minecraft 1.21.11\n",
+      "changelog_url": null,
+      "date_published": "2025-12-09T17:14:49.354711Z",
+      "downloads": 45394,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "qe9TDVbi",
+          "hashes": {
+            "sha1": "2a8527bf99ac469663ba6a31c044ba7dd932a96a",
+            "sha512": "0098f73eca534e1f3a8ea6d817f47981bec984117844616142305894eb5d4e1750797d5396c7f3ea5c5546e2128d9310787d29a13aca665a4cde2cefbb83eb15"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/kI9raxPl/ferritecore-8.0.3-neoforge.jar",
+          "filename": "ferritecore-8.0.3-neoforge.jar",
+          "primary": true,
+          "size": 76547,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "dR6exAyF",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.2-neoforge",
+      "version_number": "8.0.2-neoforge",
+      "changelog": "- Fix crash with small threading detector\n- Fix warning in log when Lithium is installed\n",
+      "changelog_url": null,
+      "date_published": "2025-11-02T09:10:50.853388Z",
+      "downloads": 36152,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1Y9toFT8",
+          "hashes": {
+            "sha512": "d5643cca63383625d2e3bbb84be00a8097eb59d28b84c054c5b508c2760db742d5a651ac1683d81e572a5c915f6da84017765059fdaa326a83eb640c0ec67b6d",
+            "sha1": "740868cf245519f4059e21c67dcdfa3b33af8ab2"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/dR6exAyF/ferritecore-8.0.2-neoforge.jar",
+          "filename": "ferritecore-8.0.2-neoforge.jar",
+          "primary": true,
+          "size": 78843,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "MGoveONm",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.2-fabric",
+      "version_number": "8.0.2-fabric",
+      "changelog": "- Fix crash with small threading detector\n- Fix warning in log when Lithium is installed\n",
+      "changelog_url": null,
+      "date_published": "2025-11-02T09:10:44.590299Z",
+      "downloads": 2256869,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "UOpUQLF9",
+          "hashes": {
+            "sha1": "5ea50634ed19a5e10acb46258bab0c1ee20f64ca",
+            "sha512": "8c3890fb116dfaf681f5f483ea0d1bfecfb87dd584cc72e772fe43ea6ecf15a09c782fedbe5cea3b8bf7e930bd5c00753a619ac5ce7afa7fd092769d68e9beec"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/MGoveONm/ferritecore-8.0.2-fabric.jar",
+          "filename": "ferritecore-8.0.2-fabric.jar",
+          "primary": true,
+          "size": 79573,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "aCcv0w0q",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.1-neoforge",
+      "version_number": "8.0.1-neoforge",
+      "changelog": "- Update to NeoForge changes on 1.21.9\n  - Since this only affects NeoForge, there is no Fabric equivalent of this release\n",
+      "changelog_url": null,
+      "date_published": "2025-10-03T13:23:00.372151Z",
+      "downloads": 25142,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "kQWjd6x3",
+          "hashes": {
+            "sha512": "adc3f876cb509e27d25ed828e10561855fe92c6422552dd50cc41074cfeaad47367a83825b57948cb5b1c35823ccb5588e012e30d60331cd01249ff9d902f770",
+            "sha1": "b1750e74cd2809b5186fb8d8477aedb0c0f5a459"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/aCcv0w0q/ferritecore-8.0.1-neoforge.jar",
+          "filename": "ferritecore-8.0.1-neoforge.jar",
+          "primary": true,
+          "size": 78892,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "CtMpt7Jr",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.0-fabric",
+      "version_number": "8.0.0-fabric",
+      "changelog": "- Initial port to Minecraft 1.21.5\n  - Since the model system has been rewritten entirely, all optimizations related to it have been removed for the time\n      being. They will be reevaluated and reimplemented if appropriate over the coming weeks/months.\n",
+      "changelog_url": null,
+      "date_published": "2025-03-30T07:36:20.484598Z",
+      "downloads": 12667247,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "iFWgq8HO",
+          "hashes": {
+            "sha512": "131b82d1d366f0966435bfcb38c362d604d68ecf30c106d31a6261bfc868ca3a82425bb3faebaa2e5ea17d8eed5c92843810eb2df4790f2f8b1e6c1bdc9b7745",
+            "sha1": "53d76354587cd1965b842fdce7cff965b5c52fe5"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/CtMpt7Jr/ferritecore-8.0.0-fabric.jar",
+          "filename": "ferritecore-8.0.0-fabric.jar",
+          "primary": true,
+          "size": 79653,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "WmGPid1l",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-8.0.0-neoforge",
+      "version_number": "8.0.0-neoforge",
+      "changelog": "- Initial port to Minecraft 1.21.5\n  - Since the model system has been rewritten entirely, all optimizations related to it have been removed for the time\n      being. They will be reevaluated and reimplemented if appropriate over the coming weeks/months.\n",
+      "changelog_url": null,
+      "date_published": "2025-03-30T07:36:18.972878Z",
+      "downloads": 122596,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "DD20wrEa",
+          "hashes": {
+            "sha512": "cb9e7b96fdd02cc62883237a1ece3068e7be35267d00626fc27c84992e23b4047911d8a67deafb078bd1815634c221a6965c0c63953be720ff95987bdd0410a1",
+            "sha1": "c966accc11438c2597c0aa5ca21f19a271caaaa1"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/WmGPid1l/ferritecore-8.0.0-neoforge.jar",
+          "filename": "ferritecore-8.0.0-neoforge.jar",
+          "primary": true,
+          "size": 78885,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "gTYCIFFQ",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.2-neoforge",
+      "version_number": "7.1.2-neoforge",
+      "changelog": "- Use event to register reload listener on NeoForge\n  - This fixes a crash on the latest NeoForge builds\n  - Since it only affects NeoForge, there is no Fabric equivalent of this release.\n",
+      "changelog_url": null,
+      "date_published": "2025-02-09T12:19:52.048817Z",
+      "downloads": 78720,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "u4ki278P",
+          "hashes": {
+            "sha512": "e4c52cfc482d1feafdc2205c7ff369596536b57b83bc71f1f7984f4cf11c8a0539c5a5cab1eae062c6821424ba2fd05866f9a3c8a58884710a5b4eeef77c8cb6",
+            "sha1": "f1d63ed7a712c84d2698905524960627f8d9c206"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/gTYCIFFQ/ferritecore-7.1.2-neoforge.jar",
+          "filename": "ferritecore-7.1.2-neoforge.jar",
+          "primary": true,
+          "size": 105336,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "IPM0JlHd",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.1-fabric",
+      "version_number": "7.1.1-fabric",
+      "changelog": "- Update to Minecraft 1.21.4\n  - The code is identical to release 7.1.0, but on Fabric a recompile is required due to a mapping issue. Therefore\n      there is no dedicated 7.1.1 build for NeoForge.\n",
+      "changelog_url": null,
+      "date_published": "2024-12-08T08:28:45.734497Z",
+      "downloads": 4998704,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1gHXbDXa",
+          "hashes": {
+            "sha1": "ee08ca5fd2a7a02dbade048745533b5570a826f0",
+            "sha512": "f41dc9e8b28327a1e29b14667cb42ae5e7e17bcfa4495260f6f851a80d4b08d98a30d5c52b110007ee325f02dac7431e3fad4560c6840af0bf347afad48c5aac"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/IPM0JlHd/ferritecore-7.1.1-fabric.jar",
+          "filename": "ferritecore-7.1.1-fabric.jar",
+          "primary": true,
+          "size": 107026,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "a3QXXGz2",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.0-hotfix-fabric",
+      "version_number": "7.1.0-hotfix-fabric",
+      "changelog": "- Upload correct jar in automatic release task\n",
+      "changelog_url": null,
+      "date_published": "2024-10-27T10:00:10.745224Z",
+      "downloads": 725468,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ruxE89A2",
+          "hashes": {
+            "sha1": "065410c520d858893c8f130d32f63a11317d6119",
+            "sha512": "ae1ab30beb5938643cf2ae7b8220769f2c917e3f5441e46e9bc900295348c0a541a325c30b8dfc38039205620d872c27809acdc6741351f08e4c8edc36ae2bcc"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/a3QXXGz2/ferritecore-7.1.0-hotfix-fabric.jar",
+          "filename": "ferritecore-7.1.0-hotfix-fabric.jar",
+          "primary": true,
+          "size": 107124,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "bwKMSBhn",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.0.2-hotfix-fabric",
+      "version_number": "7.0.2-hotfix-fabric",
+      "changelog": "- Upload correct jar in automatic release task\n",
+      "changelog_url": null,
+      "date_published": "2024-10-27T09:57:57.152381Z",
+      "downloads": 12649069,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "uaBwJRtB",
+          "hashes": {
+            "sha1": "48ee764932d0c8ec81a2223dbe333886938e512c",
+            "sha512": "ca975bd3708cd96d30cf1447ac8883572113562eb2dd697e60c1cf382d6b70d0b1a511fcbfd042c51b2cf5d5ffc718b847f845e4c8a3e421e8c9ee741119a421"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/bwKMSBhn/ferritecore-7.0.2-hotfix-fabric.jar",
+          "filename": "ferritecore-7.0.2-hotfix-fabric.jar",
+          "primary": true,
+          "size": 120709,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "HViHO2Oi",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.0-neoforge",
+      "version_number": "7.1.0-neoforge",
+      "changelog": "- Update to 1.21.3\n",
+      "changelog_url": null,
+      "date_published": "2024-10-27T08:03:59.164515Z",
+      "downloads": 32729,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "khxU9MPr",
+          "hashes": {
+            "sha1": "712106e61e02f9d83d0977e487ccfe20d4e2dea9",
+            "sha512": "68eff740cadf1e13f4e5b2685c26f96d83b31114ea4bf0674a540739fa071b777cfbb122b90fb7c9db5dcce8e4d3b999c53385c7f01394b45a3922d58c67e236"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/HViHO2Oi/ferritecore-7.1.0-neoforge.jar",
+          "filename": "ferritecore-7.1.0-neoforge.jar",
+          "primary": true,
+          "size": 105294,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "zLd6ikLj",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.1.0-fabric",
+      "version_number": "7.1.0-fabric",
+      "changelog": "- Update to 1.21.3\n",
+      "changelog_url": null,
+      "date_published": "2024-10-27T08:03:54.605863Z",
+      "downloads": 1561,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "DcWbWsYo",
+          "hashes": {
+            "sha512": "7f712caecde04dddaff4bc618012e6acb0486189c9d1a70b91a1be5fada9bc02de93c5759fef26e8f59bb9d877e8e59b87aef1f14e368ae2c2020a5a3b04627d",
+            "sha1": "9529630f26c6d21b172df3a95f61a9463e6b7712"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/zLd6ikLj/ferritecore-7.1.0-fabric-dev.jar",
+          "filename": "ferritecore-7.1.0-fabric-dev.jar",
+          "primary": true,
+          "size": 106851,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "CnpoQxCx",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.0.2-neoforge",
+      "version_number": "7.0.2-neoforge",
+      "changelog": "- Allow other mods to disable FerriteCore features\n  - This should only be used in rare cases where something is intrinsically incompatible. Please get it touch with me if you plan to use this in your mod, maybe we can find a different solution.\n",
+      "changelog_url": null,
+      "date_published": "2024-10-27T07:58:51.198350Z",
+      "downloads": 2826716,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "D7LFb1cf",
+          "hashes": {
+            "sha512": "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac",
+            "sha1": "7279fc52c32a033acc2864a9bcb018b2e04bbd03"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/CnpoQxCx/ferritecore-7.0.2-neoforge.jar",
+          "filename": "ferritecore-7.0.2-neoforge.jar",
+          "primary": true,
+          "size": 118911,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "W4lg2p7U",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "ferritecore-7.0.2-fabric",
+      "version_number": "7.0.2-fabric",
+      "changelog": "- Allow other mods to disable FerriteCore features\n  - This should only be used in rare cases where something is intrinsically incompatible. Please get it touch with me if you plan to use this in your mod, maybe we can find a different solution.\n",
+      "changelog_url": null,
+      "date_published": "2024-10-27T07:58:51.195015Z",
+      "downloads": 11140,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "SyZEYBb1",
+          "hashes": {
+            "sha512": "eb40ac82999dc416890e7d035db511f69f6b8638cbdee5c5f079e82642caa95892b4ea4859d25cc350b62ee41137d8a9b818c3ca4f72af21257caccc2166cbd4",
+            "sha1": "9e023297b014b4e845795721f998ba37e2b70f95"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/W4lg2p7U/ferritecore-7.0.2-fabric-dev.jar",
+          "filename": "ferritecore-7.0.2-fabric-dev.jar",
+          "primary": true,
+          "size": 120607,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "zQSo4nxk",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "7.0.1-fabric",
+      "version_number": "7.0.1-fabric",
+      "changelog": "- Improve error message when accessing invalid block properties",
+      "changelog_url": null,
+      "date_published": "2024-10-19T09:25:09.714163Z",
+      "downloads": 271141,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "wMeHu1XX",
+          "hashes": {
+            "sha1": "42dad3cb940329c809ffc65ce979c61f99265ee9",
+            "sha512": "9f52249059d5d14317292dedf08bf10860ec81aa94238d70a8fecbc372fc75fe95e80f41983379674b180d2ae458dab36a5a3c91738236211287a401ad7ba74b"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/zQSo4nxk/ferritecore-7.0.1-fabric.jar",
+          "filename": "ferritecore-7.0.1-fabric.jar",
+          "primary": true,
+          "size": 117179,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "6BhrwMOV",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "7.0.1-neoforge",
+      "version_number": "7.0.1-neoforge",
+      "changelog": "- Fix compatibility with Lithium's NeoForge port\n- Improve error message when accessing invalid block properties",
+      "changelog_url": null,
+      "date_published": "2024-10-19T09:23:57.029815Z",
+      "downloads": 8292,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "EIBnOxyX",
+          "hashes": {
+            "sha1": "85806e7bf1ff235ac46a0ba66bc6694dc2fccb94",
+            "sha512": "dfe9a8282544764c62dd0073a7f875674e76839fda7006ca0b68dc0af69ca7095a3c2dae058e4ab7e480c40207383539c2959524452a533c122f40dbd0b56abc"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/6BhrwMOV/ferritecore-7.0.1-neoforge.jar",
+          "filename": "ferritecore-7.0.1-neoforge.jar",
+          "primary": true,
+          "size": 115225,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "wmIZ4wP4",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": true,
+      "name": "7.0.0 (Fabric)",
+      "version_number": "7.0.0-fabric",
+      "changelog": "- Update to 1.21.0\n- A slight/theoretical improvement of startup performance (embeddedt)",
+      "changelog_url": null,
+      "date_published": "2024-06-16T09:45:35.402511Z",
+      "downloads": 7755386,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "7FQnIaqj",
+          "hashes": {
+            "sha512": "0f2f9b5aebd71ef3064fc94df964296ac6ee8ea12221098b9df037bdcaaca7bccd473c981795f4d57ff3d49da3ef81f13a42566880b9f11dc64645e9c8ad5d4f",
+            "sha1": "95b18b0f1673bbbe328812c3052cc1a921591f0f"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/wmIZ4wP4/ferritecore-7.0.0-fabric.jar",
+          "filename": "ferritecore-7.0.0-fabric.jar",
+          "primary": true,
+          "size": 117333,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "BkJB5PPB",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": true,
+      "name": "7.0.0 (NeoForge)",
+      "version_number": "7.0.0-neoforge",
+      "changelog": "- Update to 1.21.0\n- A slight/theoretical improvement of startup performance (embeddedt)",
+      "changelog_url": null,
+      "date_published": "2024-06-16T09:44:57.712352Z",
+      "downloads": 111960,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1a8fNLQJ",
+          "hashes": {
+            "sha1": "b82ff769aca2b8c542ce09b633bfa4ffd03c06d8",
+            "sha512": "590e4bf3641c8531fc7a03e84046c912f6b7ee4bd229ec77038d3b9a0cf039c707b500e8dda826a1f383166b8b6cd2c5c5859b61af88b25221d20432abbc36ab"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/BkJB5PPB/ferritecore-7.0.0-neoforge.jar",
+          "filename": "ferritecore-7.0.0-neoforge.jar",
+          "primary": true,
+          "size": 115359,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "i9RcCdZv",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.1.1 (Fabric)",
+      "version_number": "6.1.1-fabric",
+      "changelog": "- Fix overly aggressive caching related to multipart models",
+      "changelog_url": null,
+      "date_published": "2024-05-01T06:08:19.651433Z",
+      "downloads": 1152756,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "CnoBG3iL",
+          "hashes": {
+            "sha512": "d07ebedcab096389ceaf17dd7463c165c9455c24300d494e1f394c3e4ed2d43686e35a4fd87280eda2bf4c96695da3e0183a3474016c8d7d13b56c6e04c2acef",
+            "sha1": "fe734f75aea4cb9a9680978e975e06f2e90cbcb7"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/i9RcCdZv/ferritecore-6.1.1-fabric.jar",
+          "filename": "ferritecore-6.1.1-fabric.jar",
+          "primary": true,
+          "size": 118182,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "HWBrlwWv",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.1.1 (NeoForge)",
+      "version_number": "6.1.1-neoforge",
+      "changelog": "- Fix overly aggressive caching related to multipart models",
+      "changelog_url": null,
+      "date_published": "2024-05-01T06:07:49.131065Z",
+      "downloads": 13109,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "huXKWlz1",
+          "hashes": {
+            "sha512": "a11846c4428d14094817bc8368b70c5a6e03a538c12e72fc19cbf6d67035f982127b16abd8e20f336c52bc522dd662fa97ad196d9fe3a385c98882235ccea8f4",
+            "sha1": "a0433f16cf87244045f01a3e07f4fc65abf920c8"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/HWBrlwWv/ferritecore-6.1.1-neoforge.jar",
+          "filename": "ferritecore-6.1.1-neoforge.jar",
+          "primary": true,
+          "size": 116131,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "PPnbi6JY",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.1.0 (Fabric)",
+      "version_number": "6.1.0",
+      "changelog": "- Initial update to 1.20.5",
+      "changelog_url": null,
+      "date_published": "2024-04-27T08:57:20.340751Z",
+      "downloads": 29203,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "lLcnFyTr",
+          "hashes": {
+            "sha512": "702fed11ce032c6be4933c7db7534518b960eabfc813ad427d33e7d95dcbc4648d79d8e4915da6b1ac773d7484e0723c7072e93283271479d734f54ab9ef96b0",
+            "sha1": "7df5dc87356620c0b80282b2af22330606249426"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/PPnbi6JY/ferritecore-6.1.0-fabric.jar",
+          "filename": "ferritecore-6.1.0-fabric.jar",
+          "primary": true,
+          "size": 116763,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "agJm6Vrw",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.1.0 (NeoForge)",
+      "version_number": "6.1.0-neoforge",
+      "changelog": "- Initial update to 1.20.5",
+      "changelog_url": null,
+      "date_published": "2024-04-27T08:56:43.446918Z",
+      "downloads": 429,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "bPbHzf2T",
+          "hashes": {
+            "sha512": "14d8b3d7fe8c4983a686aea844d6b188320dfd5fbf9a98e92503ab122b634f730feb4c6f2517304686b96bc9f1c9ac75d028a06599977b7dd5cdeebac1bfca1e",
+            "sha1": "d683295a19ad3a6bb21bfa759e1ea44bf77b2411"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/agJm6Vrw/ferritecore-6.1.0-neoforge.jar",
+          "filename": "ferritecore-6.1.0-neoforge.jar",
+          "primary": true,
+          "size": 114691,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "pguEMpy9",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.3 (Fabric/Quilt)",
+      "version_number": "6.0.3-fabric",
+      "changelog": "- Update to Minecraft 1.20.4",
+      "changelog_url": null,
+      "date_published": "2023-12-13T09:52:24.527613Z",
+      "downloads": 2562986,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "R625eEsl",
+          "hashes": {
+            "sha1": "f2bbb773f4213d36201b76820f206e2a6f213c0c",
+            "sha512": "709ab6362dd1dcc432edd1e6c33aafba6f2d12be701bc14911107340f8ac2466779c4e57d8a303f0350c46478f23008e6eeca78e4eadedd0bdee63d4ae72ed9a"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/pguEMpy9/ferritecore-6.0.3-fabric.jar",
+          "filename": "ferritecore-6.0.3-fabric.jar",
+          "primary": true,
+          "size": 125100,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "85kC2OMr",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.3 (NeoForge)",
+      "version_number": "6.0.3-forge",
+      "changelog": "- Update to Minecraft 1.20.4",
+      "changelog_url": null,
+      "date_published": "2023-12-13T09:51:15.277514Z",
+      "downloads": 37292,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "PsGBHb6E",
+          "hashes": {
+            "sha512": "54836d48903bb81d951208989d780f6da44193e809188cb24d91d908a900279078fec7ec8295486775e4d299cdb4998cbb41b01acb80655cf66455aa5a0f8da9",
+            "sha1": "84542fbd77f2c3290faad89b079a2f062db8934c"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/85kC2OMr/ferritecore-6.0.3-forge.jar",
+          "filename": "ferritecore-6.0.3-forge.jar",
+          "primary": true,
+          "size": 121760,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "tfQSdUpc",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.2 (NeoForge)",
+      "version_number": "6.0.2",
+      "changelog": "- Support for NeoForge 1.20.2\n  - This is equivalent to the 6.0.1 release on LexForge/Fabric/Quilt, so there is no Fabric/Quilt build 6.0.2",
+      "changelog_url": null,
+      "date_published": "2023-10-31T07:08:44.224024Z",
+      "downloads": 13409,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "M1EM8dSM",
+          "hashes": {
+            "sha512": "a0fab831f2d7d9061446136f3291f88d0f7bafd5c1b2b7042ff338e8ef65781ac078af5a2c7888bbb755f4a5bd9ef0f20ebd90f01b5a1910c5b23d5bfc2ef43d",
+            "sha1": "9e5d55fc93238ebe32eaaf8f6671a21fda56e1ea"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/tfQSdUpc/ferritecore-6.0.2-forge.jar",
+          "filename": "ferritecore-6.0.2-forge.jar",
+          "primary": true,
+          "size": 121822,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "DG5Fn9Sz",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.1 (Forge)",
+      "version_number": "6.0.1",
+      "changelog": "- Fix performance issue in quad deduplication in some corner cases\n- Slightly improve memory usage for blocks with only one state",
+      "changelog_url": null,
+      "date_published": "2023-10-22T13:40:26.306516Z",
+      "downloads": 25812954,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "5DAl5AST",
+          "hashes": {
+            "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
+            "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar",
+          "filename": "ferritecore-6.0.1-forge.jar",
+          "primary": true,
+          "size": 123034,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "unerR5MN",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.1 (Fabric/Quilt)",
+      "version_number": "6.0.1",
+      "changelog": "- Fix performance issue in quad deduplication in some corner cases\n- Slightly improve memory usage for blocks with only one state",
+      "changelog_url": null,
+      "date_published": "2023-10-22T13:39:15.937801Z",
+      "downloads": 20789365,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "MT00Ysjy",
+          "hashes": {
+            "sha512": "9b7dc686bfa7937815d88c7bbc6908857cd6646b05e7a96ddbdcada328a385bd4ba056532cd1d7df9d2d7f4265fd48bd49ff683f217f6d4e817177b87f6bc457",
+            "sha1": "8fa3b84fc5860dbc30fdf8cced02af68dffcf3fa"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/unerR5MN/ferritecore-6.0.1-fabric.jar",
+          "filename": "ferritecore-6.0.1-fabric.jar",
+          "primary": true,
+          "size": 125197,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "environment": "client_or_server",
+      "id": "ULSumfl4",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.0 (Forge)",
+      "version_number": "6.0.0-forge",
+      "changelog": "- Update to Minecraft 1.20",
+      "changelog_url": null,
+      "date_published": "2023-06-08T18:26:31.366709Z",
+      "downloads": 500512,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ZCQrzHOj",
+          "hashes": {
+            "sha1": "5c090bf8e882c0ccb9dcdb4afe712fa430e03a02",
+            "sha512": "e78ddd02cca0a4553eb135dbb3ec6cbc59200dd23febf3491d112c47a0b7e9fe2b97f97a3d43bb44d69f1a10aad01143dcd84dc575dfa5a9eaa315a3ec182b37"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/ULSumfl4/ferritecore-6.0.0-forge.jar",
+          "filename": "ferritecore-6.0.0-forge.jar",
+          "primary": true,
+          "size": 122786,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "FCnCG6PS",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "6.0.0 (Fabric/Quilt)",
+      "version_number": "6.0.0-fabric",
+      "changelog": "- Update to Minecraft 1.20",
+      "changelog_url": null,
+      "date_published": "2023-06-08T18:25:07.769716Z",
+      "downloads": 3232041,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "75CN80tJ",
+          "hashes": {
+            "sha1": "5a57ea73c3c7c0cc300d69611a9cad93baf8e9ab",
+            "sha512": "9f563d8ceb2ec838e5da23257d369a26be0323e2f7777df8bb6e2ac4610dd0020827411f7e82e1f151d0fd9236014a8f02801ab4c1a5857ad3fd90345f6cfa9c"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/FCnCG6PS/ferritecore-6.0.0-fabric.jar",
+          "filename": "ferritecore-6.0.0-fabric.jar",
+          "primary": false,
+          "size": 124927,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "zI3uKvrU",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.2.0 (Forge)",
+      "version_number": "5.2.0-forge",
+      "changelog": "- Update to Minecraft 1.19.4\n- Reduce memory overhead of quad lists in simple models\n- Deduplicate `faceSturdy` arrays in blockstate cache (KJP12)",
+      "changelog_url": null,
+      "date_published": "2023-03-17T07:27:17.489870Z",
+      "downloads": 113474,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "DiGq2vui",
+          "hashes": {
+            "sha512": "29ed1c3cd8a3e95b4891d958a5d2399fe05a505d90c9f4d44d845852da26d03b4161c2d3322a172b0815117fbbc024d9df13f20ff171aaa80bf1a9d0672ce5be",
+            "sha1": "713989537a8533f758133627ee21e5f46bf3ca43"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/zI3uKvrU/ferritecore-5.2.0-forge.jar",
+          "filename": "ferritecore-5.2.0-forge.jar",
+          "primary": true,
+          "size": 122799,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "RbR7EG8T",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.2.0 (Fabric/Quilt)",
+      "version_number": "5.2.0-fabric",
+      "changelog": "- Update to Minecraft 1.19.4\n- Reduce memory overhead of quad lists in simple models\n- Deduplicate `faceSturdy` arrays in blockstate cache (KJP12)",
+      "changelog_url": null,
+      "date_published": "2023-03-17T07:26:17.088439Z",
+      "downloads": 850890,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ebJ3Naem",
+          "hashes": {
+            "sha512": "56a4ac2ed002260ee451fa9d33169ddcd01473bf46eee97061666b13fa386cd23e15238a72729e55f32d81cce8ae049c80caabf1947ba998258282226289be0c",
+            "sha1": "ed6fa9a9365d4e58db6703479a44cc6aed5add2f"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/RbR7EG8T/ferritecore-5.2.0-fabric.jar",
+          "filename": "ferritecore-5.2.0-fabric.jar",
+          "primary": true,
+          "size": 124924,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "YrvjR5sX",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.1.0 (Forge)",
+      "version_number": "5.1.0-forge",
+      "changelog": "- Update to 1.19.3",
+      "changelog_url": null,
+      "date_published": "2022-12-08T17:53:44.181068Z",
+      "downloads": 23751,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "fCjkpInt",
+          "hashes": {
+            "sha1": "a69d589b39e583fdf2b124f2c701a962fb3974e1",
+            "sha512": "34039e0a7eb9ef98a1bec58a85a9ed4279c313625c82eeb3fd0d669d668971b770e60abd3672e4d93a7416ebd2352d2e0e24e17a74fd9fd0d81c518fa7756e9e"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/YrvjR5sX/ferritecore-5.1.0-forge.jar",
+          "filename": "ferritecore-5.1.0-forge.jar",
+          "primary": true,
+          "size": 118413,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "GHcKib6J",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.1.0 (Fabric/Quilt)",
+      "version_number": "5.1.0-fabric",
+      "changelog": "- Update to Minecraft 1.19.3\n  - Forge is not available on 1.19.3 yet, so this is only on Fabric/Quilt for now",
+      "changelog_url": null,
+      "date_published": "2022-12-07T17:03:37.950182Z",
+      "downloads": 261722,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "jL8vAE8J",
+          "hashes": {
+            "sha1": "4c45e0e8981374d6c98304c3de90e813eb930673",
+            "sha512": "24b5790769a9da3d79a46435012bc6d0972042b874b195dc63aa911dcbcca29496c977477f6ca9e70a850432468e565490f75ba2730eb9ec4c304e03f48c1e1a"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/GHcKib6J/ferritecore-5.1.0-fabric.jar",
+          "filename": "ferritecore-5.1.0-fabric.jar",
+          "primary": true,
+          "size": 120325,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "CtXsUUz6",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.0.3 (Forge)",
+      "version_number": "5.0.3-forge",
+      "changelog": "- Fix crash when the stream returned by `getResourceAsStream` does not return the full file at once\n  - This has only happened on Quilt in practice, but could also happen in future Forge versions",
+      "changelog_url": null,
+      "date_published": "2022-11-26T16:46:57.826246Z",
+      "downloads": 4167300,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "U4BRdGae",
+          "hashes": {
+            "sha512": "dd553aad3900f01a9924e906516ec6a74e671319e091bd9b37974e2cf11b00d5cfb1faa6a883c5c413d966696ed5e1d987de3d9cbe862ae9f13f48463d0f16b7",
+            "sha1": "59245ec84ca1e3639237f5a04fe6f7556a9ec2bb"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/CtXsUUz6/ferritecore-5.0.3-forge.jar",
+          "filename": "ferritecore-5.0.3-forge.jar",
+          "primary": true,
+          "size": 116824,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "kwjHqfz7",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.0.3 (Fabric/Quilt)",
+      "version_number": "5.0.3-fabric",
+      "changelog": "- Fix crash on recent Quilt builds",
+      "changelog_url": null,
+      "date_published": "2022-11-26T16:42:52.101249Z",
+      "downloads": 1599862,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "sLZQIjJV",
+          "hashes": {
+            "sha512": "efbea36712322c71aee547ebc71b3644947e40bfa01d721fce5d5ba2db4aa6867e6a76f43d46e33ae8a2672f300bfc5b96510e164b1dd09cfae9cba0a195252d",
+            "sha1": "4a124f8205e39b84a156db2d1e435c5708328d7b"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/kwjHqfz7/ferritecore-5.0.3-fabric.jar",
+          "filename": "ferritecore-5.0.3-fabric.jar",
+          "primary": true,
+          "size": 119275,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "3UkWIj4a",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "2.1.1 (Fabric)",
+      "version_number": "2.1.1-fabric",
+      "changelog": "- Fix crash when the working directory of the game does not match the instance directory",
+      "changelog_url": null,
+      "date_published": "2022-11-08T16:50:55.222964Z",
+      "downloads": 766629,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "lGde1uB8",
+          "hashes": {
+            "sha1": "d099bf16b03666705173120d933facd0c0f33e44",
+            "sha512": "77881a04bc28fc409da30dd469fb59d2aae56baad667fe7a811d9b14ce0c255f6a1e5d67d26fb9c0527ba0e28522f073f12a0102f4ea9490bf80492311046422"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/3UkWIj4a/ferritecore-2.1.1-fabric.jar",
+          "filename": "ferritecore-2.1.1-fabric.jar",
+          "primary": true,
+          "size": 109960,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "6gwDuh90",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "2.1.1 (Forge)",
+      "version_number": "2.1.1-forge",
+      "changelog": "- Fix crash when the working directory of the game does not match the instance directory",
+      "changelog_url": null,
+      "date_published": "2022-11-08T16:48:32.899281Z",
+      "downloads": 958178,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "AndEwoG7",
+          "hashes": {
+            "sha512": "129eaec4743214258ed2f426192eba65f8268697fd37a0fc67f868d22b2eaea4d60d8e29100b034a00347672f830f3c4a4a3a94d2307d02f60c00ff4bd27f6a7",
+            "sha1": "3ae8dbe663156a8dec621d255856356444586905"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/6gwDuh90/ferritecore-2.1.1-forge.jar",
+          "filename": "ferritecore-2.1.1-forge.jar",
+          "primary": true,
+          "size": 108557,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "fs07zE6w",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.2.2 (Forge)",
+      "version_number": "4.2.2",
+      "changelog": "- Fix crash when the working directory of the game does not match the instance directory\n- On Fabric this was fixed in 1.17, so there is no Fabric equivalent of this build",
+      "changelog_url": null,
+      "date_published": "2022-11-08T16:32:48.437770Z",
+      "downloads": 1016066,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "OjMZ8gYl",
+          "hashes": {
+            "sha512": "3452a34a3dcbe630e881feb553ff55077a8dc8a25872777671242ad7da2c6d3588b9627cdb7396f049d674a1fca54026f885da171a999a0c33111ce09bd97b58",
+            "sha1": "e9e0e711de47112dc53e24dc008da1f598834c4f"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/fs07zE6w/ferritecore-4.2.2-forge.jar",
+          "filename": "ferritecore-4.2.2-forge.jar",
+          "primary": true,
+          "size": 116626,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "fwozdl4o",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.0.2 (Forge)",
+      "version_number": "5.0.2",
+      "changelog": "- Fix crash when the working directory of the game does not match the instance directory\n- On Fabric this was fixed in 1.17, so there is no Fabric equivalent of this build",
+      "changelog_url": null,
+      "date_published": "2022-11-08T08:22:34.243420Z",
+      "downloads": 2675,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "UZIRYhXV",
+          "hashes": {
+            "sha1": "7aac05d9777725aa9dda804bbcfd2bfe5b804997",
+            "sha512": "5dc8533457608ceb334f4ab9800241100e2f647a0e2705ee142ef0697528742e90727022e4f33ded2fd04a47d39233148c069803ad4d674cd30938cf53f9d79c"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/fwozdl4o/ferritecore-5.0.2-forge.jar",
+          "filename": "ferritecore-5.0.2-forge.jar",
+          "primary": true,
+          "size": 116656,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "xyl3NViI",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.0.1 (Forge)",
+      "version_number": "5.0.1",
+      "changelog": "- Fix support for recent Forge builds\n  - As this change is only relevant on Forge there is no Fabric/Quilt version of build 5.0.1",
+      "changelog_url": null,
+      "date_published": "2022-07-14T16:17:57.304323Z",
+      "downloads": 42096,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "xt3y638F",
+          "hashes": {
+            "sha1": "daf0cd007223ac0ebbb70dfb5a2832caadf1f267",
+            "sha512": "385aa7eca564f62dbfbeed2715d5d4571c8256f07bbdc70476957ed877696187e2d1e214c56542dcb9eb34f226e4f4509fa11d0eba8dbdc8b95e7bd7b3339273"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/5.0.1/ferritecore-5.0.1-forge.jar",
+          "filename": "ferritecore-5.0.1-forge.jar",
+          "primary": true,
+          "size": 116590,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "7epbwkFg",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.0.0 (Fabric/Quilt)",
+      "version_number": "5.0.0-fabric",
+      "changelog": "- Update to 1.19",
+      "changelog_url": null,
+      "date_published": "2022-06-09T15:45:44.029544Z",
+      "downloads": 841431,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "AK1HVdmY",
+          "hashes": {
+            "sha512": "ea54167b9c054a7e486dc01113ee9fc6d3ed0e527cb2fe238f7f5ba5823ac18f4e7c70bf89d14c9845485ca881b757b7672cda610c7fac580fd55db7070d02b4",
+            "sha1": "14ab2f560fce8f20f5af07129dd71130ab9bb03f"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/5.0.0-fabric/ferritecore-5.0.0-fabric.jar",
+          "filename": "ferritecore-5.0.0-fabric.jar",
+          "primary": true,
+          "size": 119108,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "zkszypjI",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "5.0.0 (Forge)",
+      "version_number": "5.0.0-forge",
+      "changelog": "- Update to 1.19",
+      "changelog_url": null,
+      "date_published": "2022-06-09T15:44:30.760198Z",
+      "downloads": 901,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "aabRfnOU",
+          "hashes": {
+            "sha1": "49482082a18ab508fb29b4e2c4fbd1e05191229b",
+            "sha512": "62bcfafc4c607b4ae44d4111f6fd95f0ea99a05843428c2ed46d4cf78fdd3f1cdf3dfbcbaa12909bb88f3fdeb351e4f57b7a9ab75d3706cda0d6a84110e18439"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/5.0.0/ferritecore-5.0.0-forge.jar",
+          "filename": "ferritecore-5.0.0-forge.jar",
+          "primary": true,
+          "size": 116567,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "client_or_server",
+      "id": "AvWRJcqx",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.2.1 (Forge)",
+      "version_number": "4.2.1-forge",
+      "changelog": "- Disable threading detector optimizations by default\n  - They cause a very rare and impossible-to-reproduce crash, so enable at your own risk",
+      "changelog_url": null,
+      "date_published": "2022-04-24T16:33:23.341129Z",
+      "downloads": 27651,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "9QcOf6KK",
+          "hashes": {
+            "sha512": "850f5e95963146ee4d0321edc4c2ecea07607dd32a3262f22d7ea3c82d8b3f0523a0c0f2a62524e339f1eb8d88d3a0bf1773a877c72d2f0f4ba67688d421cc84",
+            "sha1": "ba3071bf50a8ffae349b7eca514415014e939267"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.2.1-forge/ferritecore-4.2.1-forge.jar",
+          "filename": "ferritecore-4.2.1-forge.jar",
+          "primary": true,
+          "size": 116552,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "776Z5oW9",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.2.1 (Fabric/Quilt)",
+      "version_number": "4.2.1-fabric",
+      "changelog": "- Disable threading detector optimizations by default\n  - They cause a very rare and impossible-to-reproduce crash, so enable at your own risk",
+      "changelog_url": null,
+      "date_published": "2022-04-24T15:53:26.908674Z",
+      "downloads": 441550,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "QfjAfOpY",
+          "hashes": {
+            "sha1": "d5d047374981d614c2a53422be751dc1491f9cd0",
+            "sha512": "066a5644191ee45abde5ad4bf7f1662f8aaef842ed24398e311a35d39861b6159fb55ccd18c6ad8940cabed3341c5163462e7c2895631a6d26945f67db326798"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.2.1/ferritecore-4.2.1-fabric.jar",
+          "filename": "ferritecore-4.2.1-fabric.jar",
+          "primary": true,
+          "size": 119110,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "OhuTVpQH",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.2.0",
+      "version_number": "4.2.0",
+      "changelog": "- Updated to 1.18.2 (no actual code changes, but needed to be rebuilt)\n- Automatically disable ThreadingDetector changes when Lithium is present\n  - Lithium completely removes the detector, which is both smaller and faster than FCs implementation which keeps functionality",
+      "changelog_url": null,
+      "date_published": "2022-03-04T15:14:09.949905Z",
+      "downloads": 80639,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "rrsv0cDZ",
+          "hashes": {
+            "sha1": "5e78186d306ca68dd8b5da4f9939126bf96fdbc0",
+            "sha512": "dffac2f7475120519388f83f3275c5b89757bccfc58657807a30d20e9f25daf412ce8c0d9d47d0f51572b715cc1b2958ecef1b28c5ab104f58b38cee534dc9ab"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.2.0/ferritecore-4.2.0-fabric.jar",
+          "filename": "ferritecore-4.2.0-fabric.jar",
+          "primary": true,
+          "size": 106529,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "FMdIAsIi",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.1.2",
+      "version_number": "4.1.2",
+      "changelog": "- Re-add a fixed version of the `ThreadingDetector` optimization\n- Probably fix rare crashes when creating config file\n- Explicitly mark as incompatible with Hydrogen",
+      "changelog_url": null,
+      "date_published": "2022-02-19T09:42:59.515414Z",
+      "downloads": 20085,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "WsMDESx2",
+          "hashes": {
+            "sha1": "11d973fe8601658fade9f9981f568efb4b8a5dce",
+            "sha512": "55481188d960ad1426fde990ca75cde453fee596fd3c745a402a35620128d93657e3ba3b126ad58c31846918ccce17eea66f0167c3f6141ad877b9862ab9910c"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.1.2/ferritecore-4.1.2-fabric.jar",
+          "filename": "ferritecore-4.1.2-fabric.jar",
+          "primary": false,
+          "size": 115546,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "c9p5gemS",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.1.1",
+      "version_number": "4.1.1",
+      "changelog": "- Remove ThreadingDetector optimization for now, it was broken in an important non-obvious case",
+      "changelog_url": null,
+      "date_published": "2022-02-06T08:14:49.562697Z",
+      "downloads": 1416,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "2JAa59UA",
+          "hashes": {
+            "sha512": "23ff60ab6df446777bcfb1b74ca8d935e55469a2c962d0c79db069c131fd01cde59cf2411ca0ce411401a9dacd3265fbe937c576dd9a3d152f4eae456ded291f",
+            "sha1": "abc7bf688160e6c66437fb5fa685ccac2a141d42"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.1.1/ferritecore-4.1.1-fabric.jar",
+          "filename": "ferritecore-4.1.1-fabric.jar",
+          "primary": true,
+          "size": 106469,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "OhmGV4Hp",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.1.0",
+      "version_number": "4.1.0",
+      "changelog": "- Update to 1.18.1 (from 1.18)\n- Replace vanilla's `ThreadingDetector`s in chunk sections with a single (atomically accessed) reference\n- Optimize `FastMap` a bit\n- Add compatibility for recent lithium preview builds\n- Remove Hydrogen compat code\n  - Hydrogen has been archived, and will not be updated to 1.18+",
+      "changelog_url": null,
+      "date_published": "2022-02-05T19:18:02.733632Z",
+      "downloads": 497,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Xo6DFEx7",
+          "hashes": {
+            "sha512": "51ff2b780266659ea830b85dd82db5c9d62fb71f5678cd2ca04809ea49e52157177db70130cbe31a095ff1c7e9c2e2edcaa32cd9b5f73dff4e90152c652b03ac",
+            "sha1": "ccf5609395a24bd7f40ca7764059de54bc51d38d"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.1.0/ferritecore-4.1.0-fabric.jar",
+          "filename": "ferritecore-4.1.0-fabric.jar",
+          "primary": true,
+          "size": 111562,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "1FrNtQTK",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "4.0.0",
+      "version_number": "4.0.0",
+      "changelog": " - Update to 1.18\n - FIx crash when the config directory does not exist (?)",
+      "changelog_url": null,
+      "date_published": "2021-12-05T09:24:19.903405Z",
+      "downloads": 31856,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "85GsQ3Mg",
+          "hashes": {
+            "sha1": "e29e1f3991ea94a161eebd9faf68f9d489d588f3",
+            "sha512": "2e5e5d03e21190bf1ebe5889a6387f001cfe8e7d6f90bff6d5f0d4fdfca1bd445c6ee1e5ec64207ba19df35364917b4f8e3a769cc5391ee77dbf81d579cd1e05"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/4.0.0/ferritecore-4.0.0-fabric.jar",
+          "filename": "ferritecore-4.0.0-fabric.jar",
+          "primary": true,
+          "size": 109825,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "oP38VFTJ",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "2.1.0",
+      "version_number": "2.1.0",
+      "changelog": " - New: Do not store NBT data for already loaded parts of partially loaded chunks, saves 80-90 MB on servers\n- Add compatibility for environments using newer guava versions\n- Fix rare crash with FRAPI\n- Improve performance of StateHolder#hasProperty",
+      "changelog_url": null,
+      "date_published": "2021-10-09T11:10:07.129418Z",
+      "downloads": 21791,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "st0u5NXP",
+          "hashes": {
+            "sha512": "32da6f8089af2d4b060b006be2713725804cce574b25fe759641aa67005d1acdaeb857fae0d3623887e70ac00203750264319ce50222aa97c82a1364d06886f9",
+            "sha1": "3ebad2a2f420d34069dd1799ed6dd809652aeb3e"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/2.1.0/ferritecore-2.1.0-fabric.jar",
+          "filename": "ferritecore-2.1.0-fabric.jar",
+          "primary": false,
+          "size": 109902,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "JQl5JoCm",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "3.1.0",
+      "version_number": "3.1.0",
+      "changelog": " - New optimization: Do not keep chunk data around after it has been loaded\n - Support for environments where (for whatever reason) guava 27 is loaded instead of guava 21\n - Fix (very) rare crash with FRAPI and multipart models",
+      "changelog_url": null,
+      "date_published": "2021-09-27T14:57:08.849709Z",
+      "downloads": 177649,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "6dNWVjHI",
+          "hashes": {
+            "sha512": "d9e537185a3d39736ac765df5ba3a05f8ace5a3af87b350da57da8fd7e466b7b84a378c0f721f5ae6e685e2d24f28d58a760311287c4c0a8df0fbdbf610fb075",
+            "sha1": "33459a6f05597428405c398a9acf3f278e1d8806"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/3.1.0/ferritecore-3.1.0-fabric.jar",
+          "filename": "ferritecore-3.1.0-fabric.jar",
+          "primary": false,
+          "size": 110397,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "HjttFjoa",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "3.0.3",
+      "version_number": "3.0.3",
+      "changelog": " - Fix compatibility with sodium",
+      "changelog_url": null,
+      "date_published": "2021-08-22T18:15:49.492873Z",
+      "downloads": 20874,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "uaQ7IKGs",
+          "hashes": {
+            "sha512": "24f293baa8a493c7cd34d810694aef2fe398d1d1ecd6c5ab38ba1888563b8dd3628fe07026739f6840ebe17b894bb54e39344ab2c0f6bc4fcd9ed56ebae6f9e1",
+            "sha1": "08955a13f40c4b45089fe1d7ed62410e941382d7"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.3/ferritecore-3.0.3-fabric.jar",
+          "filename": "ferritecore-3.0.3-fabric.jar",
+          "primary": false,
+          "size": 103202,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "2XHUVaPQ",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "2.0.7",
+      "version_number": "2.0.7",
+      "changelog": " - Fix crash with sodium",
+      "changelog_url": null,
+      "date_published": "2021-08-22T18:01:29.532465Z",
+      "downloads": 2356,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "XGdfbflu",
+          "hashes": {
+            "sha1": "4ee1e6023f3cd411f6b935a99fb428913066ff37",
+            "sha512": "27ed0dee706141d083606203bda5c8693df1cef04c7868b1d372259a50ae9f093c1a05006660df4e8922ee7da0db76e92a8f536a0881545291d91ccbbe9d4817"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/2.0.7/ferritecore-2.0.7-fabric.jar",
+          "filename": "ferritecore-2.0.7-fabric.jar",
+          "primary": false,
+          "size": 103178,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "5rLOvzfo",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "3.0.2",
+      "version_number": "3.0.2",
+      "changelog": "- Fix potential crash with multipart models with many states",
+      "changelog_url": null,
+      "date_published": "2021-08-22T09:10:59.291184Z",
+      "downloads": 827,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "baN52ptG",
+          "hashes": {
+            "sha1": "f26d14ee0a9b5e6931fbae0279f78ea0ca30ae1a",
+            "sha512": "52aee8398c5242b17d3d3c53f4b33743c8e80380217ef0ec7867ee6dff4155cb35f9367eb192324abf957f5cb39abf0151ce459b35c40800d5c3578e997dc8aa"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.2/ferritecore-3.0.2-fabric.jar",
+          "filename": "ferritecore-3.0.2-fabric.jar",
+          "primary": false,
+          "size": 102460,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "LG5zF5LP",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "2.0.6",
+      "version_number": "2.0.6",
+      "changelog": " - Fix potential crash with multipart models with many states\n - Remove incorrect fabric API dependency",
+      "changelog_url": null,
+      "date_published": "2021-08-22T08:14:18.883761Z",
+      "downloads": 1563,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "I15etmo0",
+          "hashes": {
+            "sha1": "4990e4bb86149f68d0f06ddf1d421bb3366e7337",
+            "sha512": "a1e188db2ae571ff518e4d6f0e3c63ebeaf413987fe208d617c37e8828af5734e8c4106226ffcda09f51d8f36f4460a3ec7dbd0d14d65d7553a37f215ffa35e3"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/2.0.6/ferritecore-2.0.6-fabric.jar",
+          "filename": "ferritecore-2.0.6-fabric.jar",
+          "primary": false,
+          "size": 102436,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "hjsymojR",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "3.0.1",
+      "version_number": "3.0.1",
+      "changelog": " - Fix compatibility with Hydrogen",
+      "changelog_url": null,
+      "date_published": "2021-07-02T10:38:01.407339Z",
+      "downloads": 29640,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "xnfCaQ4R",
+          "hashes": {
+            "sha1": "93947ab694796b0fb35e69d19189be7a7c2a4a2e",
+            "sha512": "da299e3de25d3f1cd601c73431014939a32ea1c495a5720d5125b502bd353299381941c72463f7dd1b3894a140df0bb9c78c64a006bea7a5f6f7f37919bae354"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.1/ferritecore-3.0.1-fabric.jar",
+          "filename": "ferritecore-3.0.1-fabric.jar",
+          "primary": false,
+          "size": 101152,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "Mc6hHgQU",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "3.0.0",
+      "version_number": "3.0.0",
+      "changelog": " - Update to 1.17",
+      "changelog_url": null,
+      "date_published": "2021-06-21T18:42:22.593943Z",
+      "downloads": 722,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "OhFAOvPL",
+          "hashes": {
+            "sha512": "5e1ac32801b9d7d5207a91e48a5bf11c6d8c2141a44efe5e4a25b40660cab37c0ec8fe8bf9eeff0ee0f507897179a32fdfed460cea356e4683cc4dde75ee682b",
+            "sha1": "b8ebc4be2786048c3db06c07045e0493f212e996"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/3.0.0/ferritecore-3.0.0-fabric.jar",
+          "filename": "ferritecore-3.0.0-fabric.jar",
+          "primary": false,
+          "size": 101131,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "GeyB7u1y",
+      "project_id": "uXXizFIs",
+      "author_id": "cXzLZ8YY",
+      "featured": false,
+      "name": "2.0.5",
+      "version_number": "2.0.5",
+      "changelog": " - Fix vague error messages when accessing invalid block properties\n - Add a logo\n - Add option to populate the neighbor table with a FastMap-backed table\n   - This slightly increases memory usage and is only required when mods access this table directly, so it is disabled by default\n",
+      "changelog_url": null,
+      "date_published": "2021-06-20T12:38:24.778909Z",
+      "downloads": 4811,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "7Nh2IjQt",
+          "hashes": {
+            "sha1": "d12010cf04474d8150b14f9f894cad8ed4559422",
+            "sha512": "c0503c6d5a232bc47436765a98e410c648c6eb0524ef4f0c5e3e0a8e4feb53a4a0eedca43370de62e38d32cca9e9afba75d64e6ae03db6069564575f6cb78b55"
+          },
+          "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/2.0.5/ferritecore-2.0.5-fabric.jar",
+          "filename": "ferritecore-2.0.5-fabric.jar",
+          "primary": false,
+          "size": 101023,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}

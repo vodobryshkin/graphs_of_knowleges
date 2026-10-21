@@ -1,0 +1,1864 @@
+{
+  "project": {
+    "client_side": "optional",
+    "server_side": "optional",
+    "game_versions": [
+      "1.17",
+      "1.17.1",
+      "1.18",
+      "1.18.1",
+      "1.18.2",
+      "1.19",
+      "1.19.1",
+      "1.19.2",
+      "1.19.3",
+      "1.19.4",
+      "1.20",
+      "1.20.1",
+      "1.20.2-rc2",
+      "1.20.2",
+      "1.20.3-rc1",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5-rc1",
+      "1.20.5",
+      "1.20.6",
+      "1.21-pre2",
+      "1.21",
+      "1.21.1",
+      "1.21.2-rc1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5-rc1",
+      "1.21.5",
+      "25w14craftmine",
+      "1.21.6-pre2",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9-pre1",
+      "1.21.9-pre2",
+      "1.21.9-pre3",
+      "1.21.9-rc1",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11-pre1",
+      "1.21.11",
+      "26.1-snapshot-7",
+      "26.1-pre-3",
+      "26.1",
+      "26.1.1",
+      "26w14a",
+      "26.1.2",
+      "26.2-pre-1",
+      "26.2",
+      "26.3-pre-3",
+      "26.3"
+    ],
+    "environment": [
+      "client_or_server"
+    ],
+    "id": "eXts2L7r",
+    "slug": "placeholder-api",
+    "project_type": "mod",
+    "team": "tA4rMuIL",
+    "organization": null,
+    "title": "Text Placeholder API",
+    "description": "Placeholder and Text manipulation library for your Minecraft mods.",
+    "body": "# About Placeholder API\n\nIt's a small, JIJ-able API that allows creation and parsing placeholders within strings and Minecraft Text Components.\nPlaceholder API uses a simple format of `%modid:type%` or `%modid:type data%` (`%modid:type/data%` prior to 1.19).\nIt also includes simple, general usage text format indented for simplifying user input in configs/chats/etc.\n\n## For users\n\nIt allows users to configure multiple mods in similar way without losing compatibility between mods.\nPlaceholders allow changing what and where any information is present within compatible mods.\n\nAdditionally, Simplified Text Format allows to style them in readable way without the requirement of writing JSON manually or using\ngenerators.\n- [Using placeholders](https://placeholders.pb4.eu/user/general)\n- [Default placeholder list](https://placeholders.pb4.eu/user/default-placeholders)\n- [Mod placeholder list](https://placeholders.pb4.eu/user/mod-placeholders)\n- [QuickText](https://placeholders.pb4.eu/user/quicktext)\n- [Simplified Text Format](https://placeholders.pb4.eu/user/text-format)\n\nMods generally using this api should just include it directly, but you can downloaded updated version from here if needed!\n\n## For developers\n\nUsage of Placeholder API is a simple way to achieve good mod compatibility without having to implement\nmultiple mod specific apis. Additionally, the placeholder parsing system can be used for replacing\nown static (or dynamic placeholders) in Text created by player or read from config. This with combination\nof Simplified Text Format allows creating great user/admin experience.\n\n- [Getting Started](https://placeholders.pb4.eu/dev/getting-started)\n- [Adding placeholders](https://placeholders.pb4.eu/dev/adding-placeholders)\n- [Parsing placeholders](https://placeholders.pb4.eu/dev/parsing-placeholders)\n- [TextNodes and NodeParsers](https://placeholders.pb4.eu/dev/text-nodes)\n- [Using Simplified Text Format (TextParserV1)](https://placeholders.pb4.eu/dev/text-format)\n\n*[JIJ]: Jar-in-Jar",
+    "body_url": null,
+    "published": "2023-05-07T07:16:09.821727Z",
+    "updated": "2026-09-09T09:23:44.714312Z",
+    "approved": "2023-05-07T21:31:58.154280Z",
+    "queued": "2023-05-07T07:55:46.627995Z",
+    "status": "approved",
+    "requested_status": "approved",
+    "moderator_message": null,
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "downloads": 74331538,
+    "followers": 1858,
+    "categories": [
+      "library"
+    ],
+    "additional_categories": [
+      "management"
+    ],
+    "loaders": [
+      "fabric",
+      "quilt"
+    ],
+    "versions": [
+      "FplcrCus",
+      "FsEVC8lW",
+      "JoztwSEk",
+      "G4smC1A1",
+      "judXVfRL",
+      "iCAUZykd",
+      "gDVgNoCR",
+      "wrxtLoOX",
+      "qidX2Gu4",
+      "KvVY0jfG",
+      "3v1Xz4LB",
+      "1NGrL2hU",
+      "iLJ7N1aF",
+      "Olmswxzt",
+      "cE5TczQr",
+      "ZGVganES",
+      "GtmqzyeE",
+      "eeN3FuMY",
+      "U5bhVym2",
+      "3YxE3aNF",
+      "VYMQNs7A",
+      "q6ExExGa",
+      "DaV2ycYi",
+      "r0xF3BDM",
+      "HmzKM0RD",
+      "qXvsJsNo",
+      "AkMeBicV",
+      "nXF5pSdR",
+      "o4S6CvEH",
+      "fIJbIXa0",
+      "8x0q8gHM",
+      "wg33PHxj",
+      "1S1kjZ9W",
+      "oiSRN1Yg",
+      "OxuaGQ0s",
+      "T5pDJV1K",
+      "qxjzQ9xY",
+      "74vAqBh2",
+      "MQX6V6Qi",
+      "b3IPAHgB",
+      "tvuIahw6",
+      "NDqH16LT",
+      "lXytLqWj"
+    ],
+    "icon_url": "https://cdn.modrinth.com/data/eXts2L7r/e9c9990896e6422bffc5f73d2c41b8f077348f83.png",
+    "raw_icon_url": "https://cdn.modrinth.com/data/eXts2L7r/e9c9990896e6422bffc5f73d2c41b8f077348f83.png",
+    "issues_url": "https://github.com/Patbox/TextPlaceholderAPI/issues",
+    "source_url": "https://github.com/Patbox/TextPlaceholderAPI",
+    "wiki_url": "https://placeholders.pb4.eu/",
+    "discord_url": "https://pb4.eu/discord",
+    "donation_urls": [
+      {
+        "id": "ko-fi",
+        "platform": "Ko-fi",
+        "url": "https://ko-fi.com/patbox"
+      }
+    ],
+    "gallery": [],
+    "color": 1842204,
+    "thread_id": "eXts2L7r",
+    "monetization_status": "monetized"
+  },
+  "members": [
+    {
+      "role": "Owner",
+      "team_id": "tA4rMuIL",
+      "user": {
+        "id": "L8RLwrF2",
+        "username": "Patbox",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/39821509?v=4",
+        "raw_avatar_url": "https://avatars3.githubusercontent.com/u/39821509?v=4",
+        "bio": "Minecraft modder specializing in server side development.  If you played on public Fabric servers, you might already used my stuff!\n\nhttps://pb4.eu",
+        "created": "2020-12-01T17:06:05.069155Z",
+        "role": "developer",
+        "badges": 0,
+        "campaigns": {
+          "pride_26": null
+        },
+        "auth_providers": null,
+        "email": null,
+        "email_verified": null,
+        "has_password": null,
+        "has_totp": null,
+        "payout_data": null,
+        "stripe_customer_id": null,
+        "allow_friend_requests": null,
+        "eligibility_verified_at": null,
+        "github_id": null
+      },
+      "permissions": null,
+      "accepted": true,
+      "payouts_split": null,
+      "ordering": 0
+    }
+  ],
+  "versions": [
+    {
+      "game_versions": [
+        "26.3-pre-3",
+        "26.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "lXytLqWj",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "3.2.0+26.3",
+      "version_number": "3.2.0+26.3",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/3.1.0-beta.1+26.2...3.2.0+26.3",
+      "changelog_url": null,
+      "date_published": "2026-09-09T09:23:44.714312Z",
+      "downloads": 2826578,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "S55UzZQh",
+          "hashes": {
+            "sha512": "eb2bb31e51068aad2581b7864ea7b11b1209ba1c2b27551cd5837d9b312b818b73bb47c06374b46b99b73401c62c6b6c115f702c55aed6afd467ad8ad6448de4",
+            "sha1": "4c455faa6333dbaef72cedbb91fe4a2a03176741"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar",
+          "filename": "placeholder-api-3.2.0+26.3.jar",
+          "primary": true,
+          "size": 254959,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.2-pre-1",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "NDqH16LT",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "3.1.0-beta.1+26.2",
+      "version_number": "3.1.0-beta.1+26.2",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/3.0.0+26.1...3.1.0-beta.1+26.2",
+      "changelog_url": null,
+      "date_published": "2026-05-27T20:57:38.795530Z",
+      "downloads": 9161899,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1SxuS2j6",
+          "hashes": {
+            "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103",
+            "sha512": "07b6fc802559d54ec6577f6e2788926ef391d755206c2bfb0528280977885cae4bc0c517d8a53eb6f34092015ebe6c41210627d255aa6504662daefa8fb76397"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+          "filename": "placeholder-api-3.1.0-beta.1+26.2.jar",
+          "primary": true,
+          "size": 254973,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.2-pre-1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "tvuIahw6",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "3.1.0-beta.1+26.2",
+      "version_number": "3.1.0-beta.1+26.2",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/3.0.0+26.1...3.1.0-beta.1+26.2",
+      "changelog_url": null,
+      "date_published": "2026-05-27T20:51:51.619516Z",
+      "downloads": 1639,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "DIeULCA0",
+          "hashes": {
+            "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103",
+            "sha512": "07b6fc802559d54ec6577f6e2788926ef391d755206c2bfb0528280977885cae4bc0c517d8a53eb6f34092015ebe6c41210627d255aa6504662daefa8fb76397"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/tvuIahw6/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+          "filename": "placeholder-api-3.1.0-beta.1+26.2.jar",
+          "primary": true,
+          "size": 254973,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "b3IPAHgB",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "3.0.0+26.1",
+      "version_number": "3.0.0+26.1",
+      "changelog": "## What's Changed\n* Bump Gradle, Fix build.yml, etc by @sakura-ryoko in https://github.com/Patbox/TextPlaceholderAPI/pull/93\n* Create zh_cn.json by @NumberSir in https://github.com/Patbox/TextPlaceholderAPI/pull/63\n* 🌐 add Argentine Spanish localization by @Texaliuz in https://github.com/Patbox/TextPlaceholderAPI/pull/77\n* Added language support for Turkish with tr_tr.json by @Runteryaa in https://github.com/Patbox/TextPlaceholderAPI/pull/84\n* Create uk_ua.json by @StarmanMine142 in https://github.com/Patbox/TextPlaceholderAPI/pull/94\n\n## New Contributors\n* @NumberSir made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/63\n* @Texaliuz made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/77\n* @Runteryaa made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/84\n* @StarmanMine142 made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/94\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/3.0.0-beta.2+26.1...3.0.0+26.1",
+      "changelog_url": null,
+      "date_published": "2026-04-11T07:52:55.577049Z",
+      "downloads": 4821999,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "tr3vvARK",
+          "hashes": {
+            "sha1": "c1ce548549ec4517b9393985cefc65389e6f36d8",
+            "sha512": "b559da0f13fef17967f2aff1d06b00995c7db21d9d5b7b580ab6eafdf2365e4ac86a7d094c2b481160a942f291bc2595f2cb8c91ce5e169f1c2f461782ecd2a8"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/b3IPAHgB/placeholder-api-3.0.0%2B26.1.jar",
+          "filename": "placeholder-api-3.0.0+26.1.jar",
+          "primary": true,
+          "size": 254376,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.1-pre-3",
+        "26.1",
+        "26.1.1",
+        "26w14a",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "MQX6V6Qi",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "3.0.0-beta.2+26.1",
+      "version_number": "3.0.0-beta.2+26.1",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/3.0.0-beta.1+26.1...3.0.0-beta.2+26.1",
+      "changelog_url": null,
+      "date_published": "2026-03-18T20:02:56.305131Z",
+      "downloads": 2712670,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Nn0omGiI",
+          "hashes": {
+            "sha1": "01afdd9eab5ae1b11acfa90266fc6d4f1cea1fa2",
+            "sha512": "6ef574fd980f386bb2207649637e3c54c1f800afc22d66bcb027b082364d16638bbff3a0ad460161ce317a5333d7b01dae57c9bd374c2e8fa8b9f81bed91be2e"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/MQX6V6Qi/placeholder-api-3.0.0-beta.2%2B26.1.jar",
+          "filename": "placeholder-api-3.0.0-beta.2+26.1.jar",
+          "primary": true,
+          "size": 247011,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.1-snapshot-7"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "74vAqBh2",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "3.0.0-beta.1+26.1",
+      "version_number": "3.0.0-beta.1+26.1",
+      "changelog": "First release for new cycle! Includes bunch of refactors and renames and intruduces support for common and client placeholders!\n\nFor migration, most notable changes:\nWhat previously was PlaceholderContext was moved to ServerPlaceholderContext, and alike (ParserBuilder changed placeholders() -> serverPlaceholders()) for those who want previous features.\nRenamed getText and alike to getComponent. TextNodes are still TextNodes through.\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.8.1+1.21.10...3.0.0-beta.1+26.1",
+      "changelog_url": null,
+      "date_published": "2026-02-14T18:36:49.181168Z",
+      "downloads": 5926,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "9nVAwnm1",
+          "hashes": {
+            "sha512": "9a121036707f47b4000e873539244b0220f2e44eb7a7ecbd2e7d1795781323084e455fb43fea039898ab1e67a586bbcdcfcb955a8db1d46323d5407cf796283b",
+            "sha1": "0aeadd833b1aacb1194b9f6044b1beac2c93209a"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/74vAqBh2/placeholder-api-3.0.0-beta.1%2B26.1.jar",
+          "filename": "placeholder-api-3.0.0-beta.1+26.1.jar",
+          "primary": true,
+          "size": 242226,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "qxjzQ9xY",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.8.2+1.21.10",
+      "version_number": "2.8.2+1.21.10",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.8.1+1.21.10...2.8.2+1.21.10",
+      "changelog_url": null,
+      "date_published": "2026-02-01T20:30:10.668511Z",
+      "downloads": 11417460,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "7Z1ARhmu",
+          "hashes": {
+            "sha512": "507ab10b7938dcd14d33121b8462649bdbe575cef248e917dfdf7566078ab5d0195ca1add95eae4863de3f652eb56db0a8669a67d5b5344e094d086f9dab5a08",
+            "sha1": "bbdc920ecff993148cd6e81a208536132245ce40"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar",
+          "filename": "placeholder-api-2.8.2+1.21.10.jar",
+          "primary": true,
+          "size": 268662,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11-pre1",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "T5pDJV1K",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.8.1+1.21.10",
+      "version_number": "2.8.1+1.21.10",
+      "changelog": "## What's Changed\n* Add player head texture argument by @DrexHD in https://github.com/Patbox/TextPlaceholderAPI/pull/87\n\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.8.0+1.21.9...2.8.1+1.21.10",
+      "changelog_url": null,
+      "date_published": "2025-10-25T17:12:53.026722Z",
+      "downloads": 10429144,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "kx60MWke",
+          "hashes": {
+            "sha1": "4950367323147265b272ad2156bf1a343db3f64c",
+            "sha512": "92606640457931698f272e4e8866b5357767360e78a3eed8b3bd490e8a17bfeaefdc0bd444ac8ba4f51b7f9f1eb7f22337e034b409939db3601269d4b53ad22c"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/T5pDJV1K/placeholder-api-2.8.1%2B1.21.10.jar",
+          "filename": "placeholder-api-2.8.1+1.21.10.jar",
+          "primary": true,
+          "size": 267926,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9-rc1",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "OxuaGQ0s",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.8.0+1.21.9",
+      "version_number": "2.8.0+1.21.9",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.8.0-rc.1+1.21.9...2.8.0+1.21.9",
+      "changelog_url": null,
+      "date_published": "2025-09-28T16:01:29.754548Z",
+      "downloads": 3645688,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "PPQXAg8o",
+          "hashes": {
+            "sha1": "07b5adc7ee2e002e6eb5807bd1184d45c0349590",
+            "sha512": "5c9af5b43bdc6ba5049b39321852d66fc6ac26a6087752f3520383aed6f4fec18fb055dacc806fc5e629edab3e9d018d6779f0f7a31c9358c38738a1defc7719"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/OxuaGQ0s/placeholder-api-2.8.0%2B1.21.9.jar",
+          "filename": "placeholder-api-2.8.0+1.21.9.jar",
+          "primary": true,
+          "size": 265145,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.9-pre1",
+        "1.21.9-pre2",
+        "1.21.9-pre3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "oiSRN1Yg",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.8.0-rc.1+1.21.9",
+      "version_number": "2.8.0-rc.1+1.21.9",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.7.2+1.21.8...2.8.0-rc.1+1.21.9",
+      "changelog_url": null,
+      "date_published": "2025-09-17T08:43:54.159179Z",
+      "downloads": 683,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "KKilx8rm",
+          "hashes": {
+            "sha1": "6b0e72e50e5da24e8f49151ef8d1aaffc759885e",
+            "sha512": "e4a45c0fa2793758396a3b7c42bdae2fa9966fd4339c68fe98d016b4bb939a3f146673224a78302213cf53eab38c14b1a2ad7c222038dabde20f022172642a58"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/oiSRN1Yg/placeholder-api-2.8.0-rc.1%2B1.21.9.jar",
+          "filename": "placeholder-api-2.8.0-rc.1+1.21.9.jar",
+          "primary": true,
+          "size": 265150,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "1S1kjZ9W",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.7.2+1.21.8",
+      "version_number": "2.7.2+1.21.8",
+      "changelog": "## What's Changed\n* Fix parsing during server start by @arvitus in https://github.com/Patbox/TextPlaceholderAPI/pull/83\n\n## New Contributors\n* @arvitus made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/83\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.7.1+1.21.6...2.7.2+1.21.8",
+      "changelog_url": null,
+      "date_published": "2025-08-26T21:13:27.368650Z",
+      "downloads": 2527911,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "VWdPlsae",
+          "hashes": {
+            "sha512": "66c20678e8329b0129407ab045c171e3e22a5ca13544b1fbcf5adb95f70f6bb6cb9fb4d9a2231cac7b95e32b6b26ae732b616dc437f9c927325bb20c20a55ac1",
+            "sha1": "f538eec8d6ec2e1af3c9e8ee73e4a4787abcd9cc"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/1S1kjZ9W/placeholder-api-2.7.2%2B1.21.8.jar",
+          "filename": "placeholder-api-2.7.2+1.21.8.jar",
+          "primary": true,
+          "size": 263060,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "wg33PHxj",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.7.1+1.21.6",
+      "version_number": "2.7.1+1.21.6",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.7.0+1.21.6...2.7.1+1.21.6",
+      "changelog_url": null,
+      "date_published": "2025-06-22T19:54:46.773732Z",
+      "downloads": 3206489,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "J9svrXEt",
+          "hashes": {
+            "sha512": "ebff4cac5d72e061e2e238a87675094d0eff39de6da809ee29b796698cc417860092ed9af9aafe3cd4ae3cf530e94264442798b6bc01f02f84086fe6b8000897",
+            "sha1": "5b5ef013898f9d4d3c6bf99597bb07e2f571657a"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/wg33PHxj/placeholder-api-2.7.1%2B1.21.6.jar",
+          "filename": "placeholder-api-2.7.1+1.21.6.jar",
+          "primary": true,
+          "size": 259767,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "8x0q8gHM",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.6.4+1.21.5",
+      "version_number": "2.6.4+1.21.5",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.6.3+1.21.5...2.6.4+1.21.5",
+      "changelog_url": null,
+      "date_published": "2025-06-02T21:07:55.293504Z",
+      "downloads": 2020685,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "LFzo7vyZ",
+          "hashes": {
+            "sha512": "587e93144be63a7df97e66d745fbbe4597d06cf03b723fe8fb3cf3ee98ca8d1dd155a8ffc09e46b546f1c9eccbbd33473900c5908546405e458945171024b80b",
+            "sha1": "db8f916f040cb21efc395ca9e4d988f8a75f42d4"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/8x0q8gHM/placeholder-api-2.6.4%2B1.21.5.jar",
+          "filename": "placeholder-api-2.6.4+1.21.5.jar",
+          "primary": true,
+          "size": 257878,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.6-pre2",
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "fIJbIXa0",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.7.0+1.21.6",
+      "version_number": "2.7.0+1.21.6",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.6.3+1.21.5...2.7.0+1.21.6",
+      "changelog_url": null,
+      "date_published": "2025-06-02T21:04:45.315483Z",
+      "downloads": 32858,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "9dKGIAi9",
+          "hashes": {
+            "sha512": "6e19df6d6d9a001f9b081866a6bc026fe54fc7d8f6ccf534ebccdbcd7ee53234dd0c24fe774c164e742d3ce67f836945872334be9d03b383f1dfadbe09d66146",
+            "sha1": "d88dec7bc2845134ef0946d85992587fdf2415ab"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/fIJbIXa0/placeholder-api-2.7.0%2B1.21.6.jar",
+          "filename": "placeholder-api-2.7.0+1.21.6.jar",
+          "primary": true,
+          "size": 261014,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "o4S6CvEH",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.6.3+1.21.5",
+      "version_number": "2.6.3+1.21.5",
+      "changelog": "## What's Changed\n* Fix objective_name_top & objective_score_top not sorted correctly (issue #75) by @ItsJustMiaouss in https://github.com/Patbox/TextPlaceholderAPI/pull/76\n\n## New Contributors\n* @ItsJustMiaouss made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/76\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.6.2+1.21.5...2.6.3+1.21.5",
+      "changelog_url": null,
+      "date_published": "2025-04-28T21:46:14.568199Z",
+      "downloads": 487783,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "iU1hW3Uo",
+          "hashes": {
+            "sha512": "d5c3692971a33995a651e8343ccd525a716f575a9e313e8b38f1ae4eb57b3ebff0530918d4e8d952c4313132fc8e81a1ca031e76571a566ac7ed6180024f033b",
+            "sha1": "24ca4d5d0daf5d1783900e8237fad269bd39b534"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/o4S6CvEH/placeholder-api-2.6.3%2B1.21.5.jar",
+          "filename": "placeholder-api-2.6.3+1.21.5.jar",
+          "primary": true,
+          "size": 257307,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "25w14craftmine"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "nXF5pSdR",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.6.3+25w14craftmine",
+      "version_number": "2.6.3+25w14craftmine",
+      "changelog": "## What's Changed\n* Update to 25w14craftmine. by @Mikarific in https://github.com/Patbox/TextPlaceholderAPI/pull/74\n\n## New Contributors\n* @Mikarific made their first contribution in https://github.com/Patbox/TextPlaceholderAPI/pull/74\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.6.2+1.21.5...2.6.3+25w14craftmine",
+      "changelog_url": null,
+      "date_published": "2025-04-03T20:16:35.203389Z",
+      "downloads": 23814,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "XzndP5Zr",
+          "hashes": {
+            "sha1": "d4bd7125b51424a16fbd837ae926efbcf8c73c50",
+            "sha512": "86dd4d8b86f518e9425c6d267fa1162a4459a45f8580ab41f3d6178055be65365c714d5779fc57b3b5f5e55d7637bc55baf23fb7d7c3dad4c8b91f722153ec2d"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/nXF5pSdR/placeholder-api-2.6.3%2B25w14craftmine.jar",
+          "filename": "placeholder-api-2.6.3+25w14craftmine.jar",
+          "primary": true,
+          "size": 257514,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "AkMeBicV",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.6.2+1.21.5",
+      "version_number": "2.6.2+1.21.5",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.6.1+1.21.5...2.6.2+1.21.5",
+      "changelog_url": null,
+      "date_published": "2025-03-28T09:09:07.006722Z",
+      "downloads": 341735,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "UkpKRKyL",
+          "hashes": {
+            "sha1": "79c84d716ca2231025678124df87b53cefa442d9",
+            "sha512": "10bebbc5226503beeaf876c5af65e8e253c75aedebe390570db2b787f0d90fbf59d86dfaea2447ebff71e6c119a990d33b92656d2cc3d0d0134b6a033dd57e7f"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/AkMeBicV/placeholder-api-2.6.2%2B1.21.5.jar",
+          "filename": "placeholder-api-2.6.2+1.21.5.jar",
+          "primary": true,
+          "size": 257247,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5-rc1",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "qXvsJsNo",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.6.1+1.21.5",
+      "version_number": "2.6.1+1.21.5",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.6.0+1.21.5...2.6.1+1.21.5",
+      "changelog_url": null,
+      "date_published": "2025-03-23T13:53:19.456062Z",
+      "downloads": 21603,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "l1qZjvBd",
+          "hashes": {
+            "sha512": "3d3e10c1887131fd78605cae37bf59cb2a4d8caee02a7675b18e766eacdefe6f841aca2037bcb64f7671c7a97f5635f1322d50c9e2a3e69a0663688d539f27ca",
+            "sha1": "9993b2af208a5a7b5bb22c63e3928f310d22205b"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/qXvsJsNo/placeholder-api-2.6.1%2B1.21.5.jar",
+          "filename": "placeholder-api-2.6.1+1.21.5.jar",
+          "primary": true,
+          "size": 253899,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5-rc1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "HmzKM0RD",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.6.0+1.21.5",
+      "version_number": "2.6.0+1.21.5",
+      "changelog": "## What's Changed\n* Ensure parser is deterministic by @DrexHD in https://github.com/Patbox/TextPlaceholderAPI/pull/67\n* Port to 1.21.5-pre3+ by @sakura-ryoko in https://github.com/Patbox/TextPlaceholderAPI/pull/70\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.5.1+1.21.3...2.6.0+1.21.5",
+      "changelog_url": null,
+      "date_published": "2025-03-21T06:00:42.968565Z",
+      "downloads": 453,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Dkh7XB3T",
+          "hashes": {
+            "sha1": "3717645525e00c3c6a48a539a1d3c4f061352c7a",
+            "sha512": "9bf104f2c2feb89b09e59c1ef29006ae9259a405436122ba782b9541b39ced8a3de159bd62b6aff51a939c7651f0f4a1851594764326b4ead30561de7c2210ef"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/HmzKM0RD/placeholder-api-2.6.0%2B1.21.5.jar",
+          "filename": "placeholder-api-2.6.0+1.21.5.jar",
+          "primary": true,
+          "size": 252121,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "r0xF3BDM",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.1.1+1.19.4",
+      "version_number": "2.1.1+1.19.4",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:24:07.747062Z",
+      "downloads": 16446,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "fnY8vqk5",
+          "hashes": {
+            "sha1": "e40f74be5f06d2ef272106edec73282db75f3bcd",
+            "sha512": "8d016b50ee24799781197439e8765be975891232a6aff8ff6b85ee69021bd0165a66f32eb5e1b8e0b6f2b0d378739571a0bceb3abb81b8c622fa46ce2a94c0a1"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/r0xF3BDM/placeholder-api-2.1.1%2B1.19.4.jar",
+          "filename": "placeholder-api-2.1.1+1.19.4.jar",
+          "primary": true,
+          "size": 134670,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "DaV2ycYi",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.1.4+1.20.1",
+      "version_number": "2.1.4+1.20.1",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.1.3+1.20.1...2.1.4+1.20.1",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:17:45.905858Z",
+      "downloads": 369366,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "kku3pA44",
+          "hashes": {
+            "sha512": "80a4721abf9654a8bbfb9e23fbb7493bfa379d3116adb9d0d98f05482b25150d91994346dd230b691935f64f57ce0840deecce6bb279fbfaa3ebab30ad426db8",
+            "sha1": "722efc56827ba973673b15ccc2e446c269a16faa"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/DaV2ycYi/placeholder-api-2.1.4%2B1.20.1.jar",
+          "filename": "placeholder-api-2.1.4+1.20.1.jar",
+          "primary": true,
+          "size": 146818,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.2-rc2",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "q6ExExGa",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.2.1+1.20.2",
+      "version_number": "2.2.1+1.20.2",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.2.0+1.20.2...2.2.1+1.20.2",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:17:20.429400Z",
+      "downloads": 13890,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "OSYlDuF8",
+          "hashes": {
+            "sha512": "b5bc44a8466e5942f3fd4368e7794298fa727008678a4369bad0543751916d932dbcd6929820a117717f35634b0b949edf511d8e02092bb1a995619562484cf5",
+            "sha1": "6ed8bc8f2e295614b334605fac4372a204312154"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/q6ExExGa/placeholder-api-2.2.1%2B1.20.2.jar",
+          "filename": "placeholder-api-2.2.1+1.20.2.jar",
+          "primary": true,
+          "size": 146861,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "VYMQNs7A",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.0-pre.3+1.20.4",
+      "version_number": "2.4.0-pre.3+1.20.4",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.4.0-pre.1+1.20.4...2.4.0-pre.3+1.20.4",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:15:11.453562Z",
+      "downloads": 443320,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "FctmcGf0",
+          "hashes": {
+            "sha1": "80235c9969c1db53983112a7b7ccefe23708c2c1",
+            "sha512": "d2044d957b8f07f08ef4bf154c720803a5cac3e9eac504fc127321ea6ca08ed9f06a6bb3e433814b292c8bb6152b513fd6275a81aa168e9185b7c9f167d6d3a5"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/VYMQNs7A/placeholder-api-2.4.0-pre.3%2B1.20.4.jar",
+          "filename": "placeholder-api-2.4.0-pre.3+1.20.4.jar",
+          "primary": true,
+          "size": 230444,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5-rc1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "3YxE3aNF",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.0-pre.2+1.20.5",
+      "version_number": "2.4.0-pre.2+1.20.5",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.4.0-pre.1+1.20.4...2.4.0-pre.2+1.20.5",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:11:24.317961Z",
+      "downloads": 9245,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "JV2xeh0F",
+          "hashes": {
+            "sha1": "0b923702834d36c0dd5d89e6d9b2eaabe07b48a2",
+            "sha512": "e45e251d3af9ab0e4eece246f5bfc0ea51d1398699b1a0b0cac6fa84f719c4576b3c8ff568997183d8bebd0d919a1201adfea7749978bf13e88c1711e68c5cf4"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/3YxE3aNF/placeholder-api-2.4.0-pre.2%2B1.20.5.jar",
+          "filename": "placeholder-api-2.4.0-pre.2+1.20.5.jar",
+          "primary": true,
+          "size": 230123,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "U5bhVym2",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.2+1.21",
+      "version_number": "2.4.2+1.21",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.4.1+1.21...2.4.2+1.21",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:08:23.196696Z",
+      "downloads": 9002419,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "PAtPY6Wg",
+          "hashes": {
+            "sha512": "fc13d3a5c048dbaab86318edaf8b6c6b46ef9f1d367e8f063d19f5a9b0da66c5ae419d92c8c4608edc89a01eb44d91ffcf017fea73f39b222cbd85e82f70a233",
+            "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+          "filename": "placeholder-api-2.4.2+1.21.jar",
+          "primary": true,
+          "size": 232325,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "eeN3FuMY",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.5.2+1.21.3",
+      "version_number": "2.5.2+1.21.3",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.5.1+1.21.3...2.5.2+1.21.3",
+      "changelog_url": null,
+      "date_published": "2025-01-27T19:06:13.340581Z",
+      "downloads": 4204903,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "nLbMylTO",
+          "hashes": {
+            "sha512": "06db18ada7973bd8cbe316faeebd25d89d79820da951208cc2ec69eb4058379d4e0c0233799d7043b5a19b62248f6a4d5f7031c110066fdf5d335e29385e3853",
+            "sha1": "841b1ef57880fc0f94a22ab268b737c3830b5595"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/eeN3FuMY/placeholder-api-2.5.2%2B1.21.3.jar",
+          "filename": "placeholder-api-2.5.2+1.21.3.jar",
+          "primary": true,
+          "size": 237288,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "GtmqzyeE",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.5.1+1.21.3",
+      "version_number": "2.5.1+1.21.3",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.5.0+1.21.2...2.5.1+1.21.3",
+      "changelog_url": null,
+      "date_published": "2024-11-21T22:23:56.119622Z",
+      "downloads": 702529,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "KIRENaBZ",
+          "hashes": {
+            "sha1": "a4d87827d31f51db009fdf4cf98e16c6a94312f3",
+            "sha512": "c5ef09ad639b8f02592e7da265412f8bf66caabfc1c09a3b8dd1e4f85c0df16def125990e6c0ab25fc83ce25b4d2c525fea76a95c2a04f67b155e85ba182ef7a"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/GtmqzyeE/placeholder-api-2.5.1%2B1.21.3.jar",
+          "filename": "placeholder-api-2.5.1+1.21.3.jar",
+          "primary": true,
+          "size": 237295,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.2-rc1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "ZGVganES",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.5.0+1.21.2",
+      "version_number": "2.5.0+1.21.2",
+      "changelog": "## What's Changed\n* Update to 1.21.2 by @DrexHD in https://github.com/Patbox/TextPlaceholderAPI/pull/57\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.4.1+1.21...2.5.0+1.21.2",
+      "changelog_url": null,
+      "date_published": "2024-10-19T17:49:26.237397Z",
+      "downloads": 123691,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "HEtJSQhc",
+          "hashes": {
+            "sha1": "35f062e48f0f59519edc0290db4e9edad64b66cf",
+            "sha512": "c89e8c39990fab7b12ad4546d8ae8685bd68dda0c93cf4be73ab5e206a89f9de56fbcc00b573c75ca63ed80e5bff44b40a89b6a932e972448cdbf650f7c74645"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/ZGVganES/placeholder-api-2.5.0%2B1.21.2.jar",
+          "filename": "placeholder-api-2.5.0+1.21.2.jar",
+          "primary": true,
+          "size": 233362,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "cE5TczQr",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.1+1.21",
+      "version_number": "2.4.1+1.21",
+      "changelog": "**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.4.0+1.21...2.4.1+1.21",
+      "changelog_url": null,
+      "date_published": "2024-07-15T13:08:02.625577Z",
+      "downloads": 4505082,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "nXHBmY8l",
+          "hashes": {
+            "sha1": "5f61f50e36f1f957dbb87eda02da95d847b4a943",
+            "sha512": "0fc2b1063277e1cadab30fdb5f1171cbdefa551f16e36daa611f67a775353e70a48538085e2bcf8fc22d657d450ce74dc8aa9ccf6e8bc6de6d5a841fb46e0828"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/cE5TczQr/placeholder-api-2.4.1%2B1.21.jar",
+          "filename": "placeholder-api-2.4.1+1.21.jar",
+          "primary": true,
+          "size": 232332,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "Olmswxzt",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.0+1.21",
+      "version_number": "2.4.0+1.21",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-06-23T11:16:12.703168Z",
+      "downloads": 285497,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "FMTxVQlX",
+          "hashes": {
+            "sha1": "6ed0f7ccc9458f0c875a5cabefe15c2c699ec3bd",
+            "sha512": "afa13a8e689f1ae2cb54c8cecc77a2dc8387b36338af7b14d7599d4e1ae4b6366dfcdae23a6f918569d5ab82d9c4fe6fb2f9f0ace6ec13bc5803436fc93e6ee8"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/Olmswxzt/placeholder-api-2.4.0%2B1.21.jar",
+          "filename": "placeholder-api-2.4.0+1.21.jar",
+          "primary": true,
+          "size": 230771,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "iLJ7N1aF",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.0-pre.1+1.20.4",
+      "version_number": "2.4.0-pre.1+1.20.4",
+      "changelog": "## What's Changed\n* Update mod-placeholders.md by @sakura-ryoko in https://github.com/Patbox/TextPlaceholderAPI/pull/49\n* AfkPlus 1.4.2 updates by @sakura-ryoko in https://github.com/Patbox/TextPlaceholderAPI/pull/52\n\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.3.0+1.20.3...2.4.0-pre.1+1.20.4",
+      "changelog_url": null,
+      "date_published": "2024-06-18T15:50:32.346584Z",
+      "downloads": 257676,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "EN4Saw1i",
+          "hashes": {
+            "sha1": "46a627a2c3883b3681c79209ebd97a3b37fddfe5",
+            "sha512": "d80d44fef2a308edacb3ee048216459374af667792bcc69273ed4846245ca8cee2f656189a74d84255aa55889f381195be6acfcebe62500af14a5a128570ef44"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/iLJ7N1aF/placeholder-api-2.4.0-pre.1%2B1.20.4.jar",
+          "filename": "placeholder-api-2.4.0-pre.1+1.20.4.jar",
+          "primary": true,
+          "size": 230092,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21-pre2",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "1NGrL2hU",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.0-pre.2+1.21",
+      "version_number": "2.4.0-pre.2+1.21",
+      "changelog": "## What's Changed\n* Update to 1.21-pre2 by @sakura-ryoko in https://github.com/Patbox/TextPlaceholderAPI/pull/55\n\n\n**Full Changelog**: https://github.com/Patbox/TextPlaceholderAPI/compare/2.4.0-pre.1+1.20.5...2.4.0-pre.2+1.21",
+      "changelog_url": null,
+      "date_published": "2024-06-02T20:04:53.574661Z",
+      "downloads": 91150,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "LftVJnPh",
+          "hashes": {
+            "sha512": "d652d47445055a825434f636e6def375063d34101e3adbdb04c5f035df9aab63f18baea5c369aa7bdad83871fddebfef93a4d2256aa87d1ddcb8e2d7d59bf700",
+            "sha1": "ff7e9e2fde1ac9d7c7962689c421fd85982faa0a"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/1NGrL2hU/placeholder-api-2.4.0-pre.2%2B1.21.jar",
+          "filename": "placeholder-api-2.4.0-pre.2+1.21.jar",
+          "primary": true,
+          "size": 230133,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5-rc1",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "3v1Xz4LB",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.4.0-pre.1+1.20.5",
+      "version_number": "2.4.0-pre.1+1.20.5",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2024-04-18T19:02:34.188352Z",
+      "downloads": 438175,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "I00kQ0b8",
+          "hashes": {
+            "sha1": "56f73651bcf2a62cec6c0e9f550ebd35374b1b75",
+            "sha512": "f44dcd96c18659d9dea94936f6a46683692f564fe8f2c1d4bc84a74f64df726ad564a93596491c0ed2ff91fc7dd182a0732985a34f6e5c3f21f1b4417b7ebae3"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/3v1Xz4LB/placeholder-api-2.4.0-pre.1%2B1.20.5.jar",
+          "filename": "placeholder-api-2.4.0-pre.1+1.20.5.jar",
+          "primary": true,
+          "size": 230131,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.3-rc1",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "KvVY0jfG",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.3.0+1.20.3",
+      "version_number": "2.3.0+1.20.3",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-11-30T16:46:26.900739Z",
+      "downloads": 2440,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "QhpArpms",
+          "hashes": {
+            "sha1": "121e816e3cca7b24e6df9acfc9b00006622b2294",
+            "sha512": "7cc6d619ac0eb8328a3f05cef16b167b75eef0b2ac37e7d09a8fa7165a4d165d26b28e78f2371c88c2810bbe5005993052fbefd3228df98ad8c681668eaa1f8f"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/KvVY0jfG/placeholder-api-2.3.0%2B1.20.3.jar",
+          "filename": "placeholder-api-2.3.0+1.20.3.jar",
+          "primary": true,
+          "size": 147591,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.2-rc2",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "qidX2Gu4",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.2.0+1.20.2",
+      "version_number": "2.2.0+1.20.2",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-09-19T14:32:31.625753Z",
+      "downloads": 5645,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "40P5THU9",
+          "hashes": {
+            "sha1": "940c06c5afb7b6a04a716e7264756d6f4c46f810",
+            "sha512": "dc64174942d6fbcbd738d743e60fc1a1ee6b17689a9d70bce26def5a4d5a7b887056435af67774b62368b127abc43c606f0b6a3aec03ab34fa6f41deed631c7b"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/qidX2Gu4/placeholder-api-2.2.0%2B1.20.2.jar",
+          "filename": "placeholder-api-2.2.0+1.20.2.jar",
+          "primary": true,
+          "size": 146587,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "wrxtLoOX",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.1.3+1.20.1",
+      "version_number": "2.1.3+1.20.1",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-09-08T12:36:49.249056Z",
+      "downloads": 103182,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "QdIlaMFy",
+          "hashes": {
+            "sha512": "8aefeb50ff5b835ceb055573a683d32b014015697063f169d6e665c1c5f1b3ed771cbc00930551365f8d4e192b0cd22106ea0af2010306c5710e10ecdb342280",
+            "sha1": "24079fff301cc7ed6e20b145651c2fc1a8b94b2d"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/wrxtLoOX/placeholder-api-2.1.3%2B1.20.1.jar",
+          "filename": "placeholder-api-2.1.3+1.20.1.jar",
+          "primary": true,
+          "size": 146553,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "gDVgNoCR",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.1.2+1.20.1",
+      "version_number": "2.1.2+1.20.1",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-09-05T06:35:36.703443Z",
+      "downloads": 912,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "KSaFfuNo",
+          "hashes": {
+            "sha1": "3b2a53a4883a95794bdf8997e680e0a8fb26491e",
+            "sha512": "81ee54eecc2d5917171941dee8190fdcb1f4f331c670a2f44c76d1f51f0e4eb6fb94b98b31bf63dba7131657a2b0bdcb548a1130accc387431edef45ba6f42ec"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/gDVgNoCR/placeholder-api-2.1.2%2B1.20.1.jar",
+          "filename": "placeholder-api-2.1.2+1.20.1.jar",
+          "primary": true,
+          "size": 141606,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_or_server",
+      "id": "iCAUZykd",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.1.1+1.20",
+      "version_number": "2.1.1+1.20",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-06-11T17:40:53.923599Z",
+      "downloads": 18373,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "McL13Bug",
+          "hashes": {
+            "sha512": "b7782455a81d72408387bf68276b76fe101eb7227796a111d0f6d3a6137f5ae4a66bc65fa94156ee23336089d89594202e0bbe17a11821911acbe8583a65bf4f",
+            "sha1": "64665e4aeb82e15d13b8fe9deb483ac118c87b38"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/iCAUZykd/placeholder-api-2.1.1%2B1.20.jar",
+          "filename": "placeholder-api-2.1.1+1.20.jar",
+          "primary": true,
+          "size": 135702,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "judXVfRL",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.1.0+1.19.4",
+      "version_number": "2.1.0+1.19.4",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-05-07T07:39:00.949139Z",
+      "downloads": 2970,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "V3h9Ybgt",
+          "hashes": {
+            "sha512": "a28eb08a9e0e0b7e6e35804c1e836b16d9850e53bec8c78d6e6de131cce8420d194688b9e0d5b7342821f7703b9a12d135dbb14d4e3fe3047cb1e1670599f161",
+            "sha1": "c7c8204ccaeef6f0ca4864b1be5182de54b52593"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/judXVfRL/placeholder-api-2.1.0%2B1.19.4.jar",
+          "filename": "placeholder-api-2.1.0+1.19.4.jar",
+          "primary": true,
+          "size": 134439,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "G4smC1A1",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.0.0-rc.1+1.19.3",
+      "version_number": "2.0.0-rc.1+1.19.3",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-05-07T07:38:42.954461Z",
+      "downloads": 781,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "F1WKVro6",
+          "hashes": {
+            "sha512": "7de594795c1065ed58a58bc15d18cdac20fde7a2634a07e144a66a655a4a5a174757220ef78266570ab4015bf9cbe7c5959fc26b48070d85c812a273cbd629a2",
+            "sha1": "a341dc8a9febeeb3fc38af8c276ceaf49e5005df"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/G4smC1A1/placeholder-api-2.0.0-rc.1%2B1.19.3.jar",
+          "filename": "placeholder-api-2.0.0-rc.1+1.19.3.jar",
+          "primary": true,
+          "size": 118159,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "JoztwSEk",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.0.0-pre.1+1.19.2",
+      "version_number": "2.0.0-pre.1+1.19.2",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-05-07T07:38:17.503974Z",
+      "downloads": 16755,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "sy3sBaOk",
+          "hashes": {
+            "sha512": "c4f71791f099c0f3fb641f5af4b62f2003f27de507b8c9601fc65b531ba3fcc7367628f1d6edf05e402bf7aff212c34991162b3504bd9d4422ba4652d9972b50",
+            "sha1": "da8ea81658dfd33f10f489bae77d3a2202ca75fd"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/JoztwSEk/placeholder-api-2.0.0-pre.1%2B1.19.2.jar",
+          "filename": "placeholder-api-2.0.0-pre.1+1.19.2.jar",
+          "primary": true,
+          "size": 107398,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "FsEVC8lW",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "2.0.0-beta.7+1.19",
+      "version_number": "2.0.0-beta.7+1.19",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-05-07T07:37:54.155643Z",
+      "downloads": 4551,
+      "version_type": "beta",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "nQyqkwXY",
+          "hashes": {
+            "sha1": "adee9ead2cbcc075ddc5963ee2d0a228ea76c60e",
+            "sha512": "87eaecea15c5450b61f09927ac89bc29a80e245061ecfac525e86f464481d113c0b3091b5d2ed86b0dba5b8e8222860faec4fe4c96a6276688605fafce1ff562"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/FsEVC8lW/placeholder-api-2.0.0-beta.7%2B1.19.jar",
+          "filename": "placeholder-api-2.0.0-beta.7+1.19.jar",
+          "primary": true,
+          "size": 89530,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "environment": "client_or_server",
+      "id": "FplcrCus",
+      "project_id": "eXts2L7r",
+      "author_id": "L8RLwrF2",
+      "featured": false,
+      "name": "1.1.3+1.17.1",
+      "version_number": "1.1.3+1.17.1",
+      "changelog": "",
+      "changelog_url": null,
+      "date_published": "2023-05-07T07:37:31.061484Z",
+      "downloads": 23648,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Hh0XgDu2",
+          "hashes": {
+            "sha512": "bb680c2f6fd7eb25ea91ec2ab833adde8c969c8dcc46737778de94ff7057cb2f7b92c01c23256c3010e349e67da1c9a75bb5d9ec906d5d662c6ad30c6ac776b9",
+            "sha1": "a4c2d44306bf2ecd98db24be12993789696ec85f"
+          },
+          "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/FplcrCus/placeholder-api-1.1.3%2B1.17.1.jar",
+          "filename": "placeholder-api-1.1.3+1.17.1.jar",
+          "primary": true,
+          "size": 46276,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}

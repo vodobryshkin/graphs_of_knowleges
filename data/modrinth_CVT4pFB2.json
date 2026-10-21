@@ -1,0 +1,2428 @@
+{
+  "project": {
+    "client_side": "unknown",
+    "server_side": "unknown",
+    "game_versions": [
+      "1.18.2",
+      "1.19.2",
+      "1.19.4",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.10",
+      "1.21.11",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "environment": [
+      "client_only",
+      "unknown"
+    ],
+    "id": "CVT4pFB2",
+    "slug": "melody",
+    "project_type": "mod",
+    "team": "uzyukiaP",
+    "organization": null,
+    "title": "Melody",
+    "description": "OpenAL-based library mod for playing background music.",
+    "body": "<a href=\"https://discord.gg/rhayah27GC\"><img src=\"https://img.shields.io/discord/704163135787106365?style=flat&label=Discord&labelColor=%234260f5&color=%2382aeff\" /></a> <a href=\"https://paypal.me/TimSchroeter\"><img src=\"https://img.shields.io/badge/Donate%20via%20PayPal-%233d91ff?style=flat\" /></a> <a href=\"https://www.patreon.com/keksuccino\"><img src=\"https://img.shields.io/badge/Support%20me%20on%20Patreon-%23ff9b3d?style=flat\" /></a>\n\n<br>\n\n# IMPORTANT\n\nThis mod is a LIBRARY mod.<br>\nIt will do nothing on its own and its only purpose is to act as a dependency for other mods that use its features.\n\n# About\n\nMelody is an OpenAL-based client-side library mod for playing background music.<br>\nIt allows you to use OpenAL in Minecraft separated from Minecraft's sound engine and manager.\n\nMelody allows you to (asynchronously) load audio files from all kinds of sources, including web sources.\n\nIt has built-in support for OGG and WAV audio files, but there's nothing stopping you from extending it to support more file types!\n\nSince Melody was made for easily playing _music_ in menus or in-world, it can't play directional sounds (sounds with a fixed origin in a 3D environment). It can only play 2D audio, so basically music.\n\nTo get an idea of how to create ready-to-play audio sources, take a look at Melody's [`SimpleAudioFactory`](https://github.com/Keksuccino/Melody/blob/1.20.1/common/src/main/java/de/keksuccino/melody/resources/audio/SimpleAudioFactory.java) class!\n\nEverything important is documented in the source, so make sure to take a look at [Melody's source on GitHub](https://github.com/Keksuccino/Melody)!\n\n# Copyright & Licensing\n\nMelody Copyright © 2023-2025 Keksuccino.<br>\nMelody is licensed under MIT.\n\n# Server Needed?\n\nLooking to play Minecraft with friends but setting up a server is just too time-consuming?<br>\nNo worries! Simply rent a pre-configured server and start playing _in a snap_.\n\nJust click the image below and use code **[keksuccino](https://bisecthosting.com/keksuccino)** to enjoy a **25% discount** on your first month! You can also click the code itself if your ad blocker hides the banner.\n\n<br>\n\n<a href=\"https://tinyurl.com/bisectkeks\"><img src=\"https://www.bisecthosting.com/partners/custom-banners/f5dd9194-01d8-4ce3-9b6a-a85327d975b1.png\" /></a>\n",
+    "body_url": null,
+    "published": "2023-11-15T01:07:42.651873Z",
+    "updated": "2026-09-18T14:27:53.533208Z",
+    "approved": "2023-11-17T23:00:35.949816Z",
+    "queued": "2023-11-15T08:13:32.621702Z",
+    "status": "approved",
+    "requested_status": "approved",
+    "moderator_message": null,
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "downloads": 53066582,
+    "followers": 535,
+    "categories": [
+      "library"
+    ],
+    "additional_categories": [],
+    "loaders": [
+      "fabric",
+      "forge",
+      "neoforge"
+    ],
+    "versions": [
+      "NiI3hjHd",
+      "TlZ1fbds",
+      "hT3ze5Kh",
+      "6DtbOVFX",
+      "6Uy5ki0Y",
+      "KfQ7H4WH",
+      "cTVJuzuH",
+      "aMPsn3TO",
+      "XMccgvzj",
+      "3OeHwNib",
+      "QcDfYy6d",
+      "FGAAIkNn",
+      "AUB6gMMU",
+      "aMYLdh1A",
+      "t7thRplt",
+      "lJlW5r8R",
+      "2o0oW8Yv",
+      "KP3gMIq3",
+      "hYM9p09l",
+      "E1C9lndp",
+      "mEGdB8Jg",
+      "ICDWdvtk",
+      "qujo8CZX",
+      "OqxSeb4n",
+      "dhnytTnF",
+      "efcdRVZP",
+      "gf84krIk",
+      "BYSPaMzs",
+      "ifs75r9u",
+      "NsXvHOnn",
+      "GdUdtOfw",
+      "DS7coewa",
+      "2YEyhNcZ",
+      "spdEBLiE",
+      "4nd52KsY",
+      "GUxhbP5x",
+      "Xo1GAiPu",
+      "9Jdm9sDl",
+      "V4DQs36M",
+      "lKAVENRI",
+      "ItVQn1cW",
+      "LMoAqWbb",
+      "gjl2Yw81",
+      "2saEF7mZ"
+    ],
+    "icon_url": "https://cdn.modrinth.com/data/CVT4pFB2/87ac2562f06b104c827d322b4b937bad8fac5fbc_96.webp",
+    "raw_icon_url": "https://cdn.modrinth.com/data/CVT4pFB2/87ac2562f06b104c827d322b4b937bad8fac5fbc.png",
+    "issues_url": "https://github.com/Keksuccino/Melody/issues",
+    "source_url": "https://github.com/Keksuccino/Melody",
+    "wiki_url": null,
+    "discord_url": "https://discord.gg/UzmeWkD",
+    "donation_urls": [
+      {
+        "id": "paypal",
+        "platform": "Paypal",
+        "url": "https://www.paypal.com/paypalme/TimSchroeter"
+      },
+      {
+        "id": "patreon",
+        "platform": "Patreon",
+        "url": "https://www.patreon.com/keksuccino"
+      }
+    ],
+    "gallery": [],
+    "color": 1405385,
+    "thread_id": "ulaJdo5W",
+    "monetization_status": "monetized"
+  },
+  "members": [
+    {
+      "role": "Owner",
+      "team_id": "uzyukiaP",
+      "user": {
+        "id": "k0LcYHWE",
+        "username": "Keksuccino",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35544624?v=4",
+        "raw_avatar_url": "https://avatars.githubusercontent.com/u/35544624?v=4",
+        "bio": null,
+        "created": "2021-03-30T18:22:57.742857Z",
+        "role": "developer",
+        "badges": 0,
+        "campaigns": {
+          "pride_26": null
+        },
+        "auth_providers": null,
+        "email": null,
+        "email_verified": null,
+        "has_password": null,
+        "has_totp": null,
+        "payout_data": null,
+        "stripe_customer_id": null,
+        "allow_friend_requests": null,
+        "eligibility_verified_at": null,
+        "github_id": null
+      },
+      "permissions": null,
+      "accepted": true,
+      "payouts_split": null,
+      "ordering": 0
+    }
+  ],
+  "versions": [
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "client_only",
+      "id": "2saEF7mZ",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.17 MC 26.3",
+      "version_number": "1.0.17-26.3-neoforge",
+      "changelog": "CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2026-09-18T14:27:53.533208Z",
+      "downloads": 4739,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "OvIL2AU3",
+          "hashes": {
+            "sha1": "7272d8c3439b085eaf7edd7e9d869414975ed0e3",
+            "sha512": "790aed406491a3bf05bafcd93d68b7c2ed54b646e9846f0850a1b60f15156f0eb36172b24fe8e4129f369e6f7ac5d872ffc7ec2848ab2c9c0c4fe2af7f204d03"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/2saEF7mZ/melody_neoforge_1.0.17_MC_26.3.jar",
+          "filename": "melody_neoforge_1.0.17_MC_26.3.jar",
+          "primary": true,
+          "size": 46993,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "client_only",
+      "id": "gjl2Yw81",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.17 MC 26.3",
+      "version_number": "1.0.17-26.3-fabric",
+      "changelog": "CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2026-09-18T14:27:51.397844Z",
+      "downloads": 136102,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "6WQscn0k",
+          "hashes": {
+            "sha512": "f0ac30c3a0eb0908d05824a9a43e44c614a95dc99b4cba9abeea750406430fde21d6e26bae5a1e5c63b63359e49d4bc96ced32400717fc72064c50826e11b9ca",
+            "sha1": "c6ee7eacb54c23fce78fce8c084aa5b2fba910c8"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/gjl2Yw81/melody_fabric_1.0.17_MC_26.3.jar",
+          "filename": "melody_fabric_1.0.17_MC_26.3.jar",
+          "primary": true,
+          "size": 681316,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "LMoAqWbb",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.17 MC 26.2",
+      "version_number": "1.0.17-26.2-neoforge",
+      "changelog": "CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2026-06-25T04:29:33.550348Z",
+      "downloads": 13049,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "CYbpaGI9",
+          "hashes": {
+            "sha1": "d8101e7d434724325daf1f8e006badb0efec4561",
+            "sha512": "1bc87b275b6385381f55c2993918591b36952d3ba09ef63680e12ef2f6628100ee8d23e96439869ef6828bb202694dfa9e3ad9804ca626d2679eb63cb57ca0a0"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/LMoAqWbb/melody_neoforge_1.0.17_MC_26.2.jar",
+          "filename": "melody_neoforge_1.0.17_MC_26.2.jar",
+          "primary": true,
+          "size": 46984,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "ItVQn1cW",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.17 MC 26.2",
+      "version_number": "1.0.17-26.2-fabric",
+      "changelog": "CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2026-06-25T04:29:31.022254Z",
+      "downloads": 436871,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "qW5AHEp6",
+          "hashes": {
+            "sha512": "4f1b414688c546c62ba66d362454778c060c82f6556bb55af5f3f624d37059bdbd7361051d0f2a958f1acc799a210fc7408a806f199ff69ba6bb27162b50bd47",
+            "sha1": "73a6216fcdae3928bd387a26a68318be9db83841"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/ItVQn1cW/melody_fabric_1.0.17_MC_26.2.jar",
+          "filename": "melody_fabric_1.0.17_MC_26.2.jar",
+          "primary": true,
+          "size": 227497,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "lKAVENRI",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.16 MC 26.1.1",
+      "version_number": "1.0.16-26.1.1-neoforge",
+      "changelog": "Changelog: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2026-04-04T19:55:42.396554Z",
+      "downloads": 21712,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "70u0Pokg",
+          "hashes": {
+            "sha1": "293746acacd4bab10a429d157f248116872b2b5c",
+            "sha512": "27c910de06cf61aa82036ec1e9a8fab7efdffe5dc4597fb17868eec9de27766b9912b46c7c9eace1cf4277012bc84ad2cc8b9d789e01afd532ba819306f2fa3e"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lKAVENRI/melody_neoforge_1.0.16_MC_26.1.1.jar",
+          "filename": "melody_neoforge_1.0.16_MC_26.1.1.jar",
+          "primary": true,
+          "size": 47054,
+          "file_type": null
+        },
+        {
+          "id": "uruEgFGG",
+          "hashes": {
+            "sha512": "47d8d15f1ba079975d41368b2c10d458b9a3c83f5549a349612ce022d10019732c859ce1dc00dcbb2d97a280cc1d597b3f9264a01c2c8e995942f07b36414a1f",
+            "sha1": "7d21dd0c0ab8fa37d28adcbae3f8695cc239e403"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lKAVENRI/sources_melody_neoforge_1.0.16_MC_26.1.1.jar",
+          "filename": "sources_melody_neoforge_1.0.16_MC_26.1.1.jar",
+          "primary": false,
+          "size": 35659,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "V4DQs36M",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.16 MC 26.1.1",
+      "version_number": "1.0.16-26.1.1-fabric",
+      "changelog": "Changelog: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2026-04-04T19:55:13.991475Z",
+      "downloads": 396833,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "NvVeqDCl",
+          "hashes": {
+            "sha1": "217859fbab6a2047a9c64a97d26aaadd34329148",
+            "sha512": "44411ef17c00e88cbd05d389e3ff04e92d17e165897703157a1b0219523befef3ea53ab521e04beb35057274c9d19f1da878cbbdda1c47e483c70a9c1c3e70fb"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/V4DQs36M/melody_fabric_1.0.16_MC_26.1.1.jar",
+          "filename": "melody_fabric_1.0.16_MC_26.1.1.jar",
+          "primary": true,
+          "size": 228922,
+          "file_type": null
+        },
+        {
+          "id": "5Nn1ki9l",
+          "hashes": {
+            "sha512": "6b6d377441d104ed1ba432fcbf4e77b16d48f4238b02752977cb3d7e3bcb668527e8805d055f34de9c90c06601e63bae7846e411c902b3da0ef776900289e3bb",
+            "sha1": "be218eb28be976353800537d10ce98be5ffcca77"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/V4DQs36M/sources_melody_fabric_1.0.16_MC_26.1.1.jar",
+          "filename": "sources_melody_fabric_1.0.16_MC_26.1.1.jar",
+          "primary": false,
+          "size": 35307,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "9Jdm9sDl",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.15 MC 1.21.11",
+      "version_number": "1.0.15-1.21.11-neoforge",
+      "changelog": "Changelog: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2025-12-23T09:29:26.355115Z",
+      "downloads": 17308,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "vgnr4wzJ",
+          "hashes": {
+            "sha512": "e524c161059dc7ffef41c6d97fc1459b5de5939e37d8934184f32e5bb392653668997bb1c9e66234cb65b6e6899f706685358dd0eb2fbec0e23b1118bd8aab80",
+            "sha1": "272435b546e6f7be9a6a30acffe7a7504cdac5bb"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/9Jdm9sDl/melody_neoforge_1.0.15_MC_1.21.11.jar",
+          "filename": "melody_neoforge_1.0.15_MC_1.21.11.jar",
+          "primary": true,
+          "size": 46544,
+          "file_type": null
+        },
+        {
+          "id": "IUTNDfPm",
+          "hashes": {
+            "sha512": "946c0bed27f9f802917eddae197493a628543431f42dc8962aa2e771ddc75e35549e50d0084a3ec6fed36baf55e7051f7f65b4426ce890b81fe503e52f0768a8",
+            "sha1": "ea41ca10274d419e697955d35280e79adc3e7ba9"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/9Jdm9sDl/sources_melody_neoforge_1.0.15_MC_1.21.11.jar",
+          "filename": "sources_melody_neoforge_1.0.15_MC_1.21.11.jar",
+          "primary": false,
+          "size": 35280,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "Xo1GAiPu",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.15 MC 1.21.11",
+      "version_number": "1.0.15-1.21.11-fabric",
+      "changelog": "Changelog: https://github.com/Keksuccino/Melody/blob/main/changelog.txt",
+      "changelog_url": null,
+      "date_published": "2025-12-23T09:28:55.314847Z",
+      "downloads": 1052171,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "gei8svg8",
+          "hashes": {
+            "sha512": "9a9ed54077daec16ea4ac6000cf40264d5bdaf97f0cc7b718d5062d538f0a09373bacedc276f43fe7ee4a9c14b4af7909a32b36c10d1b180d36f35b8a24a2a23",
+            "sha1": "f964abb4947c35b0d85051772c3ed72d6891cf51"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/Xo1GAiPu/melody_fabric_1.0.15_MC_1.21.11.jar",
+          "filename": "melody_fabric_1.0.15_MC_1.21.11.jar",
+          "primary": true,
+          "size": 227886,
+          "file_type": null
+        },
+        {
+          "id": "iqJIJUPx",
+          "hashes": {
+            "sha512": "fbfdaf53864b67f51cb7e1d39c936ca084067bd274a1cf14bd10621380e3207499026cf16358049cd491239fbc48b58ce03c6316528cba0e4027bb1e79ad3453",
+            "sha1": "4a043d00f461a6f994c403662c7c6a04ab20c5eb"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/Xo1GAiPu/sources_melody_fabric_1.0.15_MC_1.21.11.jar",
+          "filename": "sources_melody_fabric_1.0.15_MC_1.21.11.jar",
+          "primary": false,
+          "size": 35723,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "GUxhbP5x",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.14 MC 1.21.10",
+      "version_number": "1.0.14-1.21.10-neoforge",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-11-01T07:40:06.559817Z",
+      "downloads": 5719,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "hbR4pre1",
+          "hashes": {
+            "sha1": "b2b39cda02f5b0490fa9a161a70e29202e08b493",
+            "sha512": "3c4408244a44af0cdeb46b61c9a321867a7399374c20daa8d4c5e4202ff485186dc92b092d94f56ae887f7acb31a197ba917b0f7bf7b651da85f9344d4b865fd"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/GUxhbP5x/melody_neoforge_1.0.14_MC_1.21.10.jar",
+          "filename": "melody_neoforge_1.0.14_MC_1.21.10.jar",
+          "primary": true,
+          "size": 46752,
+          "file_type": null
+        },
+        {
+          "id": "JwT1Wu7R",
+          "hashes": {
+            "sha1": "5fbdfb38ac3bf908a7f43a50cc419601058e8604",
+            "sha512": "82da60597e9059d22a48b1f0c795138808112a7c61bb06618a2049135cccd6c951f79cecb564bc98cd611ad380ae96fe6158d14ec02249c9aaea6d59a642258b"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/GUxhbP5x/sources_melody_neoforge_1.0.14_MC_1.21.10.jar",
+          "filename": "sources_melody_neoforge_1.0.14_MC_1.21.10.jar",
+          "primary": false,
+          "size": 36137,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "4nd52KsY",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.14 MC 1.21.10",
+      "version_number": "1.0.14-1.21.10-fabric",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-11-01T07:39:33.445546Z",
+      "downloads": 255202,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "PRefm02J",
+          "hashes": {
+            "sha512": "b252080c840b6e4dfa8335fa2d73fca09701f2e6ea73bf1dc696027d5434887e82999786a32305d7d4a30cf18e58f538db4842be3370fd8ecaa851de73227095",
+            "sha1": "46e439abfe66794c18bb9d4a9c857d0b00da29df"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/4nd52KsY/melody_fabric_1.0.14_MC_1.21.10.jar",
+          "filename": "melody_fabric_1.0.14_MC_1.21.10.jar",
+          "primary": true,
+          "size": 198661,
+          "file_type": null
+        },
+        {
+          "id": "C6GD1XN9",
+          "hashes": {
+            "sha512": "684136af4a28e257672836ecde40d4a2e3fc518c3a8bd68fc5cb513c21f350a4e518cffc93b923fd3336bf8113845b505370fdf3748351ebe674fc4b7ebbfc22",
+            "sha1": "aa52e92ab6e301ae67085138c193cd41458d96ee"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/4nd52KsY/sources_melody_fabric_1.0.14_MC_1.21.10.jar",
+          "filename": "sources_melody_fabric_1.0.14_MC_1.21.10.jar",
+          "primary": false,
+          "size": 38455,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "spdEBLiE",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.13 MC 1.21.10",
+      "version_number": "1.0.13-1.21.10-neoforge",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-10-16T02:41:48.132200Z",
+      "downloads": 2749,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "LuOB8Ttj",
+          "hashes": {
+            "sha512": "285ad8b0d65fe48c1ac76e20536b71754e6eefb881fa33780affcbf2f848b274d73ac40bd6b32125f559e612a864fd657c3e5e6d12659a2562aea5b2847a66dc",
+            "sha1": "0b34de927f62215ee61b5ecf85fed1f5495b315b"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/spdEBLiE/melody_neoforge_1.0.13_MC_1.21.10.jar",
+          "filename": "melody_neoforge_1.0.13_MC_1.21.10.jar",
+          "primary": true,
+          "size": 46762,
+          "file_type": null
+        },
+        {
+          "id": "CM5tEt3b",
+          "hashes": {
+            "sha1": "a95670d75bf063843d69d25d43aa348ed1085e8c",
+            "sha512": "a6006dee83b9f444e75c5a14b57b591175546b78ae2acefca2ad7b8906feec9edf22a920b567df4c365749ee12e6d5af49fff964a3c4aabde20db6282f214984"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/spdEBLiE/sources_melody_neoforge_1.0.13_MC_1.21.10.jar",
+          "filename": "sources_melody_neoforge_1.0.13_MC_1.21.10.jar",
+          "primary": false,
+          "size": 36145,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "2YEyhNcZ",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.13 MC 1.21.10",
+      "version_number": "1.0.13-1.21.10-fabric",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-10-16T02:41:06.068154Z",
+      "downloads": 21775,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "yWO61kje",
+          "hashes": {
+            "sha1": "d6ab55da5744d05c49f2dc0ce3e1830fc614c21c",
+            "sha512": "d57f14565354d2194040ec267f53e4d02ef69dddfe2e6415839bedd9da23f9a711d1a646a61647be5f2095b6f5cb5cb843210556e4dc010e42efda4ff6a4bf56"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/2YEyhNcZ/melody_fabric_1.0.13_MC_1.21.10.jar",
+          "filename": "melody_fabric_1.0.13_MC_1.21.10.jar",
+          "primary": true,
+          "size": 198676,
+          "file_type": null
+        },
+        {
+          "id": "s0P36Yzc",
+          "hashes": {
+            "sha512": "e7933b3e2d5cfa0028163f6e83708d49d8e3f9f916cf566f99e313c189fd76ccb6e447a0d356b13af7a39f13a2c9bca7e71df65c14a57eba8dee8022c082530c",
+            "sha1": "1839e12b9acbc6e3d5becd5f30d60c79dd2fc9e5"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/2YEyhNcZ/sources_melody_fabric_1.0.13_MC_1.21.10.jar",
+          "filename": "sources_melody_fabric_1.0.13_MC_1.21.10.jar",
+          "primary": false,
+          "size": 38463,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "DS7coewa",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.12 MC 1.21.6",
+      "version_number": "1.0.12-1.21.6-neoforge",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-06-18T23:10:48.086514Z",
+      "downloads": 14482,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "CD3PoJJ7",
+          "hashes": {
+            "sha1": "71f9d2fd372333dcc8d187e20cf2806f2e48c1c5",
+            "sha512": "66d47a484e88367aa9db9370c478fe8b69735c26bd49726bb8f78fed246172a8ef5706ae2131606a976c3b95852e385c6f9a6cc18d4f16e8bc2041706e1d3d10"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/DS7coewa/melody_neoforge_1.0.12_MC_1.21.6.jar",
+          "filename": "melody_neoforge_1.0.12_MC_1.21.6.jar",
+          "primary": true,
+          "size": 36099,
+          "file_type": null
+        },
+        {
+          "id": "9Etneh2U",
+          "hashes": {
+            "sha512": "1842eae5e7dd78fe3e891ee9276494c33a7380beb7dc4bbfb842f78b3431bad2b66ccbadefc2ca5f880f7604eaa41d8cf20f1c716e192ee8beba6beea147dd5b",
+            "sha1": "befea01acb93c3f7a3b76e8cfebf92ac58dfd31b"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/DS7coewa/sources_melody_neoforge_1.0.12_MC_1.21.6.jar",
+          "filename": "sources_melody_neoforge_1.0.12_MC_1.21.6.jar",
+          "primary": false,
+          "size": 25492,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "GdUdtOfw",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.12 MC 1.21.6",
+      "version_number": "1.0.12-1.21.6-forge",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-06-18T23:10:24.708190Z",
+      "downloads": 5521,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "JoYufsog",
+          "hashes": {
+            "sha512": "2ae68b5b9ec68c5504801554f7d2aee80d1fa4b96411e69dc0fd7d13556979ee756af1bbfc246a1a19636cb7864e7a22980176277f535a33484f1940503f0de8",
+            "sha1": "60b3bba356ddb63f9cd4071a53b0d2b4343297a9"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/GdUdtOfw/melody_forge_1.0.12_MC_1.21.6.jar",
+          "filename": "melody_forge_1.0.12_MC_1.21.6.jar",
+          "primary": true,
+          "size": 189825,
+          "file_type": null
+        },
+        {
+          "id": "5I4NfB4j",
+          "hashes": {
+            "sha1": "db013aa22a25532daa71b9a05f1bf0e22c3d7528",
+            "sha512": "0892ce5673c8a39f83003da70dc349db26bbf6cbb745a52e81da9a06d036d307cea7c006d64af4c9c6774b86936cb4348523cdad837dfaa02e50c03c2ef0bf1c"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/GdUdtOfw/sources_melody_forge_1.0.12_MC_1.21.6.jar",
+          "filename": "sources_melody_forge_1.0.12_MC_1.21.6.jar",
+          "primary": false,
+          "size": 25309,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "NsXvHOnn",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.12 MC 1.21.6",
+      "version_number": "1.0.12-1.21.6-fabric",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-06-18T23:09:56.617481Z",
+      "downloads": 522228,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "3qDct3iV",
+          "hashes": {
+            "sha512": "5dc426663721bbacb9ea90ea559dba4e5a0acbb361978d6984376147cb66d9c229cdf80cd44d7d0989c804b22ceb5ed51410cadd3fbfdd5cba1eb55c0df613a9",
+            "sha1": "99bbb8ac9e86b7861f4cb7a0302f0668a5ff0e45"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/NsXvHOnn/melody_fabric_1.0.12_MC_1.21.6.jar",
+          "filename": "melody_fabric_1.0.12_MC_1.21.6.jar",
+          "primary": true,
+          "size": 188047,
+          "file_type": null
+        },
+        {
+          "id": "PonMPa4B",
+          "hashes": {
+            "sha1": "4ccce7bcb105264af436a8b74fea536894ab0fff",
+            "sha512": "3b1d8955dca28f78d8a388049c294c433ff301f013d88aaf47a8aa9972db6074659cf542cb63d24a6ae9a83e4357bf861fb586b172c96e98d80baabc51e00348"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/NsXvHOnn/sources_melody_fabric_1.0.12_MC_1.21.6.jar",
+          "filename": "sources_melody_fabric_1.0.12_MC_1.21.6.jar",
+          "primary": false,
+          "size": 27817,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "ifs75r9u",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.11 MC 1.21.5",
+      "version_number": "1.0.11-1.21.5-neoforge",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-04-25T21:25:28.198300Z",
+      "downloads": 3494,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "AJ2ddj0F",
+          "hashes": {
+            "sha512": "82a23aa7d918991eee4d18f4f5b880f0f09981d908b21757b98022313614117d926bfa04942bc4f9792474e8af039208c490601415cd082e78afabd2ac2af1b5",
+            "sha1": "f04415315edbd423e52c68a1bc0c950646d7f82a"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/ifs75r9u/melody_neoforge_1.0.11_MC_1.21.5.jar",
+          "filename": "melody_neoforge_1.0.11_MC_1.21.5.jar",
+          "primary": true,
+          "size": 36098,
+          "file_type": null
+        },
+        {
+          "id": "xHtZuLef",
+          "hashes": {
+            "sha1": "12fd49fadabb3f4801e0f6bba1f1b341b40db685",
+            "sha512": "4bf2691c2948be513faaeeaef1eee1e34e5288495ef8e5822cc1ecc7f31132cd819630c9efa66bfe53e5e5ce29a1fe0cad5ed08a9da551bcbb2357bcd84a75e2"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/ifs75r9u/sources_melody_neoforge_1.0.11_MC_1.21.5.jar",
+          "filename": "sources_melody_neoforge_1.0.11_MC_1.21.5.jar",
+          "primary": false,
+          "size": 25492,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "BYSPaMzs",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.11 MC 1.21.5",
+      "version_number": "1.0.11-1.21.5-forge",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-04-25T21:24:44.566121Z",
+      "downloads": 2611,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "XecU4bQ9",
+          "hashes": {
+            "sha1": "49d4fedf73ca7b20f0c1b36d5ea92f2bd3b4ba79",
+            "sha512": "4ae1597d4c0a621edaa3a9f1a1fb6148d22dac07847212e53cad43db15cb028423fd26a19992b1a7559df7f1ba530e18a30259cf6e3d0a61fe706f06cf36a584"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/BYSPaMzs/melody_forge_1.0.11_MC_1.21.5.jar",
+          "filename": "melody_forge_1.0.11_MC_1.21.5.jar",
+          "primary": true,
+          "size": 189825,
+          "file_type": null
+        },
+        {
+          "id": "XNQfpuzu",
+          "hashes": {
+            "sha512": "43a5f61795a9121ad244df23336f94ece83751de4ee0ba4b961d8434d22882cc16af2e5238641d7c3d532cf1939a6aad48f1dc6ab344829a31d2324a304534ba",
+            "sha1": "77a7c8bd13ac2ebf37def573396855e473f44e76"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/BYSPaMzs/sources_melody_forge_1.0.11_MC_1.21.5.jar",
+          "filename": "sources_melody_forge_1.0.11_MC_1.21.5.jar",
+          "primary": false,
+          "size": 25309,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "gf84krIk",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.11 MC 1.21.5",
+      "version_number": "1.0.11-1.21.5-fabric",
+      "changelog": "Some changelog text.<br>Supports multiline input.",
+      "changelog_url": null,
+      "date_published": "2025-04-25T21:23:56.597636Z",
+      "downloads": 149633,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "3pQmaw9p",
+          "hashes": {
+            "sha1": "40419b66187ef1fdbe1ae655ca7197fcbac5b744",
+            "sha512": "cd6c29c05675299c2288811c766343004a149b7448e548bfdae813a557f913327c05a25409275dcda57683225b4393f887c22bec67309e90583dc5a18feba91f"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/gf84krIk/melody_fabric_1.0.11_MC_1.21.5.jar",
+          "filename": "melody_fabric_1.0.11_MC_1.21.5.jar",
+          "primary": true,
+          "size": 188045,
+          "file_type": null
+        },
+        {
+          "id": "fScbVMSq",
+          "hashes": {
+            "sha512": "f438c0148be86dab1dd7672d852d22606bc3b255d62d50a7d5d4cade1f682c092183b3bdf0fd1e7b305a87cc92dc8fcf0b05b313ba15e3387ccef07432338dcc",
+            "sha1": "d3ff68e2a118a7197b8d64434c46143a95a55c10"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/gf84krIk/sources_melody_fabric_1.0.11_MC_1.21.5.jar",
+          "filename": "sources_melody_fabric_1.0.11_MC_1.21.5.jar",
+          "primary": false,
+          "size": 27817,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "efcdRVZP",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.10 MC 1.21",
+      "version_number": "1.0.10-1.21-neoforge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-06-21T07:53:02.575299Z",
+      "downloads": 2980138,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "8YmMqKk2",
+          "hashes": {
+            "sha512": "3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1",
+            "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/melody_neoforge_1.0.10_MC_1.21.jar",
+          "filename": "melody_neoforge_1.0.10_MC_1.21.jar",
+          "primary": true,
+          "size": 36096,
+          "file_type": null
+        },
+        {
+          "id": "L4NvDs5o",
+          "hashes": {
+            "sha512": "53284827ee2a79c4eb2da08dc926379b29fe9b0eac034c7648a51cb12bf8fb8a5ae6aefc521b4ae1f1f3d49da49762186b49cd56896eb0ee9fda2f57de75b1e8",
+            "sha1": "68adee81b16975e0f61073442199e55822326920"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/sources_melody_neoforge_1.0.10_MC_1.21.jar",
+          "filename": "sources_melody_neoforge_1.0.10_MC_1.21.jar",
+          "primary": false,
+          "size": 25492,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1",
+        "1.21.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "dhnytTnF",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.10 MC 1.21",
+      "version_number": "1.0.10-1.21-forge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-06-15T08:12:07.484406Z",
+      "downloads": 26160,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "QKDJlMLk",
+          "hashes": {
+            "sha512": "ba52437f489662a2847b855b4267ce5a2040808e2efeccf58195566b33bbd360de1342dac4153b401c200e4c740f090f7cb8d988a3334b67f10db21f196f866e",
+            "sha1": "b5ba856de68fbf7c5ca26a9d1658e1b0d4d76f5c"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/dhnytTnF/melody_forge_1.0.10_MC_1.21.jar",
+          "filename": "melody_forge_1.0.10_MC_1.21.jar",
+          "primary": true,
+          "size": 189827,
+          "file_type": null
+        },
+        {
+          "id": "X3O59V7i",
+          "hashes": {
+            "sha1": "3b7eba9a05a9dd0ec3b63192e953318387e59add",
+            "sha512": "68dd35e43f1497b3376c1e85804bd8f8b5b7c7bc377ecdbeb7b38224fa63ce92c285b8856096ed1f8460a6231374ae26bae259d582e10e600520488a783b9799"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/dhnytTnF/sources_melody_forge_1.0.10_MC_1.21.jar",
+          "filename": "sources_melody_forge_1.0.10_MC_1.21.jar",
+          "primary": false,
+          "size": 25309,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.21",
+        "1.21.1",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "OqxSeb4n",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.10 MC 1.21",
+      "version_number": "1.0.10-1.21-fabric",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-06-15T08:11:26.157766Z",
+      "downloads": 15834759,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ZV4pdgfU",
+          "hashes": {
+            "sha512": "a7e13e66d3d406b26ee7e5394ae84653d1b9a4f1e4151a2f925fb07869576d6a3b419ba5702bd1ff5bad91054a66f5071720e17f85e1579e8e4f83664bc3dc5e",
+            "sha1": "5624eea73f251c70a9489192d326f9b4aab3b13c"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar",
+          "filename": "melody_fabric_1.0.10_MC_1.21.jar",
+          "primary": true,
+          "size": 188035,
+          "file_type": null
+        },
+        {
+          "id": "xnTqvok5",
+          "hashes": {
+            "sha512": "3a2f8e44ff62d522af925287b09c5feb8e54bcffb6279e88d91beab0b3aa90ef524cd9fa161c6375c705ca4c38a903507d30174b79bc0a232d69af0afb3ce491",
+            "sha1": "1db9f5c7bf61522860293743d3f67f37cf8d0d0c"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/sources_melody_fabric_1.0.10_MC_1.21.jar",
+          "filename": "sources_melody_fabric_1.0.10_MC_1.21.jar",
+          "primary": false,
+          "size": 27815,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "qujo8CZX",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.9 MC 1.20.6",
+      "version_number": "1.0.9-1.20.6-forge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-05-16T03:05:39.731320Z",
+      "downloads": 3651,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "zfAAINKv",
+          "hashes": {
+            "sha512": "ad0d2d70517e915043a7d9a6c2ac7fd6926a0b3541d19e98d3cb8abfbe20a31b4ce4e4d61ccdb4368e9c591a39f5e22f72169b3e1e2ef519cff0c79a43cd1c1e",
+            "sha1": "2c80e79abeb30d74a7459f3b697d83046ee0e3a4"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/qujo8CZX/melody_forge_1.0.9_MC_1.20.6.jar",
+          "filename": "melody_forge_1.0.9_MC_1.20.6.jar",
+          "primary": true,
+          "size": 189817,
+          "file_type": null
+        },
+        {
+          "id": "G7gWiTvJ",
+          "hashes": {
+            "sha512": "fa7b14a7a0a7cbe52844e15aac0a158b216be70cdc9e6c574e44a3e4ae344d8e62d474be62782769bdc5a62a68db4d519cb4909b563be98e2989fe6727e6cade",
+            "sha1": "afb95d211efd82f9b6aa105532c78c0c7e4231c4"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/qujo8CZX/sources_melody_forge_1.0.9_MC_1.20.6.jar",
+          "filename": "sources_melody_forge_1.0.9_MC_1.20.6.jar",
+          "primary": false,
+          "size": 25303,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "ICDWdvtk",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.8 MC 1.20.6",
+      "version_number": "1.0.8-1.20.6-forge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-05-15T04:39:02.327236Z",
+      "downloads": 319,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "aBkNsH84",
+          "hashes": {
+            "sha1": "bb1b2d356ea115c8f286ef7c14e0de2f542151d4",
+            "sha512": "2d4eb9aa0de51190ca8014e74c33fa599f0b322232fa1cc3abb2993b2c023fe31b7bfdad15b360b60f9bdfb0a2dc8b452d428a4b3b9637725f539e4d8e9a0fb4"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/ICDWdvtk/melody_forge_1.0.8_MC_1.20.6.jar",
+          "filename": "melody_forge_1.0.8_MC_1.20.6.jar",
+          "primary": true,
+          "size": 189785,
+          "file_type": null
+        },
+        {
+          "id": "YgRPQZQj",
+          "hashes": {
+            "sha512": "4cbddfca35b9e62958a9bd32d4455842ebb0d02cb16bf877ae3ba09a7e92ba9d58759d3e3d43ec66ad9b473dc8eeb98275138907a5ad65fd70e94774cf189998",
+            "sha1": "098f46b3656b985e41ce873041678474f8900adb"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/ICDWdvtk/sources_melody_forge_1.0.8_MC_1.20.6.jar",
+          "filename": "sources_melody_forge_1.0.8_MC_1.20.6.jar",
+          "primary": false,
+          "size": 25303,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "mEGdB8Jg",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.7 MC 1.20.6",
+      "version_number": "1.0.7-1.20.6-forge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-05-14T05:15:17.959557Z",
+      "downloads": 315,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "4Qb8WjfT",
+          "hashes": {
+            "sha1": "67d4ca0e653f9711c1ab22af8914879ae61486e1",
+            "sha512": "6799a73f1c2b2daa4eb055a8d873a7d98b98955fcff9710d250394a3d307110647b53d872b6a0a7a7669a5b788350638af021f4e83387eb2cec3e14ded809e12"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/mEGdB8Jg/melody_forge_1.0.7_MC_1.20.6.jar",
+          "filename": "melody_forge_1.0.7_MC_1.20.6.jar",
+          "primary": true,
+          "size": 190621,
+          "file_type": null
+        },
+        {
+          "id": "RfIsLCnB",
+          "hashes": {
+            "sha512": "cfff6e11c087cb160f5290b992cf61a1549a468f2309cc60dde418fa5a6ba2f13ada3ba64d1567da52a7c406aca9fd78efa412028e8ed9ecee3853f64bcdebeb",
+            "sha1": "c5d7d7cc518fd17813fae49ac6793c813a3d3697"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/mEGdB8Jg/sources_melody_forge_1.0.7_MC_1.20.6.jar",
+          "filename": "sources_melody_forge_1.0.7_MC_1.20.6.jar",
+          "primary": false,
+          "size": 25303,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "E1C9lndp",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.6 MC 1.20.5-1.20.6",
+      "version_number": "1.0.6-1.20.5-neoforge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-04-27T03:02:35.952761Z",
+      "downloads": 935,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "hR46DYd1",
+          "hashes": {
+            "sha512": "7913008233193adb2e8d9cb0128eea7a93515baf2d7fc955e1589f027b6615018a1d6dc7000bff9be63115582481f5f67c34f6fdd780881167c9d50159f19205",
+            "sha1": "1e72e8931ec8a6386723969bc06eaeef024e3eab"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/E1C9lndp/melody_neoforge_1.0.6_MC_1.20.5.jar",
+          "filename": "melody_neoforge_1.0.6_MC_1.20.5.jar",
+          "primary": true,
+          "size": 36088,
+          "file_type": null
+        },
+        {
+          "id": "gbmjjXFc",
+          "hashes": {
+            "sha512": "4a628c948516bd374e76dff4dfb0331677d00a9910571f6cf930a5077c0e5dd480a6598cca61f88e54b5251a51b8f37a892f454f488ad7b5a16976a4511a268b",
+            "sha1": "f8b2d6727ca51354c14548df03282ee450c44aa9"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/E1C9lndp/sources_melody_neoforge_1.0.6_MC_1.20.5.jar",
+          "filename": "sources_melody_neoforge_1.0.6_MC_1.20.5.jar",
+          "primary": false,
+          "size": 25486,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "hYM9p09l",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.6 MC 1.20.5-1.20.6",
+      "version_number": "1.0.6-1.20.5-fabric",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-04-27T03:02:12.855520Z",
+      "downloads": 108540,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "YC5S2T0y",
+          "hashes": {
+            "sha1": "e5043041b7c2d1214fee1acdb4078c083277a890",
+            "sha512": "5b6f19ecf8241327b0a5f7c563303de2aef652d8890288e60eb2f22d971237e9787f5d2cb5de0f5fcbd52b04eb7edef18a010566299aa0a0352fbb2a8b27a160"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/hYM9p09l/melody_fabric_1.0.6_MC_1.20.5.jar",
+          "filename": "melody_fabric_1.0.6_MC_1.20.5.jar",
+          "primary": true,
+          "size": 188028,
+          "file_type": null
+        },
+        {
+          "id": "klupgIRA",
+          "hashes": {
+            "sha1": "9f827be50e2636d3c2db236629e1d46270f004b2",
+            "sha512": "e85383a618a76072fc442c1508593b58715dcc3d143664cf87995525397d872d5b0b68486fc2fff9ec61412c3262f0bcb95ef9b51baeeed79f6692e18a43a245"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/hYM9p09l/sources_melody_fabric_1.0.6_MC_1.20.5.jar",
+          "filename": "sources_melody_fabric_1.0.6_MC_1.20.5.jar",
+          "primary": false,
+          "size": 27810,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "environment": "unknown",
+      "id": "KP3gMIq3",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[NeoForge] v1.0.5 MC 1.20.4",
+      "version_number": "1.0.5-1.20.4-neoforge",
+      "changelog": "\n<br>CHANGELOG: https://github.com/Keksuccino/Melody/blob/main/changelog.txt\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-02-29T08:55:55.905473Z",
+      "downloads": 10152,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "7KsLfjCo",
+          "hashes": {
+            "sha512": "9831d06a8b4f73f93a88621af156be009754811b7ceb5a62c5afd8f4859b411cd4cea2a187c3527509bdd014687182b5722945df2aab8b782f5d9e4f43599e5b",
+            "sha1": "5cde21cfc9c7aa4dcdf64e1f7a98e3c91b001471"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/KP3gMIq3/melody_neoforge_1.0.5_MC_1.20.4.jar",
+          "filename": "melody_neoforge_1.0.5_MC_1.20.4.jar",
+          "primary": true,
+          "size": 35996,
+          "file_type": null
+        },
+        {
+          "id": "LNbGey5h",
+          "hashes": {
+            "sha1": "009081b693ebaad67155d6077c7471c969b83a97",
+            "sha512": "da4c3a69f9610377fa47fc7ecb20300180a2476c99a2aa533357c3f65aefd6d65f584ac1bbb3383e3c49018c63e2accf5e33476e86baf2c6705d6590b696a625"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/KP3gMIq3/sources_melody_neoforge_1.0.5_MC_1.20.4.jar",
+          "filename": "sources_melody_neoforge_1.0.5_MC_1.20.4.jar",
+          "primary": false,
+          "size": 25461,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "2o0oW8Yv",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.4 MC 1.20.1-1.20.4",
+      "version_number": "1.0.4-1.20.1-1.20.4-fabric",
+      "changelog": "\n<br>- Lowered required Fabric API version to v0.88.1\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-02-27T04:49:07.808485Z",
+      "downloads": 10826103,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "1lTpRj2v",
+          "hashes": {
+            "sha1": "15eeff0c0fd8b4734492915c656077592b2d9e67",
+            "sha512": "3d3379e07eae001860aa71379abe310cda6642965cd55a8d274dacef1b63d8c85fd0663abeec2d247ac1a631bd08b12dace8758f4a035d344e27db5edfe581c5"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/2o0oW8Yv/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 39696,
+          "file_type": null
+        },
+        {
+          "id": "VgwXzC2B",
+          "hashes": {
+            "sha1": "b8e64bcac7fdca066ca852c70e28db0c7088c2c1",
+            "sha512": "467cc695871aa0ff4758d2670e9b13891ec8de08c12b10c87ef743b9c17ce87037090a2ec572a23699a0fcf9b88bc99a929904a78c542afc2af7bc86c1938199"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/2o0oW8Yv/sources_melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+          "filename": "sources_melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 27848,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "lJlW5r8R",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.3 MC 1.20.1-1.20.4",
+      "version_number": "1.0.3-1.20.1-1.20.4-forge",
+      "changelog": "\n<br>- Lowered minimum required MC 1.20.1 Forge version\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-02-15T10:46:09.435735Z",
+      "downloads": 17041982,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "AgHD9c03",
+          "hashes": {
+            "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+            "sha512": "43c60d0cb98b1642d663e3cea68d50c01e9be82361851bf40c5c869e6593499aaf4b410d891d07a083f3c4b2df7fc06b2f8fbaa3c661a5061d46e250c017d30f"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 37178,
+          "file_type": null
+        },
+        {
+          "id": "WYSAHrcm",
+          "hashes": {
+            "sha512": "72a20c896b551fe86f19acd611e4570e6f5e8f6c345f5d0ff644191e29e46ea8195ad7739443b33af3aa2d9b651513aa83c44ef830d20f11d37e6dbacdf739ae",
+            "sha1": "05fae58994bbdb5ef1afdf0488fcd28db9449e40"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/lJlW5r8R/sources_melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "filename": "sources_melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 25370,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "t7thRplt",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.2 MC 1.20.1-1.20.4",
+      "version_number": "1.0.2-1.20.1-1.20.4-forge",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2024-01-24T11:21:10.628916Z",
+      "downloads": 8689,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "5FvSrTEP",
+          "hashes": {
+            "sha512": "9a63a3b8d6bc58aac8602dbaa94b425e4567bbcb9cdb78b7070c62276ef82d9d5673e0900d135a720c67d46bfb36bc98af204b4131e3cef0437842db60d54530",
+            "sha1": "f140ab6cf4429a383ddb655057ef4a5139efd4f2"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/t7thRplt/melody_forge_1.0.2_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_forge_1.0.2_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 37178,
+          "file_type": null
+        },
+        {
+          "id": "6cneq1Zm",
+          "hashes": {
+            "sha1": "b04166475eb5c73b2eb1bb764557210ca594036f",
+            "sha512": "8542f6ed76c9fde02a880fcbd7141fa6423ad937d798b774a649fcf0ddc77665c13b2b0081a4821dac027d305b4725f9bce6a1a7f74590f7c3afbbe2f070ce9d"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/t7thRplt/sources_melody_forge_1.0.2_MC_1.20.1-1.20.4.jar",
+          "filename": "sources_melody_forge_1.0.2_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 25371,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "aMYLdh1A",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.1 MC 1.18.2",
+      "version_number": "1.0.1-1.18.2-forge",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-26T08:34:30.076871Z",
+      "downloads": 495799,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "oRSNc94S",
+          "hashes": {
+            "sha1": "e7834a482324d3a27eacba0fbb419858ed487da6",
+            "sha512": "9b32818a55f93f34f4495433b604556c60ccf48fd49e37ec15ccc7d23e966c8058176f33b8c17f99a6366afa9ba56bc4f493e904ccaa7b5d93ea8cc3d0661979"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/aMYLdh1A/melody_forge_1.0.1_MC_1.18.2.jar",
+          "filename": "melody_forge_1.0.1_MC_1.18.2.jar",
+          "primary": true,
+          "size": 37315,
+          "file_type": null
+        },
+        {
+          "id": "fZygYavQ",
+          "hashes": {
+            "sha512": "032997bc53ad7a652b8fc59a68593262f8cc892a41cf4c07e1c71334763366d62aaa96ec9f4913053c02c185d04bbbb55f4b183a62943948721319a0be95fc23",
+            "sha1": "cf4955d501d024a641d153ec3922a3f9eb8c54f5"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/aMYLdh1A/dev_melody_forge_1.0.1_MC_1.18.2.jar",
+          "filename": "dev_melody_forge_1.0.1_MC_1.18.2.jar",
+          "primary": false,
+          "size": 37938,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "AUB6gMMU",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.1 MC 1.18.2",
+      "version_number": "1.0.1-1.18.2-fabric",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-26T08:33:21.286259Z",
+      "downloads": 12178,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "i0YIPwlq",
+          "hashes": {
+            "sha1": "f9ef7845c5407b1282eda873251fb26b9c969625",
+            "sha512": "072c636d2c95b509a6a81cdd5b6019b2c8e32100675baac1f99e956ab867799708e6eb55f263470fc054bbe2dc106529f580284d0d4cb24ca77862ecdb1a82b3"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/AUB6gMMU/melody_fabric_1.0.1_MC_1.18.2.jar",
+          "filename": "melody_fabric_1.0.1_MC_1.18.2.jar",
+          "primary": true,
+          "size": 39824,
+          "file_type": null
+        },
+        {
+          "id": "KxrnyLAa",
+          "hashes": {
+            "sha1": "68302a1edebd2d0c08f5bd7016a05dbc00463e7c",
+            "sha512": "d9753b97b67629f89988e68ca7dd98c3c90842f747481d1a3eae935349b2448c164dc5e239723efcee61f7df415248d0ac5d2b5a83d1c5ab3485f9a98cc90a9b"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/AUB6gMMU/dev_melody_fabric_1.0.1_MC_1.18.2.jar",
+          "filename": "dev_melody_fabric_1.0.1_MC_1.18.2.jar",
+          "primary": false,
+          "size": 37512,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "FGAAIkNn",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.1 MC 1.19.2",
+      "version_number": "1.0.1-1.19.2-forge",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-26T08:31:07.737855Z",
+      "downloads": 2492097,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "gH7PyUBU",
+          "hashes": {
+            "sha1": "0f00b9164b105d78e696fa6bda421005e39b15d7",
+            "sha512": "3f9d35cb1d8592244d92e5c4bccd1717f765ae789551284c0cb3d5739c57bcf83ef2496c16049e0e7cac21ffa8f915135ca660b6ceecd50e738e0073c92bde95"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/FGAAIkNn/melody_forge_1.0.1_MC_1.19.2.jar",
+          "filename": "melody_forge_1.0.1_MC_1.19.2.jar",
+          "primary": true,
+          "size": 37177,
+          "file_type": null
+        },
+        {
+          "id": "5J01ttxD",
+          "hashes": {
+            "sha512": "8e3d8022bf9d50b90e5ae945c4a988d50f13360f4d839ea55c1872c61358f347bedcbbe0c1cf435109a5594d59e5a0e4687af3b04aa400cab9dc685ebe60343a",
+            "sha1": "3d885ee6e46c9ae0038dc9770bf8ab7f52343d6f"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/FGAAIkNn/dev_melody_forge_1.0.1_MC_1.19.2.jar",
+          "filename": "dev_melody_forge_1.0.1_MC_1.19.2.jar",
+          "primary": false,
+          "size": 37823,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "QcDfYy6d",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.1 MC 1.19.2",
+      "version_number": "1.0.1-1.19.2-fabric",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-26T08:29:50.450945Z",
+      "downloads": 61378,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "P0jWwfyp",
+          "hashes": {
+            "sha512": "d4327c00c8b8a69dc441c63a9c67fbf6244c9edbc126dbee027fb2d8f279a2eb429f0ec41da0a02ba2a42eed35523134da7d83269d313d808b0daf5cc08eead9",
+            "sha1": "67e231b2f5f9cd2b7b5aa1bf79e62ced3c7ba2b2"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/QcDfYy6d/melody_fabric_1.0.1_MC_1.19.2.jar",
+          "filename": "melody_fabric_1.0.1_MC_1.19.2.jar",
+          "primary": true,
+          "size": 39700,
+          "file_type": null
+        },
+        {
+          "id": "bw1ujOqw",
+          "hashes": {
+            "sha512": "8dc0bdfc24945b5b5cfadae0e205f18a84309434da440e71d6171c6175e3d9f6d51be2b0f7481f300253ef46be6e878d52cf53c1bb3890e7f0a47c81a286e2a3",
+            "sha1": "2e9dbc55ce809ed698a07f64b86f599fc5deb227"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/QcDfYy6d/dev_melody_fabric_1.0.1_MC_1.19.2.jar",
+          "filename": "dev_melody_fabric_1.0.1_MC_1.19.2.jar",
+          "primary": false,
+          "size": 37397,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "3OeHwNib",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.1 MC 1.20.1-1.20.4",
+      "version_number": "1.0.1-1.20.1-1.20.4-forge",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-26T08:28:43.453171Z",
+      "downloads": 808,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "nh1OFzWz",
+          "hashes": {
+            "sha1": "a0a450b08c7b147fa6b22e769acc20114a94a707",
+            "sha512": "ae769fbd76575296da02f17e178c65bde2731664ea1ffe2aec14ea49cca9cb438cd912fcef3bc22d36fbaaf97aed3d42555163d5952e0bebf867de92b5d23751"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/3OeHwNib/melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 37177,
+          "file_type": null
+        },
+        {
+          "id": "bcxNYCgD",
+          "hashes": {
+            "sha512": "6e71b9f05523461203d645fde749d162e1b2632ae7ee561740241f3e6d8f1889a5fde5ac00bff332e5f18fe4442cc3beecddfacb2c97a7817bddecb5a2386dbd",
+            "sha1": "e4db249628624ffa48820cb578fbea26c0102524"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/3OeHwNib/dev_melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+          "filename": "dev_melody_forge_1.0.1_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 37820,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "XMccgvzj",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.1 MC 1.20.1-1.20.4",
+      "version_number": "1.0.1-1.20.1-1.20.4-fabric",
+      "changelog": "\n<br>- Improved how the mod handles being loaded on a server\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-26T08:27:14.021880Z",
+      "downloads": 86656,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "D9Ngvxj9",
+          "hashes": {
+            "sha512": "e9705eaf74aff1c450975b8f2de70dfb8b34dd76209743989237797d4d751ee29a6a74a29b45dc43ec7a7966dcc5b73c055702c3f244ceec226ba81633e245d7",
+            "sha1": "aa76057ac9b9e575232c76a4beea778658279882"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/XMccgvzj/melody_fabric_1.0.1_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_fabric_1.0.1_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 39696,
+          "file_type": null
+        },
+        {
+          "id": "g9is37LX",
+          "hashes": {
+            "sha512": "fc83072484fbcdb3b8912266b50fa22ad17c3aaaf88e31e0b67b8c6e544c973deb638c79b81074420aba460586f03e3202be9a6bcbe499e520797958a95e9a57",
+            "sha1": "cc281b7290167c0e86c6407e5cecd4b964089e7d"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/XMccgvzj/dev_melody_fabric_1.0.1_MC_1.20.1-1.20.4.jar",
+          "filename": "dev_melody_fabric_1.0.1_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 37393,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "aMPsn3TO",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.0 MC 1.19.2",
+      "version_number": "1.0.0-1.19.2-forge",
+      "changelog": "\n<br>- Initial release\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-20T02:53:12.214558Z",
+      "downloads": 907,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "6faipd7d",
+          "hashes": {
+            "sha1": "a86825c890d01faf076a666a32e162a4d3d34dd0",
+            "sha512": "eebb618a3c35c8efbb6505fe17346b537b2143057f9d5416575fec91548024780be63be7c6123e6a1c4b6d5a11214a494b078f1e4989b0ebada94540b5828fb0"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/aMPsn3TO/melody_forge_1.0.0_MC_1.19.2.jar",
+          "filename": "melody_forge_1.0.0_MC_1.19.2.jar",
+          "primary": true,
+          "size": 37212,
+          "file_type": null
+        },
+        {
+          "id": "R2Uxnmsr",
+          "hashes": {
+            "sha512": "8b8588ad0140b0a80ed27061598db01312e800f28ecad37f135fd3a504a7118439c13ed5fb5093aa5d676f46282304fdc860f6a96e4207c1baa7dc19aa14c526",
+            "sha1": "939d47afcdbbe0a6d1da024c8a878b8f08d428ea"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/aMPsn3TO/dev_melody_forge_1.0.0_MC_1.19.2.jar",
+          "filename": "dev_melody_forge_1.0.0_MC_1.19.2.jar",
+          "primary": false,
+          "size": 37859,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "cTVJuzuH",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.0 MC 1.19.2",
+      "version_number": "1.0.0-1.19.2-fabric",
+      "changelog": "\n<br>- Initial release\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-20T02:52:41.159346Z",
+      "downloads": 455,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "3oAGwKLd",
+          "hashes": {
+            "sha1": "46a69d0499877757f252d18476d1d15b69a5a2d6",
+            "sha512": "46f1f33f2b28ff02133da176a6bc798707ac5e804e2ee0c88b8f897a111358d7c48e28e63edff1a1f5d9e70551debd77e0a28cfc3a54484857f2ad5d5d6c412a"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/cTVJuzuH/melody_fabric_1.0.0_MC_1.19.2.jar",
+          "filename": "melody_fabric_1.0.0_MC_1.19.2.jar",
+          "primary": true,
+          "size": 39725,
+          "file_type": null
+        },
+        {
+          "id": "33OAHIFV",
+          "hashes": {
+            "sha1": "6f080f18bb59901764329a1a52f1399fc10b60cd",
+            "sha512": "50006cd61d87ee19d89311d8fbb6c1912cf1ec03f9e6c4ada9cf6a133a4f245b73e4e67ad3145d7c8b7bb8c71d62e36d8a36e642726fb16c4c7a36c5309805fd"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/cTVJuzuH/dev_melody_fabric_1.0.0_MC_1.19.2.jar",
+          "filename": "dev_melody_fabric_1.0.0_MC_1.19.2.jar",
+          "primary": false,
+          "size": 37423,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "KfQ7H4WH",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.0 MC 1.20.1-1.20.4",
+      "version_number": "1.0.0-1.20.1-1.20.4-forge",
+      "changelog": "\n<br>- Initial release\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-13T04:27:16.314996Z",
+      "downloads": 2705,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "Bh6cAoQQ",
+          "hashes": {
+            "sha512": "ba99d386e30a94cee6897ce160f10e2d478158191ef98f685d4ec35a99b814a3048fcf3a7a60e235190426d9f4d847e98645d1139b08258a65da3ed353f4d26d",
+            "sha1": "885386bf2fff0ed53e8bc4f85605f1febe54eeb3"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/KfQ7H4WH/melody_forge_1.0.0_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_forge_1.0.0_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 37212,
+          "file_type": null
+        },
+        {
+          "id": "wmsC05rD",
+          "hashes": {
+            "sha1": "27a95483b6e47751bad702361c69c9148a2ee3b2",
+            "sha512": "91ca3115e754a2d19422f637e94c6b934c487235d6b44d016325a793a3ebc969ed0ca101f226d0d35852efbc6c7575660fa4a55e86e365560e026737fb549d55"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/KfQ7H4WH/dev_melody_forge_1.0.0_MC_1.20.1-1.20.4.jar",
+          "filename": "dev_melody_forge_1.0.0_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 37856,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "6Uy5ki0Y",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.0 MC 1.20.1-1.20.4",
+      "version_number": "1.0.0-1.20.1-1.20.4-fabric",
+      "changelog": "\n<br>- Initial release\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-13T04:25:26.495811Z",
+      "downloads": 1661,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "NvMTL2Qo",
+          "hashes": {
+            "sha512": "4af029456a1d3e7e046041807e56c48cf7f0d5939a47643defb063c2cc01513bcc5f5ef97742029025c91cace9691428c03ac8c316654ecb6c5e3e904bfb6935",
+            "sha1": "48c16be02e39ebcbe5bf66bdc51f859943dc314f"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/6Uy5ki0Y/melody_fabric_1.0.0_MC_1.20.1-1.20.4.jar",
+          "filename": "melody_fabric_1.0.0_MC_1.20.1-1.20.4.jar",
+          "primary": true,
+          "size": 39725,
+          "file_type": null
+        },
+        {
+          "id": "VWisme3N",
+          "hashes": {
+            "sha1": "e460de86cadce1eb0a8f267e9dcce93ff6c60e92",
+            "sha512": "819733d86b6c231a4f9298adf7a7d658da98c9c1733001581928c9a93dcaaf2a7253ecda2b74e42da80d4828a3686c108acd09544231d8feb6919ca7a473ea26"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/6Uy5ki0Y/dev_melody_fabric_1.0.0_MC_1.20.1-1.20.4.jar",
+          "filename": "dev_melody_fabric_1.0.0_MC_1.20.1-1.20.4.jar",
+          "primary": false,
+          "size": 37423,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "6DtbOVFX",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.0 MC 1.18.2",
+      "version_number": "1.0.0-1.18.2-forge",
+      "changelog": "\n<br>- Initial release\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-13T02:10:07.619900Z",
+      "downloads": 5962,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "gghU9xAo",
+          "hashes": {
+            "sha1": "49fcbb331ffddee595dd4d84215885b54c97791d",
+            "sha512": "91cd00d51a78cb0c1890aec4c430d23b089d90260ade0a4b5ff4ba0b2cfa409c29271cba8993224b0eb9ea053b6ba9bbc11df2657a377b59817945dfde9e4ef1"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/6DtbOVFX/melody_forge_1.0.0_MC_1.18.2.jar",
+          "filename": "melody_forge_1.0.0_MC_1.18.2.jar",
+          "primary": true,
+          "size": 37351,
+          "file_type": null
+        },
+        {
+          "id": "orlqaci5",
+          "hashes": {
+            "sha512": "57886e1a4637fb7d9409fc0f11a6feaa21fde41dde97168737ab31bc2c501e385bf63ea26471b582b5f5e49c86d9f445875359afb74a8ffaa46f393a8bb69552",
+            "sha1": "17a1bc98cacbc2bdf3c7d43501fb8f5a726a0a8e"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/6DtbOVFX/dev_melody_forge_1.0.0_MC_1.18.2.jar",
+          "filename": "dev_melody_forge_1.0.0_MC_1.18.2.jar",
+          "primary": false,
+          "size": 37975,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "hT3ze5Kh",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.0 MC 1.18.2",
+      "version_number": "1.0.0-1.18.2-fabric",
+      "changelog": "\n<br>- Initial release\n\n<br>",
+      "changelog_url": null,
+      "date_published": "2023-12-13T02:05:47.640974Z",
+      "downloads": 303,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "p0PhD3gM",
+          "hashes": {
+            "sha512": "8c8ea298037d436149fb6d9f198510879a563aab4867ede74117104e2a6f7e62cae57c3bc22980c6e979bdd86b57715c48d94813834363786f3edebfe9084cd5",
+            "sha1": "5c66f1f87c4adf76c0d6b347b288721102a676b5"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/hT3ze5Kh/melody_fabric_1.0.0_MC_1.18.2.jar",
+          "filename": "melody_fabric_1.0.0_MC_1.18.2.jar",
+          "primary": true,
+          "size": 39853,
+          "file_type": null
+        },
+        {
+          "id": "qe1mV1CK",
+          "hashes": {
+            "sha1": "6f9d099c4b1efdfb61cc6d00c2fd2f7dec74b462",
+            "sha512": "5f5965547fe5ed7f4cbe5d11f7e119ec5c411cbb82e0010ba84fce743bc9cd3844953e0fe6ae38bd062e8f476207b130c65ff41ce50ac713636ed5ba965deda8"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/hT3ze5Kh/dev_melody_fabric_1.0.0_MC_1.18.2.jar",
+          "filename": "dev_melody_fabric_1.0.0_MC_1.18.2.jar",
+          "primary": false,
+          "size": 37542,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "environment": "unknown",
+      "id": "TlZ1fbds",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Forge] v1.0.0 MC 1.19.4",
+      "version_number": "1.0.0-1.19.4-forge",
+      "changelog": "- Initial release",
+      "changelog_url": null,
+      "date_published": "2023-11-15T07:58:43.070372Z",
+      "downloads": 961,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "ZGgggshW",
+          "hashes": {
+            "sha1": "6cd199b3506a3f1aed361244958cafeb4e798a0a",
+            "sha512": "07762e0c00433a40c0c688d6b0d724a900eca8558e85b104f8bf21e3eeb0f856d66a6fc27f3bd04c2380b05ae9e542d9c5bcac71fc3b5f4a0d5061bbe109b169"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/TlZ1fbds/Melody-forge-1.19.4-1.0.0.jar",
+          "filename": "Melody-forge-1.19.4-1.0.0.jar",
+          "primary": true,
+          "size": 37212,
+          "file_type": null
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "environment": "unknown",
+      "id": "NiI3hjHd",
+      "project_id": "CVT4pFB2",
+      "author_id": "k0LcYHWE",
+      "featured": false,
+      "name": "[Fabric] v1.0.0 MC 1.19.4",
+      "version_number": "1.0.0-1.19.4-fabric",
+      "changelog": "- Initial release",
+      "changelog_url": null,
+      "date_published": "2023-11-15T07:56:47.179038Z",
+      "downloads": 1770,
+      "version_type": "release",
+      "status": "listed",
+      "requested_status": null,
+      "files": [
+        {
+          "id": "37uAnM3o",
+          "hashes": {
+            "sha1": "4f9a3da95b3bcc1630d0e7178272f8c32b306d7e",
+            "sha512": "abd37b9d9c887d3235c82a041f25aeeeb0fa58397c5e37d38d6ae1994dae30fc4d7d26efd6f7cba848fff42f6095e007b7e5c747f766525b31141b17f2de8ace"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/NiI3hjHd/Melody-fabric-1.19.4-1.0.0.jar",
+          "filename": "Melody-fabric-1.19.4-1.0.0.jar",
+          "primary": true,
+          "size": 39730,
+          "file_type": null
+        },
+        {
+          "id": "N9VN8JHX",
+          "hashes": {
+            "sha512": "f91efa7eecb120dadce7bdd7d7a3811f2f70cd529bf784b402bc30e612952d314d361ddd20e31ab79543b05c2521f287e4b8f5fc9a31fbf9030b2396cd59fd28",
+            "sha1": "73111c414668074935b04996d0163ea598d217b7"
+          },
+          "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/NiI3hjHd/Melody-fabric-1.19.4-1.0.0-dev.jar",
+          "filename": "Melody-fabric-1.19.4-1.0.0-dev.jar",
+          "primary": false,
+          "size": 53171,
+          "file_type": null
+        }
+      ],
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    }
+  ]
+}

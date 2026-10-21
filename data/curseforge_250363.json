@@ -1,0 +1,3164 @@
+{
+  "mod": {
+    "screenshots": [],
+    "id": 250363,
+    "gameId": 432,
+    "name": "AutoRegLib",
+    "slug": "autoreglib",
+    "links": {
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/autoreglib",
+      "wikiUrl": "",
+      "issuesUrl": "https://github.com/Vazkii/AutoRegLib/issues",
+      "sourceUrl": "https://github.com/Vazkii/AutoRegLib"
+    },
+    "summary": "A library to ease menial tasks in mod development.",
+    "status": 4,
+    "downloadCount": 240343250,
+    "favoriteCount": 629,
+    "isFeatured": false,
+    "primaryCategoryId": 421,
+    "categories": [
+      {
+        "id": 421,
+        "gameId": 432,
+        "name": "API and Library",
+        "slug": "library-api",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+        "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+        "dateModified": "2014-05-23T03:21:44.06Z",
+        "isClass": false,
+        "classId": 6,
+        "parentCategoryId": 6
+      }
+    ],
+    "classId": 6,
+    "authors": [
+      {
+        "id": 3852549,
+        "name": "Vazkii",
+        "url": "https://www.curseforge.com/members/vazkii",
+        "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8eda5ef0-d975-400a-ab18-b938c1c81549-profile_image-150x150.png",
+        "userTierInfo": {
+          "tierLevel": 7,
+          "downloadsThreshold": 1000000000
+        }
+      }
+    ],
+    "logo": {
+      "id": 588688,
+      "modId": 250363,
+      "title": "637958999303347142.png",
+      "description": "",
+      "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/588/688/256/256/637958999303347142.png",
+      "url": "https://media.forgecdn.net/avatars/588/688/637958999303347142.png"
+    },
+    "mainFileId": 4100299,
+    "latestFiles": [
+      {
+        "id": 2746011,
+        "gameId": 432,
+        "modId": 250363,
+        "isAvailable": true,
+        "displayName": "AutoRegLib-1.3-32.jar",
+        "fileName": "AutoRegLib-1.3-32.jar",
+        "releaseType": 1,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "267269ca7f1a71fb3bb35bdb8e61702a4da6263e",
+            "algo": 1
+          },
+          {
+            "value": "4e5a4b881c27b1e4502a9a16c00882ad",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2019-07-22T11:42:20Z",
+        "fileLength": 108306,
+        "downloadCount": 67404790,
+        "downloadUrl": "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar",
+        "gameVersions": [
+          "1.12.2"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "1.12.2",
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 69589181,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 2909822131
+          },
+          {
+            "name": "vazkii",
+            "fingerprint": 2108119070
+          },
+          {
+            "name": "assets",
+            "fingerprint": 1346084177
+          },
+          {
+            "name": "mcmod.info",
+            "fingerprint": 2714767204
+          }
+        ]
+      },
+      {
+        "id": 4100299,
+        "gameId": 432,
+        "modId": 250363,
+        "isAvailable": true,
+        "displayName": "AutoRegLib-1.8.2-55.jar",
+        "fileName": "AutoRegLib-1.8.2-55.jar",
+        "releaseType": 1,
+        "fileStatus": 4,
+        "hashes": [
+          {
+            "value": "342cac5511fe7009a260bc0a25fee777179ba530",
+            "algo": 1
+          },
+          {
+            "value": "8d0cfc46ea0c7334ff511eff2bb3e9ce",
+            "algo": 2
+          }
+        ],
+        "fileDate": "2022-11-20T13:29:02.113Z",
+        "fileLength": 45741,
+        "downloadCount": 20241090,
+        "downloadUrl": "https://edge.forgecdn.net/files/4100/299/AutoRegLib-1.8.2-55.jar",
+        "gameVersions": [
+          "1.19.2",
+          "Forge"
+        ],
+        "sortableGameVersions": [
+          {
+            "gameVersionName": "1.19.2",
+            "gameVersionPadded": "0000000001.0000000019.0000000002",
+            "gameVersion": "1.19.2",
+            "gameVersionReleaseDate": "2022-08-05T14:12:22.413Z",
+            "gameVersionTypeId": 73407
+          },
+          {
+            "gameVersionName": "Forge",
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+            "gameVersionTypeId": 68441
+          }
+        ],
+        "dependencies": [],
+        "alternateFileId": 0,
+        "isServerPack": false,
+        "fileFingerprint": 3080214567,
+        "modules": [
+          {
+            "name": "META-INF",
+            "fingerprint": 3008090772
+          },
+          {
+            "name": "vazkii",
+            "fingerprint": 1116430726
+          },
+          {
+            "name": "assets",
+            "fingerprint": 1845676687
+          },
+          {
+            "name": "pack.mcmeta",
+            "fingerprint": 3875124119
+          }
+        ]
+      }
+    ],
+    "latestFilesIndexes": [
+      {
+        "gameVersion": "1.19.2",
+        "fileId": 4100299,
+        "filename": "AutoRegLib-1.8.2-55.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.19.1",
+        "fileId": 3857246,
+        "filename": "AutoRegLib-1.8-54.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.19",
+        "fileId": 3857246,
+        "filename": "AutoRegLib-1.8-54.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73407,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18.1",
+        "fileId": 3642382,
+        "filename": "AutoRegLib-1.7-53.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18",
+        "fileId": 3642382,
+        "filename": "AutoRegLib-1.7-53.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.18.2",
+        "fileId": 3642382,
+        "filename": "AutoRegLib-1.7-53.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 73250,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.5",
+        "fileId": 3326041,
+        "filename": "AutoRegLib-1.6-49.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.3",
+        "fileId": 3128555,
+        "filename": "AutoRegLib-1.6-47.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.4",
+        "fileId": 3128555,
+        "filename": "AutoRegLib-1.6-47.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.16.1",
+        "fileId": 3017289,
+        "filename": "AutoRegLib-1.6-43.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 70886,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.15.2",
+        "fileId": 2911830,
+        "filename": "AutoRegLib-1.5-40.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 68722,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.14.4",
+        "fileId": 2821794,
+        "filename": "AutoRegLib-1.4-35.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 64806,
+        "modLoader": 1
+      },
+      {
+        "gameVersion": "1.12.2",
+        "fileId": 2746011,
+        "filename": "AutoRegLib-1.3-32.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 628
+      },
+      {
+        "gameVersion": "1.12",
+        "fileId": 2497562,
+        "filename": "AutoRegLib-1.3-15.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 628
+      },
+      {
+        "gameVersion": "1.12.1",
+        "fileId": 2497562,
+        "filename": "AutoRegLib-1.3-15.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 628
+      },
+      {
+        "gameVersion": "1.11.2",
+        "fileId": 2363585,
+        "filename": "AutoRegLib-1.1-4.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 599
+      },
+      {
+        "gameVersion": "1.10.2",
+        "fileId": 2327403,
+        "filename": "AutoRegLib-1.0-2.jar",
+        "releaseType": 1,
+        "gameVersionTypeId": 572
+      }
+    ],
+    "latestEarlyAccessFilesIndexes": [],
+    "dateCreated": "2016-08-28T02:51:55.023Z",
+    "dateModified": "2023-01-27T16:40:26.003Z",
+    "dateReleased": "2022-11-20T13:29:02.113Z",
+    "allowModDistribution": true,
+    "gamePopularityRank": 204,
+    "isAvailable": true,
+    "hasCommentsEnabled": false,
+    "licenseType": "Custom License",
+    "thumbsUpCount": 0,
+    "featuredProjectTag": 0
+  },
+  "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fvioletmoon.org%252f\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/vm0.png\"></a><a href=\"https://patreon.com/vazkii\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/vm1.png\"></a><a href=\"https://twitter.com/vazkiimods\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/vm2.png\"></a><a href=\"https://discord.gg/vm\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/vm3.png\"></a></p>\n<h1>About</h1>\n<p>AutoRegLib is a mod that adds common code for other mods made by Vazkii to use. It creates a level of abstraction for registering content, which allows creating new features for mods to be done faster.</p>\n<p>There is no need to download AutoRegLib unless some other mod requires it, as it does not contain any content on its own.</p>\n<p><img src=\"https://violetmoon.org/branding/support.png\">\r\n<a href=\"https://patreon.com/vazkii\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/patreon.png\"></a><a href=\"/linkout?remoteUrl=https%253a%252f%252fstore.vazkii.net%252f\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/store.png\"></a>\r\n<a href=\"/linkout?remoteUrl=https%253a%252f%252fvioletmoon.org%252fcreeperhost\" rel=\"nofollow\"><img src=\"https://violetmoon.org/branding/ch.png\"></a></p>\n",
+  "files": [
+    {
+      "id": 4100299,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.8.2-55.jar",
+      "fileName": "AutoRegLib-1.8.2-55.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "342cac5511fe7009a260bc0a25fee777179ba530",
+          "algo": 1
+        },
+        {
+          "value": "8d0cfc46ea0c7334ff511eff2bb3e9ce",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-11-20T13:29:02.113Z",
+      "fileLength": 45741,
+      "downloadCount": 20241090,
+      "downloadUrl": "https://edge.forgecdn.net/files/4100/299/AutoRegLib-1.8.2-55.jar",
+      "gameVersions": [
+        "1.19.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.2",
+          "gameVersionPadded": "0000000001.0000000019.0000000002",
+          "gameVersion": "1.19.2",
+          "gameVersionReleaseDate": "2022-08-05T14:12:22.413Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3080214567,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3008090772
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1116430726
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1845676687
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3857246,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.8-54.jar",
+      "fileName": "AutoRegLib-1.8-54.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "794189bcdd8d3f492c605d9842d288bd9b686ee8",
+          "algo": 1
+        },
+        {
+          "value": "c646069bc931050a21cd451f5776e8f5",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-07-03T00:54:32.183Z",
+      "fileLength": 43143,
+      "downloadCount": 1175824,
+      "downloadUrl": "https://edge.forgecdn.net/files/3857/246/AutoRegLib-1.8-54.jar",
+      "gameVersions": [
+        "1.19.2",
+        "Forge",
+        "1.19.1",
+        "1.19"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.19.2",
+          "gameVersionPadded": "0000000001.0000000019.0000000002",
+          "gameVersion": "1.19.2",
+          "gameVersionReleaseDate": "2022-08-05T14:12:22.413Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.19.1",
+          "gameVersionPadded": "0000000001.0000000019.0000000001",
+          "gameVersion": "1.19.1",
+          "gameVersionReleaseDate": "2022-06-28T00:00:00Z",
+          "gameVersionTypeId": 73407
+        },
+        {
+          "gameVersionName": "1.19",
+          "gameVersionPadded": "0000000001.0000000019",
+          "gameVersion": "1.19",
+          "gameVersionReleaseDate": "2022-06-07T15:38:07.377Z",
+          "gameVersionTypeId": 73407
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1935388563,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 535132584
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3743546753
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3642382,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.7-53.jar",
+      "fileName": "AutoRegLib-1.7-53.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "3e8f5e0bbf90af2555394b2f9ff704142f979465",
+          "algo": 1
+        },
+        {
+          "value": "b3fa32322a19c3d5f480efbff506dade",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-02-09T19:12:15.043Z",
+      "fileLength": 42733,
+      "downloadCount": 21720786,
+      "downloadUrl": "https://edge.forgecdn.net/files/3642/382/AutoRegLib-1.7-53.jar",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2",
+        "Forge",
+        "1.18"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.18",
+          "gameVersionPadded": "0000000001.0000000018",
+          "gameVersion": "1.18",
+          "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+          "gameVersionTypeId": 73250
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1728002877,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 425673529
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3479996123
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3575622,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.7-52.jar",
+      "fileName": "AutoRegLib-1.7-52.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "64087e2792ae74d1db8d71393f71752874e7b668",
+          "algo": 1
+        },
+        {
+          "value": "b965a273330dd58df4c2e7846179ccf6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-12-21T16:28:38.067Z",
+      "fileLength": 42714,
+      "downloadCount": 576363,
+      "downloadUrl": "https://edge.forgecdn.net/files/3575/622/AutoRegLib-1.7-52.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge",
+        "1.18"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.18",
+          "gameVersionPadded": "0000000001.0000000018",
+          "gameVersion": "1.18",
+          "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+          "gameVersionTypeId": 73250
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3361518717,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 553048974
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1333054398
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3326041,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.6-49.jar",
+      "fileName": "AutoRegLib-1.6-49.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "921cf73b9d31bce5d332115a5144c3fca2010f93",
+          "algo": 1
+        },
+        {
+          "value": "16302251afc7a757f00899b270cc0fa2",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-05-26T20:33:37.05Z",
+      "fileLength": 57279,
+      "downloadCount": 36769996,
+      "downloadUrl": "https://edge.forgecdn.net/files/3326/41/AutoRegLib-1.6-49.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3552494639,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 814952073
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3159161697
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3128555,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.6-47.jar",
+      "fileName": "AutoRegLib-1.6-47.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "b581dda2655a47c84ef15013784160b07f6d5c97",
+          "algo": 1
+        },
+        {
+          "value": "1c7a17a3a31c22632aa0755b61244d70",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-12-02T15:55:10.537Z",
+      "fileLength": 57133,
+      "downloadCount": 8184484,
+      "downloadUrl": "https://edge.forgecdn.net/files/3128/555/AutoRegLib-1.6-47.jar",
+      "gameVersions": [
+        "1.16.3",
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.3",
+          "gameVersionPadded": "0000000001.0000000016.0000000003",
+          "gameVersion": "1.16.3",
+          "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2240982638,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2406736334
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3855964727
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3088870,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.6-46.jar",
+      "fileName": "AutoRegLib-1.6-46.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c722edbeaf70abf9179b1d1613e1622d630621c3",
+          "algo": 1
+        },
+        {
+          "value": "afb4280c2d039cc432127f2571d2104b",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-10-21T19:19:46.803Z",
+      "fileLength": 57070,
+      "downloadCount": 634693,
+      "downloadUrl": "https://edge.forgecdn.net/files/3088/870/AutoRegLib-1.6-46.jar",
+      "gameVersions": [
+        "1.16.3",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.3",
+          "gameVersionPadded": "0000000001.0000000016.0000000003",
+          "gameVersion": "1.16.3",
+          "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 244874643,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2764754928
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2729577850
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3017289,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.6-43.jar",
+      "fileName": "AutoRegLib-1.6-43.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "55517e8e3a77c55142baca91f15f8863a809bbbb",
+          "algo": 1
+        },
+        {
+          "value": "7e5790a09dadbe1b4ad7c328b3753115",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-07-28T17:07:40.88Z",
+      "fileLength": 57047,
+      "downloadCount": 560050,
+      "downloadUrl": "https://edge.forgecdn.net/files/3017/289/AutoRegLib-1.6-43.jar",
+      "gameVersions": [
+        "1.16.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.1",
+          "gameVersionPadded": "0000000001.0000000016.0000000001",
+          "gameVersion": "1.16.1",
+          "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1258156996,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3864618320
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2215283169
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 3011755,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.6-42.jar",
+      "fileName": "AutoRegLib-1.6-42.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "08456e627beecd2ceee253ddcf91c462f673327c",
+          "algo": 1
+        },
+        {
+          "value": "072216f20b41222991e68f861a9baec7",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-07-22T16:44:30.88Z",
+      "fileLength": 57087,
+      "downloadCount": 51327,
+      "downloadUrl": "https://edge.forgecdn.net/files/3011/755/AutoRegLib-1.6-42.jar",
+      "gameVersions": [
+        "1.16.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.1",
+          "gameVersionPadded": "0000000001.0000000016.0000000001",
+          "gameVersion": "1.16.1",
+          "gameVersionReleaseDate": "2020-06-24T12:41:11.823Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3272666365,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1302211138
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1102526822
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 2911830,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.5-40.jar",
+      "fileName": "AutoRegLib-1.5-40.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c04161d62c6b39ceed015a1b36dd513535f08661",
+          "algo": 1
+        },
+        {
+          "value": "06149a40dc0ced647dd41b11ab01b5cc",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-03-24T21:04:37.757Z",
+      "fileLength": 58933,
+      "downloadCount": 5057123,
+      "downloadUrl": "https://edge.forgecdn.net/files/2911/830/AutoRegLib-1.5-40.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1112807760,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3163068919
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1336282113
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 2905794,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.5-39.jar",
+      "fileName": "AutoRegLib-1.5-39.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "798ec20e0b31f8e3bb96693172b56416333e7595",
+          "algo": 1
+        },
+        {
+          "value": "d91861bdcd7d47d326f268bee293aaa5",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-03-19T23:52:07.647Z",
+      "fileLength": 58646,
+      "downloadCount": 11818,
+      "downloadUrl": "https://edge.forgecdn.net/files/2905/794/AutoRegLib-1.5-39.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 719258107,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2920245469
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1788884357
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 2900034,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.5-37.jar",
+      "fileName": "AutoRegLib-1.5-37.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "b87f7054a2fad767818ecb7beefe1ccbec79f02b",
+          "algo": 1
+        },
+        {
+          "value": "676068c1754e1f9bccfb2c6fe66856de",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-03-13T16:43:53.84Z",
+      "fileLength": 58646,
+      "downloadCount": 17008,
+      "downloadUrl": "https://edge.forgecdn.net/files/2900/34/AutoRegLib-1.5-37.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 831201286,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4126196151
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1788884357
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 2892689,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.5-36.jar",
+      "fileName": "AutoRegLib-1.5-36.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ee85af6d099b49db6c4d409258e0aa77a4eb3abf",
+          "algo": 1
+        },
+        {
+          "value": "9ec0ed93dfcb5566ec2feb6476f47f06",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-03-01T18:45:25.347Z",
+      "fileLength": 58547,
+      "downloadCount": 10973,
+      "downloadUrl": "https://edge.forgecdn.net/files/2892/689/AutoRegLib-1.5-36.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 198185334,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1794113848
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2091451405
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 2821794,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.4-35.jar",
+      "fileName": "AutoRegLib-1.4-35.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "57c9daedb4c05a9913665b1121996ffef9db84cb",
+          "algo": 1
+        },
+        {
+          "value": "f6e78b26aa9db16b86fe33f488a20c01",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-11-04T06:45:45.673Z",
+      "fileLength": 61065,
+      "downloadCount": 1396148,
+      "downloadUrl": "https://edge.forgecdn.net/files/2821/794/AutoRegLib-1.4-35.jar",
+      "gameVersions": [
+        "1.14.4",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.14.4",
+          "gameVersionPadded": "0000000001.0000000014.0000000004",
+          "gameVersion": "1.14.4",
+          "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+          "gameVersionTypeId": 64806
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1019835193,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1000642987
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 181955446
+        },
+        {
+          "name": "assets",
+          "fingerprint": 168030657
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3875124119
+        }
+      ]
+    },
+    {
+      "id": 2746011,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-32.jar",
+      "fileName": "AutoRegLib-1.3-32.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "267269ca7f1a71fb3bb35bdb8e61702a4da6263e",
+          "algo": 1
+        },
+        {
+          "value": "4e5a4b881c27b1e4502a9a16c00882ad",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-07-22T11:42:20Z",
+      "fileLength": 108306,
+      "downloadCount": 67404790,
+      "downloadUrl": "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 69589181,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2909822131
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2108119070
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 2714767204
+        }
+      ]
+    },
+    {
+      "id": 2730480,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-31.jar",
+      "fileName": "AutoRegLib-1.3-31.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "0f7c4f68bb3ce575bac9d02a02a2d8961c6fa692",
+          "algo": 1
+        },
+        {
+          "value": "bdc6ab2dd60a2562e2af5b0543e0ed27",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-06-26T04:10:20.47Z",
+      "fileLength": 106200,
+      "downloadCount": 5131874,
+      "downloadUrl": "https://edge.forgecdn.net/files/2730/480/AutoRegLib-1.3-31.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 170361845,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3300906819
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 556417126
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 2463245041
+        }
+      ]
+    },
+    {
+      "id": 2715657,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-30.jar",
+      "fileName": "AutoRegLib-1.3-30.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "7973706000154b30400da03cd3d6f9f01690142e",
+          "algo": 1
+        },
+        {
+          "value": "258f95bdbe57ab68bea2405a2bcb713a",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-05-25T17:08:33.033Z",
+      "fileLength": 106291,
+      "downloadCount": 1361431,
+      "downloadUrl": "https://edge.forgecdn.net/files/2715/657/AutoRegLib-1.3-30.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2264349137,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3133541353
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2767820311
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3372020730
+        }
+      ]
+    },
+    {
+      "id": 2711582,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-29.jar",
+      "fileName": "AutoRegLib-1.3-29.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c76b8f91a58378cf8c8e508df2f2399ee5ea65d4",
+          "algo": 1
+        },
+        {
+          "value": "9f3515bb4a166188c10acaf05d2832a8",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-05-15T20:42:02.347Z",
+      "fileLength": 105520,
+      "downloadCount": 206041,
+      "downloadUrl": "https://edge.forgecdn.net/files/2711/582/AutoRegLib-1.3-29.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3690656471,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1291430687
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2600037348
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 4206623178
+        }
+      ]
+    },
+    {
+      "id": 2704893,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-28.jar",
+      "fileName": "AutoRegLib-1.3-28.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "bb5c443b27717ee902994951dcaba1c894926db5",
+          "algo": 1
+        },
+        {
+          "value": "42c42c487123e4515d78007601907e27",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-04-28T20:04:00.483Z",
+      "fileLength": 105468,
+      "downloadCount": 943181,
+      "downloadUrl": "https://edge.forgecdn.net/files/2704/893/AutoRegLib-1.3-28.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2030432368,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3752877443
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 170378918
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1867470365
+        }
+      ]
+    },
+    {
+      "id": 2703999,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-27.jar",
+      "fileName": "AutoRegLib-1.3-27.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "30dc87533fac6d236c0adcfd6d33e148e5be4de7",
+          "algo": 1
+        },
+        {
+          "value": "0f8eea609bb82d5b67436b6ab55ef185",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-04-26T18:52:38.62Z",
+      "fileLength": 105366,
+      "downloadCount": 23463,
+      "downloadUrl": "https://edge.forgecdn.net/files/2703/999/AutoRegLib-1.3-27.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 4279286138,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1286119511
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1842108531
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3031374226
+        }
+      ]
+    },
+    {
+      "id": 2677092,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-26.jar",
+      "fileName": "AutoRegLib-1.3-26.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "d6d34e743811a8b7d6c8c92734bbdd5a4b892fb0",
+          "algo": 1
+        },
+        {
+          "value": "a10a61ade624b1095b27568ba64edab4",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-02-19T20:07:27.057Z",
+      "fileLength": 105356,
+      "downloadCount": 5825369,
+      "downloadUrl": "https://edge.forgecdn.net/files/2677/92/AutoRegLib-1.3-26.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3066271352,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 500946879
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 4218972554
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 190907592
+        }
+      ]
+    },
+    {
+      "id": 2652766,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-24.jar",
+      "fileName": "AutoRegLib-1.3-24.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "4811b5df37fafdf6d4df6db5fe9ef71081e4b5ee",
+          "algo": 1
+        },
+        {
+          "value": "4a297c475f3fd341b41db6b6f6026b0e",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-12-26T22:34:32.377Z",
+      "fileLength": 101437,
+      "downloadCount": 3160859,
+      "downloadUrl": "https://edge.forgecdn.net/files/2652/766/AutoRegLib-1.3-24.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2539226764,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1872893533
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 483772335
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3960064875
+        }
+      ]
+    },
+    {
+      "id": 2652720,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-23.jar",
+      "fileName": "AutoRegLib-1.3-23.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "23f25f42cda717218b42d126f503c37603332d4d",
+          "algo": 1
+        },
+        {
+          "value": "371dfde2ffe14df5c73c946d2ceb25ab",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-12-26T20:11:40.727Z",
+      "fileLength": 101314,
+      "downloadCount": 1641,
+      "downloadUrl": "https://edge.forgecdn.net/files/2652/720/AutoRegLib-1.3-23.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1530766059,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2476146328
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2324074573
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1732434698
+        }
+      ]
+    },
+    {
+      "id": 2652485,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-22.jar",
+      "fileName": "AutoRegLib-1.3-22.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "349e96222ef3a8e59b1ff0ded9bba4fa6bfc561f",
+          "algo": 1
+        },
+        {
+          "value": "5c22dcd50bb0843c8244c1be87b360b6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-12-26T02:43:33.243Z",
+      "fileLength": 101313,
+      "downloadCount": 5497,
+      "downloadUrl": "https://edge.forgecdn.net/files/2652/485/AutoRegLib-1.3-22.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 4066644044,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1177900353
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2738149317
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 177184395
+        }
+      ]
+    },
+    {
+      "id": 2642313,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-21.jar",
+      "fileName": "AutoRegLib-1.3-21.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ecd534c55486b721070aadf65c37f4364f6b6b20",
+          "algo": 1
+        },
+        {
+          "value": "fb487a6814be2dc64a373160242599ad",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-11-29T00:15:46.17Z",
+      "fileLength": 100146,
+      "downloadCount": 382485,
+      "downloadUrl": "https://edge.forgecdn.net/files/2642/313/AutoRegLib-1.3-21.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2100347649,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2283398469
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 4157008963
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 328687896
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1346084177
+        }
+      ]
+    },
+    {
+      "id": 2605109,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-20.jar",
+      "fileName": "AutoRegLib-1.3-20.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "60bbd03493f4df0551c07969a46730304b324882",
+          "algo": 1
+        },
+        {
+          "value": "ccc9194e20d4339cc7dc42c895dde347",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-08-18T15:26:02.333Z",
+      "fileLength": 97062,
+      "downloadCount": 3414056,
+      "downloadUrl": "https://edge.forgecdn.net/files/2605/109/AutoRegLib-1.3-20.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2605110,
+      "isServerPack": false,
+      "fileFingerprint": 4205760893,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 376913235
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3354224989
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 432438487
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3660624198
+        }
+      ]
+    },
+    {
+      "id": 2604828,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-19.jar",
+      "fileName": "AutoRegLib-1.3-19.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c65ec0d633e68c68a341b475216b1401e9a16508",
+          "algo": 1
+        },
+        {
+          "value": "97dcb5a260628d7c084e2aea7cac2167",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-08-18T00:03:58.527Z",
+      "fileLength": 93386,
+      "downloadCount": 3284,
+      "downloadUrl": "https://edge.forgecdn.net/files/2604/828/AutoRegLib-1.3-19.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2604829,
+      "isServerPack": false,
+      "fileFingerprint": 3375463822,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3546852082
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2126224204
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3451937187
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3660624198
+        }
+      ]
+    },
+    {
+      "id": 2573417,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-18.jar",
+      "fileName": "AutoRegLib-1.3-18.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "7013925a38b391182d9224bf82eac32b02723e44",
+          "algo": 1
+        },
+        {
+          "value": "458d66f0d0a28ece3ac0bd853c13d751",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-06-16T20:42:25.397Z",
+      "fileLength": 84923,
+      "downloadCount": 1964000,
+      "downloadUrl": "https://edge.forgecdn.net/files/2573/417/AutoRegLib-1.3-18.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2573418,
+      "isServerPack": false,
+      "fileFingerprint": 1362393753,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 923512577
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 220780399
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 857928269
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2557287,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-17.jar",
+      "fileName": "AutoRegLib-1.3-17.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "0f73338c92572306951015c8fe4795dd32daffe5",
+          "algo": 1
+        },
+        {
+          "value": "fa73c94b556aeafe8e1138ea754d0b43",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-04-30T22:09:41.707Z",
+      "fileLength": 83023,
+      "downloadCount": 2349046,
+      "downloadUrl": "https://edge.forgecdn.net/files/2557/287/AutoRegLib-1.3-17.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1232185909,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3778167094
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3710396297
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1266799252
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2544276,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-16.jar",
+      "fileName": "AutoRegLib-1.3-16.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "e16d47e2cf30008489f8c482afc5fd5e7fe0b87c",
+          "algo": 1
+        },
+        {
+          "value": "b8d401b23a3d6ba892313e21bc47addd",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2018-03-23T23:08:19.63Z",
+      "fileLength": 73087,
+      "downloadCount": 840897,
+      "downloadUrl": "https://edge.forgecdn.net/files/2544/276/AutoRegLib-1.3-16.jar",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2544278,
+      "isServerPack": false,
+      "fileFingerprint": 2130216526,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3969411936
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 188070694
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1739897864
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2497562,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-15.jar",
+      "fileName": "AutoRegLib-1.3-15.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "5ab812c89512b456e3db47de9576c78fa3d05a4e",
+          "algo": 1
+        },
+        {
+          "value": "cd28f7419357207a48d6d3e0ee07152a",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-11-05T19:20:20.293Z",
+      "fileLength": 63089,
+      "downloadCount": 2655285,
+      "downloadUrl": "https://edge.forgecdn.net/files/2497/562/AutoRegLib-1.3-15.jar",
+      "gameVersions": [
+        "1.12.1",
+        "1.12",
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.1",
+          "gameVersionPadded": "0000000001.0000000012.0000000001",
+          "gameVersion": "1.12.1",
+          "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+          "gameVersionTypeId": 628
+        },
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        },
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2497563,
+      "isServerPack": false,
+      "fileFingerprint": 1181609603,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2960157647
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3529098452
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2490431,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-14.jar",
+      "fileName": "AutoRegLib-1.3-14.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "4b1a61e7dd51b1dc9fa8586e82699421ec6313b5",
+          "algo": 1
+        },
+        {
+          "value": "74d3c377f41c974124da35c60658222f",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-10-13T21:41:30.727Z",
+      "fileLength": 63061,
+      "downloadCount": 168178,
+      "downloadUrl": "https://edge.forgecdn.net/files/2490/431/AutoRegLib-1.3-14.jar",
+      "gameVersions": [
+        "1.12.1",
+        "1.12",
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.1",
+          "gameVersionPadded": "0000000001.0000000012.0000000001",
+          "gameVersion": "1.12.1",
+          "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+          "gameVersionTypeId": 628
+        },
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        },
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2494194,
+      "isServerPack": false,
+      "fileFingerprint": 1141115853,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 900947592
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1590895700
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2445828,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-13.jar",
+      "fileName": "AutoRegLib-1.3-13.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "f1e97bc65a7adf46073ac0f37d6fc8e71e5fd160",
+          "algo": 1
+        },
+        {
+          "value": "59e0859964f7d01a4d25f7d3ba6af5d0",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-07-04T15:41:31.807Z",
+      "fileLength": 64026,
+      "downloadCount": 461295,
+      "downloadUrl": "https://edge.forgecdn.net/files/2445/828/AutoRegLib-1.3-13.jar",
+      "gameVersions": [
+        "1.12.1",
+        "1.12",
+        "1.12.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12.1",
+          "gameVersionPadded": "0000000001.0000000012.0000000001",
+          "gameVersion": "1.12.1",
+          "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+          "gameVersionTypeId": 628
+        },
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        },
+        {
+          "gameVersionName": "1.12.2",
+          "gameVersionPadded": "0000000001.0000000012.0000000002",
+          "gameVersion": "1.12.2",
+          "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 247652631,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 823252892
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 235675239
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2445182,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-12.jar",
+      "fileName": "AutoRegLib-1.3-12.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "fade84cadc3712e350839e9f65676251a1ab0e0d",
+          "algo": 1
+        },
+        {
+          "value": "08feb41e3dc1e4d014eaf8180b16f1a8",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-07-03T00:21:46.94Z",
+      "fileLength": 64004,
+      "downloadCount": 7227,
+      "downloadUrl": "https://edge.forgecdn.net/files/2445/182/AutoRegLib-1.3-12.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3457826313,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1748636502
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1825008254
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2443579,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-11.jar",
+      "fileName": "AutoRegLib-1.3-11.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "9cd24fd56fc4cc0685a68dc91c73a7dd8f4eedab",
+          "algo": 1
+        },
+        {
+          "value": "20f38a6a694571d8a41123e18df1f03b",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-30T00:21:28.61Z",
+      "fileLength": 62710,
+      "downloadCount": 9415,
+      "downloadUrl": "https://edge.forgecdn.net/files/2443/579/AutoRegLib-1.3-11.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 465136675,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1390256265
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1699353258
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2443570,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-10.jar",
+      "fileName": "AutoRegLib-1.3-10.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ca51ced142f9c6cf4f6a793662d38cee9798642a",
+          "algo": 1
+        },
+        {
+          "value": "8040847bde9762000e946df6e03b9fcf",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-29T23:49:50.243Z",
+      "fileLength": 62950,
+      "downloadCount": 1017,
+      "downloadUrl": "https://edge.forgecdn.net/files/2443/570/AutoRegLib-1.3-10.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 928656062,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2735062320
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 2321745173
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2443298,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.3-9.jar",
+      "fileName": "AutoRegLib-1.3-9.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "42b7febc16d12e847f09960d9e06039757259807",
+          "algo": 1
+        },
+        {
+          "value": "1fd33e4d5ed07a4c8b6b44a1dea56b68",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-29T15:03:08.03Z",
+      "fileLength": 63378,
+      "downloadCount": 1321,
+      "downloadUrl": "https://edge.forgecdn.net/files/2443/298/AutoRegLib-1.3-9.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2831498410,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3590727766
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 2395520116
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2435721,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.2-8.jar",
+      "fileName": "AutoRegLib-1.2-8.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "370488ce62261149bbbb88429355acdcba3d1474",
+          "algo": 1
+        },
+        {
+          "value": "e4b9323424b04c6460dbd3f2d85ef0ed",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-17T16:35:53.297Z",
+      "fileLength": 60163,
+      "downloadCount": 21875,
+      "downloadUrl": "https://edge.forgecdn.net/files/2435/721/AutoRegLib-1.2-8.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 893501101,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2560762392
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 17840426
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2435204,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.2-7.jar",
+      "fileName": "AutoRegLib-1.2-7.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "d6d952b33a3a993dae3e24e198f6f9a825202c65",
+          "algo": 1
+        },
+        {
+          "value": "c4105707c2dc582a3cd78d1c1a16c1ae",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-16T18:58:24.857Z",
+      "fileLength": 60162,
+      "downloadCount": 2159,
+      "downloadUrl": "https://edge.forgecdn.net/files/2435/204/AutoRegLib-1.2-7.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1546323082,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3463029839
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3894815382
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2434269,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.2-6.jar",
+      "fileName": "AutoRegLib-1.2-6.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "f6408a9ff72c426d20e7411f62e16c9a4fed17ad",
+          "algo": 1
+        },
+        {
+          "value": "fc5bbfc56046737c2ac45f28c4a902eb",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-14T22:05:48.51Z",
+      "fileLength": 59604,
+      "downloadCount": 4393,
+      "downloadUrl": "https://edge.forgecdn.net/files/2434/269/AutoRegLib-1.2-6.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2677466763,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 2405270474
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3763607201
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2434212,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.2-5.jar",
+      "fileName": "AutoRegLib-1.2-5.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "0aab7eaea27b7798c99f55790029e028063555ed",
+          "algo": 1
+        },
+        {
+          "value": "e88116ace0d7a8d12ab714306f220087",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-06-14T20:26:47.77Z",
+      "fileLength": 59417,
+      "downloadCount": 1474,
+      "downloadUrl": "https://edge.forgecdn.net/files/2434/212/AutoRegLib-1.2-5.jar",
+      "gameVersions": [
+        "1.12"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.12",
+          "gameVersionPadded": "0000000001.0000000012",
+          "gameVersion": "1.12",
+          "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+          "gameVersionTypeId": 628
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 518239869,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3497299811
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1304461862
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2363585,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.1-4.jar",
+      "fileName": "AutoRegLib-1.1-4.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "e06c5debd75a9bdc58a36f83f136d8af81aad42b",
+          "algo": 1
+        },
+        {
+          "value": "2f775b705d966a789bb0688a2b5f5134",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-01-03T01:34:29.677Z",
+      "fileLength": 56170,
+      "downloadCount": 781114,
+      "downloadUrl": "https://edge.forgecdn.net/files/2363/585/AutoRegLib-1.1-4.jar",
+      "gameVersions": [
+        "1.11.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.11.2",
+          "gameVersionPadded": "0000000001.0000000011.0000000002",
+          "gameVersion": "1.11.2",
+          "gameVersionReleaseDate": "2016-12-21T06:00:00Z",
+          "gameVersionTypeId": 599
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 978677308,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3641374637
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 3790704142
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2363382,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.1-3.jar",
+      "fileName": "AutoRegLib-1.1-3.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "fb34a562835149a9a20370ba61a72e5a3b033ad0",
+          "algo": 1
+        },
+        {
+          "value": "8bc63458cca4cdcc56a4293325bc0401",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2017-01-02T19:13:17.237Z",
+      "fileLength": 56073,
+      "downloadCount": 2218,
+      "downloadUrl": "https://edge.forgecdn.net/files/2363/382/AutoRegLib-1.1-3.jar",
+      "gameVersions": [
+        "1.11.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.11.2",
+          "gameVersionPadded": "0000000001.0000000011.0000000002",
+          "gameVersion": "1.11.2",
+          "gameVersionReleaseDate": "2016-12-21T06:00:00Z",
+          "gameVersionTypeId": 599
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2363385,
+      "isServerPack": false,
+      "fileFingerprint": 425444819,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 1648592285
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1199022478
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2327403,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.0-2.jar",
+      "fileName": "AutoRegLib-1.0-2.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "22c12d61dd4f3179b9a56ba11da71cbf56747006",
+          "algo": 1
+        },
+        {
+          "value": "527a86197be2f4c804747a7ae564a181",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2016-08-31T00:09:10.343Z",
+      "fileLength": 55800,
+      "downloadCount": 17882323,
+      "downloadUrl": "https://edge.forgecdn.net/files/2327/403/AutoRegLib-1.0-2.jar",
+      "gameVersions": [
+        "1.10.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.10.2",
+          "gameVersionPadded": "0000000001.0000000010.0000000002",
+          "gameVersion": "1.10.2",
+          "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+          "gameVersionTypeId": 572
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2327404,
+      "isServerPack": false,
+      "fileFingerprint": 379555373,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 3404787729
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 1135147984
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    },
+    {
+      "id": 2326671,
+      "gameId": 432,
+      "modId": 250363,
+      "isAvailable": true,
+      "displayName": "AutoRegLib-1.0-1.jar",
+      "fileName": "AutoRegLib-1.0-1.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "73b26588cc37642098e1e4e949c3397c13fc7341",
+          "algo": 1
+        },
+        {
+          "value": "40aee559a44f3d76a9794f64d21a5cf2",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2016-08-28T02:47:53.023Z",
+      "fileLength": 55703,
+      "downloadCount": 16514,
+      "downloadUrl": "https://edge.forgecdn.net/files/2326/671/AutoRegLib-1.0-1.jar",
+      "gameVersions": [
+        "1.10.2"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.10.2",
+          "gameVersionPadded": "0000000001.0000000010.0000000002",
+          "gameVersion": "1.10.2",
+          "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+          "gameVersionTypeId": 572
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 2326672,
+      "isServerPack": false,
+      "fileFingerprint": 1979577766,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2464251221
+        },
+        {
+          "name": "vazkii",
+          "fingerprint": 360750253
+        },
+        {
+          "name": "mcmod.info",
+          "fingerprint": 2693803057
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3394342100
+        }
+      ]
+    }
+  ]
+}
