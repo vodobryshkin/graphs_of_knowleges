@@ -1,0 +1,185 @@
+@prefix : <http://example.org/minecraft-mods#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/minecraft-mods> rdf:type owl:Ontology ;
+    rdfs:label "Minecraft Mods Knowledge Graph" .
+
+
+# Classes
+:Mod rdf:type owl:Class ; rdfs:label "Мод"@ru .
+:ModRelease rdf:type owl:Class ; rdfs:label "Релиз мода"@ru .
+:Developer rdf:type owl:Class ; rdfs:label "Разработчик"@ru .
+:Loader rdf:type owl:Class ; rdfs:label "Загрузчик модов"@ru .
+:GameVersion rdf:type owl:Class ; rdfs:label "Версия игры"@ru .
+:Platform rdf:type owl:Class ; rdfs:label "Платформа размещения"@ru .
+:Repository rdf:type owl:Class ; rdfs:label "Репозиторий кода"@ru .
+:Issue rdf:type owl:Class ; rdfs:label "Тикет"@ru .
+
+
+# Axioms
+[] rdf:type owl:AllDisjointClasses ;
+    owl:members ( :Mod :ModRelease :Developer :Loader :GameVersion :Platform :Repository :Issue ) .
+
+:dependsOn owl:propertyChainAxiom ( :dependsOnRelease :isReleaseOf ) .
+
+:incompatibleWith owl:propertyChainAxiom ( :incompatibleWithRelease :isReleaseOf ) .
+
+# Object properties / Predicates
+:hasRelease rdf:type owl:ObjectProperty ;
+    owl:inverseOf :isReleaseOf ;
+    rdfs:domain :Mod ;
+    rdfs:range :ModRelease .
+
+:isReleaseOf rdf:type owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :Mod .
+
+:developedBy rdf:type owl:ObjectProperty ;
+    owl:inverseOf :develops ;
+    rdfs:domain :Mod ;
+    rdfs:range :Developer .
+
+:develops rdf:type owl:ObjectProperty ;
+    rdfs:domain :Developer ;
+    rdfs:range :Mod .
+
+:publishedOn rdf:type owl:ObjectProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range :Platform .
+
+:hasRepository rdf:type owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range :Repository .
+
+:supportsLoader rdf:type owl:ObjectProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :Loader .
+
+:forGameVersion rdf:type owl:ObjectProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :GameVersion .
+
+:dependsOnRelease rdf:type owl:ObjectProperty, owl:TransitiveProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :ModRelease .
+
+:incompatibleWithRelease rdf:type owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :ModRelease .
+
+:dependsOnMod rdf:type owl:ObjectProperty, owl:TransitiveProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range :Mod .
+
+:dependsOn rdf:type owl:ObjectProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :Mod ;
+    owl:propertyDisjointWith :incompatibleWith ;
+    owl:propertyChainAxiom ( :dependsOnRelease :isReleaseOf ) .
+
+:incompatibleWith rdf:type owl:ObjectProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range :Mod ;
+    owl:propertyChainAxiom ( :incompatibleWithRelease :isReleaseOf ) .
+
+:hasIssue rdf:type owl:ObjectProperty ;
+    owl:inverseOf :isIssueOf ;
+    rdfs:domain :Repository ;
+    rdfs:range :Issue .
+
+:isIssueOf rdf:type owl:ObjectProperty ;
+    rdfs:domain :Issue ;
+    rdfs:range :Repository .
+
+:mentionsMod rdf:type owl:ObjectProperty ;
+    rdfs:domain :Issue ;
+    rdfs:range :Mod .
+
+# Data properties / Attributes
+:name rdf:type owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+:versionString rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range xsd:string .
+
+:releaseDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ModRelease ;
+    rdfs:range xsd:dateTime .
+
+:issueTitle rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Issue ;
+    rdfs:range xsd:string .
+
+:issueNumber rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Issue ;
+    rdfs:range xsd:integer .
+
+:issueStatus rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Issue ;
+    rdfs:range xsd:string .
+
+:projectUrl rdf:type owl:DatatypeProperty ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( :Mod :Repository )
+                ] ;
+    rdfs:range xsd:anyURI .
+
+
+# Instances / Examples
+:Fabric rdf:type :Loader ;
+    :name "Fabric"^^xsd:string .
+
+:Forge rdf:type :Loader ;
+    :name "Forge"^^xsd:string .
+
+:MC_1_19_2 rdf:type :GameVersion ;
+    :versionString "1.19.2"^^xsd:string .
+
+:Modrinth rdf:type :Platform ;
+    :name "Modrinth"^^xsd:string .
+
+:CaffeineMC rdf:type :Developer ;
+    :name "CaffeineMC"^^xsd:string .
+
+:FabricAPI rdf:type :Mod ;
+    :name "Fabric API"^^xsd:string .
+
+:OptiFine rdf:type :Mod ;
+    :name "OptiFine"^^xsd:string .
+
+:Sodium rdf:type :Mod ;
+    :name "Sodium"^^xsd:string ;
+    :developedBy :CaffeineMC ;
+    :publishedOn :Modrinth ;
+    :hasRepository :Repo_Sodium .
+
+:Repo_Sodium rdf:type :Repository ;
+    :projectUrl "https://github.com/CaffeineMC/sodium-fabric"^^xsd:anyURI ;
+    :hasIssue :Issue_142 .
+
+:Issue_142 rdf:type :Issue ;
+    :issueTitle "Crash with OptiFine"^^xsd:string ;
+    :issueNumber "142"^^xsd:integer ;
+    :issueStatus "closed"^^xsd:string ;
+    :mentionsMod :OptiFine .
+
+:Rel_FabricAPI_0_73_0 rdf:type :ModRelease ;
+    :isReleaseOf :FabricAPI ;
+    :versionString "0.73.0"^^xsd:string .
+
+:Rel_OptiFine_HD_U_H9 rdf:type :ModRelease ;
+    :isReleaseOf :OptiFine ;
+    :versionString "HD_U_H9"^^xsd:string .
+
+:Rel_Sodium_0_4_10 rdf:type :ModRelease ;
+    :isReleaseOf :Sodium ;
+    :versionString "0.4.10"^^xsd:string ;
+    :releaseDate "2022-10-12T15:30:00Z"^^xsd:dateTime ;
+    :supportsLoader :Fabric ;
+    :forGameVersion :MC_1_19_2 ;
+    :dependsOnRelease :Rel_FabricAPI_0_73_0 ;          
+    :incompatibleWithRelease :Rel_OptiFine_HD_U_H9 .
