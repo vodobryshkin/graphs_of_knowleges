@@ -11,21 +11,29 @@
 # Classes
 :Mod rdf:type owl:Class ; rdfs:label "Мод"@ru .
 :ModRelease rdf:type owl:Class ; rdfs:label "Релиз мода"@ru .
-:Developer rdf:type owl:Class ; rdfs:label "Разработчик"@ru .
 :Loader rdf:type owl:Class ; rdfs:label "Загрузчик модов"@ru .
 :GameVersion rdf:type owl:Class ; rdfs:label "Версия игры"@ru .
-:Platform rdf:type owl:Class ; rdfs:label "Платформа размещения"@ru .
 :Repository rdf:type owl:Class ; rdfs:label "Репозиторий кода"@ru .
+
+:Developer rdf:type owl:Class ; rdfs:label "Разработчик"@ru .
+:Person rdf:type owl:Class ; rdfs:subClassOf :Developer ; rdfs:label "Человек"@ru .
+:Team rdf:type owl:Class ; rdfs:subClassOf :Developer ; rdfs:label "Команда"@ru .
+
 :Issue rdf:type owl:Class ; rdfs:label "Тикет"@ru .
+:BugIssue rdf:type owl:Class ; rdfs:subClassOf :Issue ; rdfs:label "Баг-репорт"@ru .
+:CompatibilityIssue rdf:type owl:Class ; rdfs:subClassOf :Issue ; rdfs:label "Проблема совместимости"@ru .
 
 
 # Axioms
 [] rdf:type owl:AllDisjointClasses ;
-    owl:members ( :Mod :ModRelease :Developer :Loader :GameVersion :Platform :Repository :Issue ) .
+    owl:members ( :Mod :ModRelease :Developer :Loader :GameVersion :Repository :Issue ) .
 
-:dependsOn owl:propertyChainAxiom ( :dependsOnRelease :isReleaseOf ) .
+[] rdf:type owl:AllDisjointClasses ;
+    owl:members ( :Person :Team ) .
 
-:incompatibleWith owl:propertyChainAxiom ( :incompatibleWithRelease :isReleaseOf ) .
+[] rdf:type owl:AllDisjointClasses ;
+    owl:members ( :BugIssue :CompatibilityIssue ) .
+
 
 # Object properties / Predicates
 :hasRelease rdf:type owl:ObjectProperty ;
@@ -46,9 +54,9 @@
     rdfs:domain :Developer ;
     rdfs:range :Mod .
 
-:publishedOn rdf:type owl:ObjectProperty ;
-    rdfs:domain :Mod ;
-    rdfs:range :Platform .
+:hasMember rdf:type owl:ObjectProperty ;
+    rdfs:domain :Team ;
+    rdfs:range :Person .
 
 :hasRepository rdf:type owl:ObjectProperty, owl:FunctionalProperty ;
     rdfs:domain :Mod ;
@@ -98,8 +106,13 @@
     rdfs:domain :Issue ;
     rdfs:range :Mod .
 
+
 # Data properties / Attributes
 :name rdf:type owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+:hostedOn rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Mod ;
     rdfs:range xsd:string .
 
 :versionString rdf:type owl:DatatypeProperty ;
@@ -130,39 +143,33 @@
 
 
 # Instances / Examples
-:Fabric rdf:type :Loader ;
-    :name "Fabric"^^xsd:string .
+:Fabric rdf:type :Loader ; :name "Fabric"^^xsd:string .
+:Forge rdf:type :Loader ; :name "Forge"^^xsd:string .
+:MC_1_19_2 rdf:type :GameVersion ; :versionString "1.19.2"^^xsd:string .
 
-:Forge rdf:type :Loader ;
-    :name "Forge"^^xsd:string .
+:jellysquid3 rdf:type :Person ;
+    :name "jellysquid3"^^xsd:string .
 
-:MC_1_19_2 rdf:type :GameVersion ;
-    :versionString "1.19.2"^^xsd:string .
+:CaffeineMC rdf:type :Team ;
+    :name "CaffeineMC"^^xsd:string ;
+    :hasMember :jellysquid3 .
 
-:Modrinth rdf:type :Platform ;
-    :name "Modrinth"^^xsd:string .
-
-:CaffeineMC rdf:type :Developer ;
-    :name "CaffeineMC"^^xsd:string .
-
-:FabricAPI rdf:type :Mod ;
-    :name "Fabric API"^^xsd:string .
-
-:OptiFine rdf:type :Mod ;
-    :name "OptiFine"^^xsd:string .
+:FabricAPI rdf:type :Mod ; :name "Fabric API"^^xsd:string .
+:OptiFine rdf:type :Mod ; :name "OptiFine"^^xsd:string .
 
 :Sodium rdf:type :Mod ;
     :name "Sodium"^^xsd:string ;
     :developedBy :CaffeineMC ;
-    :publishedOn :Modrinth ;
+    :hostedOn "Modrinth"^^xsd:string ;
+    :hostedOn "CurseForge"^^xsd:string ;
     :hasRepository :Repo_Sodium .
 
 :Repo_Sodium rdf:type :Repository ;
     :projectUrl "https://github.com/CaffeineMC/sodium-fabric"^^xsd:anyURI ;
     :hasIssue :Issue_142 .
 
-:Issue_142 rdf:type :Issue ;
-    :issueTitle "Crash with OptiFine"^^xsd:string ;
+:Issue_142 rdf:type :CompatibilityIssue ;
+    :issueTitle "Crash with OptiFine when chunks load"^^xsd:string ;
     :issueNumber "142"^^xsd:integer ;
     :issueStatus "closed"^^xsd:string ;
     :mentionsMod :OptiFine .
