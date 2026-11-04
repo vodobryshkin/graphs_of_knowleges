@@ -10,6 +10,7 @@
 
 # Classes
 :Mod rdf:type owl:Class ; rdfs:label "Мод"@ru .
+:Release rdf:type owl:Class ; rdfs:label "Релиз мода"@ru .
 :Loader rdf:type owl:Class ; rdfs:label "Загрузчик модов"@ru .
 :GameVersion rdf:type owl:Class ; rdfs:label "Версия игры"@ru .
 :Repository rdf:type owl:Class ; rdfs:label "Репозиторий кода"@ru .
@@ -25,7 +26,7 @@
 
 # Axioms
 [] rdf:type owl:AllDisjointClasses ;
-    owl:members ( :Mod :Loader :GameVersion :Developer :Repository :Issue ) .
+    owl:members ( :Mod :Release :Loader :GameVersion :Developer :Repository :Issue ) .
 
 [] rdf:type owl:AllDisjointClasses ;
     owl:members ( :Person :Team ) .
@@ -35,6 +36,15 @@
 
 
 # Object properties / Predicates
+:hasRelease rdf:type owl:ObjectProperty ;
+    owl:inverseOf :isReleaseOf ;
+    rdfs:domain :Mod ;
+    rdfs:range :Release .
+
+:isReleaseOf rdf:type owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:domain :Release ;
+    rdfs:range :Mod .
+
 :developedBy rdf:type owl:ObjectProperty ;
     owl:inverseOf :develops ;
     rdfs:domain :Mod ;
@@ -53,20 +63,20 @@
     rdfs:range :Repository .
 
 :supportsLoader rdf:type owl:ObjectProperty ;
-    rdfs:domain :Mod ;
+    rdfs:domain :Release ;
     rdfs:range :Loader .
 
 :supportsGameVersion rdf:type owl:ObjectProperty ;
-    rdfs:domain :Mod ;
+    rdfs:domain :Release ;
     rdfs:range :GameVersion .
 
-:dependsOn rdf:type owl:ObjectProperty, owl:TransitiveProperty ;
-    rdfs:domain :Mod ;
+:dependsOn rdf:type owl:ObjectProperty ;
+    rdfs:domain :Release ;
     rdfs:range :Mod ;
     owl:propertyDisjointWith :incompatibleWith .
 
-:incompatibleWith rdf:type owl:ObjectProperty, owl:SymmetricProperty ;
-    rdfs:domain :Mod ;
+:incompatibleWith rdf:type owl:ObjectProperty ;
+    rdfs:domain :Release ;
     rdfs:range :Mod .
 
 :hasIssue rdf:type owl:ObjectProperty ;
@@ -104,7 +114,9 @@
     rdfs:range xsd:string .
 
 :versionString rdf:type owl:DatatypeProperty ;
-    rdfs:domain :GameVersion ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( :Release :GameVersion )
+                ] ;
     rdfs:range xsd:string .
 
 :majorVersion rdf:type owl:DatatypeProperty ;
@@ -175,8 +187,6 @@
     :latestModVersion "1.8.2-55"^^xsd:string ;
     :latestGameVersion "1.19.2"^^xsd:string ;
     :developedBy :Vazkii ;
-    :supportsLoader :Forge ;
-    :supportsGameVersion :MC_1_19_2 ;
     :hasRepository :Repo_AutoRegLib .
 
 :Bookshelf rdf:type :Mod ;
@@ -187,12 +197,9 @@
     :name "Enchantment Descriptions"^^xsd:string ;
     :description "Adds in-game descriptions for enchantments to tooltips."^^xsd:string ;
     :hostedOn "CurseForge"^^xsd:string ;
-    :latestModVersion "21.1.11"^^xsd:string ;
-    :latestGameVersion "1.21.1"^^xsd:string ;
+    :latestModVersion "13.0.20"^^xsd:string ;
+    :latestGameVersion "1.19.2"^^xsd:string ;
     :developedBy :DarkhaxDev ;
-    :supportsLoader :Forge, :Fabric, :NeoForge ;
-    :supportsGameVersion :MC_1_19_2, :MC_1_20_1 ;
-    :dependsOn :Bookshelf ;
     :hasRepository :Repo_EnchDesc .
 
 :OptiFine rdf:type :Mod ;
@@ -203,9 +210,29 @@
     :developedBy :CaffeineMC ;
     :hostedOn "Modrinth"^^xsd:string ;
     :hostedOn "CurseForge"^^xsd:string ;
-    :latestModVersion "0.5.11"^^xsd:string ;
-    :latestGameVersion "1.20.1"^^xsd:string ;
+    :latestModVersion "0.4.10"^^xsd:string ;
+    :latestGameVersion "1.19.2"^^xsd:string ;
     :hasRepository :Repo_Sodium .
+
+:Rel_AutoRegLib_1_8_2_55 rdf:type :Release ;
+    :isReleaseOf :AutoRegLib ;
+    :modVersionString "1.8.2-55"^^xsd:string ;
+    :supportsLoader :Forge ;
+    :supportsGameVersion :MC_1_19_2 .
+
+:Rel_EnchDesc_Forge_1_19_2 rdf:type :Release ;
+    :isReleaseOf :EnchantmentDescriptions ;
+    :versionString "13.0.20"^^xsd:string ;
+    :supportsLoader :Forge ;
+    :supportsGameVersion :MC_1_19_2 ;
+    :dependsOn :Bookshelf .
+
+:Rel_Sodium_0_4_10 rdf:type :Release ;
+    :isReleaseOf :Sodium ;
+    :versionString "0.4.10"^^xsd:string ;
+    :supportsLoader :Fabric ;
+    :supportsGameVersion :MC_1_19_2 ;
+    :incompatibleWith :OptiFine .
 
 :Repo_Sodium rdf:type :Repository ;
     :projectUrl "https://github.com/CaffeineMC/sodium-fabric"^^xsd:anyURI ;
