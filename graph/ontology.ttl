@@ -95,9 +95,29 @@
     rdfs:domain :Mod ;
     rdfs:range xsd:string .
 
+:latestModVersion rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range xsd:string .
+
+:latestGameVersion rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range xsd:string .
+
 :versionString rdf:type owl:DatatypeProperty ;
     rdfs:domain :GameVersion ;
     rdfs:range xsd:string .
+
+:majorVersion rdf:type owl:DatatypeProperty ;
+    rdfs:domain :GameVersion ;
+    rdfs:range xsd:integer .
+
+:minorVersion rdf:type owl:DatatypeProperty ;
+    rdfs:domain :GameVersion ;
+    rdfs:range xsd:integer .
+
+:patchVersion rdf:type owl:DatatypeProperty ;
+    rdfs:domain :GameVersion ;
+    rdfs:range xsd:integer .
 
 :issueTitle rdf:type owl:DatatypeProperty ;
     rdfs:domain :Issue ;
@@ -123,8 +143,17 @@
 :Fabric rdf:type :Loader ; :name "Fabric"^^xsd:string .
 :NeoForge rdf:type :Loader ; :name "NeoForge"^^xsd:string .
 
-:MC_1_19_2 rdf:type :GameVersion ; :versionString "1.19.2"^^xsd:string .
-:MC_1_20_1 rdf:type :GameVersion ; :versionString "1.20.1"^^xsd:string .
+:MC_1_19_2 rdf:type :GameVersion ; 
+    :versionString "1.19.2"^^xsd:string ;
+    :majorVersion 1 ;
+    :minorVersion 19 ;
+    :patchVersion 2 .
+
+:MC_1_20_1 rdf:type :GameVersion ; 
+    :versionString "1.20.1"^^xsd:string ;
+    :majorVersion 1 ;
+    :minorVersion 20 ;
+    :patchVersion 1 .
 
 :Vazkii rdf:type :Person ;
     :name "Vazkii"^^xsd:string .
@@ -143,6 +172,8 @@
     :name "AutoRegLib"^^xsd:string ;
     :description "A library to ease menial tasks in mod development."^^xsd:string ;
     :hostedOn "CurseForge"^^xsd:string ;
+    :latestModVersion "1.8.2-55"^^xsd:string ;
+    :latestGameVersion "1.19.2"^^xsd:string ;
     :developedBy :Vazkii ;
     :supportsLoader :Forge ;
     :supportsGameVersion :MC_1_19_2 ;
@@ -156,6 +187,8 @@
     :name "Enchantment Descriptions"^^xsd:string ;
     :description "Adds in-game descriptions for enchantments to tooltips."^^xsd:string ;
     :hostedOn "CurseForge"^^xsd:string ;
+    :latestModVersion "21.1.11"^^xsd:string ;
+    :latestGameVersion "1.21.1"^^xsd:string ;
     :developedBy :DarkhaxDev ;
     :supportsLoader :Forge, :Fabric, :NeoForge ;
     :supportsGameVersion :MC_1_19_2, :MC_1_20_1 ;
@@ -170,6 +203,8 @@
     :developedBy :CaffeineMC ;
     :hostedOn "Modrinth"^^xsd:string ;
     :hostedOn "CurseForge"^^xsd:string ;
+    :latestModVersion "0.5.11"^^xsd:string ;
+    :latestGameVersion "1.20.1"^^xsd:string ;
     :hasRepository :Repo_Sodium .
 
 :Repo_Sodium rdf:type :Repository ;
@@ -183,8 +218,14 @@
     :projectUrl "https://github.com/Darkhax-Minecraft/Enchantment-Descriptions"^^xsd:anyURI ;
     :hasIssue :Issue_89 .
 
+:Issue_89 rdf:type :CompatibilityIssue ;
+    :issueTitle "OptiFine tooltip overlap glitch"^^xsd:string ;
+    :issueNumber 89 ;
+    :issueStatus "open"^^xsd:string ;
+    :mentionsMod :OptiFine .
+
 :Issue_142 rdf:type :CompatibilityIssue ;
     :issueTitle "Crash with OptiFine when chunks load"^^xsd:string ;
-    :issueNumber "142"^^xsd:integer ;
+    :issueNumber 142 ;
     :issueStatus "closed"^^xsd:string ;
     :mentionsMod :OptiFine .
