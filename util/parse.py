@@ -6,12 +6,10 @@ from urllib.parse import urlsplit
 import requests
 from dotenv import dotenv_values
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 CONFIG = dotenv_values(ROOT / ".env")
 
 MOD_COUNT = int(CONFIG.get("MOD_COUNT") or 20)
-if not 1 <= MOD_COUNT <= 50:
-    raise ValueError("MOD_COUNT в .env должен быть от 1 до 50")
 
 CF = "https://api.curseforge.com/v1"
 MR = "https://api.modrinth.com/v2"
