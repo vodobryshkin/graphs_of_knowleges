@@ -30,8 +30,8 @@ def mod_iri(key: str) -> URIRef:
     return MC[_local("Mod", key)]
 
 
-def release_iri(platform: str, release_id) -> URIRef:
-    return MC[_local("Rel", platform, release_id)]
+def release_iri(mod_key: str, release_key: str) -> URIRef:
+    return MC[f"{_local('Rel', mod_key)}_{release_key}"]
 
 
 def game_version_iri(version: str) -> URIRef:

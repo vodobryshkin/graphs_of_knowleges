@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, XSD
 
 from . import namespace as ns
 from .issues import BUG, COMPATIBILITY, IssueAnalyzer
-from .models import CURSEFORGE, MODRINTH, Mod, ReleaseRecord, RepositoryRecord
+from .models import CURSEFORGE, MODRINTH, Mod, Release, RepositoryRecord
 from .namespace import MC
 from .resolve import Catalog
 from .versions import LOADERS, GameVersion
@@ -54,12 +54,7 @@ class GraphBuilder:
         node = ns.mod_iri(mod.key)
         self.add(node, RDF.type, MC.Mod)
 
-        for platform, mod_id in mod.refs:
-            self.add(node, MC.hostedOn, _string(platform))
-            if platform == CURSEFORGE:
-                self.add(node, MC.curseforgeId, Literal(int(mod_id)))
-            elif platform == MODRINTH:
-                self.add(node, MC.modrinthId, _string(mod_id))
+        self._add_platform_ids(node, mod.refs)
 
         if mod.is_stub:
             return
@@ -77,7 +72,7 @@ class GraphBuilder:
 
         releases = mod.releases
         for release in releases:
-            self._add_release(node, release)
+            self._add_release(node, mod.key, release)
 
         dated = [r for r in releases if r.published]
         if dated:
@@ -87,11 +82,19 @@ class GraphBuilder:
         if game_versions:
             self.add(node, MC.latestGameVersion, _string(max(game_versions).text))
 
-    def _add_release(self, mod_node: URIRef, release: ReleaseRecord):
-        platform = "cf" if release.platform == CURSEFORGE else "mr"
-        node = ns.release_iri(platform, release.id)
+    def _add_platform_ids(self, node: URIRef, refs):
+        for platform, platform_id in refs:
+            self.add(node, MC.hostedOn, _string(platform))
+            if platform == CURSEFORGE:
+                self.add(node, MC.curseforgeId, Literal(int(platform_id)))
+            elif platform == MODRINTH:
+                self.add(node, MC.modrinthId, _string(platform_id))
+
+    def _add_release(self, mod_node: URIRef, mod_key: str, release: Release):
+        node = ns.release_iri(mod_key, release.key)
         self.add(node, RDF.type, MC.Release)
         self.add(node, MC.isReleaseOf, mod_node)
+        self._add_platform_ids(node, release.ids)
         self.add(node, MC.versionString, _string(release.version))
         if release.published:
             self.add(node, MC.releaseDate, Literal(release.published, datatype=XSD.dateTime))

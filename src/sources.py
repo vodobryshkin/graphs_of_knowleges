@@ -17,6 +17,8 @@ from .versions import implied_loaders, normalize_loader, parse_game_version
 # https://docs.curseforge.com/rest-api/#tocS_FileRelationType
 CF_REQUIRED_DEPENDENCY = 3
 CF_INCOMPATIBLE = 5
+# https://docs.curseforge.com/rest-api/#tocS_HashAlgo
+CF_HASH_SHA1 = 1
 
 _GITHUB_REPO = re.compile(r"^https?://(?:www\.)?github\.com/([^/\s]+)/([^/?#\s]+)", re.I)
 
@@ -42,7 +44,7 @@ def _datetime(value: str | None) -> datetime | None:
     return datetime.fromisoformat(value) if value else None
 
 
-def _make_release(platform, release_id, version, published, raw_loaders, raw_versions):
+def _make_release(platform, release_id, version, published, raw_loaders, raw_versions, file_name, sha1):
     game_versions = {v for v in map(parse_game_version, raw_versions) if v}
     loaders = {l for l in map(normalize_loader, raw_loaders) if l}
     loaders = implied_loaders(loaders, game_versions)
@@ -53,6 +55,8 @@ def _make_release(platform, release_id, version, published, raw_loaders, raw_ver
         id=release_id,
         version=version,
         published=_datetime(published),
+        file_name=file_name,
+        sha1=sha1,
         loaders=loaders,
         game_versions=game_versions,
     )
@@ -85,6 +89,8 @@ def read_curseforge(path: Path) -> ModRecord:
             file.get("fileDate"),
             tags,
             tags,
+            file["fileName"],
+            next((h["value"] for h in file.get("hashes", []) if h["algo"] == CF_HASH_SHA1), None),
         )
         if release is None:
             continue
@@ -116,6 +122,8 @@ def read_modrinth(path: Path) -> ModRecord:
     )
 
     for version in raw["versions"]:
+        files = version.get("files", [])
+        primary = next((f for f in files if f.get("primary")), files[0] if files else {})
         release = _make_release(
             MODRINTH,
             version["id"],
@@ -123,6 +131,8 @@ def read_modrinth(path: Path) -> ModRecord:
             version.get("date_published"),
             version.get("loaders", []),
             version.get("game_versions", []),
+            primary.get("filename"),
+            primary.get("hashes", {}).get("sha1"),
         )
         if release is None:
             continue

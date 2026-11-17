@@ -102,7 +102,9 @@
     rdfs:range xsd:string .
 
 :hostedOn rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Mod ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( :Mod :Release )
+                ] ;
     rdfs:range xsd:string .
 
 :latestModVersion rdf:type owl:DatatypeProperty ;
@@ -154,11 +156,15 @@
     rdfs:range xsd:string .
 
 :curseforgeId rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Mod ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( :Mod :Release )
+                ] ;
     rdfs:range xsd:integer .
 
 :modrinthId rdf:type owl:DatatypeProperty ;
-    rdfs:domain :Mod ;
+    rdfs:domain [ rdf:type owl:Class ;
+                  owl:unionOf ( :Mod :Release )
+                ] ;
     rdfs:range xsd:string .
 
 :releaseDate rdf:type owl:DatatypeProperty ;

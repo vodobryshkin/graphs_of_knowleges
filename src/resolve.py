@@ -2,6 +2,7 @@ import re
 from dataclasses import dataclass, field
 
 from .models import CURSEFORGE, MODRINTH, Mod, ModRecord, ModRef, RepositoryRecord
+from .releases import merge_releases
 
 _PARENTHESES = re.compile(r"\(.*\)")
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
@@ -94,6 +95,7 @@ def build_catalog(curseforge, modrinth, repositories) -> Catalog:
             refs={record.ref for record in group},
             records=group,
             repository=_find_repository(group, repo_index),
+            releases=merge_releases(group),
         )
         catalog.mods.append(mod)
         for ref in mod.refs:
