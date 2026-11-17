@@ -149,110 +149,18 @@
                 ] ;
     rdfs:range xsd:anyURI .
 
+:slug rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range xsd:string .
 
-# Instances / Examples
-:Forge rdf:type :Loader ; :name "Forge"^^xsd:string .
-:Fabric rdf:type :Loader ; :name "Fabric"^^xsd:string .
-:NeoForge rdf:type :Loader ; :name "NeoForge"^^xsd:string .
+:curseforgeId rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range xsd:integer .
 
-:MC_1_19_2 rdf:type :GameVersion ; 
-    :versionString "1.19.2"^^xsd:string ;
-    :majorVersion 1 ;
-    :minorVersion 19 ;
-    :patchVersion 2 .
+:modrinthId rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Mod ;
+    rdfs:range xsd:string .
 
-:MC_1_20_1 rdf:type :GameVersion ; 
-    :versionString "1.20.1"^^xsd:string ;
-    :majorVersion 1 ;
-    :minorVersion 20 ;
-    :patchVersion 1 .
-
-:Vazkii rdf:type :Person ;
-    :name "Vazkii"^^xsd:string .
-
-:DarkhaxDev rdf:type :Person ;
-    :name "DarkhaxDev"^^xsd:string .
-
-:jellysquid3 rdf:type :Person ;
-    :name "jellysquid3"^^xsd:string .
-
-:CaffeineMC rdf:type :Team ;
-    :name "CaffeineMC"^^xsd:string ;
-    :hasMember :jellysquid3 .
-
-:AutoRegLib rdf:type :Mod ;
-    :name "AutoRegLib"^^xsd:string ;
-    :description "A library to ease menial tasks in mod development."^^xsd:string ;
-    :hostedOn "CurseForge"^^xsd:string ;
-    :latestModVersion "1.8.2-55"^^xsd:string ;
-    :latestGameVersion "1.19.2"^^xsd:string ;
-    :developedBy :Vazkii ;
-    :hasRepository :Repo_AutoRegLib .
-
-:Bookshelf rdf:type :Mod ;
-    :name "Bookshelf"^^xsd:string ;
-    :developedBy :DarkhaxDev .
-
-:EnchantmentDescriptions rdf:type :Mod ;
-    :name "Enchantment Descriptions"^^xsd:string ;
-    :description "Adds in-game descriptions for enchantments to tooltips."^^xsd:string ;
-    :hostedOn "CurseForge"^^xsd:string ;
-    :latestModVersion "13.0.20"^^xsd:string ;
-    :latestGameVersion "1.19.2"^^xsd:string ;
-    :developedBy :DarkhaxDev ;
-    :hasRepository :Repo_EnchDesc .
-
-:OptiFine rdf:type :Mod ;
-    :name "OptiFine"^^xsd:string .
-
-:Sodium rdf:type :Mod ;
-    :name "Sodium"^^xsd:string ;
-    :developedBy :CaffeineMC ;
-    :hostedOn "Modrinth"^^xsd:string ;
-    :hostedOn "CurseForge"^^xsd:string ;
-    :latestModVersion "0.4.10"^^xsd:string ;
-    :latestGameVersion "1.19.2"^^xsd:string ;
-    :hasRepository :Repo_Sodium .
-
-:Rel_AutoRegLib_1_8_2_55 rdf:type :Release ;
-    :isReleaseOf :AutoRegLib ;
-    :modVersionString "1.8.2-55"^^xsd:string ;
-    :supportsLoader :Forge ;
-    :supportsGameVersion :MC_1_19_2 .
-
-:Rel_EnchDesc_Forge_1_19_2 rdf:type :Release ;
-    :isReleaseOf :EnchantmentDescriptions ;
-    :versionString "13.0.20"^^xsd:string ;
-    :supportsLoader :Forge ;
-    :supportsGameVersion :MC_1_19_2 ;
-    :dependsOn :Bookshelf .
-
-:Rel_Sodium_0_4_10 rdf:type :Release ;
-    :isReleaseOf :Sodium ;
-    :versionString "0.4.10"^^xsd:string ;
-    :supportsLoader :Fabric ;
-    :supportsGameVersion :MC_1_19_2 ;
-    :incompatibleWith :OptiFine .
-
-:Repo_Sodium rdf:type :Repository ;
-    :projectUrl "https://github.com/CaffeineMC/sodium-fabric"^^xsd:anyURI ;
-    :hasIssue :Issue_142 .
-
-:Repo_AutoRegLib rdf:type :Repository ;
-    :projectUrl "https://github.com/Vazkii/AutoRegLib"^^xsd:anyURI .
-
-:Repo_EnchDesc rdf:type :Repository ;
-    :projectUrl "https://github.com/Darkhax-Minecraft/Enchantment-Descriptions"^^xsd:anyURI ;
-    :hasIssue :Issue_89 .
-
-:Issue_89 rdf:type :CompatibilityIssue ;
-    :issueTitle "OptiFine tooltip overlap glitch"^^xsd:string ;
-    :issueNumber 89 ;
-    :issueStatus "open"^^xsd:string ;
-    :mentionsMod :OptiFine .
-
-:Issue_142 rdf:type :CompatibilityIssue ;
-    :issueTitle "Crash with OptiFine when chunks load"^^xsd:string ;
-    :issueNumber 142 ;
-    :issueStatus "closed"^^xsd:string ;
-    :mentionsMod :OptiFine .
+:releaseDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Release ;
+    rdfs:range xsd:dateTime .
